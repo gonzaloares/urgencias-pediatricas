@@ -38,23 +38,25 @@
 }
 
 .protocol-shortcuts {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7.6rem, 1fr));
   gap: 0.45rem;
-  overflow-x: auto;
   padding: 0.65rem 0.1rem 0.8rem;
   margin: 0 0 1rem;
-  scrollbar-width: thin;
-  -webkit-overflow-scrolling: touch;
 }
 
 .protocol-shortcuts a {
-  flex: 0 0 auto;
-  padding: 0.42rem 0.72rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.35rem;
+  padding: 0.42rem 0.65rem;
   border: 1px solid var(--md-primary-fg-color--light);
-  border-radius: 999px;
+  border-radius: 0.65rem;
   background: color-mix(in srgb, var(--md-primary-fg-color) 9%, transparent);
   color: var(--md-primary-fg-color--dark);
   font-weight: 650;
+  text-align: center;
   text-decoration: none;
   line-height: 1.15;
 }
@@ -272,8 +274,9 @@
   }
 
   .protocol-shortcuts {
-    margin-right: -0.4rem;
-    padding-right: 0.4rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+    padding-right: 0.1rem;
   }
 
   .clinical-card,
