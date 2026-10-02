@@ -456,8 +456,6 @@ Tras cada escalón terapéutico valorar:
 - **SatO₂ <90% con FiO₂ >0,4** pese a tratamiento de rescate.
 - **pCO₂ >45 mmHg** pese a tratamiento.
 - Arritmias.
-- Insuficiencia respiratoria que precise VNI.
-- Necesidad de ventilación invasiva.
 
 ---
 
