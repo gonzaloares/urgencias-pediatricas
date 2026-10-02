@@ -17,6 +17,7 @@ nav:
   - Inicio: index.md
   - Respiratorio:
       - respiratorio/index.md
+      - Bronquiolitis aguda: respiratorio/bronquiolitis-aguda.md
       - Crisis asmática: respiratorio/crisis-asmatica.md
       - Laringitis aguda: respiratorio/laringitis-aguda.md
   - Infeccioso: infeccioso/index.md
