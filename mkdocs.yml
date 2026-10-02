@@ -18,6 +18,7 @@ nav:
   - Respiratorio:
       - respiratorio/index.md
       - Crisis asmática: respiratorio/crisis-asmatica.md
+      - Laringitis aguda: respiratorio/laringitis-aguda.md
   - Infeccioso: infeccioso/index.md
   - Neurología: neurologia/index.md
   - Digestivo: digestivo/index.md
