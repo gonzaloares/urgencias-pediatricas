@@ -404,3 +404,35 @@
     padding: 0.8rem;
   }
 }
+
+/* Índices de área: títulos de protocolos directamente, sin encabezado redundante */
+.protocol-index {
+  margin-top: 1.25rem;
+}
+
+.protocol-index ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.protocol-index li {
+  margin: 0 0 0.7rem;
+}
+
+.protocol-index a {
+  display: block;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--protocol-border);
+  border-radius: 0.65rem;
+  background: var(--md-default-bg-color);
+  box-shadow: var(--protocol-shadow);
+  color: var(--md-primary-fg-color);
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.protocol-index a:hover {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 6%, var(--md-default-bg-color));
+}
