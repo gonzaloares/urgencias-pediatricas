@@ -9,7 +9,6 @@ theme:
     - navigation.top
     - toc.follow
     - search.suggest
-    - search.highlight
   palette:
     primary: teal
     accent: cyan
