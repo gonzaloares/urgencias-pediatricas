@@ -1,0 +1,46 @@
+site_name: Urgencias Pediátricas
+site_description: Protocolos prácticos de Urgencias Pediátricas
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+  palette:
+    primary: teal
+    accent: cyan
+
+nav:
+  - Inicio: index.md
+  - Respiratorio:
+      - respiratorio/index.md
+      - Crisis asmática: respiratorio/crisis-asmatica.md
+  - Infeccioso: infeccioso/index.md
+  - Neurología: neurologia/index.md
+  - Digestivo: digestivo/index.md
+  - Trauma: trauma/index.md
+  - Cardiología: cardiologia/index.md
+  - Endocrino: endocrino/index.md
+  - Nefrología: nefrologia/index.md
+  - Alergia: alergia/index.md
+  - Toxicología: toxicologia/index.md
+  - Procedimientos: procedimientos/index.md
+
+plugins:
+  - search:
+      lang: es
+
+markdown_extensions:
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+strict: true
