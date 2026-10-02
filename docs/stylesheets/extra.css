@@ -1,16 +1,32 @@
+
 :root {
   --md-text-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --protocol-border: rgba(0, 0, 0, 0.10);
+  --protocol-shadow: 0 0.15rem 0.55rem rgba(0, 0, 0, 0.07);
 }
 
 .md-typeset {
   font-size: 0.82rem;
-  line-height: 1.65;
+  line-height: 1.62;
 }
 
 .md-typeset h1 {
   color: var(--md-primary-fg-color--dark);
+  font-weight: 760;
+  letter-spacing: -0.025em;
+  margin-bottom: 0.6rem;
+}
+
+.md-typeset h2 {
+  margin-top: 2.2rem;
+  padding-top: 0.25rem;
+  font-weight: 720;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.35rem;
+}
+
+.md-typeset h3 {
   font-weight: 700;
-  letter-spacing: -0.02em;
 }
 
 .md-typeset table:not([class]) {
@@ -18,6 +34,199 @@
   max-width: 100%;
   overflow-x: auto;
   white-space: nowrap;
+  border-radius: 0.5rem;
+}
+
+.protocol-shortcuts {
+  display: flex;
+  gap: 0.45rem;
+  overflow-x: auto;
+  padding: 0.65rem 0.1rem 0.8rem;
+  margin: 0 0 1rem;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.protocol-shortcuts a {
+  flex: 0 0 auto;
+  padding: 0.42rem 0.72rem;
+  border: 1px solid var(--md-primary-fg-color--light);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 9%, transparent);
+  color: var(--md-primary-fg-color--dark);
+  font-weight: 650;
+  text-decoration: none;
+  line-height: 1.15;
+}
+
+.protocol-shortcuts a:hover {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 16%, transparent);
+}
+
+.protocol-intro {
+  margin: 0.25rem 0 1.35rem;
+  padding: 0.8rem 1rem;
+  border-left: 0.22rem solid var(--md-primary-fg-color);
+  background: var(--md-code-bg-color);
+  border-radius: 0.35rem;
+}
+
+.clinical-card,
+.dose-card,
+.management-card,
+.algorithm-lane {
+  border: 1px solid var(--protocol-border);
+  border-radius: 0.7rem;
+  box-shadow: var(--protocol-shadow);
+}
+
+.clinical-card {
+  margin: 1rem 0;
+  padding: 0.95rem 1rem;
+}
+
+.clinical-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+}
+
+.clinical-card p:last-child,
+.clinical-card ul:last-child {
+  margin-bottom: 0;
+}
+
+.clinical-card-note {
+  border-left: 0.3rem solid #3b82f6;
+  background: rgba(59, 130, 246, 0.07);
+}
+
+.clinical-card-warning {
+  border-left: 0.3rem solid #d97706;
+  background: rgba(217, 119, 6, 0.08);
+}
+
+.clinical-card-danger {
+  border-left: 0.3rem solid #dc2626;
+  background: rgba(220, 38, 38, 0.07);
+}
+
+.clinical-card-success {
+  border-left: 0.3rem solid #16a34a;
+  background: rgba(22, 163, 74, 0.07);
+}
+
+.severity-grid,
+.management-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0 1.1rem;
+}
+
+.severity-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.9rem 1rem;
+  border-radius: 0.7rem;
+  border: 1px solid var(--protocol-border);
+  box-shadow: var(--protocol-shadow);
+}
+
+.severity-card strong {
+  font-size: 1.05rem;
+}
+
+.severity-mild {
+  border-top: 0.28rem solid #16a34a;
+  background: rgba(22, 163, 74, 0.055);
+}
+
+.severity-moderate {
+  border-top: 0.28rem solid #d97706;
+  background: rgba(217, 119, 6, 0.065);
+}
+
+.severity-severe {
+  border-top: 0.28rem solid #dc2626;
+  background: rgba(220, 38, 38, 0.055);
+}
+
+.dose-table-wrap {
+  margin: 1rem 0 1.35rem;
+}
+
+.dose-card {
+  display: grid;
+  gap: 0.25rem;
+  margin: 0.75rem 0 1rem;
+  padding: 0.9rem 1rem;
+  border-left: 0.3rem solid var(--md-primary-fg-color);
+  background: color-mix(in srgb, var(--md-primary-fg-color) 6%, transparent);
+}
+
+.dose-card > strong {
+  font-size: 1rem;
+  color: var(--md-primary-fg-color--dark);
+}
+
+.management-card {
+  padding: 0.95rem 1rem;
+}
+
+.management-card h3 {
+  margin-top: 0;
+}
+
+.algorithm {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0 1.4rem;
+}
+
+.algorithm-lane {
+  padding: 1rem;
+}
+
+.algorithm-title {
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.7rem;
+}
+
+.algorithm-step {
+  text-align: center;
+  padding: 0.7rem 0.8rem;
+  border-radius: 0.5rem;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.algorithm-plus {
+  text-align: center;
+  margin: 0.55rem 0;
+  font-weight: 650;
+}
+
+.algorithm-arrow {
+  text-align: center;
+  font-size: 1.35rem;
+  line-height: 1;
+  padding: 0.35rem 0;
+}
+
+.algorithm-split {
+  display: grid;
+  gap: 0.45rem;
+  margin-top: 0.65rem;
+}
+
+.algorithm-split span {
+  display: block;
+  padding: 0.55rem 0.7rem;
+  border-radius: 0.45rem;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
 }
 
 .area-grid > ul {
@@ -43,9 +252,35 @@
   color: var(--md-primary-fg-color);
 }
 
+@media screen and (max-width: 59.984375em) {
+  .management-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media screen and (max-width: 44.984375em) {
   .md-typeset {
-    font-size: 0.78rem;
+    font-size: 0.80rem;
+  }
+
+  .md-typeset h1 {
+    font-size: 1.65rem;
+  }
+
+  .severity-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .protocol-shortcuts {
+    margin-right: -0.4rem;
+    padding-right: 0.4rem;
+  }
+
+  .clinical-card,
+  .dose-card,
+  .management-card,
+  .algorithm-lane {
+    border-radius: 0.58rem;
   }
 
   .area-grid > ul > li {

@@ -1,16 +1,33 @@
 # Crisis asmática en Urgencias
 
-**Acceso rápido:** [Valoración](#1-valoracion-inicial) · [Tratamiento](#6-tratamiento) · [Dosis](#6-tratamiento) · [Ingreso / UCIP](#9-observacion-ingreso-y-ucip) · [Alta](#10-alta-y-tratamiento-domiciliario)
+<nav class="protocol-shortcuts" aria-label="Accesos rápidos del protocolo">
+  <a href="#valoracion">Valoración</a>
+  <a href="#score">Score</a>
+  <a href="#anamnesis">Anamnesis</a>
+  <a href="#exploracion">Exploración</a>
+  <a href="#pruebas">Pruebas</a>
+  <a href="#tratamiento">Tratamiento</a>
+  <a href="#dosis">Dosis</a>
+  <a href="#gravedad">Por gravedad</a>
+  <a href="#reevaluacion">Reevaluación</a>
+  <a href="#ingreso">Ingreso / UCIP</a>
+  <a href="#alta">Alta</a>
+  <a href="#no-hacer">No hacer</a>
+  <a href="#algoritmo">Algoritmo</a>
+  <a href="#bibliografia">Bibliografía</a>
+</nav>
 
----
+<div class="protocol-intro">
+  <strong>Consulta rápida.</strong> Valoración y tratamiento de la crisis asmática pediátrica en Urgencias.
+</div>
 
+<a id="valoracion"></a>
 ## 1. Valoración inicial
 
-### TEP
-
-Registrar:
-
-**FR · FC · SatO₂ · peso**
+<div class="clinical-card clinical-card-note">
+  <h3>TEP</h3>
+  <p><strong>FR · FC · SatO₂ · peso</strong></p>
+</div>
 
 ### Signos de gravedad
 
@@ -25,23 +42,13 @@ Registrar:
 - Agotamiento.
 - Mala respuesta al tratamiento inicial.
 
-### Paciente inestable
+<div class="clinical-card clinical-card-danger">
+  <h3>Paciente inestable</h3>
+  <p><strong>ABCDE + monitorización completa + oxígeno + salbutamol/ipratropio nebulizados + acceso vascular + corticoide sistémico + valoración precoz de UCIP.</strong></p>
+  <p>Valorar gasometría, capnografía, sulfato de magnesio IV, radiografía de tórax, oxigenoterapia de alto flujo y soporte ventilatorio si deterioro.</p>
+</div>
 
-Si existe fallo respiratorio o cardiorrespiratorio:
-
-**ABCDE + monitorización completa + oxígeno + salbutamol/ipratropio nebulizados + acceso vascular + corticoide sistémico + valoración precoz de UCIP.**
-
-Valorar:
-
-- Gasometría.
-- Capnografía.
-- Sulfato de magnesio IV.
-- Radiografía de tórax.
-- Oxigenoterapia de alto flujo.
-- Soporte ventilatorio si deterioro.
-
----
-
+<a id="score"></a>
 ## 2. Valoración de la gravedad
 
 ### Pulmonary Score
@@ -53,20 +60,33 @@ Valorar:
 | **2** | 46–60 | 36–50 | Toda la espiración | Moderado |
 | **3** | >60 | >50 | Inspiración y espiración / audibles sin fonendoscopio | Máximo |
 
-**Si no hay sibilancias y la actividad del ECM está aumentada, puntuar 3 en sibilancias.**
+<div class="clinical-card clinical-card-note">
+  <strong>Regla práctica:</strong> si no hay sibilancias y la actividad del ECM está aumentada, puntuar 3 en sibilancias.
+</div>
 
 ### Clasificación
 
-| Gravedad | Pulmonary Score | SatO₂ |
-|---|---:|---:|
-| **Leve** | 0–3 | >94% |
-| **Moderada** | 4–6 | 91–94% |
-| **Grave** | 7–9 | <91% |
+<div class="severity-grid">
+  <div class="severity-card severity-mild">
+    <strong>Leve</strong>
+    <span>PS 0–3</span>
+    <span>SatO₂ &gt;94%</span>
+  </div>
+  <div class="severity-card severity-moderate">
+    <strong>Moderada</strong>
+    <span>PS 4–6</span>
+    <span>SatO₂ 91–94%</span>
+  </div>
+  <div class="severity-card severity-severe">
+    <strong>Grave</strong>
+    <span>PS 7–9</span>
+    <span>SatO₂ &lt;91%</span>
+  </div>
+</div>
 
 **Si PS y SatO₂ corresponden a categorías diferentes, utilizar la de mayor gravedad.**
 
----
-
+<a id="anamnesis"></a>
 ## 3. Anamnesis dirigida
 
 Preguntar por:
@@ -99,8 +119,7 @@ Preguntar por:
 - Dificultad para acceder a Urgencias.
 - Problemas psicosociales relevantes.
 
----
-
+<a id="exploracion"></a>
 ## 4. Exploración
 
 Valorar:
@@ -139,17 +158,13 @@ Diagnósticos diferenciales principales:
 - Disfunción de cuerdas vocales.
 - Anafilaxia.
 
----
-
+<a id="pruebas"></a>
 ## 5. Pruebas complementarias
 
-### No realizar de rutina
-
-En una crisis no complicada:
-
-- **No analítica.**
-- **No gasometría.**
-- **No radiografía de tórax.**
+<div class="clinical-card clinical-card-warning">
+  <h3>No realizar de rutina</h3>
+  <p><strong>No analítica · No gasometría · No radiografía de tórax</strong> en una crisis no complicada.</p>
+</div>
 
 ### Radiografía de tórax
 
@@ -182,9 +197,26 @@ No indicada de rutina.
 
 Valorar reactantes de fase aguda si existe sospecha de sobreinfección bacteriana.
 
----
-
+<a id="tratamiento"></a>
 ## 6. Tratamiento
+
+<a id="dosis"></a>
+### Dosis rápidas
+
+<div class="dose-table-wrap" markdown="1">
+
+| Fármaco | Vía | Dosis | Máximo / notas |
+|---|---|---|---|
+| **Salbutamol** | MDI + cámara | 5–10 kg: **4 puff** · 10–20 kg: **6 puff** · >20 kg: **8 puff** | 100 µg/puff · hasta 3 tandas cada 20 min la primera hora |
+| **Salbutamol** | Nebulizado | **0,15 mg/kg/dosis** | Máx. **5 mg** |
+| **Ipratropio** | MDI + cámara | <20 kg: **4 puff** · ≥20 kg: **8 puff** | 20 µg/puff · 2–3 dosis iniciales |
+| **Ipratropio** | Nebulizado | <20 kg: **250 µg** · ≥20 kg: **500 µg** | 2–3 dosis iniciales |
+| **Prednisolona** | VO | **1–2 mg/kg/día** | Máx. **60 mg/día** · 3–5 días |
+| **Dexametasona** | VO | **0,6 mg/kg** | Máx. **12 mg** · repetir a las 24 h |
+| **Metilprednisolona** | IV | Inicial: **1–2 mg/kg** · después **1–2 mg/kg/día** | Máx. **125 mg/día** |
+| **Sulfato de magnesio** | IV | **40 mg/kg** dosis única | Máx. **2 g** · pasar en 20 min |
+
+</div>
 
 ### 6.1. Oxígeno
 
@@ -195,7 +227,9 @@ Administrar en:
 - Crisis moderada con gran trabajo respiratorio.
 - Hipoxemia.
 
-**Objetivo: SatO₂ ≥92%.**
+<div class="clinical-card clinical-card-note">
+  <strong>Objetivo: SatO₂ ≥92%.</strong>
+</div>
 
 Administrar mediante el dispositivo mejor tolerado y con la menor concentración que permita mantener una saturación adecuada.
 
@@ -217,8 +251,6 @@ En menores de 4 años utilizar cámara con mascarilla buconasal.
 
 Administrar **un puff cada vez** a través de la cámara.
 
-Tratamiento inicial:
-
 **Hasta 3 tandas separadas 20 minutos durante la primera hora.**
 
 Posteriormente administrar según gravedad y evolución.
@@ -231,9 +263,7 @@ Reservar fundamentalmente para:
 - Fallo respiratorio.
 - Imposibilidad de administrar correctamente MDI + cámara.
 
-**0,15 mg/kg/dosis**
-
-**Máximo: 5 mg**
+**0,15 mg/kg/dosis. Máximo: 5 mg.**
 
 Dosis prácticas:
 
@@ -249,9 +279,7 @@ Puede considerarse salbutamol continuo en casos graves seleccionados.
 
 ### 6.3. Bromuro de ipratropio
 
-#### Indicación
-
-**Crisis moderadas y graves.**
+**Indicación: crisis moderadas y graves.**
 
 Administrar **2–3 dosis sucesivas** asociadas a las tandas iniciales de salbutamol.
 
@@ -288,27 +316,23 @@ Administrar **precozmente**, preferentemente durante la primera hora.
 
 ##### Prednisolona
 
-**Dosis inicial: 1–2 mg/kg VO**
-
-Posteriormente:
-
-**1–2 mg/kg/día VO**, repartidos en 1–2 dosis.
-
-**Máximo: 60 mg/día.**
-
-Duración:
-
-**3–5 días.**
-
-**No precisa pauta descendente.**
+<div class="dose-card">
+  <strong>Prednisolona</strong>
+  <span>Dosis inicial: <b>1–2 mg/kg VO</b></span>
+  <span>Después: <b>1–2 mg/kg/día</b> en 1–2 dosis</span>
+  <span>Máximo: <b>60 mg/día</b></span>
+  <span>Duración: <b>3–5 días</b></span>
+  <span><b>No precisa pauta descendente</b></span>
+</div>
 
 ##### Alternativa: dexametasona
 
-**0,6 mg/kg VO**
-
-**Máximo: 12 mg**
-
-Repetir la misma dosis a las **24 horas**.
+<div class="dose-card">
+  <strong>Dexametasona</strong>
+  <span><b>0,6 mg/kg VO</b></span>
+  <span>Máximo: <b>12 mg</b></span>
+  <span>Repetir la misma dosis a las <b>24 horas</b></span>
+</div>
 
 #### Vía intravenosa
 
@@ -333,15 +357,14 @@ Considerar en:
 - Crisis grave.
 - Crisis moderada sin mejoría tras el tratamiento de rescate inicial durante las primeras 1–2 horas.
 
-**40 mg/kg IV en dosis única**
-
-**Máximo: 2 g**
-
-Administrar en **20 minutos**.
-
-Monitorizar tensión arterial durante la infusión.
-
-**Contraindicado en insuficiencia renal.**
+<div class="dose-card">
+  <strong>Sulfato de magnesio IV</strong>
+  <span><b>40 mg/kg</b> en dosis única</span>
+  <span>Máximo: <b>2 g</b></span>
+  <span>Administrar en <b>20 minutos</b></span>
+  <span>Monitorizar tensión arterial</span>
+  <span><b>Contraindicado en insuficiencia renal</b></span>
+</div>
 
 ### 6.6. Oxigenoterapia de alto flujo y soporte ventilatorio
 
@@ -354,51 +377,46 @@ Considerar oxigenoterapia de alto flujo en:
 
 Reevaluar estrechamente.
 
-**Si no existe mejoría del distrés en 1–2 horas, no retrasar el inicio de ventilación no invasiva y la valoración/ingreso en UCIP.**
+<div class="clinical-card clinical-card-danger">
+  <strong>Si no existe mejoría del distrés en 1–2 horas, no retrasar el inicio de ventilación no invasiva y la valoración/ingreso en UCIP.</strong>
+</div>
 
 La VNI constituye una opción de soporte en la insuficiencia respiratoria.
 
----
-
+<a id="gravedad"></a>
 ## 7. Manejo según gravedad
 
-### Crisis leve
+<div class="management-grid">
+
+<div class="management-card severity-mild" markdown="1">
+<h3>Leve · PS 0–3</h3>
 
 1. Salbutamol MDI + cámara.
 2. Reevaluar PS y SatO₂.
 3. Repetir salbutamol si precisa.
-4. Valorar corticoide VO si:
-   - precisa más de una tanda de salbutamol;
-   - respuesta incompleta;
-   - presenta factores de riesgo.
-5. Si respuesta adecuada y cumple criterios de alta → **alta**.
+4. Valorar corticoide VO si precisa más de una tanda, hay respuesta incompleta o factores de riesgo.
+5. Si respuesta adecuada y cumple criterios → **alta**.
 
-### Crisis moderada
+</div>
+
+<div class="management-card severity-moderate" markdown="1">
+<h3>Moderada · PS 4–6</h3>
 
 1. Salbutamol MDI + cámara.
 2. Bromuro de ipratropio.
-3. Hasta **3 tandas cada 20 minutos durante la primera hora**.
+3. Hasta **3 tandas cada 20 min** durante la primera hora.
 4. Corticoide VO precoz.
 5. Oxígeno si precisa.
-6. Reevaluar PS, SatO₂ y situación clínica.
+6. Reevaluar.
 
-#### Buena respuesta
+**Buena respuesta:** espaciar tratamiento y valorar alta.  
+**Respuesta incompleta:** observación / ingreso.  
+**Empeoramiento:** manejar como grave.
 
-- Espaciar salbutamol.
-- Observar evolución.
-- Valorar alta.
+</div>
 
-#### Respuesta incompleta
-
-- Continuar tratamiento.
-- Observación hospitalaria.
-- Valorar escalada terapéutica.
-
-#### Empeoramiento
-
-→ Manejo como crisis grave.
-
-### Crisis grave
+<div class="management-card severity-severe" markdown="1">
+<h3>Grave · PS 7–9</h3>
 
 1. Monitorización cardiorrespiratoria.
 2. Oxígeno.
@@ -411,10 +429,13 @@ La VNI constituye una opción de soporte en la insuficiencia respiratoria.
 9. Valorar sulfato de magnesio IV.
 10. Reevaluación frecuente.
 11. Valorar OAF.
-12. Si respuesta insuficiente → VNI / UCIP.
+12. Si respuesta insuficiente → **VNI / UCIP**.
 
----
+</div>
 
+</div>
+
+<a id="reevaluacion"></a>
 ## 8. Reevaluación
 
 Tras cada escalón terapéutico valorar:
@@ -430,10 +451,11 @@ Tras cada escalón terapéutico valorar:
 - Nivel de conciencia.
 - Tiempo hasta nueva necesidad de salbutamol.
 
-**La respuesta mantenida al tratamiento determina el destino del paciente.**
+<div class="clinical-card clinical-card-note">
+  <strong>La respuesta mantenida al tratamiento determina el destino del paciente.</strong>
+</div>
 
----
-
+<a id="ingreso"></a>
 ## 9. Observación, ingreso y UCIP
 
 ### Considerar observación / ingreso
@@ -450,20 +472,22 @@ Tras cada escalón terapéutico valorar:
 - Mala adherencia al tratamiento.
 - Dificultad de acceso a atención sanitaria.
 
-### Criterios de UCIP
+<div class="clinical-card clinical-card-danger" markdown="1">
+<h3>Criterios de UCIP</h3>
 
 - Persistencia de Pulmonary Score de gravedad tras el tratamiento inicial.
 - **SatO₂ <90% con FiO₂ >0,4** pese a tratamiento de rescate.
 - **pCO₂ >45 mmHg** pese a tratamiento.
 - Arritmias.
 
----
+</div>
 
+<a id="alta"></a>
 ## 10. Alta y tratamiento domiciliario
 
 ### Criterios de alta
 
-Alta si presenta:
+<div class="clinical-card clinical-card-success" markdown="1">
 
 - **Estabilidad clínica mantenida sin recaídas.**
 - **PS ≤2.**
@@ -472,6 +496,8 @@ Alta si presenta:
 - Familia colaboradora.
 - Técnica inhalatoria adecuada.
 - Posibilidad de seguimiento.
+
+</div>
 
 ### Tratamiento al alta
 
@@ -485,23 +511,11 @@ Espaciar posteriormente según evolución y control clínico.
 
 Si se inició durante la atención en Urgencias:
 
-##### Prednisolona
+**Prednisolona: 1–2 mg/kg/día VO. Máximo 60 mg/día. Completar 3–5 días.**
 
-**1–2 mg/kg/día VO**
+Alternativa:
 
-**Máximo: 60 mg/día**
-
-Completar **3–5 días**.
-
-##### Alternativa: dexametasona
-
-Segunda dosis:
-
-**0,6 mg/kg VO**
-
-**Máximo: 12 mg**
-
-A las **24 horas** de la primera dosis.
+**Dexametasona: segunda dosis de 0,6 mg/kg VO, máximo 12 mg, a las 24 horas de la primera dosis.**
 
 ### Tratamiento controlador
 
@@ -519,8 +533,6 @@ Antes del alta valorar inicio o aumento de corticoide inhalado, o derivación pa
 
 ### Signos de alarma al alta
 
-Reconsultar si:
-
 - Aumenta la dificultad respiratoria.
 - Aparece tiraje intenso.
 - Presenta dificultad para hablar, comer o beber.
@@ -530,9 +542,10 @@ Reconsultar si:
 - La mejoría tras salbutamol dura cada vez menos.
 - Precisa salbutamol cada vez con mayor frecuencia.
 
----
-
+<a id="no-hacer"></a>
 ## 11. No hacer de rutina
+
+<div class="clinical-card clinical-card-warning" markdown="1">
 
 - **No** realizar radiografía de tórax en crisis no complicada.
 - **No** realizar analítica en crisis leve-moderada con evolución favorable.
@@ -542,66 +555,51 @@ Reconsultar si:
 - **No** administrar sulfato de magnesio si existe buena respuesta al tratamiento inicial.
 - **No** utilizar adrenalina IM como tratamiento habitual de la crisis asmática. Si existe anafilaxia, seguir el protocolo específico.
 
----
+</div>
 
+<a id="algoritmo"></a>
 ## 12. Algoritmo rápido
 
-### Crisis leve — PS 0–3
+<div class="algorithm">
 
-**Salbutamol MDI + cámara**  
-↓  
-**Reevaluar**
+<div class="algorithm-lane severity-mild">
+  <div class="algorithm-title">CRISIS LEVE · PS 0–3</div>
+  <div class="algorithm-step"><strong>Salbutamol MDI + cámara</strong></div>
+  <div class="algorithm-arrow">↓</div>
+  <div class="algorithm-step"><strong>Reevaluar</strong></div>
+  <div class="algorithm-split">
+    <span>Buena respuesta → <strong>Alta</strong></span>
+    <span>Respuesta incompleta / &gt;1 tanda / factores de riesgo → <strong>Corticoide VO + repetir salbutamol</strong> → reevaluar</span>
+  </div>
+</div>
 
-Buena respuesta  
-→ **Alta**
+<div class="algorithm-lane severity-moderate">
+  <div class="algorithm-title">CRISIS MODERADA · PS 4–6</div>
+  <div class="algorithm-step"><strong>Salbutamol + ipratropio</strong><br>hasta 3 tandas cada 20 min</div>
+  <div class="algorithm-plus">+ Corticoide VO precoz · + O₂ si precisa</div>
+  <div class="algorithm-arrow">↓</div>
+  <div class="algorithm-step"><strong>Reevaluar</strong></div>
+  <div class="algorithm-split">
+    <span>Mejoría → espaciar tratamiento → valorar alta</span>
+    <span>Respuesta incompleta → observación / ingreso</span>
+    <span>Empeoramiento → manejo como grave</span>
+  </div>
+</div>
 
-Respuesta incompleta / >1 tanda / factores de riesgo  
-→ **Corticoide VO + repetir salbutamol**  
-→ **Reevaluar**
+<div class="algorithm-lane severity-severe">
+  <div class="algorithm-title">CRISIS GRAVE · PS 7–9</div>
+  <div class="algorithm-step"><strong>Monitorización + O₂ + salbutamol + ipratropio + corticoide sistémico</strong></div>
+  <div class="algorithm-plus">+ Gasometría ± Rx tórax · + valorar sulfato de magnesio IV</div>
+  <div class="algorithm-arrow">↓</div>
+  <div class="algorithm-step"><strong>Respuesta insuficiente</strong></div>
+  <div class="algorithm-split">
+    <span>OAF → VNI → <strong>UCIP</strong></span>
+  </div>
+</div>
 
-### Crisis moderada — PS 4–6
+</div>
 
-**Salbutamol + ipratropio**  
-hasta 3 tandas cada 20 min
-
-+ **Corticoide VO precoz**
-
-+ **O₂ si precisa**
-
-↓  
-**Reevaluar**
-
-Mejoría  
-→ espaciar tratamiento  
-→ valorar alta
-
-Respuesta incompleta  
-→ observación / ingreso
-
-Empeoramiento  
-→ manejo como grave
-
-### Crisis grave — PS 7–9
-
-**Monitorización + O₂**
-
-+ **Salbutamol + ipratropio intensivos**
-
-+ **Corticoide sistémico precoz**
-
-+ **Gasometría ± Rx tórax**
-
-+ **Valorar sulfato de magnesio IV**
-
-↓  
-**Respuesta insuficiente**
-
-→ OAF  
-→ VNI  
-→ UCIP
-
----
-
+<a id="bibliografia"></a>
 ## 13. Bibliografía
 
 1. Paniagua Calzón N, Benito Fernández J. **Diagnóstico y tratamiento de la crisis asmática en Urgencias.** Protocolos Diagnósticos y Terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría (SEUP). 4.ª edición. 2024.  
