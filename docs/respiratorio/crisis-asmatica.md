@@ -1,4 +1,4 @@
-# Crisis asmática en Urgencias
+# Crisis asmática
 
 <nav class="protocol-shortcuts" aria-label="Accesos rápidos del protocolo">
   <a href="#valoracion">Valoración</a>
