@@ -17,6 +17,11 @@
   margin-bottom: 0.6rem;
 }
 
+.md-typeset h1 .headerlink {
+  display: none;
+}
+
+
 .md-typeset h2 {
   margin-top: 2.2rem;
   padding-top: 0.25rem;
