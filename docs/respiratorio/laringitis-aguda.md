@@ -277,9 +277,8 @@ En laringitis grave con respuesta insuficiente:
 <h3>Leve · Westley ≤3</h3>
 
 1. Mantener tranquilo y acompañado.
-2. Dexametasona VO en dosis única; individualizar en cuadros mínimos.
-3. Reevaluar.
-4. Si no existe estridor en reposo ni dificultad respiratoria y cumple criterios → **alta**.
+2. Considerar dexametasona VO en dosis única.
+3. Si no existe estridor en reposo ni dificultad respiratoria significativa → **alta directa** con medidas generales y signos de alarma.
 
 </div>
 
@@ -315,7 +314,7 @@ En laringitis grave con respuesta insuficiente:
 <a id="reevaluacion"></a>
 ## 8. Reevaluación
 
-Tras el tratamiento valorar:
+En la laringitis moderada o grave, y siempre que se administre adrenalina nebulizada, tras el tratamiento valorar:
 
 - TEP.
 - Westley.
@@ -374,7 +373,7 @@ Tras el tratamiento valorar:
 - Ausencia de dificultad respiratoria significativa.
 - Buena coloración y buen estado general.
 - Buena tolerancia oral a líquidos.
-- Evolución estable durante el periodo de observación.
+- Si ha precisado observación, evolución estable durante el periodo correspondiente.
 - Familia capaz de reconocer signos de alarma y volver a Urgencias si empeora.
 
 </div>
@@ -419,12 +418,12 @@ Si se ha administrado adrenalina nebulizada, comprobar estabilidad clínica dura
   <div class="algorithm-step"><strong>TEP + SpO₂ + Westley</strong><br>Mantener tranquilo · mínima manipulación</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-split">
-    <span><strong>Leve ≤3</strong><br>Dexametasona VO → reevaluar → alta si estable</span>
+    <span><strong>Leve ≤3</strong><br>Considerar corticoide VO → alta con medidas generales y signos de alarma</span>
     <span><strong>Moderada 4–5</strong><br>Adrenalina nebulizada + dexametasona → observación</span>
     <span><strong>Grave ≥6</strong><br>ABCDE + O₂ si precisa + adrenalina + dexametasona</span>
   </div>
   <div class="algorithm-arrow">↓</div>
-  <div class="algorithm-step"><strong>Reevaluar</strong><br>Estridor · tiraje · entrada de aire · SpO₂ · conciencia</div>
+  <div class="algorithm-step"><strong>Moderada / grave: reevaluar</strong><br>Estridor · tiraje · entrada de aire · SpO₂ · conciencia</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-split">
     <span><strong>Mejoría mantenida</strong><br>Observación 3–4 h tras adrenalina → valorar alta</span>
