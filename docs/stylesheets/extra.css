@@ -34,30 +34,44 @@
   font-weight: 700;
 }
 
-.md-typeset table:not([class]) {
-  display: block;
+.clinical-table-scroll {
   width: 100%;
   max-width: 100%;
   margin: 1rem 0 1.35rem;
   overflow-x: auto;
   overflow-y: hidden;
+  overflow-y: clip;
   border: 1px solid var(--protocol-border);
   border-radius: 0.72rem;
+  background: var(--md-default-bg-color);
+  box-shadow: var(--protocol-shadow);
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+
+.md-typeset .clinical-table-scroll table:not([class]) {
+  display: table;
+  width: max-content;
+  min-width: 100%;
+  max-width: none;
+  margin: 0;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
   border-collapse: separate;
   border-spacing: 0;
   background: var(--md-default-bg-color);
-  box-shadow: var(--protocol-shadow);
+  box-shadow: none;
   font-size: 0.78rem;
   line-height: 1.38;
-  scrollbar-width: thin;
-  -webkit-overflow-scrolling: touch;
 }
 
-.md-typeset table:not([class]) thead {
+.md-typeset .clinical-table-scroll table:not([class]) thead {
   background: color-mix(in srgb, var(--md-primary-fg-color) 10%, var(--md-default-bg-color));
 }
 
-.md-typeset table:not([class]) th {
+.md-typeset .clinical-table-scroll table:not([class]) th {
   padding: 0.68rem 0.76rem;
   border-bottom: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 20%, transparent);
   color: var(--md-primary-fg-color--dark);
@@ -66,51 +80,58 @@
   white-space: nowrap;
 }
 
-.md-typeset table:not([class]) td {
+.md-typeset .clinical-table-scroll table:not([class]) td {
   padding: 0.62rem 0.76rem;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
   vertical-align: middle;
 }
 
-.md-typeset table:not([class]) tbody tr:nth-child(even) td {
+.md-typeset .clinical-table-scroll table:not([class]) tbody tr:nth-child(even) td {
   background: color-mix(in srgb, var(--md-primary-fg-color) 2.5%, var(--md-default-bg-color));
 }
 
-.md-typeset table:not([class]) tbody tr:last-child td {
+.md-typeset .clinical-table-scroll table:not([class]) tbody tr:last-child td {
   border-bottom: 0;
 }
 
-.md-typeset table:not([class]) tbody td:first-child {
+.md-typeset .clinical-table-scroll table:not([class]) tbody td:first-child {
   color: var(--md-default-fg-color);
   font-weight: 650;
 }
 
-.md-typeset table:not([class]) strong {
+.md-typeset .clinical-table-scroll table:not([class]) strong {
   color: var(--md-primary-fg-color--dark);
 }
 
+/* Primera columna fija en TODAS las tablas clínicas */
+.md-typeset .clinical-table-scroll table:not([class]) th:first-child,
+.md-typeset .clinical-table-scroll table:not([class]) td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: var(--md-default-bg-color);
+  background-clip: padding-box;
+  box-shadow: 0.45rem 0 0.7rem -0.65rem rgba(0, 0, 0, 0.55);
+}
+
+.md-typeset .clinical-table-scroll table:not([class]) thead th:first-child {
+  z-index: 3;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 10%, var(--md-default-bg-color));
+}
+
+.md-typeset .clinical-table-scroll table:not([class]) tbody tr:nth-child(even) td:first-child {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 2.5%, var(--md-default-bg-color));
+}
+
 @media (hover: hover) {
-  .md-typeset table:not([class]) tbody tr:hover td {
+  .md-typeset .clinical-table-scroll table:not([class]) tbody tr:hover td,
+  .md-typeset .clinical-table-scroll table:not([class]) tbody tr:hover td:first-child {
     background: color-mix(in srgb, var(--md-primary-fg-color) 6%, var(--md-default-bg-color));
   }
 }
 
-.dose-table-wrap table:not([class]) {
+.dose-table-wrap .clinical-table-scroll table:not([class]) {
   min-width: 46rem;
-}
-
-.dose-table-wrap table:not([class]) th:first-child,
-.dose-table-wrap table:not([class]) td:first-child {
-  position: sticky;
-  left: 0;
-  z-index: 1;
-  background: var(--md-default-bg-color);
-  box-shadow: 0.35rem 0 0.6rem -0.55rem rgba(0, 0, 0, 0.45);
-}
-
-.dose-table-wrap table:not([class]) thead th:first-child {
-  z-index: 2;
-  background: color-mix(in srgb, var(--md-primary-fg-color) 10%, var(--md-default-bg-color));
 }
 
 .protocol-shortcuts {
@@ -345,17 +366,20 @@
     font-size: 1.65rem;
   }
 
-  .md-typeset table:not([class]) {
+  .clinical-table-scroll {
     margin: 0.8rem 0 1.1rem;
     border-radius: 0.58rem;
+  }
+
+  .md-typeset .clinical-table-scroll table:not([class]) {
     font-size: 0.74rem;
   }
 
-  .md-typeset table:not([class]) th {
+  .md-typeset .clinical-table-scroll table:not([class]) th {
     padding: 0.56rem 0.6rem;
   }
 
-  .md-typeset table:not([class]) td {
+  .md-typeset .clinical-table-scroll table:not([class]) td {
     padding: 0.54rem 0.6rem;
   }
 
