@@ -25,7 +25,9 @@ nav:
       - Faringoamigdalitis aguda: infeccioso/faringoamigdalitis-aguda.md
       - Infección del tracto urinario: infeccioso/infeccion-tracto-urinario.md
       - Otitis media aguda: infeccioso/otitis-media-aguda.md
-  - Neurología: neurologia/index.md
+  - Neurología:
+      - neurologia/index.md
+      - Estatus epiléptico: neurologia/estatus-epileptico.md
   - Digestivo:
       - digestivo/index.md
       - Estreñimiento: digestivo/estrenimiento.md
