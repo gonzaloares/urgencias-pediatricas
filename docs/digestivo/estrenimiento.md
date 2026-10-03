@@ -236,7 +236,7 @@ En niños en entrenamiento de control de esfínteres, mantener la medicación ha
 
 ### Si PEG no está disponible
 
-**Lactulosa: 1–2 g/kg por dosis, 1–2 veces/día.**
+**Lactulosa: 1–2 g/kg, 1–2 veces/día.**
 
 El artículo también permite considerar como segunda línea leche de magnesia, aceite mineral y laxantes estimulantes, sin aportar una pauta posológica concreta para todos ellos.
 
