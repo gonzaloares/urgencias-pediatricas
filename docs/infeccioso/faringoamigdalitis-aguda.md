@@ -5,7 +5,7 @@
   <a href="#alarma">Alarma</a>
   <a href="#etiologia">Viral vs estreptocócica</a>
   <a href="#mcisaac">McIsaac</a>
-  <a href="#microbiologia">Test Strep A</a>
+  <a href="#microbiologia">Test rápido</a>
   <a href="#pruebas">Pruebas</a>
   <a href="#sintomatico">Sintomático</a>
   <a href="#antibiotico">Antibiótico</a>
@@ -174,7 +174,7 @@ La escala puede ayudar a **seleccionar a quién realizar pruebas microbiológica
 
 ### Cuándo realizar test rápido de estreptococo A
 
-Realizar **TRD / Strep A** si existe sospecha de infección estreptocócica, especialmente:
+Realizar **test rápido de estreptococo A** si existe sospecha de infección estreptocócica, especialmente:
 
 - edad **≥3 años**;
 - ausencia de síntomas claramente víricos;
@@ -206,12 +206,12 @@ Evitar tocar lengua, mucosa oral, paladar blando o contaminar la muestra con sal
 
 <div class="management-card severity-moderate" markdown="1">
 
-**TRD positivo**
+**Test rápido positivo**
 
 → Diagnóstico de infección por EbhGA.  
 → Iniciar antibioterapia.
 
-**TRD negativo**
+**Test rápido negativo**
 
 → No administrar antibiótico de rutina.  
 → Si existe **alta sospecha clínica**, factores de riesgo, faringoamigdalitis reciente por EbhGA o contexto epidemiológico especial → obtener **cultivo faríngeo**.
@@ -227,7 +227,7 @@ Evitar tocar lengua, mucosa oral, paladar blando o contaminar la muestra con sal
 </div>
 
 <div class="clinical-card clinical-card-note">
-  Un TRD o cultivo positivo no distingue completamente entre infección aguda y estado de portador. Evitar realizar pruebas en cuadros claramente víricos reduce falsos diagnósticos de infección estreptocócica.
+  Un test rápido o cultivo positivo no distingue completamente entre infección aguda y estado de portador. Evitar realizar pruebas en cuadros claramente víricos reduce falsos diagnósticos de infección estreptocócica.
 </div>
 
 <a id="pruebas"></a>
@@ -273,7 +273,7 @@ Valorar **ecografía cervical o TC cervical con contraste** según localización
 
 Tratar si:
 
-- TRD positivo;
+- test rápido positivo;
 - cultivo faríngeo positivo;
 - excepcionalmente, alta sospecha con cultivo pendiente cuando no puede demorarse el tratamiento por factores de riesgo clínicos o epidemiológicos.
 
@@ -403,7 +403,7 @@ Puede darse de alta si:
 
 - No diagnosticar infección estreptocócica únicamente por la presencia de exudado.
 - No indicar antibiótico únicamente por una puntuación clínica.
-- No realizar Strep A en cuadros con clínica claramente vírica.
+- No realizar test rápido de estreptococo A en cuadros con clínica claramente vírica.
 - No realizar pruebas microbiológicas de rutina en menores de 3 años.
 - No solicitar ASLO para diagnosticar una faringoamigdalitis aguda.
 - No solicitar analítica ni pruebas de imagen en cuadros no complicados.
@@ -427,11 +427,11 @@ Puede darse de alta si:
   </div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-split">
-    <span><strong>Clínica claramente vírica</strong><br>No Strep A · no antibiótico · tratamiento sintomático</span>
+    <span><strong>Clínica claramente vírica</strong><br>No test rápido · no antibiótico · tratamiento sintomático</span>
     <span><strong>Sospecha de EbhGA</strong><br>≥3 años · sin clínica viral · McIsaac como apoyo</span>
   </div>
   <div class="algorithm-arrow">↓</div>
-  <div class="algorithm-step"><strong>TRD / Strep A</strong></div>
+  <div class="algorithm-step"><strong>Test rápido de estreptococo A</strong></div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-split">
     <span><strong>Positivo</strong><br>Penicilina V o amoxicilina · 10 días</span>
