@@ -195,7 +195,6 @@ Puede utilizarse tratamiento rectal como alternativa.
 
 | Tratamiento rectal | Dosis |
 |---|---:|
-| **Bisacodilo** | 2–10 años: **5 mg/día** · >10 años: **5–10 mg/día** |
 | **Fosfato sódico** | 1–18 años: **2,5 ml/kg/dosis**, máx. **133 ml/dosis** |
 | **Suero fisiológico 0,9%** | Neonato <1 kg: **5 ml** · neonato >1 kg: **10 ml** · >1 año: **6 ml/kg, 1–2 veces/día** |
 
@@ -227,6 +226,8 @@ En niños en entrenamiento de control de esfínteres, mantener la medicación ha
 **Lactulosa: 1–2 g/kg, 1–2 veces/día.**
 
 Como segunda línea pueden considerarse leche de magnesia, aceite mineral y laxantes estimulantes.
+
+**Bisacodilo VO:** 2–10 años: **5 mg una vez al día**, preferentemente por la noche · >10 años: **5–10 mg una vez al día**, preferentemente por la noche.
 
 ### Medidas no farmacológicas
 
@@ -345,3 +346,4 @@ En el estreñimiento funcional sin signos de alarma ni complicaciones:
 
 1. Velasco Rodríguez-Belvís M, Palomino Pérez LM, Cañedo Villarroya E, de la Mano Hernández A, Martínez Pérez J, Muñoz Codoceo RA. **De la guía a la guardia: aplicación en Urgencias de las recomendaciones de ESPGHAN y NASPGHAN basadas en la evidencia para la evaluación y tratamiento del estreñimiento funcional en lactantes y niños.** Emerg Pediatr. 2022;1(3):165-170.
 2. Rome Foundation. **Rome V Criteria. H2a. Functional Constipation.** 2026. [Criterios Roma V](https://theromefoundation.org/rome-v-criteria/)
+3. Agencia Española de Medicamentos y Productos Sanitarios. **DulcoLax Bisacodilo 5 mg comprimidos gastrorresistentes. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/28410/FichaTecnica_28410.html)
