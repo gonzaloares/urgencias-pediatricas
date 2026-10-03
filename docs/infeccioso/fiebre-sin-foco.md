@@ -3,6 +3,7 @@
 <nav class="protocol-shortcuts" aria-label="Accesos rápidos del protocolo">
   <a href="#definicion">Definición</a>
   <a href="#valoracion">Valoración</a>
+  <a href="#antitermicos">Antitérmicos</a>
   <a href="#mal-estado">TEP alterado</a>
   <a href="#menor-60">≤60 días</a>
   <a href="#2-24">2–24 meses</a>
@@ -68,8 +69,92 @@ Preguntar por:
 - Exploración neurológica.
 - Búsqueda dirigida de foco.
 
+<a id="antitermicos"></a>
+## 3. Tratamiento sintomático de la fiebre
+
+### Objetivo
+
+El objetivo del tratamiento antitérmico es **mejorar el confort y el malestar del niño**, no normalizar la temperatura.
+
+- No es necesario administrar un antitérmico únicamente por alcanzar una determinada cifra de temperatura si el niño se encuentra confortable.
+- Tratar si existe **malestar, dolor, irritabilidad, cefalea, mialgias o dificultad para descansar o beber**.
+- En menores de **3 meses**, la administración de un antitérmico **no debe retrasar ni sustituir la valoración diagnóstica**.
+- Los antitérmicos **no previenen las convulsiones febriles**.
+
+### Antitérmicos
+
+| Fármaco | Dosis | Intervalo | Cuándo utilizar |
+|---|---:|---:|---|
+| **Paracetamol VO** | **15 mg/kg/dosis** | cada **6 h** | Primera elección a cualquier edad. Máx. **60 mg/kg/día** |
+| **Ibuprofeno VO** | **5–10 mg/kg/dosis** | cada **6–8 h** | **≥3 meses y ≥5 kg**. Máx. **40 mg/kg/día** |
+| **Metamizol VO** | **10 mg/kg/dosis** | cada **6–8 h** | **>3 meses y >5 kg**. Reservar para fiebre alta con malestar importante que no responde o no permite utilizar antitérmicos de primera elección |
+
+<div class="clinical-card clinical-card-note">
+  <strong>Vía oral:</strong> es la vía de elección siempre que sea posible. No obtener una vía IV únicamente para administrar un antitérmico.
+</div>
+
+### Elección práctica
+
+**Paracetamol**
+
+- Primera opción especialmente en lactantes pequeños.
+- Puede administrarse aunque la ingesta sea escasa, ajustando siempre la dosis al peso.
+- Evitar sobredosificación y tener en cuenta otros preparados que puedan contener paracetamol.
+
+**Ibuprofeno**
+
+- Eficacia antitérmica similar al paracetamol.
+- Evitar si existe **deshidratación significativa, insuficiencia renal, sangrado digestivo o hipersensibilidad a AINE**.
+- En lactantes de **3–5 meses**, utilizar únicamente tras valoración médica.
+
+**Metamizol**
+
+- **No es un antitérmico de primera línea**.
+- Considerarlo como tratamiento de rescate ante **fiebre alta con malestar relevante** que no responde adecuadamente a paracetamol/ibuprofeno o cuando estos no pueden utilizarse.
+- Evitar su uso repetido o prolongado sin una indicación clara.
+- Si se utiliza por vía parenteral, hacerlo en un entorno monitorizado por el riesgo de **hipotensión**.
+
+### Vías alternativas
+
+- **Rectal:** no es la vía preferente; la absorción es más irregular. Puede considerarse si la vía oral es imposible.
+- **Intravenosa:** reservar para pacientes que ya precisan acceso IV y no pueden recibir tratamiento enteral. La fiebre aislada no constituye una indicación para canalizar una vía.
+
+### ¿Alternar paracetamol e ibuprofeno?
+
+<div class="clinical-card clinical-card-warning">
+  <strong>No alternarlos de forma sistemática cada 3–4 horas.</strong>
+</div>
+
+Utilizar **un solo antitérmico** correctamente dosificado como estrategia habitual.
+
+Puede considerarse cambiar o utilizar el otro antitérmico de forma puntual si:
+
+- persiste un **malestar significativo** antes de poder repetir el primero;
+- no existen contraindicaciones;
+- se ha comprobado la dosis y la hora de la administración previa.
+
+Si se pauta una alternancia excepcional, dejar por escrito **fármaco, dosis e intervalo** para reducir errores de medicación.
+
+### Respuesta al antitérmico
+
+<div class="clinical-card clinical-card-danger">
+  <strong>La respuesta a los antitérmicos no permite distinguir una infección banal de una infección bacteriana grave.</strong>
+</div>
+
+- No es necesario que la temperatura se normalice: el descenso suele ser parcial.
+- La **persistencia de fiebre** después de administrar correctamente un antitérmico **no implica por sí misma mayor gravedad**.
+- Una buena respuesta, con descenso de la temperatura o mejoría transitoria del estado general, **no excluye una infección bacteriana invasiva**.
+- La reevaluación debe basarse en el **TEP, apariencia, perfusión, respiración, hidratación y exploración clínica**, no en cuántos grados ha descendido la temperatura.
+
+### Medidas generales
+
+- Ofrecer líquidos con frecuencia.
+- Mantener una temperatura ambiental confortable.
+- Evitar sobreabrigar.
+- **No utilizar baños fríos, paños húmedos ni fricciones con alcohol** como medidas antitérmicas rutinarias.
+
 <a id="mal-estado"></a>
-## 3. TEP alterado / paciente inestable
+## 4. TEP alterado / paciente inestable
 
 <div class="clinical-card clinical-card-danger">
   <strong>TEP alterado, especialmente apariencia o circulación → considerar sepsis hasta demostrar lo contrario.</strong>
@@ -97,7 +182,7 @@ Actuar sin demora:
 Considerar sospecha de VHS especialmente si existen convulsiones, vesículas mucocutáneas u otros signos sugestivos de encefalitis.
 
 <a id="menor-60"></a>
-## 4. Lactante ≤60 días con TEP normal
+## 5. Lactante ≤60 días con TEP normal
 
 <div class="clinical-card clinical-card-warning">
   <strong>En todos los lactantes ≤60 días con FSF debe realizarse despistaje de ITU.</strong>
@@ -174,7 +259,7 @@ Puede darse de alta sin antibiótico si:
 - seguimiento por su pediatra en **24 horas**.
 
 <a id="2-24"></a>
-## 5. Lactante de 2–24 meses con TEP normal
+## 6. Lactante de 2–24 meses con TEP normal
 
 La búsqueda de pruebas debe individualizarse según **edad, sexo, temperatura y vacunación antineumocócica**.
 
@@ -245,7 +330,7 @@ Si alguno está alterado:
 Si ninguno está alterado y la orina es normal → **alta**.
 
 <a id="orina"></a>
-## 6. Despistaje de ITU
+## 7. Despistaje de ITU
 
 ### A quién estudiar
 
@@ -265,7 +350,7 @@ Si ninguno está alterado y la orina es normal → **alta**.
 Si se confirma sospecha de ITU, continuar según el protocolo de [Infección del tracto urinario](infeccion-tracto-urinario.md).
 
 <a id="analitica"></a>
-## 7. Interpretación rápida de biomarcadores
+## 8. Interpretación rápida de biomarcadores
 
 | Parámetro | Umbral de mayor riesgo |
 |---|---:|
@@ -280,7 +365,7 @@ Si se confirma sospecha de ITU, continuar según el protocolo de [Infección del
 </div>
 
 <a id="antibiotico"></a>
-## 8. Antibioterapia empírica en ≤60 días con TEP normal
+## 9. Antibioterapia empírica en ≤60 días con TEP normal
 
 ### <1 mes
 
@@ -309,7 +394,7 @@ Si pleocitosis:
 En cualquier edad, añadir **aciclovir 20 mg/kg IV cada 8 h** si existen convulsiones, vesículas mucocutáneas u otros datos sugestivos de encefalitis herpética.
 
 <a id="ingreso"></a>
-## 9. Ingreso, observación y alta
+## 10. Ingreso, observación y alta
 
 ### Ingreso
 
@@ -351,8 +436,12 @@ Requiere:
 - empeoramiento clínico.
 
 <a id="no-hacer"></a>
-## 10. No hacer de rutina
+## 11. No hacer de rutina
 
+- No tratar una cifra de temperatura aislada si el niño está confortable.
+- No alternar paracetamol e ibuprofeno de forma sistemática.
+- No utilizar la respuesta al antitérmico como marcador de gravedad.
+- No utilizar baños fríos, paños húmedos ni alcohol para intentar bajar la fiebre.
 - No minimizar una fiebre documentada en domicilio porque el paciente esté afebril en Urgencias.
 - No omitir el despistaje de ITU en los grupos de edad indicados.
 - No realizar analítica sanguínea sistemática en todos los lactantes de 2–24 meses con TEP normal.
@@ -362,7 +451,7 @@ Requiere:
 - No administrar antibiótico a un paciente de bajo riesgo únicamente por presentar fiebre sin foco.
 
 <a id="algoritmo"></a>
-## 11. Algoritmo práctico
+## 12. Algoritmo práctico
 
 <div class="algorithm">
 
@@ -388,7 +477,10 @@ Requiere:
 </div>
 
 <a id="bibliografia"></a>
-## 12. Bibliografía
+## 13. Bibliografía
 
 1. Mintegi Raso S, Gómez Cortés B, Velasco Zúñiga R. **Lactante febril.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. 2024. Revisión marzo 2024. [SEUP](https://seup.org/wp-content/uploads/2025/04/11_Lactante_febril-4ed-abr25.pdf)
 2. Sociedad Española de Urgencias de Pediatría. **Fiebre sin focalidad en lactante de 0–24 meses previamente sano.** Algoritmo SEUP. [SEUP](https://seup.org/wp-content/uploads/2025/06/14-Lactante-febril-Junio-25R.pdf)
+3. Sociedad Española de Urgencias de Pediatría. **Fiebre. Información para padres.** 2025. [SEUP](https://seup.org/wp-content/uploads/2025/05/15_Fiebre.pdf)
+4. Sociedad Española de Urgencias de Pediatría. **Dolor: tratamiento analgésico en Pediatría.** Algoritmos SEUP. [SEUP](https://seup.org/pdf_public/algoritmos/21_Dolor.pdf)
+5. Agencia Española de Medicamentos y Productos Sanitarios. **Metalgial 500 mg/ml gotas orales en solución. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/72149/FT_72149.html)
