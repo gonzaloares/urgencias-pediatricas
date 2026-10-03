@@ -117,7 +117,7 @@ Durante **1 mes**, presencia de **≥2** de los siguientes:
 
 Ante signos de alarma, valorar **estreñimiento secundario** y planificar estudio/derivación según la sospecha clínica.
 
-### Diagnósticos diferenciales recogidos en el artículo
+### Diagnóstico diferencial
 
 Entre las causas a considerar se incluyen enfermedad celíaca, hipotiroidismo, hipercalcemia, hipopotasemia, diabetes mellitus, alergia a proteínas de la dieta, fármacos o tóxicos, botulismo, fibrosis quística, enfermedad de Hirschsprung, acalasia anal, inercia colónica, malformaciones anorrectales, masa pélvica, alteraciones medulares, alteraciones de la musculatura abdominal, pseudoobstrucción y neoplasia endocrina múltiple tipo 2B.
 
@@ -203,9 +203,9 @@ Si existe sospecha de causa orgánica, orientar el estudio de forma diferida med
 
 ### Si PEG no está disponible o no puede utilizarse
 
-El artículo contempla tratamiento rectal como alternativa.
+Puede utilizarse tratamiento rectal como alternativa.
 
-| Tratamiento rectal | Dosis recogida en el artículo |
+| Tratamiento rectal | Dosis |
 |---|---:|
 | **Bisacodilo** | 2–10 años: **5 mg/día** · >10 años: **5–10 mg/día** |
 | **Fosfato sódico** | 1–18 años: **2,5 ml/kg/dosis**, máx. **133 ml/dosis** |
@@ -238,7 +238,7 @@ En niños en entrenamiento de control de esfínteres, mantener la medicación ha
 
 **Lactulosa: 1–2 g/kg, 1–2 veces/día.**
 
-El artículo también permite considerar como segunda línea leche de magnesia, aceite mineral y laxantes estimulantes, sin aportar una pauta posológica concreta para todos ellos.
+Como segunda línea pueden considerarse leche de magnesia, aceite mineral y laxantes estimulantes.
 
 ### Medidas no farmacológicas
 
@@ -263,7 +263,7 @@ Si existe fisura anal:
 - evitar toallitas y papel higiénico;
 - baños de asiento con agua **10–15 min una vez al día**;
 - **Blastoestimulina tópica:** 1 aplicación cada **8 h durante 10–15 días**;
-- si existe inflamación, el artículo contempla corticoide tópico rectal (**Synalar rectal® o Ruscus®**) cada **12 h**, máximo **10 días**;
+- si existe inflamación: corticoide tópico rectal (**Synalar rectal® o Ruscus®**) cada **12 h**, máximo **10 días**;
 - tratar de forma adecuada el estreñimiento para evitar recurrencia o persistencia.
 
 <a id="derivacion"></a>
@@ -306,7 +306,7 @@ En el estreñimiento funcional sin signos de alarma ni complicaciones:
 7. Seguimiento estrecho por **Atención Primaria**.
 
 <div class="clinical-card clinical-card-note">
-  <strong>Las recaídas pueden alcanzar aproximadamente el 50%.</strong> El artículo destaca el incumplimiento terapéutico como la causa más frecuente, por lo que es importante insistir en dosis adecuadas y duración suficiente.
+  <strong>Las recaídas pueden alcanzar aproximadamente el 50%.</strong> El incumplimiento terapéutico es la causa más frecuente, por lo que es importante insistir en dosis adecuadas y duración suficiente.
 </div>
 
 <a id="no-hacer"></a>
