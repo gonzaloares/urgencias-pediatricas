@@ -112,7 +112,7 @@ Enviar:
 
 ### Perfil orientativo
 
-<div class="management-grid">
+<div class="management-grid" markdown="1">
 
 <div class="management-card severity-severe" markdown="1">
 <h3>Más sugestivo de bacteriana</h3>
@@ -192,7 +192,7 @@ Enviar:
 
 ### Decisión práctica
 
-<div class="management-grid">
+<div class="management-grid" markdown="1">
 
 <div class="management-card severity-mild" markdown="1">
 <h3>Sospecha de meningitis vírica</h3>
