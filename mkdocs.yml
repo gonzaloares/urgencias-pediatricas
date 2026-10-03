@@ -31,7 +31,9 @@ nav:
   - Nefrología: nefrologia/index.md
   - Alergia: alergia/index.md
   - Toxicología: toxicologia/index.md
-  - Procedimientos: procedimientos/index.md
+  - Procedimientos:
+      - procedimientos/index.md
+      - Reanimación cardiopulmonar básica y avanzada: procedimientos/reanimacion-basica-avanzada.md
 
 plugins:
   - search:
