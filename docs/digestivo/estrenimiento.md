@@ -169,7 +169,7 @@ Considerarlo si:
 
 **No realizar de rutina.**
 
-Puede considerarse si se sospecha **impactación fecal** y la exploración física es imposible o no fiable.
+Puede considerarse si se sospecha **obstrucción intestinal** y la exploración física es imposible o no fiable.
 
 ### Estudios que no se recomiendan desde Urgencias de forma rutinaria
 
