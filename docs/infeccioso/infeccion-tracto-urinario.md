@@ -290,6 +290,8 @@ Si se inicia tratamiento IV, pasar a vía oral cuando el estado clínico lo perm
 | **Cefalexina** | VO | **25–50 mg/kg/día** | repartir cada **6–8 h** · máx. **2 g/día** | Cefalosporina de 1.ª generación. |
 | **Nitrofurantoína** | VO | **≤6 años: 1–2 mg/kg/dosis** | cada **6 h** | No usar en <3 meses. Solo ITU baja. |
 | **Nitrofurantoína** | VO | **>6 años: 5–7 mg/kg/día** | repartir en **4 tomas** | No superar dosis de adulto. Solo ITU baja. |
+| **Fosfomicina cálcica** | VO | **<1 año: 150–300 mg/dosis o 33–66 mg/kg/dosis** | cada **8 h** | ITU baja no complicada. En <12 años, uso fuera de ficha técnica según Pediamécum. |
+| **Fosfomicina cálcica** | VO | **>1 año: 250–500 mg/dosis** | cada **8 h** | ITU baja no complicada. |
 | **Fosfomicina trometamol** | VO | **3 g** | **dosis única** | Solo niñas >12 años con ITU baja no complicada. |
 | **Cotrimoxazol (SMX/TMP)** | VO | **20–30 / 4–6 mg/kg/dosis** | cada **12 h** · en >12 años: **800/160 mg cada 12 h** | Utilizar si la sensibilidad local lo permite. |
 | **Amoxicilina-clavulánico 4:1** | VO | **35–40 / 9–10 mg/kg/día** | repartir en **3 dosis (cada 8 h)** · máx. amoxicilina **1,5 g/día**, clavulánico **375 mg/día** | Utilizar si la sensibilidad local de <i>E. coli</i> es >80–90%. |
@@ -311,12 +313,14 @@ Si se inicia tratamiento IV, pasar a vía oral cuando el estado clínico lo perm
 ### ITU febril con ingreso · tratamiento intravenoso
 
 <div class="clinical-card clinical-card-success">
-  <strong>Primera opción: gentamicina IV en dosis única diaria.</strong>
+  <strong>Primera opción: gentamicina IV en dosis única diaria.</strong><br>
+  <strong>En menores de 3 meses: asociar ampicilina IV</strong> al tratamiento empírico por la posibilidad de infección por enterococo.
 </div>
 
 | Fármaco | Vía | Dosis | Intervalo / máximo | Comentarios |
 |---|---|---|---|---|
 | **Gentamicina** | IV | **5 mg/kg/dosis** | **cada 24 h** | Primera opción. Ajustar a función renal y monitorizar niveles cuando esté indicado. |
+| **Ampicilina** | IV | **100–200 mg/kg/día** | repartir **cada 6 h** · máx. **12 g/día** | **Asociar a gentamicina en menores de 3 meses**. También asociar si se sospecha uropatía obstructiva. |
 | **Cefotaxima** | IV | **100–200 mg/kg/día** | repartir cada **6–8 h** · máx. **12 g/día** | Cefalosporina de 3.ª generación. |
 | **Ceftriaxona** | IV / IM | **20–80 mg/kg/día** | **cada 24 h** | >12 años o >50 kg: **1–2 g cada 24 h**; máx. general **4 g/día**. |
 | **Tobramicina** | IV | **4,5–7,5 mg/kg/día** | preferentemente **cada 24 h** | Alternativa aminoglucósida. Ajustar a función renal y monitorizar niveles cuando esté indicado. |
@@ -563,5 +567,5 @@ En ITU recurrente, la indicación debe individualizarse en función de anomalía
 <a id="bibliografia"></a>
 ## 14. Bibliografía
 
-1. Grupo de trabajo de la Guía de Práctica Clínica sobre Infección del Tracto Urinario en la Población Pediátrica. **Guía de Práctica Clínica. Infección del Tracto Urinario en la Población Pediátrica. Actualización 2024.** Asociación Española de Nefrología Pediátrica; Asociación Española de Pediatría. 2024.
-2. Comité de Medicamentos de la Asociación Española de Pediatría. **Pediamécum.** Fichas de cefuroxima, cefalexina, nitrofurantoína, fosfomicina, cotrimoxazol, amoxicilina-clavulánico, cefixima, gentamicina, cefotaxima, ceftriaxona, tobramicina y ampicilina. Utilizado exclusivamente para la posología. [Pediamécum](https://www.aeped.es/comites/cm/pediamecum/)
+1. Grupo de trabajo de la Guía de Práctica Clínica sobre Infección del Tracto Urinario en la Población Pediátrica. **Guía de Práctica Clínica. Infección del Tracto Urinario en la Población Pediátrica. Actualización 2024.** Asociación Española de Nefrología Pediátrica; Asociación Española de Pediatría. 2024. [Guía clínica](https://www.aenp.es/noticias.html?view=article&id=230&catid=13)
+2. Comité de Medicamentos de la Asociación Española de Pediatría. **Pediamécum.** Fichas de cefuroxima, cefalexina, nitrofurantoína, fosfomicina, cotrimoxazol, amoxicilina-clavulánico, cefixima, gentamicina, cefotaxima, ceftriaxona, tobramicina y ampicilina. Utilizado exclusivamente para la posología. [Pediamécum](https://www.aeped.es/comites/cm/pediamecum/) · [Fosfomicina](https://www.aeped.es/comites/cm/pediamecum/principios-activos/fosfomicina)
