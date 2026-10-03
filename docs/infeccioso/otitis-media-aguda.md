@@ -227,7 +227,7 @@ Indicar si existe cualquiera de los siguientes:
 - TEP alterado o mal estado general;
 - fiebre **≥39 °C**;
 - otalgia intensa;
-- persistencia de otalgia tras **3 días**;
+- persistencia de otalgia durante **>48 h**;
 - empeoramiento clínico significativo;
 - **otorrea espontánea**;
 - **OMA bilateral en <2 años**;
@@ -457,4 +457,5 @@ Puede darse de alta si:
 ## 17. Bibliografía
 
 1. Cruz Cañete M, López Martín D. **Otitis media aguda y otitis externa. Mastoiditis.** Protocolos diagnósticos y terapéuticos en Pediatría. Infectología Pediátrica. 2.ª ed. Asociación Española de Pediatría / Sociedad Española de Infectología Pediátrica; 2023;2:97-110. [PDF](https://static.aeped.es/6_otitis_b893c53b12.pdf)
-2. National Institute for Health and Care Excellence. **Otitis media (acute): antimicrobial prescribing. NG91.** Actualizado 2022. [NICE](https://www.nice.org.uk/guidance/ng91)
+2. Ruiz Contreras J, García Vera C, Lupiani Castellanos P. **Otitis media aguda.** Guía-ABE. Infecciones en Pediatría. Actualización 03/11/2023. [Guía-ABE](https://www.guia-abe.es/temas-clinicos-otitis-media-aguda)
+3. National Institute for Health and Care Excellence. **Otitis media (acute): antimicrobial prescribing. NG91.** Actualizado 2022. [NICE](https://www.nice.org.uk/guidance/ng91)
