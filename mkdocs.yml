@@ -20,7 +20,9 @@ nav:
       - Bronquiolitis aguda: respiratorio/bronquiolitis-aguda.md
       - Crisis asmática: respiratorio/crisis-asmatica.md
       - Laringitis aguda: respiratorio/laringitis-aguda.md
-  - Infeccioso: infeccioso/index.md
+  - Infeccioso:
+      - infeccioso/index.md
+      - Infección del tracto urinario: infeccioso/infeccion-tracto-urinario.md
   - Neurología: neurologia/index.md
   - Digestivo: digestivo/index.md
   - Trauma: trauma/index.md
