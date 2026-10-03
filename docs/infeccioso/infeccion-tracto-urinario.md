@@ -313,12 +313,14 @@ Si se inicia tratamiento IV, pasar a vía oral cuando el estado clínico lo perm
 ### ITU febril con ingreso · tratamiento intravenoso
 
 <div class="clinical-card clinical-card-success">
-  <strong>Primera opción: gentamicina IV en dosis única diaria.</strong>
+  <strong>Primera opción: gentamicina IV en dosis única diaria.</strong><br>
+  <strong>En menores de 3 meses: asociar ampicilina IV</strong> al tratamiento empírico por la posibilidad de infección por enterococo.
 </div>
 
 | Fármaco | Vía | Dosis | Intervalo / máximo | Comentarios |
 |---|---|---|---|---|
 | **Gentamicina** | IV | **5 mg/kg/dosis** | **cada 24 h** | Primera opción. Ajustar a función renal y monitorizar niveles cuando esté indicado. |
+| **Ampicilina** | IV | **100–200 mg/kg/día** | repartir **cada 6 h** · máx. **12 g/día** | **Asociar a gentamicina en menores de 3 meses**. También asociar si se sospecha uropatía obstructiva. |
 | **Cefotaxima** | IV | **100–200 mg/kg/día** | repartir cada **6–8 h** · máx. **12 g/día** | Cefalosporina de 3.ª generación. |
 | **Ceftriaxona** | IV / IM | **20–80 mg/kg/día** | **cada 24 h** | >12 años o >50 kg: **1–2 g cada 24 h**; máx. general **4 g/día**. |
 | **Tobramicina** | IV | **4,5–7,5 mg/kg/día** | preferentemente **cada 24 h** | Alternativa aminoglucósida. Ajustar a función renal y monitorizar niveles cuando esté indicado. |
