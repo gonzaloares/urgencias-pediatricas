@@ -156,7 +156,7 @@ Cualquiera de los siguientes:
 
 ### Riesgo intermedio
 
-<div class="management-grid">
+<div class="management-grid" markdown="1">
 
 <div class="management-card severity-moderate" markdown="1">
 <h3>&lt;2 años</h3>
