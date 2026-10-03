@@ -24,7 +24,9 @@ nav:
       - infeccioso/index.md
       - Infección del tracto urinario: infeccioso/infeccion-tracto-urinario.md
   - Neurología: neurologia/index.md
-  - Digestivo: digestivo/index.md
+  - Digestivo:
+      - digestivo/index.md
+      - Estreñimiento: digestivo/estrenimiento.md
   - Trauma: trauma/index.md
   - Cardiología: cardiologia/index.md
   - Endocrino: endocrino/index.md
