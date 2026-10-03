@@ -106,6 +106,13 @@ Debe existir:
 
 En una OMA probable, individualizar para evitar sobrediagnóstico.
 
+### OMA recurrente
+
+Se define como:
+
+- **≥3 episodios de OMA en 6 meses**, o
+- **≥4 episodios de OMA en 12 meses**, con **al menos 1 episodio en los últimos 6 meses**.
+
 ### Miringitis bullosa
 
 Las vesículas o bullas sobre la membrana timpánica pueden ser muy dolorosas, pero **no modifican el tratamiento ni el pronóstico** respecto a una OMA convencional.
@@ -227,7 +234,7 @@ Indicar si existe cualquiera de los siguientes:
 - TEP alterado o mal estado general;
 - fiebre **≥39 °C**;
 - otalgia intensa;
-- persistencia de otalgia tras **3 días**;
+- persistencia de otalgia durante **>48 h**;
 - empeoramiento clínico significativo;
 - **otorrea espontánea**;
 - **OMA bilateral en <2 años**;
@@ -266,9 +273,18 @@ Indicar si existe cualquiera de los siguientes:
 
 Preferir formulación con proporción alta de amoxicilina respecto a clavulánico.
 
-### No usar amoxicilina-clavulánico de entrada de forma sistemática
+### Cuándo elegir amoxicilina-clavulánico de inicio
 
-En la mayoría de los niños ≥6 meses, **amoxicilina** continúa siendo la primera elección.
+Utilizar **amoxicilina-clavulánico VO** desde el inicio si:
+
+- edad **<6 meses**;
+- OMA asociada a **conjuntivitis purulenta**;
+- tratamiento con **amoxicilina en los 30 días previos**;
+- **OMA recurrente**.
+
+Dosis, calculada sobre amoxicilina: **80–90 mg/kg/día**, repartidos cada 8–12 h.
+
+En el resto de los niños ≥6 meses que precisan antibioterapia, **amoxicilina** continúa siendo la primera elección.
 
 <a id="alergia"></a>
 ## 9. Alergia a penicilina
@@ -457,4 +473,5 @@ Puede darse de alta si:
 ## 17. Bibliografía
 
 1. Cruz Cañete M, López Martín D. **Otitis media aguda y otitis externa. Mastoiditis.** Protocolos diagnósticos y terapéuticos en Pediatría. Infectología Pediátrica. 2.ª ed. Asociación Española de Pediatría / Sociedad Española de Infectología Pediátrica; 2023;2:97-110. [PDF](https://static.aeped.es/6_otitis_b893c53b12.pdf)
-2. National Institute for Health and Care Excellence. **Otitis media (acute): antimicrobial prescribing. NG91.** Actualizado 2022. [NICE](https://www.nice.org.uk/guidance/ng91)
+2. Ruiz Contreras J, García Vera C, Lupiani Castellanos P. **Otitis media aguda.** Guía-ABE. Infecciones en Pediatría. Actualización 03/11/2023. [Guía-ABE](https://www.guia-abe.es/temas-clinicos-otitis-media-aguda)
+3. National Institute for Health and Care Excellence. **Otitis media (acute): antimicrobial prescribing. NG91.** Actualizado 2022. [NICE](https://www.nice.org.uk/guidance/ng91)
