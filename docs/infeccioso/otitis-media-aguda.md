@@ -143,7 +143,7 @@ Valorar complicación, ingreso o manejo especializado si existe:
 <a id="diferencial"></a>
 ## 4. Diagnóstico diferencial
 
-### Otitis media con exudado
+### Otitis serosa (otitis media con derrame)
 
 Puede existir líquido en oído medio, pero:
 
@@ -441,7 +441,7 @@ Puede darse de alta si:
 - No utilizar amoxicilina-clavulánico de entrada en todos los pacientes.
 - No añadir antibiótico tópico en la otorrea por perforación espontánea de la membrana timpánica.
 - No prolongar sistemáticamente 10 días el tratamiento en >2 años con OMA no grave.
-- No considerar un exudado residual asintomático como fracaso terapéutico.
+- No considerar un derrame residual asintomático como fracaso terapéutico.
 
 <a id="algoritmo"></a>
 ## 16. Algoritmo práctico
@@ -453,7 +453,7 @@ Puede darse de alta si:
   <div class="algorithm-step"><strong>Otoscopia bilateral</strong><br>Buscar abombamiento · exudado · otorrea · descartar otitis externa</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-split">
-    <span><strong>No cumple criterios</strong><br>Reconsiderar diagnóstico · OME · otitis externa · otras causas de otalgia</span>
+    <span><strong>No cumple criterios</strong><br>Reconsiderar diagnóstico · otitis serosa · otitis externa · otras causas de otalgia</span>
     <span><strong>OMA confirmada/probable</strong><br>Analgesia siempre</span>
   </div>
   <div class="algorithm-arrow">↓</div>
