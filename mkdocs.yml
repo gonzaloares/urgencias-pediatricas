@@ -35,7 +35,9 @@ nav:
   - Trauma:
       - trauma/index.md
       - Traumatismo periférico: trauma/traumatismo-periferico.md
-  - Cardiología: cardiologia/index.md
+  - Cardiología:
+      - cardiologia/index.md
+      - Síncope: cardiologia/sincope.md
   - Endocrino: endocrino/index.md
   - Nefrología: nefrologia/index.md
   - Alergia:
