@@ -297,7 +297,7 @@ Inicio práctico:
 <a id="gravedad"></a>
 ## 7. Manejo según gravedad
 
-<div class="management-grid">
+<div class="management-grid" markdown="1">
 
 <div class="management-card severity-mild" markdown="1">
 <h3>Leve · Tal ≤5</h3>
