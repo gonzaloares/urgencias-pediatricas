@@ -2,7 +2,7 @@
 
 <nav class="protocol-shortcuts" aria-label="Accesos rápidos del protocolo">
   <a href="#valoracion">Valoración</a>
-  <a href="#roma">Roma IV</a>
+  <a href="#roma">Roma V</a>
   <a href="#alarma">Signos de alarma</a>
   <a href="#exploracion">Exploración</a>
   <a href="#pruebas">Pruebas</a>
@@ -57,36 +57,24 @@ Preguntar por:
 - tratamientos previos, dosis, duración y adherencia.
 
 <a id="roma"></a>
-## 2. Criterios de Roma IV
+## 2. Criterios de Roma V
 
-### Neonato y niño pequeño
+Para el diagnóstico de **estreñimiento funcional pediátrico** deben cumplirse **al menos 2** de los siguientes criterios durante el último mes:
 
-Durante **1 mes**, presencia de **≥2** de los siguientes:
+- media de **≤2 defecaciones/semana**;
+- media de **≥1 episodio/semana de incontinencia fecal**, únicamente en niños que ya han adquirido el control de esfínteres;
+- antecedente de postura retentiva, esfuerzo defecatorio o retención inapropiada de heces;
+- antecedente de deposiciones dolorosas o heces duras;
+- presencia de una gran masa fecal en el recto;
+- antecedente de heces de gran diámetro.
 
-- ≤2 defecaciones/semana;
-- retención excesiva de heces;
-- defecaciones dolorosas o difíciles;
-- heces de gran tamaño;
-- gran masa fecal en el recto.
+Además:
 
-En niños continentes pueden añadirse:
-
-- ≥1 episodio/semana de incontinencia;
-- heces de gran tamaño que llegan a obstruir el WC.
-
-### Niño y adolescente
-
-Durante **1 mes**, presencia de **≥2** de los siguientes:
-
-- ≤2 defecaciones/semana;
-- ≥1 episodio/semana de incontinencia;
-- retención voluntaria de heces;
-- defecaciones dolorosas o difíciles;
-- heces de gran tamaño que llegan a obstruir el WC;
-- gran masa fecal en el recto.
+- tras una evaluación adecuada, los síntomas no deben explicarse completamente por otra enfermedad;
+- no deben cumplirse criterios de síndrome de intestino irritable.
 
 <div class="clinical-card clinical-card-note">
-  <strong>Para considerar estreñimiento funcional,</strong> tras una evaluación adecuada los síntomas no deben explicarse por otra patología.
+  <strong>Heces duras:</strong> Bristol 1–2; en lactantes, Brussels Infants and Toddlers Stool Scale 1–3.
 </div>
 
 <a id="alarma"></a>
@@ -117,7 +105,7 @@ Durante **1 mes**, presencia de **≥2** de los siguientes:
 
 Ante signos de alarma, valorar **estreñimiento secundario** y planificar estudio/derivación según la sospecha clínica.
 
-### Diagnósticos diferenciales recogidos en el artículo
+### Diagnóstico diferencial
 
 Entre las causas a considerar se incluyen enfermedad celíaca, hipotiroidismo, hipercalcemia, hipopotasemia, diabetes mellitus, alergia a proteínas de la dieta, fármacos o tóxicos, botulismo, fibrosis quística, enfermedad de Hirschsprung, acalasia anal, inercia colónica, malformaciones anorrectales, masa pélvica, alteraciones medulares, alteraciones de la musculatura abdominal, pseudoobstrucción y neoplasia endocrina múltiple tipo 2B.
 
@@ -147,7 +135,7 @@ En el estreñimiento funcional son esperables buen estado general, crecimiento n
 
 Considerarlo si:
 
-- solo está presente **uno** de los criterios de Roma IV;
+- solo está presente **uno** de los criterios de Roma V;
 - existen signos o síntomas de alarma;
 - estreñimiento intratable;
 - existe duda diagnóstica;
@@ -194,20 +182,58 @@ Si existe sospecha de causa orgánica, orientar el estudio de forma diferida med
 
 ### Desimpactación con PEG
 
+Pueden utilizarse dos pautas prácticas:
+
+#### Pauta por peso
+
 | Fármaco | Dosis | Duración |
 |---|---:|---:|
 | **PEG 3350 o PEG 4000, con o sin electrolitos** | **1–1,5 g/kg/día VO** | **3–6 días** · máximo 6 días consecutivos |
 
 - Ajustar dentro del rango indicado según respuesta y tolerancia.
+- Mantener la misma dosis diaria dentro del rango elegido y suspender antes si se consigue la desimpactación.
+
+#### Pauta ascendente con Movicol Pediátrico 6,9 g
+
+Para niños de **5–11 años** puede utilizarse la pauta escalonada de Movicol Pediátrico 6,9 g:
+
+| Día | Sobres/día | Macrogol 3350 total aproximado | Agua para reconstitución |
+|---:|---:|---:|---:|
+| **1** | **4** | **26,3 g** | **250 ml** |
+| **2** | **6** | **39,4 g** | **375 ml** |
+| **3** | **8** | **52,5 g** | **500 ml** |
+| **4** | **10** | **65,6 g** | **625 ml** |
+| **5** | **12** | **78,8 g** | **750 ml** |
+| **6** | **12** | **78,8 g** | **750 ml** |
+| **7** | **12** | **78,8 g** | **750 ml** |
+
+- Cada sobre contiene **6,563 g de macrogol 3350** y se disuelve en **62,5 ml de agua**.
+- Repartir el total diario en varias tomas, consumidas dentro de un intervalo de **12 horas**.
+- **Interrumpir la pauta cuando se haya resuelto la impactación**, sin necesidad de completar los 7 días.
 - La vía oral es la opción de primera línea.
+
+### Presentaciones de PEG disponibles en España
+
+| Presentación | Principio activo | Contenido de PEG | Formato / edad de ficha técnica |
+|---|---|---:|---|
+| **Casenlax 500 mg/ml solución oral** | Macrogol 4000 | **0,5 g/ml** | Frasco **200 o 500 ml** con jeringa dosificadora · **6 meses–8 años** |
+| **Casenlax 4 g** | Macrogol 4000 | **4 g/sobre** | Polvo para solución oral · **6 meses–8 años** |
+| **Casenlax 10 g** | Macrogol 4000 | **10 g/sobre** | Polvo para solución oral · **>8 años** |
+| **Casenlax 10 g solución oral** | Macrogol 4000 | **10 g/20 ml** | Sobre monodosis de **20 ml** · **>8 años** |
+| **Movicol Pediátrico Sabor Neutro 6,9 g** | Macrogol 3350 + electrolitos | **6,563 g de macrogol/sobre** | Disolver en **62,5 ml** de agua · estreñimiento **1–11 años** · impactación **5–11 años** |
+| **Movicol Pediátrico Sabor Chocolate 6,9 g** | Macrogol 3350 + electrolitos | **6,563 g de macrogol/sobre** | Disolver en **62,5 ml** de agua · estreñimiento **2–11 años** · impactación **≥5 años** |
+| **Movicol / Movicol Sabor Neutro** | Macrogol 3350 + electrolitos | **13,125 g de macrogol/sobre** | Disolver en **125 ml** de agua · para **≥12 años** |
+
+<div class="clinical-card clinical-card-note">
+  <strong>Casenlax líquido:</strong> la presentación en frasco que puede identificarse coloquialmente como “jarabe” está registrada como <strong>solución oral 500 mg/ml</strong>. Para convertir a gramos: <strong>1 ml = 0,5 g de macrogol 4000</strong>.
+</div>
 
 ### Si PEG no está disponible o no puede utilizarse
 
-El artículo contempla tratamiento rectal como alternativa.
+Puede utilizarse tratamiento rectal como alternativa.
 
-| Tratamiento rectal | Dosis recogida en el artículo |
+| Tratamiento rectal | Dosis |
 |---|---:|
-| **Bisacodilo** | 2–10 años: **5 mg/día** · >10 años: **5–10 mg/día** |
 | **Fosfato sódico** | 1–18 años: **2,5 ml/kg/dosis**, máx. **133 ml/dosis** |
 | **Suero fisiológico 0,9%** | Neonato <1 kg: **5 ml** · neonato >1 kg: **10 ml** · >1 año: **6 ml/kg, 1–2 veces/día** |
 
@@ -238,15 +264,37 @@ En niños en entrenamiento de control de esfínteres, mantener la medicación ha
 
 **Lactulosa: 1–2 g/kg, 1–2 veces/día.**
 
-El artículo también permite considerar como segunda línea leche de magnesia, aceite mineral y laxantes estimulantes, sin aportar una pauta posológica concreta para todos ellos.
+Como segunda línea pueden considerarse leche de magnesia, aceite mineral y laxantes estimulantes.
+
+**Bisacodilo VO:** 2–10 años: **5 mg una vez al día**, preferentemente por la noche · >10 años: **5–10 mg una vez al día**, preferentemente por la noche.
 
 ### Medidas no farmacológicas
 
 - Explicar y desmitificar el problema.
 - En niños con edad de desarrollo ≥4 años, guiar el entrenamiento del control de esfínteres.
-- Mantener una ingesta **normal** de fibra.
 - Mantener una ingesta **normal** de agua.
 - Actividad física habitual para la edad.
+
+#### Fibra diaria orientativa
+
+En niños **>2 años**, puede utilizarse como objetivo práctico:
+
+**fibra mínima (g/día) = edad en años + 5**
+
+Un rango orientativo razonable es **edad + 5 a edad + 10 g/día**.
+
+| Edad | Fibra diaria orientativa |
+|---:|---:|
+| **3 años** | **8–13 g/día** |
+| **5 años** | **10–15 g/día** |
+| **8 años** | **13–18 g/día** |
+| **10 años** | **15–20 g/día** |
+| **12 años** | **17–22 g/día** |
+| **15 años** | **20–25 g/día** |
+
+- Priorizar fibra procedente de **fruta, verdura, legumbres y cereales integrales**.
+- No es necesario aumentar la fibra por encima de una ingesta normal adecuada para la edad como estrategia terapéutica del estreñimiento.
+- En menores de **2 años**, no aplicar esta fórmula; mantener una alimentación variada y adecuada a la edad.
 
 <div class="clinical-card clinical-card-warning">
   <strong>No añadir enemas de forma rutinaria al tratamiento crónico con PEG.</strong>
@@ -263,7 +311,7 @@ Si existe fisura anal:
 - evitar toallitas y papel higiénico;
 - baños de asiento con agua **10–15 min una vez al día**;
 - **Blastoestimulina tópica:** 1 aplicación cada **8 h durante 10–15 días**;
-- si existe inflamación, el artículo contempla corticoide tópico rectal (**Synalar rectal® o Ruscus®**) cada **12 h**, máximo **10 días**;
+- si existe inflamación: corticoide tópico rectal (**Synalar rectal® o Ruscus®**) cada **12 h**, máximo **10 días**;
 - tratar de forma adecuada el estreñimiento para evitar recurrencia o persistencia.
 
 <a id="derivacion"></a>
@@ -306,7 +354,7 @@ En el estreñimiento funcional sin signos de alarma ni complicaciones:
 7. Seguimiento estrecho por **Atención Primaria**.
 
 <div class="clinical-card clinical-card-note">
-  <strong>Las recaídas pueden alcanzar aproximadamente el 50%.</strong> El artículo destaca el incumplimiento terapéutico como la causa más frecuente, por lo que es importante insistir en dosis adecuadas y duración suficiente.
+  <strong>Las recaídas pueden alcanzar aproximadamente el 50%.</strong> El incumplimiento terapéutico es la causa más frecuente, por lo que es importante insistir en dosis adecuadas y duración suficiente.
 </div>
 
 <a id="no-hacer"></a>
@@ -328,7 +376,7 @@ En el estreñimiento funcional sin signos de alarma ni complicaciones:
 
 <div class="algorithm-lane">
   <div class="algorithm-title">ESTREÑIMIENTO EN URGENCIAS</div>
-  <div class="algorithm-step"><strong>Historia + exploración física</strong><br>Roma IV · buscar signos de alarma · valorar impactación</div>
+  <div class="algorithm-step"><strong>Historia + exploración física</strong><br>Roma V · buscar signos de alarma · valorar impactación</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-split">
     <span><strong>Signos de alarma / sospecha orgánica</strong><br>Estudio dirigido + derivación según sospecha</span>
@@ -356,3 +404,13 @@ En el estreñimiento funcional sin signos de alarma ni complicaciones:
 ## 13. Bibliografía
 
 1. Velasco Rodríguez-Belvís M, Palomino Pérez LM, Cañedo Villarroya E, de la Mano Hernández A, Martínez Pérez J, Muñoz Codoceo RA. **De la guía a la guardia: aplicación en Urgencias de las recomendaciones de ESPGHAN y NASPGHAN basadas en la evidencia para la evaluación y tratamiento del estreñimiento funcional en lactantes y niños.** Emerg Pediatr. 2022;1(3):165-170.
+2. Rome Foundation. **Rome V Criteria. H2a. Functional Constipation.** 2026. [Criterios Roma V](https://theromefoundation.org/rome-v-criteria/)
+3. Agencia Española de Medicamentos y Productos Sanitarios. **DulcoLax Bisacodilo 5 mg comprimidos gastrorresistentes. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/28410/FichaTecnica_28410.html)
+4. Agencia Española de Medicamentos y Productos Sanitarios. **Casenlax 500 mg/ml solución oral. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/79968/FT_79968.html)
+5. Agencia Española de Medicamentos y Productos Sanitarios. **Casenlax 4 g polvo para solución oral en sobres. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/75277/FT_75277.html)
+6. Agencia Española de Medicamentos y Productos Sanitarios. **Casenlax 10 g polvo para solución oral en sobre. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/73081)
+7. Agencia Española de Medicamentos y Productos Sanitarios. **Casenlax 10 g solución oral en sobre. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/80603/FT_80603.html)
+8. Agencia Española de Medicamentos y Productos Sanitarios. **Movicol Pediátrico Sabor Neutro 6,9 g. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/67853/FT_67853.html)
+9. Agencia Española de Medicamentos y Productos Sanitarios. **Movicol Pediátrico Sabor Chocolate 6,9 g. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/66557/FT_66557.html)
+10. Agencia Española de Medicamentos y Productos Sanitarios. **Movicol polvo para solución oral en sobre. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/61494/FichaTecnica)
+11. Comité de Nutrición y Lactancia Materna de la Asociación Española de Pediatría. **Manual de Nutrición de la Asociación Española de Pediatría.** 2021. [Manual de Nutrición AEP](https://www.aeped.es/sites/default/files/documentos/manual-de-nutricion-aep-2021.pdf)
