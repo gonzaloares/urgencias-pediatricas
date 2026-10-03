@@ -294,6 +294,18 @@ Una vez recuperada la estabilidad hemodinámica, reevaluar déficit, natremia y 
 - glucemia >140 mg/dL → realizar RIR sin añadir glucosa;
 - hipoglucemia → tratamiento específico.
 
+<div class="dose-card">
+  <strong>Cómo preparar glucosa al 2,5% en una bolsa final de 500 mL</strong>
+  <span>Partir de una bolsa de <b>500 mL de SS 0,9%</b>.</span>
+  <span><b>Retirar 25 mL</b> de la bolsa.</span>
+  <span>Añadir <b>25 mL de glucosa al 50%</b>.</span>
+  <span>Resultado: <b>500 mL de solución con glucosa al 2,5%</b>.</span>
+</div>
+
+<div class="clinical-card clinical-card-note">
+  <strong>Importante:</strong> si se añaden 25 mL de glucosa al 50% a una bolsa completa de 500 mL sin retirar volumen, el volumen final sería 525 mL y la concentración de glucosa quedaría aproximadamente en <strong>2,38%</strong>, no en 2,5%.
+</div>
+
 ### No realizar RIR si
 
 - **<3 meses**;
