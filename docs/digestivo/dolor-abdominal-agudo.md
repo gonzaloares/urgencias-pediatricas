@@ -226,6 +226,8 @@ La presentación puede ser menos característica en **<5 años** y evolucionar m
 
 ### Pediatric Appendicitis Score (PAS)
 
+<div class="compact-score-table" markdown="1">
+
 | Variable | Puntos |
 |---|---:|
 | Anorexia | 1 |
@@ -236,6 +238,8 @@ La presentación puede ser menos característica en **<5 años** y evolucionar m
 | Migración del dolor a fosa ilíaca derecha | 1 |
 | Dolor al toser, percutir o saltar | 2 |
 | Dolor a la palpación superficial en fosa ilíaca derecha | 2 |
+
+</div>
 
 ### Interpretación práctica
 
