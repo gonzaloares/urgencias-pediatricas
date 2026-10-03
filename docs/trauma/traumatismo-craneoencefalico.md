@@ -90,7 +90,7 @@
 
 </div>
 
-#### Glasgow pediátrico adaptado · lactante / niño preverbal
+#### Glasgow pediátrico adaptado · lactante / niño pequeño
 
 <div class="score-table" markdown="1">
 
@@ -118,7 +118,7 @@
 </div>
 
 <div class="clinical-card clinical-card-warning">
-  <strong>Elegir la versión según desarrollo, no solo por edad cronológica.</strong> En un niño preverbal o que todavía no puede obedecer órdenes, utilizar la adaptación pediátrica.
+  <strong>Elegir la versión según el desarrollo, no solo por la edad cronológica.</strong> De forma orientativa, utilizar la adaptación pediátrica en lactantes y niños pequeños (habitualmente &lt;5 años) cuando no puedan valorarse adecuadamente la orientación verbal o el cumplimiento de órdenes.
 </div>
 
 <div class="clinical-card clinical-card-danger">
@@ -612,3 +612,4 @@ Realizar observación por un adulto responsable durante **24–48 h**.
 1. González Balenciaga M. **Traumatismo craneal.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. Febrero 2024. [Documento](https://seup.org/wp-content/uploads/2024/04/18_Trauma_craneal_4ed.pdf)
 2. Sociedad Española de Urgencias de Pediatría. **Traumatismo craneal.** Algoritmo de manejo clínico. [Algoritmo](https://seup.org/pdf_public/algoritmos/30_TCE.pdf)
 3. Míguez Navarro MC, Chacón Pascual A. **Síndrome hipertensivo endocraneal o de hipertensión intracraneal.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. 2024. [Documento](https://seup.org/wp-content/uploads/2024/04/9_HTIC_4ed.pdf)
+4. Madurga Revilla P, et al. **Utilidad de la escala de coma de Glasgow para el pediatra de Atención Primaria.** Form Act Pediatr Aten Prim. 2017;10(1):45-48. [Documento](https://archivos.fapap.es/files/639-1477-RUTA/07_Escala_Glasgow.pdf)
