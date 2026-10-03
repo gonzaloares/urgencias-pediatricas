@@ -266,9 +266,18 @@ Indicar si existe cualquiera de los siguientes:
 
 Preferir formulación con proporción alta de amoxicilina respecto a clavulánico.
 
-### No usar amoxicilina-clavulánico de entrada de forma sistemática
+### Cuándo elegir amoxicilina-clavulánico de inicio
 
-En la mayoría de los niños ≥6 meses, **amoxicilina** continúa siendo la primera elección.
+Utilizar **amoxicilina-clavulánico VO** desde el inicio si:
+
+- edad **<6 meses**;
+- OMA asociada a **conjuntivitis purulenta**;
+- tratamiento con **amoxicilina en los 30 días previos**;
+- **OMA recurrente**.
+
+Dosis, calculada sobre amoxicilina: **80–90 mg/kg/día**, repartidos cada 8–12 h.
+
+En el resto de los niños ≥6 meses que precisan antibioterapia, **amoxicilina** continúa siendo la primera elección.
 
 <a id="alergia"></a>
 ## 9. Alergia a penicilina
