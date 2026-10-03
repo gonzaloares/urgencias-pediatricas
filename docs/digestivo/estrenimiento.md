@@ -2,7 +2,7 @@
 
 <nav class="protocol-shortcuts" aria-label="Accesos rápidos del protocolo">
   <a href="#valoracion">Valoración</a>
-  <a href="#roma">Roma IV</a>
+  <a href="#roma">Roma V</a>
   <a href="#alarma">Signos de alarma</a>
   <a href="#exploracion">Exploración</a>
   <a href="#pruebas">Pruebas</a>
@@ -57,36 +57,24 @@ Preguntar por:
 - tratamientos previos, dosis, duración y adherencia.
 
 <a id="roma"></a>
-## 2. Criterios de Roma IV
+## 2. Criterios de Roma V
 
-### Neonato y niño pequeño
+Para el diagnóstico de **estreñimiento funcional pediátrico** deben cumplirse **al menos 2** de los siguientes criterios durante el último mes:
 
-Durante **1 mes**, presencia de **≥2** de los siguientes:
+- media de **≤2 defecaciones/semana**;
+- media de **≥1 episodio/semana de incontinencia fecal**, únicamente en niños que ya han adquirido el control de esfínteres;
+- antecedente de postura retentiva, esfuerzo defecatorio o retención inapropiada de heces;
+- antecedente de deposiciones dolorosas o heces duras;
+- presencia de una gran masa fecal en el recto;
+- antecedente de heces de gran diámetro.
 
-- ≤2 defecaciones/semana;
-- retención excesiva de heces;
-- defecaciones dolorosas o difíciles;
-- heces de gran tamaño;
-- gran masa fecal en el recto.
+Además:
 
-En niños continentes pueden añadirse:
-
-- ≥1 episodio/semana de incontinencia;
-- heces de gran tamaño que llegan a obstruir el WC.
-
-### Niño y adolescente
-
-Durante **1 mes**, presencia de **≥2** de los siguientes:
-
-- ≤2 defecaciones/semana;
-- ≥1 episodio/semana de incontinencia;
-- retención voluntaria de heces;
-- defecaciones dolorosas o difíciles;
-- heces de gran tamaño que llegan a obstruir el WC;
-- gran masa fecal en el recto.
+- tras una evaluación adecuada, los síntomas no deben explicarse completamente por otra enfermedad;
+- no deben cumplirse criterios de síndrome de intestino irritable.
 
 <div class="clinical-card clinical-card-note">
-  <strong>Para considerar estreñimiento funcional,</strong> tras una evaluación adecuada los síntomas no deben explicarse por otra patología.
+  <strong>Heces duras:</strong> Bristol 1–2; en lactantes, Brussels Infants and Toddlers Stool Scale 1–3.
 </div>
 
 <a id="alarma"></a>
@@ -147,7 +135,7 @@ En el estreñimiento funcional son esperables buen estado general, crecimiento n
 
 Considerarlo si:
 
-- solo está presente **uno** de los criterios de Roma IV;
+- solo está presente **uno** de los criterios de Roma V;
 - existen signos o síntomas de alarma;
 - estreñimiento intratable;
 - existe duda diagnóstica;
@@ -328,7 +316,7 @@ En el estreñimiento funcional sin signos de alarma ni complicaciones:
 
 <div class="algorithm-lane">
   <div class="algorithm-title">ESTREÑIMIENTO EN URGENCIAS</div>
-  <div class="algorithm-step"><strong>Historia + exploración física</strong><br>Roma IV · buscar signos de alarma · valorar impactación</div>
+  <div class="algorithm-step"><strong>Historia + exploración física</strong><br>Roma V · buscar signos de alarma · valorar impactación</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-split">
     <span><strong>Signos de alarma / sospecha orgánica</strong><br>Estudio dirigido + derivación según sospecha</span>
@@ -356,3 +344,4 @@ En el estreñimiento funcional sin signos de alarma ni complicaciones:
 ## 13. Bibliografía
 
 1. Velasco Rodríguez-Belvís M, Palomino Pérez LM, Cañedo Villarroya E, de la Mano Hernández A, Martínez Pérez J, Muñoz Codoceo RA. **De la guía a la guardia: aplicación en Urgencias de las recomendaciones de ESPGHAN y NASPGHAN basadas en la evidencia para la evaluación y tratamiento del estreñimiento funcional en lactantes y niños.** Emerg Pediatr. 2022;1(3):165-170.
+2. Rome Foundation. **Rome V Criteria. H2a. Functional Constipation.** 2026. [Criterios Roma V](https://theromefoundation.org/rome-v-criteria/)
