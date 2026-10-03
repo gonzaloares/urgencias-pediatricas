@@ -82,7 +82,6 @@ Actuar sin demora:
 3. Acceso IV; si no es posible y el paciente lo requiere, acceso IO.
 4. Tira reactiva de orina y **urocultivo por sondaje**.
 5. Hemograma, **PCR**, PCT y hemocultivo.
-6. En >60 días, considerar PCR de **S. pneumoniae** y **N. meningitidis**.
 7. Considerar punción lumbar tras estabilización.
 8. Administrar antibioterapia empírica precoz; no retrasarla para completar pruebas.
 9. **Ingreso**.
@@ -113,7 +112,6 @@ Realizar:
 - **PCR**;
 - PCT;
 - hemocultivo;
-- PCR de enterovirus en sangre;
 - **punción lumbar**.
 
 → **Ingreso + antibioterapia empírica**.
@@ -194,8 +192,7 @@ La búsqueda de pruebas debe individualizarse según **edad, sexo, temperatura y
 - Si no se identifica ITU y no existe una infección viral que explique el cuadro, considerar:
   - hemograma;
   - PCT;
-  - hemocultivo;
-  - PCR de *S. pneumoniae* y *N. meningitidis*.
+  - hemocultivo.
 
 ### ≥6 meses
 
@@ -222,8 +219,7 @@ Considerar:
 - despistaje de ITU;
 - hemograma;
 - PCT;
-- hemocultivo;
-- PCR de *S. pneumoniae* y *N. meningitidis*.
+- hemocultivo.
 
 <div class="clinical-card clinical-card-note">
   <strong>Vacunación antineumocócica adecuada:</strong> al menos 2 dosis, con la última administrada ≥15 días antes de la consulta.
@@ -297,8 +293,8 @@ Si se confirma sospecha de ITU, continuar según el protocolo de [Infección del
 Si pleocitosis:
 
 - ampicilina:
-  - >7 días: **75 mg/kg IV cada 6 h**;
-  - ≤7 días: **100 mg/kg IV cada 8 h**;
+  - **8–28 días:** **75 mg/kg IV cada 6 h**;
+  - **≤7 días:** **100 mg/kg IV cada 8 h**;
 - cefotaxima: **100 mg/kg IV cada 8 h**  
   **o** ceftazidima **50 mg/kg IV cada 8 h**;
 - aciclovir: **20 mg/kg IV cada 8 h**.
