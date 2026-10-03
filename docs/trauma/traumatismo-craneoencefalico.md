@@ -2,6 +2,7 @@
 
 <nav class="protocol-shortcuts" aria-label="Accesos rápidos del protocolo">
   <a href="#valoracion">Valoración</a>
+  <a href="#glasgow">Glasgow</a>
   <a href="#riesgo">Riesgo LIC</a>
   <a href="#anamnesis">Anamnesis</a>
   <a href="#exploracion">Exploración</a>
@@ -53,6 +54,71 @@
     <strong>Grave</strong>
     <span>GCS &lt;9</span>
   </div>
+</div>
+
+<a id="glasgow"></a>
+### Escala de coma de Glasgow (GCS)
+
+<div class="clinical-card clinical-card-note">
+  <strong>Registrar siempre la puntuación total.</strong> Si el resultado es distinto de 15, documentar además sus tres componentes: <strong>E + V + M</strong> (por ejemplo, E3 V4 M6 = 13).
+</div>
+
+#### Glasgow estándar · niño con lenguaje y capacidad para obedecer órdenes
+
+<div class="score-table" markdown="1">
+
+| Respuesta | Puntos |
+|---|---:|
+| **Apertura ocular** |  |
+| Espontánea | 4 |
+| Al hablarle | 3 |
+| Al dolor | 2 |
+| No apertura | 1 |
+| **Respuesta verbal** |  |
+| Orientado | 5 |
+| Conversación desorientada | 4 |
+| Palabras inapropiadas | 3 |
+| Sonidos incomprensibles | 2 |
+| Ausencia de sonidos | 1 |
+| **Respuesta motora** |  |
+| Sigue órdenes | 6 |
+| Localiza el dolor | 5 |
+| Se retira al dolor | 4 |
+| Flexión anormal al dolor (decorticación) | 3 |
+| Extensión al dolor (descerebración) | 2 |
+| No respuesta | 1 |
+
+</div>
+
+#### Glasgow pediátrico adaptado · lactante / niño preverbal
+
+<div class="score-table" markdown="1">
+
+| Respuesta | Puntos |
+|---|---:|
+| **Apertura ocular** |  |
+| Espontánea | 4 |
+| Al hablarle | 3 |
+| Al dolor | 2 |
+| No apertura | 1 |
+| **Respuesta verbal** |  |
+| Sonríe, sigue sonidos y objetos | 5 |
+| Irritable, consolable | 4 |
+| Llora con el dolor | 3 |
+| Se queja / gruñe ante el dolor | 2 |
+| No respuesta | 1 |
+| **Respuesta motora** |  |
+| Movimientos espontáneos normales para la edad | 6 |
+| Localiza el dolor | 5 |
+| Se retira al dolor | 4 |
+| Flexión anormal al dolor (decorticación) | 3 |
+| Extensión al dolor (descerebración) | 2 |
+| No respuesta | 1 |
+
+</div>
+
+<div class="clinical-card clinical-card-warning">
+  <strong>Elegir la versión según desarrollo, no solo por edad cronológica.</strong> En un niño preverbal o que todavía no puede obedecer órdenes, utilizar la adaptación pediátrica.
 </div>
 
 <div class="clinical-card clinical-card-danger">
