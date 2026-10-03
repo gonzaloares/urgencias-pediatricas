@@ -174,6 +174,27 @@ La estimulación de la micción es especialmente útil en lactantes **<6 meses**
 <a id="diagnostico"></a>
 ## 5. Diagnóstico biológico
 
+### Interpretación rápida antes del urocultivo
+
+<div class="clinical-card clinical-card-note">
+  <strong>Importante:</strong> una orina “patológica” no equivale todavía a ITU confirmada. El urocultivo confirma el diagnóstico. Antes de disponer del cultivo, la tira reactiva y/o la microscopía sirven para estimar la probabilidad de ITU y decidir si es razonable iniciar tratamiento empírico.
+</div>
+
+| Hallazgo | Cómo interpretarlo |
+|---|---|
+| **Nitritos positivos** | Resultado claramente sugestivo de ITU. Si la clínica es compatible, recoger urocultivo e iniciar tratamiento empírico cuando corresponda. |
+| **Esterasa leucocitaria ≥2+** | **Leucocituria intensa**. El algoritmo diagnóstico la considera resultado positivo. |
+| **Esterasa leucocitaria trazas o 1+** | Hallazgo débil. Si además los nitritos son negativos, el algoritmo lo considera resultado negativo; valorar la clínica y cultivar si existe alta sospecha. |
+| **>5 leucocitos/campo** | La guía define **leucocituria** como >5 leucocitos/campo en orina centrifugada observada a 400 aumentos. Es un hallazgo anormal, pero no siempre suficiente por sí solo para iniciar tratamiento. |
+| **≥20 leucocitos/campo** | **Leucocituria intensa**. En <2 años o pacientes que no controlan la micción, en muestra fiable y tras recoger urocultivo, constituye criterio para iniciar tratamiento empírico. |
+| **Bacteriuria en microscopía** | Aumenta claramente la probabilidad de ITU. En una muestra fiable, apoya el inicio de tratamiento tras recoger urocultivo. |
+| **Microscopía con tinción de Gram positiva** | Es el test microscópico aislado con mejor rendimiento y puede orientar el tratamiento empírico; especialmente relevante en menores de 3 meses. |
+| **Sin leucocitos y nitritos negativos** | Si la clínica es inespecífica, no realizar urocultivo ni iniciar tratamiento. |
+
+<div class="clinical-card clinical-card-warning">
+  <strong>No confundir dos umbrales:</strong> <strong>>5 leucocitos/campo</strong> define leucocituria; <strong>≥20 leucocitos/campo</strong> define leucocituria intensa y es el umbral utilizado para iniciar tratamiento empírico en menores de 2 años o no continentes, siempre con muestra fiable y tras recoger urocultivo.
+</div>
+
 ### Menor de 3 meses
 
 Si existe sospecha clínica de ITU y la tira reactiva está alterada:
@@ -539,8 +560,8 @@ En ITU recurrente, la indicación debe individualizarse en función de anomalía
   <div class="algorithm-step"><strong>Microscopía o tira reactiva</strong></div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-split">
-    <span><strong>Positiva</strong><br>Nitritos + / bacteriuria / leucocituria intensa → urocultivo fiable → tratamiento si criterios</span>
-    <span><strong>Negativa + clínica inespecífica</strong><br>Sin leucocitos ni nitritos → no urocultivo / no antibiótico</span>
+    <span><strong>Positiva</strong><br>Microscopía + o TRO: nitritos + / esterasa ≥2+ → urocultivo fiable → tratamiento si criterios</span>
+    <span><strong>Negativa + clínica inespecífica</strong><br>Microscopía − o TRO: nitritos − y esterasa ≤1+ → no urocultivo / no antibiótico</span>
     <span><strong>Discordante con clínica</strong><br>Confirmar con urocultivo</span>
   </div>
 </div>
