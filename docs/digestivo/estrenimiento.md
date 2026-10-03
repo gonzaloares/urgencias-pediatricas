@@ -189,6 +189,22 @@ Si existe sospecha de causa orgánica, orientar el estudio de forma diferida med
 - Ajustar dentro del rango indicado según respuesta y tolerancia.
 - La vía oral es la opción de primera línea.
 
+### Presentaciones de PEG disponibles en España
+
+| Presentación | Principio activo | Contenido de PEG | Formato / edad de ficha técnica |
+|---|---|---:|---|
+| **Casenlax 500 mg/ml solución oral** | Macrogol 4000 | **0,5 g/ml** | Frasco **200 o 500 ml** con jeringa dosificadora · **6 meses–8 años** |
+| **Casenlax 4 g** | Macrogol 4000 | **4 g/sobre** | Polvo para solución oral · **6 meses–8 años** |
+| **Casenlax 10 g** | Macrogol 4000 | **10 g/sobre** | Polvo para solución oral · **>8 años** |
+| **Casenlax 10 g solución oral** | Macrogol 4000 | **10 g/20 ml** | Sobre monodosis de **20 ml** · **>8 años** |
+| **Movicol Pediátrico Sabor Neutro 6,9 g** | Macrogol 3350 + electrolitos | **6,563 g de macrogol/sobre** | Disolver en **62,5 ml** de agua · estreñimiento **1–11 años** · impactación **5–11 años** |
+| **Movicol Pediátrico Sabor Chocolate 6,9 g** | Macrogol 3350 + electrolitos | **6,563 g de macrogol/sobre** | Disolver en **62,5 ml** de agua · estreñimiento **2–11 años** · impactación **≥5 años** |
+| **Movicol / Movicol Sabor Neutro** | Macrogol 3350 + electrolitos | **13,125 g de macrogol/sobre** | Disolver en **125 ml** de agua · para **≥12 años** |
+
+<div class="clinical-card clinical-card-note">
+  <strong>Casenlax líquido:</strong> la presentación en frasco que puede identificarse coloquialmente como “jarabe” está registrada como <strong>solución oral 500 mg/ml</strong>. Para convertir a gramos: <strong>1 ml = 0,5 g de macrogol 4000</strong>.
+</div>
+
 ### Si PEG no está disponible o no puede utilizarse
 
 Puede utilizarse tratamiento rectal como alternativa.
@@ -347,3 +363,10 @@ En el estreñimiento funcional sin signos de alarma ni complicaciones:
 1. Velasco Rodríguez-Belvís M, Palomino Pérez LM, Cañedo Villarroya E, de la Mano Hernández A, Martínez Pérez J, Muñoz Codoceo RA. **De la guía a la guardia: aplicación en Urgencias de las recomendaciones de ESPGHAN y NASPGHAN basadas en la evidencia para la evaluación y tratamiento del estreñimiento funcional en lactantes y niños.** Emerg Pediatr. 2022;1(3):165-170.
 2. Rome Foundation. **Rome V Criteria. H2a. Functional Constipation.** 2026. [Criterios Roma V](https://theromefoundation.org/rome-v-criteria/)
 3. Agencia Española de Medicamentos y Productos Sanitarios. **DulcoLax Bisacodilo 5 mg comprimidos gastrorresistentes. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/28410/FichaTecnica_28410.html)
+4. Agencia Española de Medicamentos y Productos Sanitarios. **Casenlax 500 mg/ml solución oral. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/79968/FT_79968.html)
+5. Agencia Española de Medicamentos y Productos Sanitarios. **Casenlax 4 g polvo para solución oral en sobres. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/75277/FT_75277.html)
+6. Agencia Española de Medicamentos y Productos Sanitarios. **Casenlax 10 g polvo para solución oral en sobre. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/73081)
+7. Agencia Española de Medicamentos y Productos Sanitarios. **Casenlax 10 g solución oral en sobre. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/80603/FT_80603.html)
+8. Agencia Española de Medicamentos y Productos Sanitarios. **Movicol Pediátrico Sabor Neutro 6,9 g. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/67853/FT_67853.html)
+9. Agencia Española de Medicamentos y Productos Sanitarios. **Movicol Pediátrico Sabor Chocolate 6,9 g. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/66557/FT_66557.html)
+10. Agencia Española de Medicamentos y Productos Sanitarios. **Movicol polvo para solución oral en sobre. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/61494/FichaTecnica)
