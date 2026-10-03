@@ -15,6 +15,11 @@ theme:
 
 nav:
   - Inicio: index.md
+  - Emergencias y estabilización:
+      - emergencias/index.md
+      - Triaje: emergencias/triaje.md
+      - TEP y ABCDE: emergencias/estabilizacion-inicial-tep-abcde.md
+      - Shock: emergencias/shock.md
   - Respiratorio:
       - respiratorio/index.md
       - Bronquiolitis aguda: respiratorio/bronquiolitis-aguda.md
@@ -22,13 +27,17 @@ nav:
       - Laringitis aguda: respiratorio/laringitis-aguda.md
   - Infeccioso:
       - infeccioso/index.md
-      - Faringoamigdalitis aguda: infeccioso/faringoamigdalitis-aguda.md
       - Fiebre sin foco: infeccioso/fiebre-sin-foco.md
+      - Sepsis: infeccioso/sepsis.md
       - Infección del tracto urinario: infeccioso/infeccion-tracto-urinario.md
+      - Faringoamigdalitis aguda: infeccioso/faringoamigdalitis-aguda.md
       - Otitis media aguda: infeccioso/otitis-media-aguda.md
   - Neurología:
       - neurologia/index.md
+      - Coma: neurologia/coma.md
+      - Hipertensión intracraneal: neurologia/hipertension-intracraneal.md
       - Estatus epiléptico: neurologia/estatus-epileptico.md
+      - Meningitis y encefalitis: neurologia/meningitis-encefalitis.md
   - Digestivo:
       - digestivo/index.md
       - Gastroenteritis aguda y deshidratación: digestivo/gastroenteritis-aguda-deshidratacion.md
@@ -37,19 +46,39 @@ nav:
   - Trauma:
       - trauma/index.md
       - Traumatismo craneoencefálico: trauma/traumatismo-craneoencefalico.md
+      - Paciente politraumatizado: trauma/politraumatizado.md
       - Traumatismo periférico: trauma/traumatismo-periferico.md
+      - Quemaduras: trauma/quemaduras.md
+      - Lesiones por electricidad: trauma/lesiones-electricidad.md
+      - Lesiones por inmersión: trauma/lesiones-inmersion.md
+      - Hipotermia y golpe de calor: trauma/hipotermia-golpe-calor.md
+      - Mordeduras y picaduras: trauma/mordeduras-picaduras.md
   - Cardiología:
       - cardiologia/index.md
       - Síncope: cardiologia/sincope.md
+      - Crisis hipertensiva: cardiologia/crisis-hipertensiva.md
+      - Arritmias: cardiologia/arritmias.md
   - Endocrino: endocrino/index.md
   - Nefrología: nefrologia/index.md
   - Alergia:
       - alergia/index.md
       - Anafilaxia: alergia/anafilaxia.md
-  - Toxicología: toxicologia/index.md
+  - Toxicología:
+      - toxicologia/index.md
+      - Intoxicaciones: toxicologia/intoxicaciones.md
+  - Salud mental:
+      - salud-mental/index.md
+      - Urgencias psiquiátricas: salud-mental/urgencias-psiquiatricas.md
+  - Protección infantil:
+      - proteccion-infancia/index.md
+      - Agresión sexual: proteccion-infancia/agresion-sexual.md
+      - Maltrato físico: proteccion-infancia/maltrato-fisico.md
   - Procedimientos:
       - procedimientos/index.md
       - Reanimación cardiopulmonar: procedimientos/reanimacion-cardiopulmonar.md
+      - Sedoanalgesia: procedimientos/sedoanalgesia.md
+      - Manejo del dolor: procedimientos/manejo-dolor.md
+      - Ingesta y aspiración de cuerpo extraño: procedimientos/ingesta-aspiracion-cuerpo-extrano.md
 
 plugins:
   - search:
