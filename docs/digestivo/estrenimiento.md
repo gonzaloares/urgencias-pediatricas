@@ -182,11 +182,34 @@ Si existe sospecha de causa orgánica, orientar el estudio de forma diferida med
 
 ### Desimpactación con PEG
 
+Pueden utilizarse dos pautas prácticas:
+
+#### Pauta por peso
+
 | Fármaco | Dosis | Duración |
 |---|---:|---:|
 | **PEG 3350 o PEG 4000, con o sin electrolitos** | **1–1,5 g/kg/día VO** | **3–6 días** · máximo 6 días consecutivos |
 
 - Ajustar dentro del rango indicado según respuesta y tolerancia.
+- Mantener la misma dosis diaria dentro del rango elegido y suspender antes si se consigue la desimpactación.
+
+#### Pauta ascendente con Movicol Pediátrico 6,9 g
+
+Para niños de **5–11 años** puede utilizarse la pauta escalonada de Movicol Pediátrico 6,9 g:
+
+| Día | Sobres/día | Macrogol 3350 total aproximado | Agua para reconstitución |
+|---:|---:|---:|---:|
+| **1** | **4** | **26,3 g** | **250 ml** |
+| **2** | **6** | **39,4 g** | **375 ml** |
+| **3** | **8** | **52,5 g** | **500 ml** |
+| **4** | **10** | **65,6 g** | **625 ml** |
+| **5** | **12** | **78,8 g** | **750 ml** |
+| **6** | **12** | **78,8 g** | **750 ml** |
+| **7** | **12** | **78,8 g** | **750 ml** |
+
+- Cada sobre contiene **6,563 g de macrogol 3350** y se disuelve en **62,5 ml de agua**.
+- Repartir el total diario en varias tomas, consumidas dentro de un intervalo de **12 horas**.
+- **Interrumpir la pauta cuando se haya resuelto la impactación**, sin necesidad de completar los 7 días.
 - La vía oral es la opción de primera línea.
 
 ### Presentaciones de PEG disponibles en España
@@ -249,9 +272,29 @@ Como segunda línea pueden considerarse leche de magnesia, aceite mineral y laxa
 
 - Explicar y desmitificar el problema.
 - En niños con edad de desarrollo ≥4 años, guiar el entrenamiento del control de esfínteres.
-- Mantener una ingesta **normal** de fibra.
 - Mantener una ingesta **normal** de agua.
 - Actividad física habitual para la edad.
+
+#### Fibra diaria orientativa
+
+En niños **>2 años**, puede utilizarse como objetivo práctico:
+
+**fibra mínima (g/día) = edad en años + 5**
+
+Un rango orientativo razonable es **edad + 5 a edad + 10 g/día**.
+
+| Edad | Fibra diaria orientativa |
+|---:|---:|
+| **3 años** | **8–13 g/día** |
+| **5 años** | **10–15 g/día** |
+| **8 años** | **13–18 g/día** |
+| **10 años** | **15–20 g/día** |
+| **12 años** | **17–22 g/día** |
+| **15 años** | **20–25 g/día** |
+
+- Priorizar fibra procedente de **fruta, verdura, legumbres y cereales integrales**.
+- No es necesario aumentar la fibra por encima de una ingesta normal adecuada para la edad como estrategia terapéutica del estreñimiento.
+- En menores de **2 años**, no aplicar esta fórmula; mantener una alimentación variada y adecuada a la edad.
 
 <div class="clinical-card clinical-card-warning">
   <strong>No añadir enemas de forma rutinaria al tratamiento crónico con PEG.</strong>
@@ -370,3 +413,4 @@ En el estreñimiento funcional sin signos de alarma ni complicaciones:
 8. Agencia Española de Medicamentos y Productos Sanitarios. **Movicol Pediátrico Sabor Neutro 6,9 g. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/67853/FT_67853.html)
 9. Agencia Española de Medicamentos y Productos Sanitarios. **Movicol Pediátrico Sabor Chocolate 6,9 g. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/66557/FT_66557.html)
 10. Agencia Española de Medicamentos y Productos Sanitarios. **Movicol polvo para solución oral en sobre. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/61494/FichaTecnica)
+11. Comité de Nutrición y Lactancia Materna de la Asociación Española de Pediatría. **Manual de Nutrición de la Asociación Española de Pediatría.** 2021. [Manual de Nutrición AEP](https://www.aeped.es/sites/default/files/documentos/manual-de-nutricion-aep-2021.pdf)
