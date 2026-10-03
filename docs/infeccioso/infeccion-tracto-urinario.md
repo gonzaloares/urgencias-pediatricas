@@ -276,17 +276,17 @@ Si se inicia tratamiento IV, pasar a vía oral cuando el estado clínico lo perm
   <strong>La elección empírica debe basarse en las resistencias locales.</strong>
 </div>
 
-| Situación | Opciones empíricas |
-|---|---|
-| **ITU afebril / cistitis** | Cefalosporina de 1.ª o 2.ª generación; nitrofurantoína; fosfomicina en >12 años. TM-SMX o amoxicilina-clavulánico 4/1 si la sensibilidad local de <i>E. coli</i> es >80–90%. |
-| **ITU febril · vía oral** | Cefalosporina de 3.ª generación. Alternativas: amoxicilina-clavulánico 4/1 o cefalosporina de 2.ª generación si la sensibilidad local de <i>E. coli</i> es >80–90%. |
-| **ITU febril · vía IV** | Cefalosporina de 3.ª generación (**cefotaxima o ceftriaxona**) o aminoglucósido (**gentamicina o tobramicina**). Alternativas: amoxicilina-clavulánico 5/1 o cefalosporina de 2.ª generación si la sensibilidad local de <i>E. coli</i> es >80–90%. |
+| Situación | Primera opción | Otras opciones |
+|---|---|---|
+| **ITU afebril / cistitis** | **Cefuroxima** | Otras cefalosporinas de 1.ª o 2.ª generación; nitrofurantoína; fosfomicina en >12 años. TM-SMX o amoxicilina-clavulánico 4/1 si la sensibilidad local de <i>E. coli</i> es >80–90%. |
+| **ITU febril · vía oral** | **Cefalosporina de 3.ª generación** | Amoxicilina-clavulánico 4/1 o cefalosporina de 2.ª generación si la sensibilidad local de <i>E. coli</i> es >80–90%. |
+| **ITU febril con ingreso · vía IV** | **Gentamicina en dosis única diaria** | Cefotaxima, ceftriaxona o tobramicina. Como alternativas: amoxicilina-clavulánico 5/1 o cefalosporina de 2.ª generación si la sensibilidad local de <i>E. coli</i> es >80–90%. |
 
 ### Situaciones especiales
 
 - **<3 meses:** asociar **ampicilina** al tratamiento empírico por la posibilidad de enterococo.
 - **Sospecha de uropatía obstructiva:** asociar **ampicilina** al tratamiento empírico.
-- Si se utiliza un aminoglucósido en ITU febril: administrar en **dosis única diaria**.
+- Los aminoglucósidos se administrarán en **dosis única diaria** cuando se utilicen para una ITU febril.
 - Reservar ceftazidima, amikacina, carbapenémicos y quinolonas para circunstancias especiales.
 
 ### 7.3. Duración
