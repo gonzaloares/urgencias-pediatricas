@@ -2,6 +2,7 @@
 
 <nav class="protocol-shortcuts" aria-label="Accesos rápidos del protocolo">
   <a href="#definicion">Definición</a>
+  <a href="#codigo-crisis">Código Crisis</a>
   <a href="#inicial">ABCDE</a>
   <a href="#primera-linea">1.ª línea</a>
   <a href="#segunda-linea">2.ª línea</a>
@@ -15,7 +16,7 @@
 </nav>
 
 <div class="protocol-intro">
-  <strong>Emergencia neurológica tiempo-dependiente.</strong> El diagnóstico, la estabilización, el tratamiento de la crisis y la búsqueda de la causa deben realizarse de forma simultánea.
+  <strong>Emergencia neurológica tiempo-dependiente.</strong> El diagnóstico, la estabilización, el tratamiento de la crisis y la búsqueda de la causa deben realizarse de forma simultánea. En la Comunidad de Madrid, las crisis graves deben integrarse en el circuito <strong>Código Crisis</strong>.
 </div>
 
 <a id="definicion"></a>
@@ -27,7 +28,7 @@ El tratamiento debe iniciarse cuando la duración de la crisis alcanza el punto 
 |---|---:|---:|
 | **Tónico-clónico generalizado** | **5 min** | **30 min** |
 | **Focal** | **10 min** | **60 min** |
-| **No convulsivo** | **10–15 min** | Desconocido |
+| **Ausencias** | **15 min** | Desconocido |
 
 ### Etapas prácticas del estatus convulsivo
 
@@ -40,8 +41,46 @@ El tratamiento debe iniciarse cuando la duración de la crisis alcanza el punto 
   <strong>No esperar 30 minutos para tratar.</strong> Una crisis tónico-clónica generalizada que alcanza los 5 minutos debe manejarse como estatus epiléptico.
 </div>
 
+<a id="codigo-crisis"></a>
+## 2. Código Crisis — Comunidad de Madrid
+
+Activar el **Código Crisis** si se cumple cualquiera de los siguientes criterios:
+
+- **estatus epiléptico generalizado** o **focal con alteración del nivel de conciencia**; a efectos prácticos, activar si la crisis se prolonga **>5 minutos**;
+- **estatus epiléptico focal sin alteración de conciencia en <16 años**;
+- sospecha de **estatus epiléptico no convulsivo**: disminución del nivel de conciencia o confusión sin causa, o estado postcrítico con alteración del nivel de conciencia **>1 hora**;
+- **déficit neurológico focal postcrítico de nueva aparición**, tras descartar un código ictus;
+- **crisis en acúmulos**: **≥2 crisis** tónico-clónicas generalizadas o focales con alteración del nivel de conciencia en **<24 h**, sin criterios de estatus;
+- **primera crisis en <1 mes de vida**.
+
+<div class="clinical-card clinical-card-warning">
+  <strong>En pediatría se prioriza la sensibilidad para detectar crisis graves.</strong> En una crisis focal con alteración de conciencia, el criterio operativo de activación es >5 minutos, aunque el t1 clásico del estatus focal sea 10 minutos.
+</div>
+
+### Factores de alto riesgo en Urgencias
+
+Identificar especialmente:
+
+- comorbilidad neurológica o alteración del desarrollo psicomotor/cognitivo;
+- mala adherencia al tratamiento;
+- primera crisis;
+- traumatismo craneal;
+- posible exposición a tóxicos;
+- fiebre con sospecha de infección del SNC, riesgo de descompensación de epilepsia o crisis febril atípica.
+
+### Biterapia precoz
+
+En una crisis pediátrica de **>5 minutos** o de duración desconocida:
+
+1. administrar una **benzodiacepina por la vía más rápida**;
+2. si la crisis persiste **5 minutos después de la primera benzodiacepina**, administrar la segunda benzodiacepina si procede —sin superar **2 dosis totales**— e **iniciar levetiracetam 50 mg/kg IV/IO en 15 minutos**, sin esperar a un nuevo fracaso secuencial.
+
+<div class="clinical-card clinical-card-danger">
+  <strong>No encadenar escalones con demoras.</strong> La estrategia local prioriza la asociación precoz de benzodiacepina + medicamento anticrisis.
+</div>
+
 <a id="inicial"></a>
-## 2. Actuación inicial: 0–5 minutos
+## 3. Actuación inicial: 0–5 minutos
 
 Realizar de forma simultánea:
 
@@ -68,7 +107,7 @@ Realizar de forma simultánea:
 </div>
 
 <a id="primera-linea"></a>
-## 3. Primera línea: benzodiacepina
+## 4. Primera línea: benzodiacepina
 
 ### Con acceso IV
 
@@ -89,23 +128,30 @@ Realizar de forma simultánea:
 Si la crisis persiste, administrar una **segunda dosis de benzodiacepina**.
 
 <div class="clinical-card clinical-card-danger">
-  <strong>No administrar más de 2 dosis de benzodiacepina.</strong> Si persiste la crisis, pasar a un fármaco de segunda línea y preparar soporte respiratorio.
+  <strong>No administrar más de 2 dosis de benzodiacepina.</strong> Si persiste 5 minutos tras la primera dosis, iniciar además un medicamento anticrisis de segunda línea sin esperar a comprobar el fracaso de la segunda benzodiacepina.
 </div>
 
 <a id="segunda-linea"></a>
-## 4. Segunda línea: estatus establecido
+## 5. Segunda línea: estatus establecido
 
-Si la crisis persiste tras las benzodiacepinas, administrar **un fármaco de segunda línea por vía IV o IO**.
+En el circuito Código Crisis pediátrico se prioriza **levetiracetam** como medicamento anticrisis asociado precozmente a la benzodiacepina. Las alternativas se individualizan según el tipo de crisis, tratamiento habitual, edad y contraindicaciones.
 
-Levetiracetam, ácido valproico y fenitoína presentan eficacia similar como segunda línea; elegir según el tipo de crisis, tratamiento habitual, edad y contraindicaciones.
+### Opción preferente
 
-### Opciones principales
+<div class="dose-card">
+  <strong>Levetiracetam IV/IO</strong>
+  <span><b>50 mg/kg</b></span>
+  <span>Máximo: <b>4.500 mg</b></span>
+  <span>Administrar en <b>15 minutos</b></span>
+</div>
+
+### Alternativas
 
 | Fármaco | Dosis de carga | Máximo | Administración |
 |---|---:|---:|---:|
-| **Levetiracetam IV/IO** | **40–60 mg/kg** | **4.500 mg** | En **5 min** |
 | **Ácido valproico IV/IO** | **40 mg/kg** | **3.000 mg** | En **5 min** |
 | **Fenitoína IV/IO** | **20 mg/kg** | **1.500 mg** | En **20 min** · máx. **1 mg/kg/min** |
+| **Lacosamida IV/IO** | **10 mg/kg** | **400 mg** | En **10–15 min** |
 
 ### Si la crisis cede
 
@@ -161,12 +207,11 @@ No administrar como carga si el paciente ya la recibe previamente a dosis correc
 | Fármaco | Dosis |
 |---|---:|
 | **Fenobarbital IV/IO** | **20 mg/kg** en 10–15 min |
-| **Lacosamida IV/IO** | **10 mg/kg** en 10–15 min · máx. **400 mg** |
 
 **Lacosamida:** experiencia más limitada; puede producir prolongación del intervalo PR e hipotensión.
 
 <a id="refractario"></a>
-## 5. Estatus epiléptico refractario
+## 6. Estatus epiléptico refractario
 
 Si persiste la crisis pese a tratamiento adecuado con primera y segunda línea:
 
@@ -185,11 +230,11 @@ Si persiste la crisis pese a tratamiento adecuado con primera y segunda línea:
 | **Tiopental IV/IO** | **2–3 mg/kg** | **3–5 mg/kg/h** |
 
 <div class="clinical-card clinical-card-danger">
-  <strong>EE refractario = manejo en UCIP y monitorización EEG.</strong>
+  <strong>EE refractario = manejo en UCIP y monitorización EEG.</strong> En el EE convulsivo generalizado pediátrico, realizar valoración precoz por UCIP; el proceso Código Crisis contempla ingreso en UCI si la crisis supera <strong>15 minutos</strong>.
 </div>
 
 <a id="piridoxina"></a>
-## 6. Piridoxina
+## 7. Piridoxina
 
 En **menores de 3 años** con estatus epiléptico de causa desconocida, considerar:
 
@@ -206,7 +251,7 @@ Antes de administrarla, obtener las muestras necesarias para estudio metabólico
 </div>
 
 <a id="pruebas"></a>
-## 7. Pruebas complementarias
+## 8. Pruebas complementarias
 
 Las pruebas se realizan **sin retrasar el tratamiento de la crisis**.
 
@@ -253,13 +298,21 @@ Considerar **TC craneal** especialmente en:
 Si la causa está claramente establecida, puede no ser necesaria neuroimagen inmediata.
 
 <a id="eeg"></a>
-## 8. Electroencefalograma
+## 9. Electroencefalograma
 
-### EEG urgente
+### EEG precoz
 
-En un paciente previamente sano que recupera completamente su situación basal, **no está indicado de rutina** un EEG urgente desde Urgencias.
+Priorizar el EEG precoz en:
 
-Puede ser útil un EEG precoz coordinado con Neuropediatría para el diagnóstico y planificación terapéutica.
+- activación de **Código Crisis**;
+- primera crisis que requiere estudio;
+- sospecha de estatus no convulsivo;
+- persistencia de alteración del nivel de conciencia;
+- estatus refractario.
+
+En una primera crisis, intentar realizarlo **lo antes posible, idealmente dentro de las primeras 24 h**.
+
+En un paciente previamente sano, sin criterios de Código Crisis y que recupera completamente su situación basal, **no es necesario realizar un EEG urgente de rutina desde Urgencias**.
 
 ### EEG continuo
 
@@ -270,11 +323,12 @@ Indicado especialmente en:
 - ausencia de recuperación de conciencia tras el cese aparente de la actividad motora.
 
 <a id="no-hacer"></a>
-## 9. No hacer
+## 10. No hacer
 
 - No esperar 30 minutos para iniciar el tratamiento de una crisis tónico-clónica generalizada.
 - No retrasar una benzodiacepina por intentar conseguir una vía IV.
-- No administrar **más de 2 dosis de benzodiacepina** antes de avanzar de escalón.
+- No administrar **más de 2 dosis de benzodiacepina**.
+- No esperar al fracaso secuencial de dos benzodiacepinas para iniciar el medicamento anticrisis si la crisis continúa: favorecer **biterapia precoz**.
 - No retrasar la segunda línea mientras se realizan pruebas complementarias.
 - No repetir como segundo fármaco de segunda línea el mismo fármaco que ha fracasado.
 - No administrar ácido valproico en <2 años ni en las situaciones contraindicadas.
@@ -282,19 +336,19 @@ Indicado especialmente en:
 - No solicitar EEG urgente de rutina en un paciente sano que ha recuperado completamente su situación basal.
 
 <a id="algoritmo"></a>
-## 10. Algoritmo práctico
+## 11. Algoritmo práctico
 
 <div class="algorithm">
 
 <div class="algorithm-lane">
-  <div class="algorithm-title">ESTATUS EPILÉPTICO</div>
+  <div class="algorithm-title">ESTATUS EPILÉPTICO · CÓDIGO CRISIS</div>
   <div class="algorithm-step"><strong>0–5 min</strong><br>ABCDE · O₂ · monitorización · glucemia · acceso IV · tratar causa corregible</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>5 min: benzodiacepina</strong><br>IV: diazepam o midazolam · sin IV: midazolam IM/IN/bucal o diazepam rectal</div>
   <div class="algorithm-arrow">↓</div>
-  <div class="algorithm-step"><strong>Persiste</strong><br>2.ª dosis de benzodiacepina · máximo 2 dosis totales</div>
+  <div class="algorithm-step"><strong>Persiste 5 min tras la primera BZD</strong><br>2.ª BZD si procede, máximo 2 dosis totales <strong>+</strong> iniciar levetiracetam 50 mg/kg IV/IO en 15 min</div>
   <div class="algorithm-arrow">↓</div>
-  <div class="algorithm-step"><strong>EE establecido</strong><br>Levetiracetam 40–60 mg/kg IV/IO <strong>o</strong> valproato 40 mg/kg IV/IO <strong>o</strong> fenitoína 20 mg/kg IV/IO</div>
+  <div class="algorithm-step"><strong>Biterapia precoz</strong><br>No esperar un nuevo fracaso secuencial para iniciar el medicamento anticrisis</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>Persiste 5 min tras finalizar la perfusión</strong><br>Segundo fármaco de segunda línea diferente</div>
   <div class="algorithm-arrow">↓</div>
@@ -304,6 +358,8 @@ Indicado especialmente en:
 </div>
 
 <a id="bibliografia"></a>
-## 11. Bibliografía
+## 12. Bibliografía
 
 1. González Hermosa A. **Estatus epiléptico.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría (SEUP). 4.ª ed. Revisión enero 2025. [SEUP](https://seup.org/wp-content/uploads/2025/01/10_Estatus-epile%CC%81ptico_4ed-ene2025.pdf)
+2. Comunidad de Madrid. Consejería de Sanidad. **Proceso Asistencial Crisis Epiléptica Urgente de la Comunidad de Madrid.** Octubre 2023. [Código Crisis](https://gestiona3.madrid.org/bvirtual/BVCM051050.pdf)
+3. García-Ron A, Soto-Insuga V, Núñez Enamorado N, et al. **Proceso asistencial «Crisis epilépticas graves en la Comunidad de Madrid: Código Crisis».** An Pediatr (Barc). 2026;104(6):504242. [Artículo](https://www.sciencedirect.com/science/article/pii/S1695403326001116)
