@@ -18,7 +18,7 @@
 </nav>
 
 <div class="protocol-intro">
-  <strong>Ámbito:</strong> pacientes de <strong>1 mes a 18 años</strong> con sospecha de infección del tracto urinario. El manejo específico de pacientes inmunodeprimidos o ingresados en unidades de cuidados especiales queda fuera del ámbito de este protocolo.
+  <strong>Ámbito:</strong> pacientes de <strong>1 mes a 18 años</strong> con sospecha de infección del tracto urinario. El manejo específico de pacientes inmunodeprimidos o ingresados en unidades de cuidados especiales queda fuera del ámbito de este protocolo; la inmunodeficiencia en una ITU febril se considera criterio de ingreso.
 </div>
 
 <a id="valoracion"></a>
@@ -505,7 +505,7 @@ En ITU recurrente, la indicación debe individualizarse en función de anomalía
   <div class="algorithm-step"><strong>ITU febril fundada</strong><br>Recoger urocultivo → iniciar antibiótico precoz</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-split">
-    <span><strong>Sin criterios de ingreso</strong><br>Vía oral · tratamiento según antibiograma local</span>
+    <span><strong>Sin criterios de ingreso</strong><br>Vía oral · elección empírica según resistencias locales</span>
     <span><strong>Con criterios de ingreso</strong><br>Ingreso + vía IV inicial</span>
   </div>
   <div class="algorithm-arrow">↓</div>
