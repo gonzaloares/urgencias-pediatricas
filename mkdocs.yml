@@ -36,6 +36,7 @@ nav:
       - Estreñimiento: digestivo/estrenimiento.md
   - Trauma:
       - trauma/index.md
+      - Traumatismo craneoencefálico: trauma/traumatismo-craneoencefalico.md
       - Traumatismo periférico: trauma/traumatismo-periferico.md
   - Cardiología:
       - cardiologia/index.md
