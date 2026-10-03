@@ -349,13 +349,13 @@ Si no se consigue reducción ni recuperación funcional:
 
 ### Lesión ligamentosa de rodilla
 
-**Sospecha de LCA:**
+**Sospecha de lesión del ligamento cruzado anterior (LCA):**
 
 - medidas generales;
 - inmovilización simple;
 - derivación a Traumatología.
 
-**Sospecha de LCM:**
+**Sospecha de lesión del ligamento colateral medial (LCM):**
 
 - vendaje elástico o rodillera;
 - deambulación según tolerancia;
@@ -363,7 +363,7 @@ Si no se consigue reducción ni recuperación funcional:
 - movilización precoz y rehabilitación;
 - revisión en aproximadamente **1 semana**.
 
-**Sospecha de LCP:**
+**Sospecha de lesión del ligamento cruzado posterior (LCP):**
 
 - esguince grado III → inmovilizar, evitar apoyo y derivar a Traumatología;
 - lesión leve-moderada → evitar apoyo inicialmente, progresión según tolerancia y rehabilitación.
