@@ -161,6 +161,39 @@
   .md-typeset .md-typeset__table table:not([class]):has(th:nth-child(5)) {
     min-width: 48rem;
   }
+
+  /* Escalas clínicas de 2 columnas: evitar scroll horizontal en móvil.
+     La columna de puntos queda compacta y el texto clínico hace wrap. */
+  .md-typeset .score-table .md-typeset__table {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .md-typeset .score-table .md-typeset__table table:not([class]) {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    table-layout: fixed;
+  }
+
+  .md-typeset .score-table .md-typeset__table table:not([class]) th:first-child,
+  .md-typeset .score-table .md-typeset__table table:not([class]) td:first-child {
+    position: static;
+    width: auto;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    box-shadow: none;
+  }
+
+  .md-typeset .score-table .md-typeset__table table:not([class]) th:last-child,
+  .md-typeset .score-table .md-typeset__table table:not([class]) td:last-child {
+    width: 4.4rem;
+    min-width: 4.4rem;
+    text-align: center;
+    white-space: nowrap;
+  }
 }
 
 .protocol-shortcuts {
