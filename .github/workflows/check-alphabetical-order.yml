@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "mkdocs.yml"
+      - "docs/index.md"
       - "docs/**/index.md"
       - "scripts/check_alphabetical_order.py"
       - ".github/workflows/check-alphabetical-order.yml"
