@@ -2,6 +2,6 @@
 
 <div class="protocol-index" markdown="1">
 
-- [Reanimación cardiopulmonar básica y avanzada](reanimacion-basica-avanzada.md)
+- [Reanimación cardiopulmonar](reanimacion-cardiopulmonar.md)
 
 </div>
