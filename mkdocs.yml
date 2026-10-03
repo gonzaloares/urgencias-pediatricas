@@ -22,6 +22,7 @@ nav:
       - Shock: emergencias/shock.md
   - Respiratorio:
       - respiratorio/index.md
+      - Infección respiratoria de vías altas: respiratorio/infeccion-respiratoria-vias-altas.md
       - Bronquiolitis aguda: respiratorio/bronquiolitis-aguda.md
       - Crisis asmática: respiratorio/crisis-asmatica.md
       - Laringitis aguda: respiratorio/laringitis-aguda.md
