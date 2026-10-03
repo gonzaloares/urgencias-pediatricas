@@ -113,21 +113,21 @@ Realizar de forma simultánea:
 <a id="primera-linea"></a>
 ## 4. Primera línea: benzodiacepina
 
+**Preferir midazolam como benzodiacepina de primera línea**, tanto si existe acceso IV como si no.
+
 ### Con acceso IV
 
 | Fármaco | Dosis | Máximo | Administración |
 |---|---:|---:|---:|
-| **Diazepam IV** | **0,1–0,2 mg/kg/dosis** | <5 años: **5 mg** · >5 años: **10 mg** | En **2 min** |
 | **Midazolam IV** | **0,1–0,2 mg/kg/dosis** | <6 años: **5 mg** · ≥6 años: **10 mg** | En **2 min** |
 
 ### Sin acceso IV
 
-| Fármaco / vía | Dosis | Máximo |
+| Vía | Dosis | Máximo |
 |---|---:|---:|
 | **Midazolam IM** | **0,2 mg/kg/dosis** | **10 mg** |
 | **Midazolam intranasal** | **0,3 mg/kg/dosis** | **10 mg** |
 | **Midazolam bucal** | **0,3 mg/kg/dosis** | **10 mg** |
-| **Diazepam rectal** | **0,5 mg/kg/dosis** | **10 mg** |
 
 Si la crisis persiste, administrar una **segunda dosis de benzodiacepina**.
 
@@ -348,7 +348,7 @@ Indicado especialmente en:
   <div class="algorithm-title">ESTATUS EPILÉPTICO · CÓDIGO CRISIS</div>
   <div class="algorithm-step"><strong>0–5 min</strong><br>ABCDE · O₂ · monitorización · glucemia · acceso IV · tratar causa corregible</div>
   <div class="algorithm-arrow">↓</div>
-  <div class="algorithm-step"><strong>5 min: benzodiacepina</strong><br>IV: diazepam o midazolam · sin IV: midazolam IM/IN/bucal o diazepam rectal</div>
+  <div class="algorithm-step"><strong>5 min: midazolam</strong><br>Con vía IV: midazolam IV · sin vía IV: midazolam IM/IN/bucal</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>Persiste 5 min tras la primera BZD</strong><br>2.ª BZD si procede, máximo 2 dosis totales <strong>+</strong> iniciar levetiracetam 50 mg/kg IV/IO en 15 min</div>
   <div class="algorithm-arrow">↓</div>
