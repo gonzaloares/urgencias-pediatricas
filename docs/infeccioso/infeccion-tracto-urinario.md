@@ -567,5 +567,5 @@ En ITU recurrente, la indicación debe individualizarse en función de anomalía
 <a id="bibliografia"></a>
 ## 14. Bibliografía
 
-1. Grupo de trabajo de la Guía de Práctica Clínica sobre Infección del Tracto Urinario en la Población Pediátrica. **Guía de Práctica Clínica. Infección del Tracto Urinario en la Población Pediátrica. Actualización 2024.** Asociación Española de Nefrología Pediátrica; Asociación Española de Pediatría. 2024.
+1. Grupo de trabajo de la Guía de Práctica Clínica sobre Infección del Tracto Urinario en la Población Pediátrica. **Guía de Práctica Clínica. Infección del Tracto Urinario en la Población Pediátrica. Actualización 2024.** Asociación Española de Nefrología Pediátrica; Asociación Española de Pediatría. 2024. [Guía clínica](https://www.aenp.es/noticias.html?view=article&id=230&catid=13)
 2. Comité de Medicamentos de la Asociación Española de Pediatría. **Pediamécum.** Fichas de cefuroxima, cefalexina, nitrofurantoína, fosfomicina, cotrimoxazol, amoxicilina-clavulánico, cefixima, gentamicina, cefotaxima, ceftriaxona, tobramicina y ampicilina. Utilizado exclusivamente para la posología. [Pediamécum](https://www.aeped.es/comites/cm/pediamecum/) · [Fosfomicina](https://www.aeped.es/comites/cm/pediamecum/principios-activos/fosfomicina)
