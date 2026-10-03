@@ -54,13 +54,25 @@ def check_mkdocs(errors: list[str]) -> None:
 INDEX_LINK_RE = re.compile(r"^\s*-\s+\[([^\]]+)\]\([^)]+\)\s*$")
 
 
+def labels_from_index(path: Path) -> list[str]:
+    labels: list[str] = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        match = INDEX_LINK_RE.match(line)
+        if match:
+            labels.append(match.group(1))
+    return labels
+
+
 def check_indexes(errors: list[str]) -> None:
+    # Portada: áreas/capítulos.
+    home = ROOT / "docs" / "index.md"
+    home_labels = labels_from_index(home)
+    if len(home_labels) > 1:
+        check_order(home_labels, "docs/index.md → capítulos", errors)
+
+    # Índices de cada área: temas/protocolos.
     for path in sorted((ROOT / "docs").glob("*/index.md")):
-        labels: list[str] = []
-        for line in path.read_text(encoding="utf-8").splitlines():
-            match = INDEX_LINK_RE.match(line)
-            if match:
-                labels.append(match.group(1))
+        labels = labels_from_index(path)
         if len(labels) > 1:
             check_order(labels, str(path.relative_to(ROOT)), errors)
 
