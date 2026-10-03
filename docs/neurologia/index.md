@@ -1,3 +1,7 @@
 # Neurología
 
-Protocolos pendientes.
+<div class="protocol-index" markdown="1">
+
+- [Estatus epiléptico](estatus-epileptico.md)
+
+</div>
