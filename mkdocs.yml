@@ -32,7 +32,9 @@ nav:
   - Digestivo:
       - digestivo/index.md
       - Estreñimiento: digestivo/estrenimiento.md
-  - Trauma: trauma/index.md
+  - Trauma:
+      - trauma/index.md
+      - Traumatismo periférico: trauma/traumatismo-periferico.md
   - Cardiología: cardiologia/index.md
   - Endocrino: endocrino/index.md
   - Nefrología: nefrologia/index.md

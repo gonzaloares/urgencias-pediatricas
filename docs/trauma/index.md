@@ -1,3 +1,7 @@
 # Trauma
 
-Protocolos pendientes.
+<div class="protocol-index" markdown="1">
+
+- [Traumatismo periférico](traumatismo-periferico.md)
+
+</div>
