@@ -271,7 +271,7 @@ En laringitis grave con respuesta insuficiente:
 <a id="gravedad"></a>
 ## 7. Manejo según gravedad
 
-<div class="management-grid">
+<div class="management-grid" markdown="1">
 
 <div class="management-card severity-mild" markdown="1">
 <h3>Leve · Westley ≤3</h3>
