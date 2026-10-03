@@ -1,0 +1,1 @@
+Protocolo operativo de sospecha de maltrato físico: estabilización, indicadores de sospecha, documentación, estudio de lesiones ocultas, protección y circuito de notificación.
