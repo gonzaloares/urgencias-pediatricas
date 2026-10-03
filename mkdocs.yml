@@ -33,7 +33,9 @@ nav:
   - Cardiología: cardiologia/index.md
   - Endocrino: endocrino/index.md
   - Nefrología: nefrologia/index.md
-  - Alergia: alergia/index.md
+  - Alergia:
+      - alergia/index.md
+      - Anafilaxia: alergia/anafilaxia.md
   - Toxicología: toxicologia/index.md
   - Procedimientos:
       - procedimientos/index.md
