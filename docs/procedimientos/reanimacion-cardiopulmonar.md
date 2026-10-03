@@ -212,7 +212,7 @@ Mantener compresiones continuas a **100–120/min**.
 | **8–12 años** | **15/min** |
 | **>12 años** | **10/min** |
 
-### Dispositivo supraglótico
+### Mascarilla laríngea
 
 Utilizar como alternativa cuando:
 
@@ -220,12 +220,32 @@ Utilizar como alternativa cuando:
 - la intubación no es posible;
 - intentar intubar retrasaría o deterioraría la calidad de la RCP.
 
+La mascarilla laríngea puede mejorar la ventilación, pero **no aísla completamente la vía aérea frente a la aspiración**.
+
 <a id="acceso"></a>
 ## 7. Acceso vascular durante la RCP
 
-- Intentar acceso **IV** si puede conseguirse con rapidez.
-- Si el acceso IV no es inmediato, utilizar **vía intraósea**.
-- No interrumpir compresiones para obtener acceso vascular.
+### Vía periférica
+
+- Intentar inicialmente una **vía venosa periférica**, preferentemente en una vena accesible de la fosa antecubital.
+- **No dedicar más de 60 segundos ni más de 2 intentos** a conseguir una vía periférica.
+- Si no se consigue en ese tiempo o tras esos intentos → **canalizar inmediatamente una vía intraósea**.
+- En una parada cardiorrespiratoria con acceso venoso previsiblemente difícil, no retrasar la vía intraósea.
+- No interrumpir las compresiones para obtener el acceso vascular.
+
+<div class="clinical-card clinical-card-danger">
+  <strong>Regla práctica:</strong> sin vía periférica tras <strong>60 segundos o 2 intentos → vía intraósea</strong>.
+</div>
+
+### Vía intraósea
+
+| Edad | Localización preferente | Punto de inserción |
+|---|---|---|
+| **<6 años** | **Tibia proximal** | Superficie anteromedial, aproximadamente **1–2 cm por debajo de la tuberosidad tibial**. |
+| **≥6 años** | **Tibia distal** | Cara medial de la tibia, aproximadamente **3 cm por encima del maléolo interno**. |
+
+- No utilizar un hueso fracturado ni previamente puncionado.
+- Una vez comprobada la correcta posición, puede administrarse por vía IO la medicación y los fluidos indicados durante la RCP.
 - Tras cada medicación IV/IO, administrar **5–10 ml de suero fisiológico** para favorecer su llegada a circulación central.
 
 <div class="clinical-card clinical-card-note">
@@ -235,14 +255,11 @@ Utilizar como alternativa cuando:
 <a id="causas"></a>
 ## 8. Causas reversibles: 4H / 4T
 
-| 4H | 4T |
-|---|---|
-| **Hipoxia** | **Neumotórax a tensión** |
-| **Hipovolemia** | **Taponamiento cardiaco** |
-| **Hipo/hiperpotasemia, alteraciones de calcio/magnesio e hipoglucemia** | **Trombosis coronaria o pulmonar** |
-| **Hipo/hipertermia** | **Tóxicos** |
+**4H:** hipoxia; hipovolemia; hipo/hiperpotasemia y otras alteraciones metabólicas relevantes —incluidas alteraciones de calcio, magnesio e hipoglucemia—; hipo/hipertermia.
 
-Buscar y tratar causas reversibles **durante toda la RCP**, sin disminuir la calidad de las compresiones.
+**4T:** neumotórax a tensión; taponamiento cardiaco; trombosis coronaria o pulmonar; tóxicos.
+
+Buscar y tratar estas causas reversibles **durante toda la RCP**, sin disminuir la calidad de las compresiones.
 
 <a id="ecografia"></a>
 ## 9. Ecografía durante la reanimación
