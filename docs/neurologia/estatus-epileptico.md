@@ -59,14 +59,18 @@ Activar el **Código Crisis** si se cumple cualquiera de los siguientes criterio
 
 ### Factores de alto riesgo en Urgencias
 
-Identificar especialmente:
+Estos factores obligan a una **valoración más estrecha y a individualizar observación, estudio y consulta con Neuropediatría**, pero **no activan por sí solos el Código Crisis**:
 
 - comorbilidad neurológica o alteración del desarrollo psicomotor/cognitivo;
 - mala adherencia al tratamiento;
 - primera crisis;
 - traumatismo craneal;
 - posible exposición a tóxicos;
-- fiebre con sospecha de infección del SNC, riesgo de descompensación de epilepsia o crisis febril atípica.
+- fiebre con sospecha de infección del SNC, riesgo de descompensación de epilepsia o **crisis febril atípica**.
+
+<div class="clinical-card clinical-card-note">
+  <strong>Crisis febril atípica:</strong> es un factor de alto riesgo, pero <strong>no constituye por sí misma un criterio de activación del Código Crisis</strong>. Activarlo únicamente si además cumple alguno de los criterios de activación descritos arriba.
+</div>
 
 ### Biterapia precoz
 
