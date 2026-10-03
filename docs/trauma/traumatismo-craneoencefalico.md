@@ -455,6 +455,17 @@ Sospechar ante:
 
 </div>
 
+<div class="dose-card">
+  <strong>Preparación rápida de suero salino hipertónico al 3% a partir de NaCl al 20%</strong>
+  <span><b>Por cada 100 mL finales:</b> retirar <b>11 mL</b> de una bolsa de SS 0,9% y añadir <b>11 mL de NaCl al 20%</b>.</span>
+  <span>Ejemplos: <b>100 mL → 11 mL</b> · <b>250 mL → 27,5 mL</b> · <b>500 mL → 55 mL</b> de NaCl al 20%, retirando previamente el mismo volumen de SS 0,9%.</span>
+  <span>Resultado: concentración final aproximada <b>3%</b>.</span>
+</div>
+
+<div class="clinical-card clinical-card-warning">
+  <strong>Seguridad:</strong> comprobar siempre que la ampolla o vial utilizado sea realmente <strong>NaCl al 20%</strong>. Esta equivalencia no debe utilizarse con otras concentraciones. Si se dispone de una presentación comercial de NaCl al 3%, utilizarla directamente.
+</div>
+
 <div class="clinical-card clinical-card-warning">
   <strong>No hiperventilar de forma profiláctica.</strong> La hiperventilación se reserva como medida temporal ante signos de herniación inminente.
 </div>
