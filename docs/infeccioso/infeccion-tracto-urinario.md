@@ -228,11 +228,11 @@ Sospechar afectación renal aguda ante:
 
 - **T ≥38,5 °C**;
 - afectación sistémica;
-- elevación de PCR y/o PCT, especialmente PCT.
+- elevación de PCR (expresada en **mg/dL**) y/o PCT, especialmente PCT.
 
 La afectación parenquimatosa es poco probable si no existen fiebre, dolor abdominal ni afectación del estado general y los reactantes son normales o solo discretamente elevados:
 
-- **PCR <20 mg/L**;
+- **PCR <2 mg/dL**;
 - **PCT <0,5 ng/ml**;
 - **VSG <10 mm/h**.
 
