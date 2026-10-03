@@ -41,7 +41,7 @@ Realizar estabilización inmediata:
 - Confirmar recuperación completa.
 - Realizar anamnesis dirigida.
 - Exploración cardiovascular y neurológica.
-- Frecuencia cardiaca y presión arterial en **sedestación y bipedestación**.
+- Frecuencia cardiaca y presión arterial **ortostáticas**: con el paciente sentado y tras **3 minutos de bipedestación**.
 - Glucemia capilar.
 - **ECG de 12 derivaciones**.
 
@@ -149,7 +149,7 @@ Realizar:
 - **TEP**;
 - **ABCDE**;
 - frecuencia cardiaca;
-- presión arterial en **sedestación y bipedestación**;
+- presión arterial y frecuencia cardiaca **ortostáticas**;
 - glucemia capilar;
 - exploración cardiovascular completa;
 - exploración neurológica completa.
@@ -162,6 +162,30 @@ Prestar especial atención a:
 - ritmo irregular;
 - alteración del nivel de consciencia;
 - focalidad neurológica.
+
+### Mediciones ortostáticas
+
+Realizar una valoración ortostática práctica:
+
+1. medir **presión arterial y frecuencia cardiaca con el paciente sentado**;
+2. poner al paciente de pie;
+3. repetir ambas mediciones tras **3 minutos de bipedestación**;
+4. registrar si al ponerse de pie reaparecen **mareo, presíncope o síncope**.
+
+Como cambios ortostáticos orientadores pueden considerarse:
+
+- disminución de la **presión arterial sistólica ≥10 mmHg**;
+- aumento de la **frecuencia cardiaca ≥20 lpm**.
+
+Estos cambios aislados son **inespecíficos** y deben interpretarse junto con la clínica. La **reproducción de los síntomas al ponerse de pie** es más relevante que un cambio numérico aislado.
+
+<div class="clinical-card clinical-card-note">
+  <strong>Hipotensión ortostática:</strong> el criterio diagnóstico convencional es una caída sostenida de la presión arterial sistólica <strong>≥20 mmHg</strong> o de la diastólica <strong>≥10 mmHg</strong> dentro de los primeros 3 minutos de bipedestación.
+</div>
+
+<div class="clinical-card clinical-card-warning">
+  <strong>Taquicardia ortostática marcada:</strong> en adolescentes, un incremento de la frecuencia cardiaca <strong>≥40 lpm</strong> con la bipedestación sugiere una respuesta ortostática exagerada. El diagnóstico de síndrome de taquicardia ortostática postural requiere además síntomas ortostáticos compatibles, ausencia de hipotensión ortostática y valoración específica; no debe establecerse por una única medición aislada en Urgencias.
+</div>
 
 <a id="pruebas"></a>
 ## 5. Pruebas complementarias
@@ -321,7 +345,7 @@ En el paciente con cuadro compatible con síncope vasovagal y sin signos de alar
     <span><strong>Estable</strong><br>Anamnesis + exploración cardiovascular y neurológica</span>
   </div>
   <div class="algorithm-arrow">↓</div>
-  <div class="algorithm-step"><strong>Valoración básica</strong><br>Glucemia · FC y PA en sedestación/bipedestación · ECG 12 derivaciones</div>
+  <div class="algorithm-step"><strong>Valoración básica</strong><br>Glucemia · FC y PA sentado y tras 3 min de pie · registrar síntomas ortostáticos · ECG 12 derivaciones</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-split">
     <span><strong>ECG patológico o signos de alarma cardiacos</strong><br>Observación / valoración por Cardiología</span>
@@ -337,3 +361,4 @@ En el paciente con cuadro compatible con síncope vasovagal y sin signos de alar
 ## 11. Bibliografía
 
 1. González García J, Pérez Alba M. **Síncope.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. Febrero 2024. [Documento](https://seup.org/wp-content/uploads/2024/04/14_Sincope_4ed.pdf)
+2. Shen WK, Sheldon RS, Benditt DG, et al. **2017 ACC/AHA/HRS Guideline for the Evaluation and Management of Patients With Syncope.** Circulation. 2017;136:e60–e122.
