@@ -1,0 +1,1 @@
+Protocolo actualizado de arritmias basado en la versión SEUP 2026: lectura rápida ECG, TSV, taquicardia de QRS ancho, cardioversión, adenosina y bradicardia.
