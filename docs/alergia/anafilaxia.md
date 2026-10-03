@@ -109,6 +109,7 @@ La indicación de adrenalina debe considerarse especialmente si existe:
 <div class="dose-card">
   <strong>Adrenalina 1 mg/ml (1:1.000), sin diluir</strong>
   <span>Dosis: <b>0,01 mg/kg = 0,01 ml/kg IM</b></span>
+  <span>Mínimo: <b>0,1 mg = 0,1 ml por dosis</b></span>
   <span>Máximo: <b>0,5 mg = 0,5 ml por dosis</b></span>
   <span>Lugar: <b>cara anterolateral del muslo</b></span>
   <span>Puede repetirse cada <b>5–15 minutos</b> según respuesta</span>
@@ -143,7 +144,7 @@ La indicación de adrenalina debe considerarse especialmente si existe:
 - inhalado con cámara: **5–10 puff**;
 - nebulizado:
   - <20 kg: **2,5 mg**;
-  - >20 kg: **5 mg**.
+  - ≥20 kg: **5 mg**.
 
 <div class="clinical-card clinical-card-warning">
   <strong>Los broncodilatadores son tratamiento complementario.</strong> No sustituyen a la adrenalina IM cuando se cumplen criterios de anafilaxia.
@@ -334,7 +335,7 @@ Dar de alta únicamente si no existe recurrencia de síntomas durante el periodo
   <div class="algorithm-title">SOSPECHA DE ANAFILAXIA</div>
   <div class="algorithm-step"><strong>TEP + ABCDE</strong><br>Retirar alérgeno · posición adecuada · O₂ · monitorización · acceso vascular</div>
   <div class="algorithm-arrow">↓</div>
-  <div class="algorithm-step"><strong>ADRENALINA IM</strong><br>1 mg/ml · 0,01 mg/kg = 0,01 ml/kg · máx. 0,5 mg · muslo anterolateral</div>
+  <div class="algorithm-step"><strong>ADRENALINA IM</strong><br>1 mg/ml · 0,01 mg/kg = 0,01 ml/kg · mín. 0,1 mg · máx. 0,5 mg · muslo anterolateral</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>Reevaluar</strong><br>Si respuesta insuficiente → repetir adrenalina IM a los 5–15 min</div>
   <div class="algorithm-arrow">↓</div>
