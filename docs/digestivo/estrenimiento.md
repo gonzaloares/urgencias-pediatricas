@@ -407,5 +407,3 @@ En el estreñimiento funcional sin signos de alarma ni complicaciones:
 
 1. Velasco Rodríguez-Belvís M, Palomino Pérez LM, Cañedo Villarroya E, de la Mano Hernández A, Martínez Pérez J, Muñoz Codoceo RA. **De la guía a la guardia: aplicación en Urgencias de las recomendaciones de ESPGHAN y NASPGHAN basadas en la evidencia para la evaluación y tratamiento del estreñimiento funcional en lactantes y niños.** Emerg Pediatr. 2022;1(3):165-170.
 2. Rome Foundation. **Rome V Criteria. H2a. Functional Constipation.** 2026. [Criterios Roma V](https://theromefoundation.org/rome-v-criteria/)
-3. Comité de Nutrición y Lactancia Materna de la Asociación Española de Pediatría. **Manual de Nutrición de la Asociación Española de Pediatría.** 2021. [Manual de Nutrición AEP](https://www.aeped.es/sites/default/files/documentos/manual-de-nutricion-aep-2021.pdf)
-4. NHS England. **Bristol Stool Chart.** [Tabla de Bristol](https://www.england.nhs.uk/wp-content/uploads/2023/07/Bristol-stool-chart-for-people-with-a-learning-disability-print-version.pdf)
