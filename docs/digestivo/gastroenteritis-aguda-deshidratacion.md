@@ -165,7 +165,7 @@
 Un **HCO₃⁻ <17 mEq/L** puede asociarse a deshidratación moderada-grave, pero la valoración clínica sigue siendo fundamental.
 
 <div class="clinical-card clinical-card-note">
-  <strong>Este protocolo SEUP se centra en la deshidratación.</strong> Las indicaciones de coprocultivo, otras pruebas microbiológicas o antibioterapia etiológica deben decidirse según la sospecha clínica y no forman parte del algoritmo de rehidratación.
+  <strong>Este protocolo se centra en la deshidratación.</strong> Las indicaciones de coprocultivo, otras pruebas microbiológicas o antibioterapia etiológica deben decidirse según la sospecha clínica y no forman parte del algoritmo de rehidratación.
 </div>
 
 <a id="rho"></a>
@@ -199,7 +199,7 @@ Puede considerarse si los vómitos repetidos dificultan la rehidratación oral.
 <div class="dose-card">
   <strong>Ondansetrón</strong>
   <span><b>0,15 mg/kg/dosis</b></span>
-  <span>Máximo orientativo SEUP: <b>6–8 mg</b></span>
+  <span>Máximo orientativo: <b>6–8 mg</b></span>
   <span>Reintentar tolerancia oral aproximadamente <b>20 min</b> después.</span>
 </div>
 
