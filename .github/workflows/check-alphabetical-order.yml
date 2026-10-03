@@ -13,6 +13,7 @@ on:
       - main
     paths:
       - "mkdocs.yml"
+      - "docs/index.md"
       - "docs/**/index.md"
       - "scripts/check_alphabetical_order.py"
 
