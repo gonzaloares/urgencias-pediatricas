@@ -1,0 +1,1 @@
+Protocolo actualizado de infecciones del SNC basado en la versión SEUP de agosto de 2025: estabilización, indicaciones/contraindicaciones de PL, TC previa, antibioterapia empírica, aciclovir y criterios de UCIP.
