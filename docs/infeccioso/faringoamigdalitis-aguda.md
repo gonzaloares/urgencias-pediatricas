@@ -286,6 +286,19 @@ Tratar si:
 
 La amoxicilina es una alternativa equivalente especialmente práctica por palatabilidad y facilidad de administración.
 
+### Presentaciones orales prácticas de fenoximetilpenicilina
+
+| Presentación | Concentración / formato | Pauta práctica en faringoamigdalitis estreptocócica |
+|---|---|---|
+| **Penilevel® 250 mg** | Sobres de polvo para solución oral | **<27 kg:** 1 sobre cada 12 h · **≥27 kg:** 2 sobres cada 12 h |
+| **Penilevel® 500 mg** | Cápsulas duras | **≥27 kg y ≥12 años:** 1 cápsula cada 12 h |
+| **Benoral® 250.000 UI/5 ml** | Suspensión oral · frasco de 100 ml | **<27 kg:** 8 ml cada 12 h (= 400.000 UI ≈ 250 mg) · **≥27 kg:** 16 ml cada 12 h (= 800.000 UI ≈ 500 mg) |
+
+- Mantener cualquiera de estas pautas durante **10 días**.
+- **Penilevel 250 mg:** disolver el contenido del sobre en aproximadamente **20 ml de agua** y administrar inmediatamente.
+- **Benoral:** agitar el frasco antes de cada administración.
+- En niños pequeños, **Benoral suspensión** puede facilitar la administración al permitir medir directamente el volumen.
+
 ### Si no es posible asegurar tratamiento oral
 
 **Penicilina G benzatina IM, dosis única:**
