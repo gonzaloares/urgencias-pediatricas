@@ -278,7 +278,7 @@ Puede presentarse con:
 
 **Ecografía abdominal**: prueba de elección.
 
-### Tratamiento
+### Tratamiento de la invaginación
 
 En pacientes estables y sin contraindicaciones, la reducción suele realizarse mediante **enema terapéutico**, con sedoanalgesia y control por imagen.
 
