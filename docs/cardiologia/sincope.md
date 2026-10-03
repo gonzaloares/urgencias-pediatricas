@@ -303,7 +303,7 @@ En el paciente con cuadro compatible con síncope vasovagal y sin signos de alar
 - No solicitar analítica sistemática en un síncope con historia y exploración no sugestivas de una causa concreta.
 - No omitir el **ECG de 12 derivaciones**.
 - No basar la valoración únicamente en la presencia de pródromos.
-- No considerar automáticamente benigno un síncope relacionado con el ejercicio.
+- No considerar benigno un síncope relacionado con el ejercicio.
 - No dar el alta si existe un signo de alarma cardiaco.
 - No solicitar estudios neurológicos sistemáticos si la historia y la exploración no orientan a una causa neurológica.
 
