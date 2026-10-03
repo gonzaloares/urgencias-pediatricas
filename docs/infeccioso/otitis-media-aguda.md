@@ -106,6 +106,13 @@ Debe existir:
 
 En una OMA probable, individualizar para evitar sobrediagnóstico.
 
+### OMA recurrente
+
+Se define como:
+
+- **≥3 episodios de OMA en 6 meses**, o
+- **≥4 episodios de OMA en 12 meses**, con **al menos 1 episodio en los últimos 6 meses**.
+
 ### Miringitis bullosa
 
 Las vesículas o bullas sobre la membrana timpánica pueden ser muy dolorosas, pero **no modifican el tratamiento ni el pronóstico** respecto a una OMA convencional.
