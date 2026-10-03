@@ -23,6 +23,7 @@ nav:
   - Infeccioso:
       - infeccioso/index.md
       - Faringoamigdalitis aguda: infeccioso/faringoamigdalitis-aguda.md
+      - Fiebre sin foco: infeccioso/fiebre-sin-foco.md
       - Infección del tracto urinario: infeccioso/infeccion-tracto-urinario.md
       - Otitis media aguda: infeccioso/otitis-media-aguda.md
   - Neurología:
