@@ -3,6 +3,7 @@
 <nav class="protocol-shortcuts" aria-label="Accesos rápidos del protocolo">
   <a href="#valoracion">Valoración</a>
   <a href="#roma">Roma V</a>
+  <a href="#bristol">Bristol</a>
   <a href="#alarma">Signos de alarma</a>
   <a href="#exploracion">Exploración</a>
   <a href="#pruebas">Pruebas</a>
@@ -76,6 +77,22 @@ Además:
 <div class="clinical-card clinical-card-note">
   <strong>Heces duras:</strong> Bristol 1–2; en lactantes, Brussels Infants and Toddlers Stool Scale 1–3.
 </div>
+
+<a id="bristol"></a>
+### Tabla de Bristol
+
+| Tipo | Aspecto |
+|---:|---|
+| **1** | Bolitas duras separadas, difíciles de expulsar. |
+| **2** | Forma de salchicha, pero grumosa. |
+| **3** | Forma de salchicha con grietas en la superficie. |
+| **4** | Forma de salchicha o serpiente, lisa y blanda. |
+| **5** | Fragmentos blandos con bordes definidos. |
+| **6** | Fragmentos blandos, esponjosos, con bordes irregulares. |
+| **7** | Acuosas, sin fragmentos sólidos. |
+
+**Tipos 1–2:** heces duras compatibles con estreñimiento.  
+**Tipos 3–4:** consistencia habitual/normal.
 
 <a id="alarma"></a>
 ## 3. Signos y síntomas de alarma
@@ -277,24 +294,9 @@ Como segunda línea pueden considerarse leche de magnesia, aceite mineral y laxa
 
 #### Fibra diaria orientativa
 
-En niños **>2 años**, puede utilizarse como objetivo práctico:
+En niños **>2 años**:
 
-**fibra mínima (g/día) = edad en años + 5**
-
-Un rango orientativo razonable es **edad + 5 a edad + 10 g/día**.
-
-| Edad | Fibra diaria orientativa |
-|---:|---:|
-| **3 años** | **8–13 g/día** |
-| **5 años** | **10–15 g/día** |
-| **8 años** | **13–18 g/día** |
-| **10 años** | **15–20 g/día** |
-| **12 años** | **17–22 g/día** |
-| **15 años** | **20–25 g/día** |
-
-- Priorizar fibra procedente de **fruta, verdura, legumbres y cereales integrales**.
-- No es necesario aumentar la fibra por encima de una ingesta normal adecuada para la edad como estrategia terapéutica del estreñimiento.
-- En menores de **2 años**, no aplicar esta fórmula; mantener una alimentación variada y adecuada a la edad.
+**fibra diaria (g/día) = edad en años + 5–10**
 
 <div class="clinical-card clinical-card-warning">
   <strong>No añadir enemas de forma rutinaria al tratamiento crónico con PEG.</strong>
@@ -405,12 +407,5 @@ En el estreñimiento funcional sin signos de alarma ni complicaciones:
 
 1. Velasco Rodríguez-Belvís M, Palomino Pérez LM, Cañedo Villarroya E, de la Mano Hernández A, Martínez Pérez J, Muñoz Codoceo RA. **De la guía a la guardia: aplicación en Urgencias de las recomendaciones de ESPGHAN y NASPGHAN basadas en la evidencia para la evaluación y tratamiento del estreñimiento funcional en lactantes y niños.** Emerg Pediatr. 2022;1(3):165-170.
 2. Rome Foundation. **Rome V Criteria. H2a. Functional Constipation.** 2026. [Criterios Roma V](https://theromefoundation.org/rome-v-criteria/)
-3. Agencia Española de Medicamentos y Productos Sanitarios. **DulcoLax Bisacodilo 5 mg comprimidos gastrorresistentes. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/28410/FichaTecnica_28410.html)
-4. Agencia Española de Medicamentos y Productos Sanitarios. **Casenlax 500 mg/ml solución oral. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/79968/FT_79968.html)
-5. Agencia Española de Medicamentos y Productos Sanitarios. **Casenlax 4 g polvo para solución oral en sobres. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/75277/FT_75277.html)
-6. Agencia Española de Medicamentos y Productos Sanitarios. **Casenlax 10 g polvo para solución oral en sobre. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/73081)
-7. Agencia Española de Medicamentos y Productos Sanitarios. **Casenlax 10 g solución oral en sobre. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/80603/FT_80603.html)
-8. Agencia Española de Medicamentos y Productos Sanitarios. **Movicol Pediátrico Sabor Neutro 6,9 g. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/67853/FT_67853.html)
-9. Agencia Española de Medicamentos y Productos Sanitarios. **Movicol Pediátrico Sabor Chocolate 6,9 g. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/66557/FT_66557.html)
-10. Agencia Española de Medicamentos y Productos Sanitarios. **Movicol polvo para solución oral en sobre. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/61494/FichaTecnica)
-11. Comité de Nutrición y Lactancia Materna de la Asociación Española de Pediatría. **Manual de Nutrición de la Asociación Española de Pediatría.** 2021. [Manual de Nutrición AEP](https://www.aeped.es/sites/default/files/documentos/manual-de-nutricion-aep-2021.pdf)
+3. Comité de Nutrición y Lactancia Materna de la Asociación Española de Pediatría. **Manual de Nutrición de la Asociación Española de Pediatría.** 2021. [Manual de Nutrición AEP](https://www.aeped.es/sites/default/files/documentos/manual-de-nutricion-aep-2021.pdf)
+4. NHS England. **Bristol Stool Chart.** [Tabla de Bristol](https://www.england.nhs.uk/wp-content/uploads/2023/07/Bristol-stool-chart-for-people-with-a-learning-disability-print-version.pdf)
