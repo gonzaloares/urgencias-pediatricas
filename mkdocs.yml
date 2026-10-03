@@ -31,6 +31,7 @@ nav:
       - Estatus epiléptico: neurologia/estatus-epileptico.md
   - Digestivo:
       - digestivo/index.md
+      - Gastroenteritis aguda y deshidratación: digestivo/gastroenteritis-aguda-deshidratacion.md
       - Dolor abdominal agudo: digestivo/dolor-abdominal-agudo.md
       - Estreñimiento: digestivo/estrenimiento.md
   - Trauma:
