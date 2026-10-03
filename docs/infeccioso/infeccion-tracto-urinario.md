@@ -276,16 +276,58 @@ Si se inicia tratamiento IV, pasar a vía oral cuando el estado clínico lo perm
   <strong>La elección empírica debe basarse en las resistencias locales.</strong>
 </div>
 
-| Situación | Primera opción | Otras opciones |
-|---|---|---|
-| **ITU afebril / cistitis** | **Cefuroxima** | Otras cefalosporinas de 1.ª o 2.ª generación; nitrofurantoína; fosfomicina en >12 años. TM-SMX o amoxicilina-clavulánico 4/1 si la sensibilidad local de <i>E. coli</i> es >80–90%. |
-| **ITU febril · vía oral** | **Cefalosporina de 3.ª generación** | Amoxicilina-clavulánico 4/1 o cefalosporina de 2.ª generación si la sensibilidad local de <i>E. coli</i> es >80–90%. |
-| **ITU febril con ingreso · vía IV** | **Gentamicina en dosis única diaria** | Cefotaxima, ceftriaxona o tobramicina. Como alternativas: amoxicilina-clavulánico 5/1 o cefalosporina de 2.ª generación si la sensibilidad local de <i>E. coli</i> es >80–90%. |
+### ITU afebril / cistitis
+
+<div class="clinical-card clinical-card-success">
+  <strong>Primera opción: cefuroxima axetilo VO.</strong>
+</div>
+
+| Fármaco | Vía | Dosis | Intervalo / máximo | Comentarios |
+|---|---|---|---|---|
+| **Cefuroxima axetilo** | VO | **3 meses–5 años: 7,5 mg/kg/dosis** | cada **12 h** | Primera opción. |
+| **Cefuroxima axetilo** | VO | **5–12 años: 125 mg/dosis** | cada **12 h** | — |
+| **Cefuroxima axetilo** | VO | **>12 años: 125 mg/dosis** | cada **12 h**; puede aumentarse a **250 mg/dosis** | — |
+| **Cefalexina** | VO | **25–50 mg/kg/día** | repartir cada **6–8 h** · máx. **2 g/día** | Cefalosporina de 1.ª generación. |
+| **Nitrofurantoína** | VO | **≤6 años: 1–2 mg/kg/dosis** | cada **6 h** | No usar en <3 meses. Solo ITU baja. |
+| **Nitrofurantoína** | VO | **>6 años: 5–7 mg/kg/día** | repartir en **4 tomas** | No superar dosis de adulto. Solo ITU baja. |
+| **Fosfomicina trometamol** | VO | **3 g** | **dosis única** | Solo niñas >12 años con ITU baja no complicada. |
+| **Cotrimoxazol (SMX/TMP)** | VO | **20–30 / 4–6 mg/kg/dosis** | cada **12 h** · en >12 años: **800/160 mg cada 12 h** | Utilizar si la sensibilidad local lo permite. |
+| **Amoxicilina-clavulánico 4:1** | VO | **35–40 / 9–10 mg/kg/día** | repartir en **3 dosis (cada 8 h)** · máx. amoxicilina **1,5 g/día**, clavulánico **375 mg/día** | Utilizar si la sensibilidad local de <i>E. coli</i> es >80–90%. |
+
+### ITU febril · tratamiento oral
+
+<div class="clinical-card clinical-card-success">
+  <strong>Primera opción: cefalosporina de 3.ª generación por vía oral.</strong>
+</div>
+
+| Fármaco | Vía | Dosis | Intervalo / máximo | Comentarios |
+|---|---|---|---|---|
+| **Cefixima** | VO | **8 mg/kg/día** | cada **12–24 h** · máx. **400 mg/día** | Opción práctica de cefalosporina de 3.ª generación en >6 meses. |
+| **Amoxicilina-clavulánico 4:1** | VO | **35–40 / 9–10 mg/kg/día** | repartir en **3 dosis (cada 8 h)** · máx. amoxicilina **1,5 g/día**, clavulánico **375 mg/día** | Alternativa si la sensibilidad local de <i>E. coli</i> es >80–90%. |
+| **Cefuroxima axetilo** | VO | **3 meses–5 años: 7,5 mg/kg/dosis** | cada **12 h** | Alternativa de 2.ª generación si la sensibilidad local de <i>E. coli</i> es >80–90%. |
+| **Cefuroxima axetilo** | VO | **5–12 años: 125 mg/dosis** | cada **12 h** | — |
+| **Cefuroxima axetilo** | VO | **>12 años: 125–250 mg/dosis** | cada **12 h** | — |
+
+### ITU febril con ingreso · tratamiento intravenoso
+
+<div class="clinical-card clinical-card-success">
+  <strong>Primera opción: gentamicina IV en dosis única diaria.</strong>
+</div>
+
+| Fármaco | Vía | Dosis | Intervalo / máximo | Comentarios |
+|---|---|---|---|---|
+| **Gentamicina** | IV | **Lactantes >1 semana: 7,5 mg/kg/día** | preferentemente **cada 24 h** | Primera opción. Ajustar a función renal y monitorizar niveles cuando esté indicado. |
+| **Gentamicina** | IV | **Niños y adolescentes: 6–7,5 mg/kg/día** | preferentemente **cada 24 h** | — |
+| **Cefotaxima** | IV | **100–200 mg/kg/día** | repartir cada **6–8 h** · máx. **12 g/día** | Cefalosporina de 3.ª generación. |
+| **Ceftriaxona** | IV / IM | **20–80 mg/kg/día** | **cada 24 h** | >12 años o >50 kg: **1–2 g cada 24 h**; máx. general **4 g/día**. |
+| **Tobramicina** | IV | **4,5–7,5 mg/kg/día** | preferentemente **cada 24 h** | Alternativa aminoglucósida. Ajustar a función renal y monitorizar niveles cuando esté indicado. |
+| **Amoxicilina-clavulánico 5:1** | IV | **75 / 15 mg/kg/día** | repartir en **3–4 dosis** | Alternativa si la sensibilidad local de <i>E. coli</i> es >80–90%. |
 
 ### Situaciones especiales
 
 - **<3 meses:** asociar **ampicilina** al tratamiento empírico por la posibilidad de enterococo.
 - **Sospecha de uropatía obstructiva:** asociar **ampicilina** al tratamiento empírico.
+- **Ampicilina IV (lactantes y niños): 100–200 mg/kg/día**, repartidos **cada 6 h**; máximo **12 g/día**.
 - Los aminoglucósidos se administrarán en **dosis única diaria** cuando se utilicen para una ITU febril.
 - Reservar ceftazidima, amikacina, carbapenémicos y quinolonas para circunstancias especiales.
 
@@ -523,3 +565,4 @@ En ITU recurrente, la indicación debe individualizarse en función de anomalía
 ## 14. Bibliografía
 
 1. Grupo de trabajo de la Guía de Práctica Clínica sobre Infección del Tracto Urinario en la Población Pediátrica. **Guía de Práctica Clínica. Infección del Tracto Urinario en la Población Pediátrica. Actualización 2024.** Asociación Española de Nefrología Pediátrica; Asociación Española de Pediatría. 2024.
+2. Comité de Medicamentos de la Asociación Española de Pediatría. **Pediamécum.** Fichas de cefuroxima, cefalexina, nitrofurantoína, fosfomicina, cotrimoxazol, amoxicilina-clavulánico, cefixima, gentamicina, cefotaxima, ceftriaxona, tobramicina y ampicilina. Utilizado exclusivamente para la posología. [Pediamécum](https://www.aeped.es/comites/cm/pediamecum/)
