@@ -4,5 +4,6 @@
 
 - [Bronquiolitis aguda](bronquiolitis-aguda.md)
 - [Crisis asmática](crisis-asmatica.md)
+- [Neumonía adquirida en la comunidad](neumonia-adquirida-comunidad.md)
 
 </div>
