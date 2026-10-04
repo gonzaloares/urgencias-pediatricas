@@ -15,71 +15,70 @@ theme:
 
 nav:
   - Inicio: index.md
-  - Alergia:
-      - alergia/index.md
-      - Anafilaxia: alergia/anafilaxia.md
-  - Cardiología:
+  - Accidentes:
+      - trauma/index.md
+      - Hipotermia y golpe de calor: trauma/hipotermia-golpe-calor.md
+      - Ingesta y aspiración de cuerpo extraño: procedimientos/ingesta-aspiracion-cuerpo-extrano.md
+      - Intoxicaciones: toxicologia/intoxicaciones.md
+      - Lesiones por electricidad: trauma/lesiones-electricidad.md
+      - Lesiones por inmersión: trauma/lesiones-inmersion.md
+      - Mordeduras y picaduras: trauma/mordeduras-picaduras.md
+      - Paciente politraumatizado: trauma/politraumatizado.md
+      - Traumatismo craneoencefálico: trauma/traumatismo-craneoencefalico.md
+      - Traumatismo periférico: trauma/traumatismo-periferico.md
+  - Cardiovascular:
       - cardiologia/index.md
       - Arritmias: cardiologia/arritmias.md
       - Crisis hipertensiva: cardiologia/crisis-hipertensiva.md
-      - Síncope: cardiologia/sincope.md
+      - Shock: emergencias/shock.md
+  - Dermatología:
+      - dermatologia/index.md
+      - Anafilaxia: alergia/anafilaxia.md
+      - Quemaduras: trauma/quemaduras.md
   - Digestivo:
       - digestivo/index.md
       - Dolor abdominal agudo: digestivo/dolor-abdominal-agudo.md
       - Estreñimiento: digestivo/estrenimiento.md
       - Gastroenteritis aguda y deshidratación: digestivo/gastroenteritis-aguda-deshidratacion.md
-  - Emergencias y estabilización:
-      - emergencias/index.md
-      - Aproximación y estabilización inicial · TEP y ABCDE: emergencias/estabilizacion-inicial-tep-abcde.md
-      - Shock: emergencias/shock.md
-      - Triaje: emergencias/triaje.md
-  - Endocrino: endocrino/index.md
-  - Infeccioso:
-      - infeccioso/index.md
-      - Faringoamigdalitis aguda: infeccioso/faringoamigdalitis-aguda.md
-      - Fiebre sin foco: infeccioso/fiebre-sin-foco.md
+  - Endocrino-metabólico: endocrino/index.md
+  - Genito-urinario-renal:
+      - nefrologia/index.md
       - Infección del tracto urinario: infeccioso/infeccion-tracto-urinario.md
-      - Otitis media aguda: infeccioso/otitis-media-aguda.md
+  - Inespecífica:
+      - inespecifica/index.md
+      - Agresión sexual en la infancia y adolescencia: proteccion-infancia/agresion-sexual.md
+      - Maltrato físico en la infancia: proteccion-infancia/maltrato-fisico.md
+      - Principales urgencias psiquiátricas: salud-mental/urgencias-psiquiatricas.md
+  - Infecciosa:
+      - infeccioso/index.md
+      - Fiebre sin foco: infeccioso/fiebre-sin-foco.md
+      - Meningitis y encefalitis: neurologia/meningitis-encefalitis.md
       - Sepsis: infeccioso/sepsis.md
-  - Nefrología: nefrologia/index.md
-  - Neurología:
+  - Locomotor: locomotor/index.md
+  - Neurológico:
       - neurologia/index.md
       - Coma: neurologia/coma.md
       - Estatus epiléptico: neurologia/estatus-epileptico.md
       - Hipertensión intracraneal: neurologia/hipertension-intracraneal.md
-      - Meningitis y encefalitis: neurologia/meningitis-encefalitis.md
-  - Procedimientos:
+      - Síncope: cardiologia/sincope.md
+  - O.R.L.:
+      - orl/index.md
+      - Faringoamigdalitis aguda: infeccioso/faringoamigdalitis-aguda.md
+      - Infección respiratoria de vías altas: respiratorio/infeccion-respiratoria-vias-altas.md
+      - Laringitis aguda: respiratorio/laringitis-aguda.md
+      - Otitis media aguda: infeccioso/otitis-media-aguda.md
+  - Procedimientos y soporte:
       - procedimientos/index.md
-      - Ingesta y aspiración de cuerpo extraño: procedimientos/ingesta-aspiracion-cuerpo-extrano.md
+      - Aproximación y estabilización inicial · TEP y ABCDE: emergencias/estabilizacion-inicial-tep-abcde.md
       - Manejo del dolor: procedimientos/manejo-dolor.md
       - Reanimación cardiopulmonar: procedimientos/reanimacion-cardiopulmonar.md
       - Sedoanalgesia: procedimientos/sedoanalgesia.md
-  - Protección infantil:
-      - proteccion-infancia/index.md
-      - Agresión sexual: proteccion-infancia/agresion-sexual.md
-      - Maltrato físico: proteccion-infancia/maltrato-fisico.md
+      - Triaje: emergencias/triaje.md
   - Respiratorio:
       - respiratorio/index.md
       - Bronquiolitis aguda: respiratorio/bronquiolitis-aguda.md
       - Crisis asmática: respiratorio/crisis-asmatica.md
-      - Infección respiratoria de vías altas: respiratorio/infeccion-respiratoria-vias-altas.md
-      - Laringitis aguda: respiratorio/laringitis-aguda.md
-  - Salud mental:
-      - salud-mental/index.md
-      - Urgencias psiquiátricas: salud-mental/urgencias-psiquiatricas.md
-  - Toxicología:
-      - toxicologia/index.md
-      - Intoxicaciones: toxicologia/intoxicaciones.md
-  - Trauma:
-      - trauma/index.md
-      - Hipotermia y golpe de calor: trauma/hipotermia-golpe-calor.md
-      - Lesiones por electricidad: trauma/lesiones-electricidad.md
-      - Lesiones por inmersión: trauma/lesiones-inmersion.md
-      - Mordeduras y picaduras: trauma/mordeduras-picaduras.md
-      - Paciente politraumatizado: trauma/politraumatizado.md
-      - Quemaduras: trauma/quemaduras.md
-      - Traumatismo craneoencefálico: trauma/traumatismo-craneoencefalico.md
-      - Traumatismo periférico: trauma/traumatismo-periferico.md
+  - Sangre: sangre/index.md
 
 plugins:
   - search:
