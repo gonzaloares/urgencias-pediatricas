@@ -329,7 +329,7 @@ La amoxicilina es una alternativa equivalente especialmente práctica por palata
 
 **Penicilina G benzatina IM, dosis única:**
 
-- <27 kg: **600.000 U**;
+- &lt;27 kg: **600.000 U**;
 - ≥27 kg: **1.200.000 U**.
 
 <div class="clinical-card clinical-card-danger">
