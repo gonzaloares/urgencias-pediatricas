@@ -23,9 +23,9 @@
 Criterios habituales:
 
 - proteinuria en rango nefrótico:
-  - cociente proteína/creatinina **>2 mg/mg** en muestra aislada; o
-  - >40 mg/m²/h;
-- hipoalbuminemia, habitualmente **<3 g/dL**;
+  - cociente proteína/creatinina **&gt;2 mg/mg** en muestra aislada; o
+  - &gt;40 mg/m²/h;
+- hipoalbuminemia, habitualmente **&lt;3 g/dL**;
 - edema.
 
 Puede asociar:
