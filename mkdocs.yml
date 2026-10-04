@@ -43,7 +43,9 @@ nav:
       - Dolor abdominal agudo: digestivo/dolor-abdominal-agudo.md
       - Estreñimiento: digestivo/estrenimiento.md
       - Gastroenteritis aguda y deshidratación: digestivo/gastroenteritis-aguda-deshidratacion.md
-  - Endocrino-metabólico: endocrino/index.md
+  - Endocrino-metabólico:
+      - endocrino/index.md
+      - Cetoacidosis diabética: endocrino/cetoacidosis-diabetica.md
   - Genito-urinario-renal:
       - nefrologia/index.md
       - Infección del tracto urinario: infeccioso/infeccion-tracto-urinario.md
@@ -53,7 +55,9 @@ nav:
       - Fiebre sin foco: infeccioso/fiebre-sin-foco.md
       - Meningitis y encefalitis: neurologia/meningitis-encefalitis.md
       - Sepsis: infeccioso/sepsis.md
-  - Locomotor: locomotor/index.md
+  - Locomotor:
+      - locomotor/index.md
+      - Cojera aguda: locomotor/cojera-aguda.md
   - Miscelánea:
       - inespecifica/index.md
       - Agresión sexual en la infancia y adolescencia: proteccion-infancia/agresion-sexual.md
@@ -61,7 +65,9 @@ nav:
       - Principales urgencias psiquiátricas: salud-mental/urgencias-psiquiatricas.md
   - Neurológico:
       - neurologia/index.md
+      - Cefalea: neurologia/cefalea.md
       - Coma: neurologia/coma.md
+      - Convulsión febril: neurologia/convulsion-febril.md
       - Estatus epiléptico: neurologia/estatus-epileptico.md
       - Hipertensión intracraneal: neurologia/hipertension-intracraneal.md
       - Síncope: cardiologia/sincope.md
@@ -82,6 +88,7 @@ nav:
       - respiratorio/index.md
       - Bronquiolitis aguda: respiratorio/bronquiolitis-aguda.md
       - Crisis asmática: respiratorio/crisis-asmatica.md
+      - Neumonía adquirida en la comunidad: respiratorio/neumonia-adquirida-comunidad.md
 
 plugins:
   - search:
