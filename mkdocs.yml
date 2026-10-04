@@ -3,6 +3,8 @@ site_description: Protocolos prácticos de Urgencias Pediátricas
 theme:
   name: material
   language: es
+  custom_dir: docs/overrides
+  favicon: assets/icons/icon-192.png
   features:
     - navigation.sections
     - navigation.indexes
@@ -95,5 +97,6 @@ extra_css:
 
 extra_javascript:
   - javascripts/external-links.js
+  - javascripts/pwa.js
 
 strict: true
