@@ -34,6 +34,18 @@ jobs:
       - name: Check alphabetical order
         run: python scripts/check_alphabetical_order.py
 
+      - name: Generate PWA assets
+        run: python scripts/generate_pwa_assets.py "${GITHUB_SHA}"
+
+      - name: Validate PWA assets
+        run: |
+          python -m json.tool docs/manifest.webmanifest > /dev/null
+          test -f docs/assets/icons/icon-192.png
+          test -f docs/assets/icons/icon-512.png
+          test -f docs/assets/icons/apple-touch-icon.png
+          test -f docs/offline-urls.json
+          node --check docs/service-worker.js
+
       - name: Configure GitHub Pages
         id: pages
         uses: actions/configure-pages@v5
