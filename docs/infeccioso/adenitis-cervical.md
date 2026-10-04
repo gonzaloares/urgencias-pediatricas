@@ -22,10 +22,10 @@
 - ganglio duro, fijo o adherido;
 - pérdida de peso, sudoración nocturna o fiebre prolongada;
 - hepatoesplenomegalia;
-- adenopatía >2,5 cm sin clínica infecciosa;
+- adenopatía &gt;2,5 cm sin clínica infecciosa;
 - crecimiento progresivo durante 2 semanas;
 - ausencia de disminución en 4–6 semanas;
-- persistencia >8–12 semanas;
+- persistencia &gt;8–12 semanas;
 - tortícolis, disfagia, voz apagada, trismus o dificultad respiratoria;
 - fluctuación importante o signos de absceso profundo.
 
@@ -209,7 +209,7 @@ Considerar si:
 <a id="ingreso"></a>
 ## 6. Criterios de ingreso
 
-- <3 meses;
+- &lt;3 meses;
 - fiebre alta en lactante;
 - afectación del estado general;
 - adenopatía grande/fluctuante;
