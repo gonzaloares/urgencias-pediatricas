@@ -39,6 +39,7 @@ nav:
   - Dermatología:
       - dermatologia/index.md
       - Anafilaxia: alergia/anafilaxia.md
+      - Escabiosis y otras infestaciones frecuentes: dermatologia/escabiosis-infestaciones.md
       - Exantemas pediátricos: dermatologia/exantemas.md
       - Impétigo y celulitis: dermatologia/impetigo-celulitis.md
       - Quemaduras: trauma/quemaduras.md
@@ -109,6 +110,7 @@ nav:
   - O.R.L.:
       - orl/index.md
       - Absceso retrofaríngeo y parafaríngeo: orl/absceso-retrofaringeo-parafaringeo.md
+      - Celulitis preseptal y orbitaria: orl/celulitis-preseptal-orbitaria.md
       - Epistaxis: orl/epistaxis.md
       - Faringoamigdalitis aguda: infeccioso/faringoamigdalitis-aguda.md
       - Infección respiratoria de vías altas: respiratorio/infeccion-respiratoria-vias-altas.md
@@ -116,6 +118,7 @@ nav:
       - Mastoiditis aguda: orl/mastoiditis.md
       - Otitis media aguda: infeccioso/otitis-media-aguda.md
       - Sinusitis aguda: orl/sinusitis-aguda.md
+      - Urgencias odontológicas pediátricas: orl/urgencias-odontologicas.md
   - Procedimientos y soporte:
       - procedimientos/index.md
       - Aproximación y estabilización inicial · TEP y ABCDE: emergencias/estabilizacion-inicial-tep-abcde.md
