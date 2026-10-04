@@ -3,6 +3,7 @@
 <div class="protocol-index" markdown="1">
 
 - [Anafilaxia](../alergia/anafilaxia.md)
+- [Escabiosis y otras infestaciones frecuentes](escabiosis-infestaciones.md)
 - [Exantemas pediátricos](exantemas.md)
 - [Impétigo y celulitis](impetigo-celulitis.md)
 - [Quemaduras](../trauma/quemaduras.md)
