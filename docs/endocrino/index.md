@@ -1,3 +1,3 @@
-# Endocrino
+# Endocrino-metabólico
 
 Protocolos pendientes.
