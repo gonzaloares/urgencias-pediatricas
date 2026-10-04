@@ -33,6 +33,7 @@ nav:
       - cardiologia/index.md
       - Arritmias: cardiologia/arritmias.md
       - Crisis hipertensiva: cardiologia/crisis-hipertensiva.md
+      - Enfermedad de Kawasaki: cardiologia/enfermedad-kawasaki.md
       - Shock: emergencias/shock.md
   - Dermatología:
       - dermatologia/index.md
@@ -46,10 +47,14 @@ nav:
   - Endocrino-metabólico:
       - endocrino/index.md
       - Cetoacidosis diabética: endocrino/cetoacidosis-diabetica.md
+      - Hipoglucemia: endocrino/hipoglucemia.md
   - Genito-urinario-renal:
       - nefrologia/index.md
+      - Cólico nefrítico y litiasis urinaria: nefrologia/colico-nefritico.md
       - Infección del tracto urinario: infeccioso/infeccion-tracto-urinario.md
-  - Hematología: sangre/index.md
+  - Hematología:
+      - sangre/index.md
+      - Trombocitopenia inmune primaria: sangre/trombocitopenia-inmune-primaria.md
   - Infecciosa:
       - infeccioso/index.md
       - Fiebre sin foco: infeccioso/fiebre-sin-foco.md
@@ -65,6 +70,7 @@ nav:
       - Principales urgencias psiquiátricas: salud-mental/urgencias-psiquiatricas.md
   - Neurológico:
       - neurologia/index.md
+      - Ataxia aguda: neurologia/ataxia-aguda.md
       - Cefalea: neurologia/cefalea.md
       - Coma: neurologia/coma.md
       - Convulsión febril: neurologia/convulsion-febril.md

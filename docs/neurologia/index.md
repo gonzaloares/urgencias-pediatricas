@@ -2,6 +2,7 @@
 
 <div class="protocol-index" markdown="1">
 
+- [Ataxia aguda](ataxia-aguda.md)
 - [Cefalea](cefalea.md)
 - [Coma](coma.md)
 - [Convulsión febril](convulsion-febril.md)
