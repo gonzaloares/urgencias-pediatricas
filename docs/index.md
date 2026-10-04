@@ -8,13 +8,13 @@
 - [Digestivo](digestivo/index.md)
 - [Endocrino-metabólico](endocrino/index.md)
 - [Genito-urinario-renal](nefrologia/index.md)
-- [Inespecífica](inespecifica/index.md)
+- [Hematología](sangre/index.md)
 - [Infecciosa](infeccioso/index.md)
 - [Locomotor](locomotor/index.md)
+- [Miscelánea](inespecifica/index.md)
 - [Neurológico](neurologia/index.md)
 - [O.R.L.](orl/index.md)
 - [Procedimientos y soporte](procedimientos/index.md)
 - [Respiratorio](respiratorio/index.md)
-- [Sangre](sangre/index.md)
 
 </div>
