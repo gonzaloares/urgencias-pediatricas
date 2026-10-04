@@ -3,6 +3,7 @@
   "short_name": "Urgencias Ped.",
   "description": "Protocolos prácticos de Urgencias Pediátricas",
   "lang": "es",
+  "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
