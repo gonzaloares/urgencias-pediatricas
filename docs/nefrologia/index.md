@@ -1,4 +1,4 @@
-# Nefrología
+# Genito-urinario-renal
 
 <div class="protocol-index" markdown="1">
 
