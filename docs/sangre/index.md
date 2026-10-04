@@ -6,6 +6,7 @@
 - [Síndrome de lisis tumoral](sindrome-lisis-tumoral.md)
 - [Transfusión de hemoderivados](transfusion-hemoderivados.md)
 - [Trombocitopenia inmune primaria](trombocitopenia-inmune-primaria.md)
+- [Urgencias en drepanocitosis](drepanocitosis-urgencias.md)
 - [Urgencias oncológicas](urgencias-oncologicas.md)
 
 </div>
