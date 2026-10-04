@@ -6,6 +6,7 @@ const APP_ROOT = self.registration.scope;
 const CORE_URLS = [
   new URL("./", APP_ROOT).href,
   new URL("manifest.webmanifest", APP_ROOT).href,
+  new URL("offline-urls.json", APP_ROOT).href,
   new URL("assets/icons/icon-192.png", APP_ROOT).href,
   new URL("assets/icons/icon-512.png", APP_ROOT).href,
   new URL("assets/icons/apple-touch-icon.png", APP_ROOT).href,
@@ -22,11 +23,46 @@ async function cacheUrl(cache, url) {
   }
 }
 
+async function precacheProtocols(cache) {
+  try {
+    const listUrl = new URL("offline-urls.json", APP_ROOT).href;
+    const response = await fetch(listUrl, { cache: "no-store" });
+    if (!response.ok) return;
+
+    const relativeUrls = await response.json();
+    const urls = relativeUrls
+      .map((value) => {
+        try {
+          return new URL(value, APP_ROOT);
+        } catch (_) {
+          return null;
+        }
+      })
+      .filter(
+        (url) =>
+          url &&
+          url.origin === self.location.origin &&
+          url.href.startsWith(APP_ROOT)
+      )
+      .map((url) => url.href);
+
+    const batchSize = 8;
+    for (let i = 0; i < urls.length; i += batchSize) {
+      await Promise.allSettled(
+        urls.slice(i, i + batchSize).map((url) => cacheUrl(cache, url))
+      );
+    }
+  } catch (_) {
+    // Si falla la precarga, la app seguirá usando caché bajo demanda.
+  }
+}
+
 self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE_NAME);
       await Promise.allSettled(CORE_URLS.map((url) => cacheUrl(cache, url)));
+      await precacheProtocols(cache);
       await self.skipWaiting();
     })()
   );
