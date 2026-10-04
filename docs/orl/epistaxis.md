@@ -33,13 +33,13 @@
 ## 2. Signos de alarma
 
 - inestabilidad hemodinámica;
-- sangrado abundante o >20–30 min pese a compresión correcta;
+- sangrado abundante o &gt;20–30 min pese a compresión correcta;
 - sospecha de sangrado posterior;
 - traumatismo facial relevante;
 - bilateral/profusa;
 - anticoagulación/coagulopatía conocida;
 - anemia sintomática;
-- <2 años con epistaxis sin causa clara;
+- &lt;2 años con epistaxis sin causa clara;
 - equimosis, gingivorragia u otros sangrados;
 - adolescente varón con obstrucción nasal/epistaxis recurrente importante.
 
