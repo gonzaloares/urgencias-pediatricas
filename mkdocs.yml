@@ -33,12 +33,14 @@ nav:
       - cardiologia/index.md
       - Arritmias: cardiologia/arritmias.md
       - Crisis hipertensiva: cardiologia/crisis-hipertensiva.md
+      - Dolor torácico: cardiologia/dolor-toracico.md
       - Enfermedad de Kawasaki: cardiologia/enfermedad-kawasaki.md
       - Shock: emergencias/shock.md
   - Dermatología:
       - dermatologia/index.md
       - Anafilaxia: alergia/anafilaxia.md
       - Quemaduras: trauma/quemaduras.md
+      - Urticaria y angioedema: dermatologia/urticaria-angioedema.md
   - Digestivo:
       - digestivo/index.md
       - Dolor abdominal agudo: digestivo/dolor-abdominal-agudo.md
@@ -52,8 +54,11 @@ nav:
       - nefrologia/index.md
       - Cólico nefrítico y litiasis urinaria: nefrologia/colico-nefritico.md
       - Infección del tracto urinario: infeccioso/infeccion-tracto-urinario.md
+      - Síndrome nefrítico agudo: nefrologia/sindrome-nefritico.md
+      - Síndrome nefrótico: nefrologia/sindrome-nefrotico.md
   - Hematología:
       - sangre/index.md
+      - Síndrome de lisis tumoral: sangre/sindrome-lisis-tumoral.md
       - Trombocitopenia inmune primaria: sangre/trombocitopenia-inmune-primaria.md
   - Infecciosa:
       - infeccioso/index.md
