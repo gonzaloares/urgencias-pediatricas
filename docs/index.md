@@ -2,19 +2,19 @@
 
 <div class="area-grid" markdown="1">
 
-- [Alergia](alergia/index.md)
-- [Cardiología](cardiologia/index.md)
+- [Accidentes](trauma/index.md)
+- [Cardiovascular](cardiologia/index.md)
+- [Dermatología](dermatologia/index.md)
 - [Digestivo](digestivo/index.md)
-- [Emergencias y estabilización](emergencias/index.md)
-- [Endocrino](endocrino/index.md)
-- [Infeccioso](infeccioso/index.md)
-- [Nefrología](nefrologia/index.md)
-- [Neurología](neurologia/index.md)
-- [Procedimientos](procedimientos/index.md)
-- [Protección infantil](proteccion-infancia/index.md)
+- [Endocrino-metabólico](endocrino/index.md)
+- [Genito-urinario-renal](nefrologia/index.md)
+- [Hematología](sangre/index.md)
+- [Infecciosa](infeccioso/index.md)
+- [Locomotor](locomotor/index.md)
+- [Miscelánea](inespecifica/index.md)
+- [Neurológico](neurologia/index.md)
+- [O.R.L.](orl/index.md)
+- [Procedimientos y soporte](procedimientos/index.md)
 - [Respiratorio](respiratorio/index.md)
-- [Salud mental](salud-mental/index.md)
-- [Toxicología](toxicologia/index.md)
-- [Trauma](trauma/index.md)
 
 </div>

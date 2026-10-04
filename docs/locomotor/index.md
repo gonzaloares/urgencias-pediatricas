@@ -1,3 +1,3 @@
-# Endocrino-metabólico
+# Locomotor
 
 Protocolos pendientes.
