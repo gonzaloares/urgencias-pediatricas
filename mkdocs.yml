@@ -43,20 +43,25 @@ nav:
       - Impétigo y celulitis: dermatologia/impetigo-celulitis.md
       - Quemaduras: trauma/quemaduras.md
       - Urticaria y angioedema: dermatologia/urticaria-angioedema.md
+      - Vasculitis IgA: dermatologia/vasculitis-iga.md
   - Digestivo:
       - digestivo/index.md
       - Dolor abdominal agudo: digestivo/dolor-abdominal-agudo.md
       - Estreñimiento: digestivo/estrenimiento.md
       - Gastroenteritis aguda y deshidratación: digestivo/gastroenteritis-aguda-deshidratacion.md
+      - Hemorragia digestiva: digestivo/hemorragia-digestiva.md
+      - Pancreatitis aguda: digestivo/pancreatitis-aguda.md
   - Endocrino-metabólico:
       - endocrino/index.md
       - Cetoacidosis diabética: endocrino/cetoacidosis-diabetica.md
+      - Crisis suprarrenal: endocrino/crisis-suprarrenal.md
       - Hipoglucemia: endocrino/hipoglucemia.md
   - Genito-urinario-renal:
       - nefrologia/index.md
       - Cólico nefrítico y litiasis urinaria: nefrologia/colico-nefritico.md
       - Escroto agudo: nefrologia/escroto-agudo.md
       - Infección del tracto urinario: infeccioso/infeccion-tracto-urinario.md
+      - Lesión renal aguda: nefrologia/lesion-renal-aguda.md
       - Síndrome nefrítico agudo: nefrologia/sindrome-nefritico.md
       - Síndrome nefrótico: nefrologia/sindrome-nefrotico.md
   - Hematología:
@@ -65,6 +70,7 @@ nav:
       - Síndrome de lisis tumoral: sangre/sindrome-lisis-tumoral.md
       - Transfusión de hemoderivados: sangre/transfusion-hemoderivados.md
       - Trombocitopenia inmune primaria: sangre/trombocitopenia-inmune-primaria.md
+      - Urgencias en drepanocitosis: sangre/drepanocitosis-urgencias.md
       - Urgencias oncológicas: sangre/urgencias-oncologicas.md
   - Infecciosa:
       - infeccioso/index.md
@@ -73,6 +79,7 @@ nav:
       - Fiebre sin foco: infeccioso/fiebre-sin-foco.md
       - Meningitis y encefalitis: neurologia/meningitis-encefalitis.md
       - Sepsis: infeccioso/sepsis.md
+      - Tosferina: infeccioso/tosferina.md
   - Locomotor:
       - locomotor/index.md
       - Cojera aguda: locomotor/cojera-aguda.md
@@ -92,10 +99,12 @@ nav:
       - Síncope: cardiologia/sincope.md
   - O.R.L.:
       - orl/index.md
+      - Absceso retrofaríngeo y parafaríngeo: orl/absceso-retrofaringeo-parafaringeo.md
       - Epistaxis: orl/epistaxis.md
       - Faringoamigdalitis aguda: infeccioso/faringoamigdalitis-aguda.md
       - Infección respiratoria de vías altas: respiratorio/infeccion-respiratoria-vias-altas.md
       - Laringitis aguda: respiratorio/laringitis-aguda.md
+      - Mastoiditis aguda: orl/mastoiditis.md
       - Otitis media aguda: infeccioso/otitis-media-aguda.md
       - Sinusitis aguda: orl/sinusitis-aguda.md
   - Procedimientos y soporte:
@@ -110,6 +119,7 @@ nav:
       - Bronquiolitis aguda: respiratorio/bronquiolitis-aguda.md
       - Crisis asmática: respiratorio/crisis-asmatica.md
       - Neumonía adquirida en la comunidad: respiratorio/neumonia-adquirida-comunidad.md
+      - Neumotórax: respiratorio/neumotorax.md
 
 plugins:
   - search:
