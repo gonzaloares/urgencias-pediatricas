@@ -3,6 +3,7 @@
 <nav class="protocol-shortcuts" aria-label="Accesos rápidos del protocolo">
   <a href="#valoracion">Valoración</a>
   <a href="#alarma">Alarma</a>
+  <a href="#absceso">Absceso periamigdalino</a>
   <a href="#etiologia">Viral vs estreptocócica</a>
   <a href="#mcisaac">McIsaac</a>
   <a href="#microbiologia">Test rápido</a>
@@ -86,6 +87,7 @@ Valorar complicación y manejo hospitalario si existe:
 
 </div>
 
+<a id="absceso"></a>
 ### Absceso periamigdalino
 
 Hallazgos especialmente sugestivos:
@@ -97,7 +99,31 @@ Hallazgos especialmente sugestivos:
 - desplazamiento de la amígdala afectada hacia la línea media;
 - desviación de la úvula.
 
-Requiere valoración hospitalaria, antibioterapia con cobertura para flora mixta y valoración ORL. Si existe compromiso de vía aérea, complicaciones o ausencia de respuesta al tratamiento, puede precisar drenaje.
+Requiere **valoración ORL en todos los casos** y, habitualmente, manejo hospitalario. La infección suele ser polimicrobiana y el tratamiento empírico debe cubrir *S. pyogenes*, *S. aureus* y anaerobios.
+
+<div class="dose-card">
+  <strong>Antibiótico de elección</strong>
+  <span><b>Amoxicilina-clavulánico IV: 100 mg/kg/día</b> de amoxicilina, repartidos cada 6–8 h.</span>
+  <span>Una vez afebril, con mejoría clínica y tolerancia oral: pasar a vía oral y completar <b>10–14 días</b> de tratamiento total.</span>
+</div>
+
+### Alternativas
+
+- **Alergia a penicilina:** clindamicina IV **20–40 mg/kg/día**, repartida cada 6–8 h.
+- Si existe **mal estado general**, riesgo de SARM o infección grave, individualizar antibioterapia y valorar cobertura con vancomicina o linezolid.
+- Si se obtiene material mediante punción o drenaje, enviar cultivo especialmente si existe mala evolución, inmunodepresión o sospecha de microorganismo resistente.
+
+### Drenaje
+
+Valorar aspiración con aguja o incisión y drenaje si existe colección confirmada, mala respuesta al tratamiento médico, compromiso de vía aérea o extensión a espacios profundos.
+
+<div class="clinical-card clinical-card-warning">
+  <strong>Corticoides:</strong> no se recomiendan de rutina en niños con absceso periamigdalino. La evidencia pediátrica es insuficiente y el posible beneficio se limita principalmente a mejoría sintomática en adolescentes mayores/adultos jóvenes. Puede individualizarse una dosis única en casos seleccionados con edema, odinofagia intensa o trismo importante, siempre como coadyuvante y nunca sustituyendo antibiótico, analgesia ni drenaje cuando esté indicado.
+</div>
+
+<div class="clinical-card clinical-card-note">
+  <strong>Duración orientativa:</strong> puede completarse alrededor de 10 días en flemón sin colección y hasta 14 días si existe absceso que ha requerido drenaje, según evolución clínica.
+</div>
 
 <a id="etiologia"></a>
 ## 3. Orientación etiológica
@@ -463,3 +489,4 @@ Puede darse de alta si:
 2. Piñeiro Pérez R, Álvez González F, Baquero-Artigao F, Cruz Cañete M, de la Flor i Bru J, Fernández Landaluce A, et al. **Actualización del documento de consenso sobre el diagnóstico y tratamiento de la faringoamigdalitis aguda.** An Pediatr (Barc). 2020;93:206.e1-206.e8. [Documento](https://www.seipweb.es/wp-content/uploads/2020/09/2020.-Actualizacio%CC%81n-del-documento-de-consenso-sobre-el-diagno%CC%81stico-y-tratamiento-de-la-faringoamigdalitis-aguda.pdf)
 3. Fernández-Cuesta Valcarce MA, Kirschschläger Nieto SB. **Faringitis aguda.** Guía-ABE. Infecciones en Pediatría. Actualización 26/03/2025. [Guía-ABE](https://www.guia-abe.es/temas-clinicos-faringitis-aguda)
 4. Barshak MB, Linder JA, Watson ME Jr, et al. **IDSA Clinical Practice Guideline Update on Group A Streptococcal Pharyngitis.** Infectious Diseases Society of America; 2025. [IDSA](https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis2/)
+5. Suárez-Bustamante Huélamo M, Escribano Ceruelo E. **Absceso periamigdalino.** Guía-ABE. Infecciones en Pediatría. Versión 3.0, actualización 05/04/2024. [Guía-ABE](https://www.guia-abe.es/temas-clinicos-absceso-periamigdalino)
