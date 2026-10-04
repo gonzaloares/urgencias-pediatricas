@@ -98,6 +98,39 @@ Si shock: repetir bolos de **20 mL/kg** con reevaluación tras cada uno.
   <span>En CAD menos grave (pH >7,15), suele ser suficiente <b>0,05 UI/kg/h</b>.</span>
 </div>
 
+### Preparación y cálculo rápido de la perfusión
+
+<div class="clinical-card clinical-card-note" markdown="1">
+
+**Preparación práctica proporcional al peso**
+
+1. Tomar el **peso del niño en kg = número de UI de insulina regular**.
+2. Diluir esas UI de insulina regular con SSF 0,9% hasta un **volumen final de 100 mL**.
+
+Ejemplo: **33 kg → 33 UI de insulina**.  
+Si la insulina es de **100 UI/mL**, 33 UI = **0,33 mL**.  
+Preparación: **0,33 mL de insulina + 99,67 mL de SSF = 100 mL finales**.
+
+**Con esta preparación, el ritmo de la bomba equivale directamente a la dosis:**
+
+| Ritmo | Dosis de insulina |
+|---:|---:|
+| **10 mL/h** | **0,1 UI/kg/h** |
+| **7 mL/h** | **0,07 UI/kg/h** |
+| **5 mL/h** | **0,05 UI/kg/h** |
+
+Así, para cualquier peso:
+
+- si quieres **0,1 UI/kg/h → 10 mL/h**;
+- si quieres **0,05 UI/kg/h → 5 mL/h**;
+- si quieres **0,07 UI/kg/h → 7 mL/h**.
+
+</div>
+
+<div class="clinical-card clinical-card-warning">
+  <strong>Seguridad:</strong> utilizar siempre insulina regular, comprobar peso, UI cargadas y volumen final. Cebar el sistema con la solución de insulina antes de conectarlo. No administrar bolo IV.
+</div>
+
 - **No administrar bolo IV de insulina.**
 - Mantener la perfusión hasta resolver la cetosis/acidosis, aunque la glucemia ya sea normal.
 - Objetivo orientativo: descenso de glucemia **50–90 mg/dL/h**.
