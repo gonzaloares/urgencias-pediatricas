@@ -19,6 +19,7 @@ nav:
   - Inicio: index.md
   - Accidentes:
       - trauma/index.md
+      - Cuerpo extraño ocular: trauma/cuerpo-extrano-ocular.md
       - Hipotermia y golpe de calor: trauma/hipotermia-golpe-calor.md
       - Ingesta y aspiración de cuerpo extraño: procedimientos/ingesta-aspiracion-cuerpo-extrano.md
       - Intoxicaciones: toxicologia/intoxicaciones.md
