@@ -54,7 +54,7 @@ Considerar especialmente si:
 <a id="riesgo"></a>
 ## 3. Alto riesgo de complicaciones
 
-- <5 años, especialmente <2 años;
+- &lt;5 años, especialmente &lt;2 años;
 - enfermedad pulmonar crónica/asma;
 - cardiopatía;
 - enfermedad neurológica/neuromuscular;
@@ -141,7 +141,7 @@ Revisar vacunación antigripal en seguimiento.
 
 - No dar antibiótico para una gripe no complicada.
 - No hacer panel viral si no cambia la conducta.
-- No negar antiviral a un paciente grave solo porque lleve >48 h.
+- No negar antiviral a un paciente grave solo porque lleve &gt;48 h.
 - No usar aspirina en niños/adolescentes con infección viral por riesgo de síndrome de Reye.
 - No olvidar sobreinfección por *S. aureus* ante deterioro rápido.
 
