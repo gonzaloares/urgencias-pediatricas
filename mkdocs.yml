@@ -50,23 +50,30 @@ nav:
       - Estreñimiento: digestivo/estrenimiento.md
       - Gastroenteritis aguda y deshidratación: digestivo/gastroenteritis-aguda-deshidratacion.md
       - Hemorragia digestiva: digestivo/hemorragia-digestiva.md
+      - Hepatitis aguda: digestivo/hepatitis-aguda.md
       - Pancreatitis aguda: digestivo/pancreatitis-aguda.md
+      - Vómitos: digestivo/vomitos.md
   - Endocrino-metabólico:
       - endocrino/index.md
       - Cetoacidosis diabética: endocrino/cetoacidosis-diabetica.md
       - Crisis suprarrenal: endocrino/crisis-suprarrenal.md
+      - Debut de diabetes e hiperglucemia: endocrino/debut-diabetes-hiperglucemia.md
       - Hipoglucemia: endocrino/hipoglucemia.md
+      - Trastornos del sodio: endocrino/trastornos-sodio.md
   - Genito-urinario-renal:
       - nefrologia/index.md
       - Cólico nefrítico y litiasis urinaria: nefrologia/colico-nefritico.md
       - Escroto agudo: nefrologia/escroto-agudo.md
+      - Hematuria y proteinuria: nefrologia/hematuria-proteinuria.md
       - Infección del tracto urinario: infeccioso/infeccion-tracto-urinario.md
       - Lesión renal aguda: nefrologia/lesion-renal-aguda.md
+      - Síndrome hemolítico urémico: nefrologia/sindrome-hemolitico-uremico.md
       - Síndrome nefrítico agudo: nefrologia/sindrome-nefritico.md
       - Síndrome nefrótico: nefrologia/sindrome-nefrotico.md
   - Hematología:
       - sangre/index.md
       - Fiebre y neutropenia: sangre/fiebre-neutropenia.md
+      - Hemofilia: sangrado agudo: sangre/hemofilia-sangrado.md
       - Síndrome de lisis tumoral: sangre/sindrome-lisis-tumoral.md
       - Transfusión de hemoderivados: sangre/transfusion-hemoderivados.md
       - Trombocitopenia inmune primaria: sangre/trombocitopenia-inmune-primaria.md
@@ -77,6 +84,7 @@ nav:
       - Adenitis cervical: infeccioso/adenitis-cervical.md
       - Conjuntivitis: infeccioso/conjuntivitis.md
       - Fiebre sin foco: infeccioso/fiebre-sin-foco.md
+      - Gripe: infeccioso/gripe.md
       - Meningitis y encefalitis: neurologia/meningitis-encefalitis.md
       - Sepsis: infeccioso/sepsis.md
       - Tosferina: infeccioso/tosferina.md
@@ -118,6 +126,8 @@ nav:
       - respiratorio/index.md
       - Bronquiolitis aguda: respiratorio/bronquiolitis-aguda.md
       - Crisis asmática: respiratorio/crisis-asmatica.md
+      - Derrame parapneumónico y empiema: respiratorio/derrame-pleural-empiema.md
+      - Hemoptisis: respiratorio/hemoptisis.md
       - Neumonía adquirida en la comunidad: respiratorio/neumonia-adquirida-comunidad.md
       - Neumotórax: respiratorio/neumotorax.md
 

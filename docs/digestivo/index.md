@@ -6,6 +6,8 @@
 - [Estreñimiento](estrenimiento.md)
 - [Gastroenteritis aguda y deshidratación](gastroenteritis-aguda-deshidratacion.md)
 - [Hemorragia digestiva](hemorragia-digestiva.md)
+- [Hepatitis aguda](hepatitis-aguda.md)
 - [Pancreatitis aguda](pancreatitis-aguda.md)
+- [Vómitos](vomitos.md)
 
 </div>
