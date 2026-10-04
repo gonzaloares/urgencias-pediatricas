@@ -44,17 +44,18 @@ nav:
   - Genito-urinario-renal:
       - nefrologia/index.md
       - Infección del tracto urinario: infeccioso/infeccion-tracto-urinario.md
-  - Inespecífica:
-      - inespecifica/index.md
-      - Agresión sexual en la infancia y adolescencia: proteccion-infancia/agresion-sexual.md
-      - Maltrato físico en la infancia: proteccion-infancia/maltrato-fisico.md
-      - Principales urgencias psiquiátricas: salud-mental/urgencias-psiquiatricas.md
+  - Hematología: sangre/index.md
   - Infecciosa:
       - infeccioso/index.md
       - Fiebre sin foco: infeccioso/fiebre-sin-foco.md
       - Meningitis y encefalitis: neurologia/meningitis-encefalitis.md
       - Sepsis: infeccioso/sepsis.md
   - Locomotor: locomotor/index.md
+  - Miscelánea:
+      - inespecifica/index.md
+      - Agresión sexual en la infancia y adolescencia: proteccion-infancia/agresion-sexual.md
+      - Maltrato físico en la infancia: proteccion-infancia/maltrato-fisico.md
+      - Principales urgencias psiquiátricas: salud-mental/urgencias-psiquiatricas.md
   - Neurológico:
       - neurologia/index.md
       - Coma: neurologia/coma.md
@@ -78,7 +79,6 @@ nav:
       - respiratorio/index.md
       - Bronquiolitis aguda: respiratorio/bronquiolitis-aguda.md
       - Crisis asmática: respiratorio/crisis-asmatica.md
-  - Sangre: sangre/index.md
 
 plugins:
   - search:
