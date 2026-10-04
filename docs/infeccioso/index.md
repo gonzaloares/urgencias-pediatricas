@@ -5,6 +5,7 @@
 - [Adenitis cervical](adenitis-cervical.md)
 - [Conjuntivitis](conjuntivitis.md)
 - [Fiebre sin foco](fiebre-sin-foco.md)
+- [Gripe](gripe.md)
 - [Meningitis y encefalitis](../neurologia/meningitis-encefalitis.md)
 - [Sepsis](sepsis.md)
 - [Tosferina](tosferina.md)
