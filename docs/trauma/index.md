@@ -2,6 +2,7 @@
 
 <div class="protocol-index" markdown="1">
 
+- [Cuerpo extraño ocular](cuerpo-extrano-ocular.md)
 - [Hipotermia y golpe de calor](hipotermia-golpe-calor.md)
 - [Ingesta y aspiración de cuerpo extraño](../procedimientos/ingesta-aspiracion-cuerpo-extrano.md)
 - [Intoxicaciones](../toxicologia/intoxicaciones.md)
