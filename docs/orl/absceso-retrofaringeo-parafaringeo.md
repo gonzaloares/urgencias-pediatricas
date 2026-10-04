@@ -51,7 +51,7 @@ Más frecuente en preescolares.
 
 Más típico:
 
-- <5 años;
+- &lt;5 años;
 - rigidez/tortícolis;
 - limitación de extensión;
 - abombamiento posterior.
