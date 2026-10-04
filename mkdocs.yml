@@ -73,7 +73,7 @@ nav:
   - Hematología:
       - sangre/index.md
       - Fiebre y neutropenia: sangre/fiebre-neutropenia.md
-      - Hemofilia: sangrado agudo: sangre/hemofilia-sangrado.md
+      - "Hemofilia: sangrado agudo": sangre/hemofilia-sangrado.md
       - Síndrome de lisis tumoral: sangre/sindrome-lisis-tumoral.md
       - Transfusión de hemoderivados: sangre/transfusion-hemoderivados.md
       - Trombocitopenia inmune primaria: sangre/trombocitopenia-inmune-primaria.md
