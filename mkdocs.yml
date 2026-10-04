@@ -39,6 +39,8 @@ nav:
   - Dermatología:
       - dermatologia/index.md
       - Anafilaxia: alergia/anafilaxia.md
+      - Exantemas pediátricos: dermatologia/exantemas.md
+      - Impétigo y celulitis: dermatologia/impetigo-celulitis.md
       - Quemaduras: trauma/quemaduras.md
       - Urticaria y angioedema: dermatologia/urticaria-angioedema.md
   - Digestivo:
@@ -53,15 +55,21 @@ nav:
   - Genito-urinario-renal:
       - nefrologia/index.md
       - Cólico nefrítico y litiasis urinaria: nefrologia/colico-nefritico.md
+      - Escroto agudo: nefrologia/escroto-agudo.md
       - Infección del tracto urinario: infeccioso/infeccion-tracto-urinario.md
       - Síndrome nefrítico agudo: nefrologia/sindrome-nefritico.md
       - Síndrome nefrótico: nefrologia/sindrome-nefrotico.md
   - Hematología:
       - sangre/index.md
+      - Fiebre y neutropenia: sangre/fiebre-neutropenia.md
       - Síndrome de lisis tumoral: sangre/sindrome-lisis-tumoral.md
+      - Transfusión de hemoderivados: sangre/transfusion-hemoderivados.md
       - Trombocitopenia inmune primaria: sangre/trombocitopenia-inmune-primaria.md
+      - Urgencias oncológicas: sangre/urgencias-oncologicas.md
   - Infecciosa:
       - infeccioso/index.md
+      - Adenitis cervical: infeccioso/adenitis-cervical.md
+      - Conjuntivitis: infeccioso/conjuntivitis.md
       - Fiebre sin foco: infeccioso/fiebre-sin-foco.md
       - Meningitis y encefalitis: neurologia/meningitis-encefalitis.md
       - Sepsis: infeccioso/sepsis.md
@@ -84,10 +92,12 @@ nav:
       - Síncope: cardiologia/sincope.md
   - O.R.L.:
       - orl/index.md
+      - Epistaxis: orl/epistaxis.md
       - Faringoamigdalitis aguda: infeccioso/faringoamigdalitis-aguda.md
       - Infección respiratoria de vías altas: respiratorio/infeccion-respiratoria-vias-altas.md
       - Laringitis aguda: respiratorio/laringitis-aguda.md
       - Otitis media aguda: infeccioso/otitis-media-aguda.md
+      - Sinusitis aguda: orl/sinusitis-aguda.md
   - Procedimientos y soporte:
       - procedimientos/index.md
       - Aproximación y estabilización inicial · TEP y ABCDE: emergencias/estabilizacion-inicial-tep-abcde.md
