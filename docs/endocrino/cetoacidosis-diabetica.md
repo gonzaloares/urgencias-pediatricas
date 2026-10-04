@@ -98,6 +98,39 @@ Si shock: repetir bolos de **20 mL/kg** con reevaluación tras cada uno.
   <span>En CAD menos grave (pH >7,15), suele ser suficiente <b>0,05 UI/kg/h</b>.</span>
 </div>
 
+### Preparación y cálculo rápido de la perfusión
+
+<div class="clinical-card clinical-card-note" markdown="1">
+
+**Preparación práctica: 1 UI/mL**
+
+- Utilizar **insulina regular**.
+- Si la presentación es **100 UI/mL**, extraer **0,5 mL = 50 UI**.
+- Añadir SSF 0,9% hasta un **volumen final de 50 mL**.
+- Concentración resultante: **1 UI/mL**.
+- Cebar el sistema con la solución de insulina antes de conectarlo, porque la insulina puede adsorberse al material de la línea.
+
+**Con esta concentración, el cálculo es directo:**
+
+- **0,05 UI/kg/h → peso (kg) ÷ 20 = mL/h**.
+- **0,1 UI/kg/h → peso (kg) ÷ 10 = mL/h**.
+
+</div>
+
+#### Ejemplos
+
+| Peso | 0,05 UI/kg/h | 0,1 UI/kg/h |
+|---:|---:|---:|
+| **10 kg** | **0,5 mL/h** | **1 mL/h** |
+| **20 kg** | **1 mL/h** | **2 mL/h** |
+| **30 kg** | **1,5 mL/h** | **3 mL/h** |
+| **40 kg** | **2 mL/h** | **4 mL/h** |
+| **50 kg** | **2,5 mL/h** | **5 mL/h** |
+
+<div class="clinical-card clinical-card-warning">
+  <strong>Seguridad:</strong> confirmar siempre concentración, peso y velocidad programada antes de iniciar. No añadir la insulina directamente a la bolsa de rehidratación y no administrar bolo IV.
+</div>
+
 - **No administrar bolo IV de insulina.**
 - Mantener la perfusión hasta resolver la cetosis/acidosis, aunque la glucemia ya sea normal.
 - Objetivo orientativo: descenso de glucemia **50–90 mg/dL/h**.
