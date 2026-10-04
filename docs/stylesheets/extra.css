@@ -506,3 +506,53 @@
 .protocol-index a:hover {
   background: color-mix(in srgb, var(--md-primary-fg-color) 6%, var(--md-default-bg-color));
 }
+
+
+/* --------------------------------------------------------------------------
+   Instalación como PWA
+   -------------------------------------------------------------------------- */
+.pwa-install-panel {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0.7rem 0 1.1rem;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.7rem;
+  background: var(--md-code-bg-color);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.pwa-install-button {
+  flex: 0 0 auto;
+  appearance: none;
+  border: 0;
+  border-radius: 0.55rem;
+  padding: 0.58rem 0.82rem;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.pwa-install-button:hover,
+.pwa-install-button:focus-visible {
+  filter: brightness(0.95);
+}
+
+.pwa-install-panel-ios {
+  display: block;
+}
+
+@media screen and (max-width: 44.984375em) {
+  .pwa-install-panel {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .pwa-install-button {
+    width: 100%;
+  }
+}
