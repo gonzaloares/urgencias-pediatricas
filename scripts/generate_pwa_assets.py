@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import json
 import struct
 import sys
 import zlib
@@ -61,6 +62,14 @@ def write_icon(path: Path, size: int) -> None:
     path.write_bytes(png)
 
 
+def document_url(path: Path) -> str:
+    relative = path.relative_to(DOCS)
+    if relative.name == "index.md":
+        parent = relative.parent.as_posix()
+        return "./" if parent == "." else f"{parent}/"
+    return f"{relative.with_suffix('').as_posix()}/"
+
+
 def main() -> int:
     version = (sys.argv[1] if len(sys.argv) > 1 else "dev").strip()[:16] or "dev"
 
@@ -69,11 +78,22 @@ def main() -> int:
     write_icon(ICONS / "icon-512.png", 512)
     write_icon(ICONS / "apple-touch-icon.png", 180)
 
+    offline_urls = sorted(
+        {document_url(path) for path in DOCS.rglob("*.md")}
+    )
+    (DOCS / "offline-urls.json").write_text(
+        json.dumps(offline_urls, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
     template = TEMPLATE.read_text(encoding="utf-8")
     service_worker = template.replace("__BUILD_VERSION__", version)
     (DOCS / "service-worker.js").write_text(service_worker, encoding="utf-8")
 
-    print(f"PWA assets generated for build {version}")
+    print(
+        f"PWA assets generated for build {version}: "
+        f"{len(offline_urls)} pages prepared for offline use"
+    )
     return 0
 
 
