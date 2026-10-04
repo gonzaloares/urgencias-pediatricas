@@ -3,6 +3,7 @@
 <nav class="protocol-shortcuts" aria-label="Accesos rápidos del protocolo">
   <a href="#torsion">Torsión testicular</a>
   <a href="#exploracion">Exploración</a>
+  <a href="#escalas">TWIST / TEST</a>
   <a href="#eco">Ecografía</a>
   <a href="#apendice">Apéndice testicular</a>
   <a href="#epididimitis">Epididimitis</a>
@@ -57,8 +58,77 @@ La viabilidad es máxima si se trata en las primeras **4–6 h**.
 | **Hernia incarcerada** | Masa inguinoescrotal irreductible, vómitos |
 | **Trauma** | Antecedente traumático, hematoma |
 
+<a id="escalas"></a>
+## 3. Escalas de riesgo: TWIST y TEST
+
+Las escalas **TWIST** y **TEST** pueden utilizarse como apoyo para estimar la probabilidad de torsión testicular y orientar la conducta inicial.
+
+<div class="clinical-card clinical-card-warning">
+  <strong>Importante:</strong> estas escalas no sustituyen la valoración clínica ni quirúrgica. Si la sospecha de torsión testicular es alta, la valoración por Cirugía/Urología debe ser inmediata y no debe retrasarse por la puntuación ni por una ecografía Doppler.
+</div>
+
+### TWIST
+
+<div class="score-table" markdown="1">
+
+| Criterio | Puntos |
+|---|---:|
+| **Induración testicular** | **2** |
+| **Elevación testicular** | **1** |
+| **Ausencia de reflejo cremastérico** | **1** |
+| **Aumento de volumen testicular** | **2** |
+| **Náuseas y/o vómitos** | **1** |
+| **Puntuación total** | **7** |
+
+</div>
+
+**Interpretación TWIST**
+
+<div class="score-table" markdown="1">
+
+| Puntuación | Conducta |
+|---:|---|
+| **0–2** | **Riesgo bajo:** observación y reevaluación clínica |
+| **3–4** | **Riesgo intermedio:** ecografía Doppler |
+| **5–7** | **Riesgo alto:** valoración quirúrgica urgente |
+
+</div>
+
+### TEST
+
+<div class="score-table" markdown="1">
+
+| Criterio | Puntos |
+|---|---:|
+| **Induración testicular** | **2** |
+| **Elevación testicular** | **2** |
+| **Ausencia de reflejo cremastérico** | **1** |
+| **Aumento de volumen testicular** | **1** |
+| **Náuseas y/o vómitos** | **2** |
+| **Edad ≤1 año o ≥10 años** | **2** |
+| **Duración del dolor <6 horas** | **1** |
+| **Puntuación total** | **11** |
+
+</div>
+
+**Interpretación TEST**
+
+<div class="score-table" markdown="1">
+
+| Puntuación | Conducta |
+|---:|---|
+| **0–3** | **Riesgo bajo:** observación y reevaluación clínica |
+| **4–7** | **Riesgo intermedio:** ecografía Doppler |
+| **8–11** | **Riesgo alto:** valoración quirúrgica urgente |
+
+</div>
+
+<div class="clinical-card clinical-card-note">
+  <strong>Aplicación práctica:</strong> las escalas son especialmente útiles para ordenar el riesgo cuando la presentación no es concluyente. Una puntuación baja no debe utilizarse de forma aislada para descartar torsión si la historia o la exploración son sugestivas.
+</div>
+
 <a id="eco"></a>
-## 3. ¿Cuándo hacer ecografía Doppler?
+## 4. ¿Cuándo hacer ecografía Doppler?
 
 ### No debe retrasar cirugía
 
@@ -77,7 +147,7 @@ Después de valoración quirúrgica si:
 </div>
 
 <a id="apendice"></a>
-## 4. Torsión de apéndice testicular
+## 5. Torsión de apéndice testicular
 
 Más frecuente en prepuberales.
 
@@ -95,7 +165,7 @@ Una vez excluida torsión testicular:
 Suele resolver en **5–10 días**.
 
 <a id="epididimitis"></a>
-## 5. Epididimitis / epididimo-orquitis
+## 6. Epididimitis / epididimo-orquitis
 
 Valorar:
 
@@ -127,7 +197,7 @@ Tratar si:
 Segundo episodio → valorar estudio de vía urinaria/Urología.
 
 <a id="hernia"></a>
-## 6. Hernia inguinal incarcerada
+## 7. Hernia inguinal incarcerada
 
 - masa dolorosa irreductible;
 - irritabilidad;
@@ -139,7 +209,7 @@ Segundo episodio → valorar estudio de vía urinaria/Urología.
 Si no se reduce o existen signos de compromiso intestinal/testicular → cirugía.
 
 <a id="trauma"></a>
-## 7. Trauma testicular
+## 8. Trauma testicular
 
 Valorar:
 
@@ -169,7 +239,7 @@ Si existe demora inevitable hasta quirófano, un profesional experimentado puede
 - **nunca sustituye la exploración/fijación quirúrgica bilateral**.
 
 <a id="no-hacer"></a>
-## 8. No hacer
+## 9. No hacer
 
 - No retrasar Cirugía por pedir ecografía si la torsión es probable.
 - No tranquilizarse solo porque exista flujo Doppler si la clínica es muy sugestiva.
@@ -178,7 +248,7 @@ Si existe demora inevitable hasta quirófano, un profesional experimentado puede
 - No dar el alta si no se ha excluido razonablemente torsión testicular.
 
 <a id="bibliografia"></a>
-## 9. Bibliografía
+## 10. Bibliografía
 
 1. Royal Children's Hospital Melbourne. **Clinical Practice Guideline: Acute scrotal pain or swelling.** Actualización enero 2026. [Guía](https://www.rch.org.au/clinicalguide/guideline_index/Acute_Scrotal_Pain_or_Swelling/)
 2. European Association of Urology. **EAU Guidelines on Paediatric Urology. Acute scrotum.** Actualización vigente.
