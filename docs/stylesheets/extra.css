@@ -148,8 +148,49 @@
   }
 }
 
-/* Las tablas con más columnas conservan un ancho útil en móvil y se desplazan */
+/* Tablas en móvil:
+   - nunca fijar la primera columna;
+   - las tablas de 2 columnas deben caber completas en pantalla;
+   - las tablas de 3+ columnas mantienen scroll horizontal de toda la tabla. */
 @media screen and (max-width: 44.984375em) {
+  /* En móvil ninguna primera columna queda sticky. */
+  .md-typeset .md-typeset__table table:not([class]) th:first-child,
+  .md-typeset .md-typeset__table table:not([class]) td:first-child {
+    position: static;
+    left: auto;
+    z-index: auto;
+    max-width: 11rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    box-shadow: none;
+  }
+
+  /* Tablas exactamente de 2 columnas: ajustar al ancho de pantalla. */
+  .md-typeset .md-typeset__table table:not([class]):has(th:nth-child(2)):not(:has(th:nth-child(3))) {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    table-layout: fixed;
+  }
+
+  .md-typeset .md-typeset__table table:not([class]):has(th:nth-child(2)):not(:has(th:nth-child(3))) th,
+  .md-typeset .md-typeset__table table:not([class]):has(th:nth-child(2)):not(:has(th:nth-child(3))) td {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .md-typeset .md-typeset__table table:not([class]):has(th:nth-child(2)):not(:has(th:nth-child(3))) th:first-child,
+  .md-typeset .md-typeset__table table:not([class]):has(th:nth-child(2)):not(:has(th:nth-child(3))) td:first-child {
+    width: 45%;
+    max-width: none;
+  }
+
+  .md-typeset .md-typeset__table table:not([class]):has(th:nth-child(2)):not(:has(th:nth-child(3))) th:nth-child(2),
+  .md-typeset .md-typeset__table table:not([class]):has(th:nth-child(2)):not(:has(th:nth-child(3))) td:nth-child(2) {
+    width: 55%;
+  }
+
+  /* Las tablas con más columnas conservan un ancho útil y se desplazan completas. */
   .md-typeset .md-typeset__table table:not([class]):has(th:nth-child(3)) {
     min-width: 32rem;
   }
@@ -162,8 +203,7 @@
     min-width: 48rem;
   }
 
-  /* Escalas clínicas de 2 columnas: evitar scroll horizontal en móvil.
-     La columna de puntos queda compacta y el texto clínico hace wrap. */
+  /* Escalas clínicas de 2 columnas: puntos compactos. */
   .md-typeset .score-table .md-typeset__table {
     display: block;
     width: 100%;
@@ -182,6 +222,7 @@
   .md-typeset .score-table .md-typeset__table table:not([class]) td:first-child {
     position: static;
     width: auto;
+    max-width: none;
     white-space: normal;
     overflow-wrap: anywhere;
     box-shadow: none;
