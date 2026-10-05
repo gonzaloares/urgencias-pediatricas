@@ -178,8 +178,8 @@ Evitar guardar el diente seco.
 
 ### Tiempo extraoral
 
-- **<60 min**: mejor pronóstico, especialmente si se mantuvo húmedo;
-- >60 min: peor pronóstico periodontal, pero la reimplantación de un permanente sigue siendo habitualmente recomendable tras valoración especializada.
+- **&lt;60 min**: mejor pronóstico, especialmente si se mantuvo húmedo;
+- &gt;60 min: peor pronóstico periodontal, pero la reimplantación de un permanente sigue siendo habitualmente recomendable tras valoración especializada.
 
 ### Después de reimplantación
 

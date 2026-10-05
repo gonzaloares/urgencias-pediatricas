@@ -125,7 +125,7 @@ Las vesículas o bullas sobre la membrana timpánica pueden ser muy dolorosas, p
 Valorar complicación, ingreso o manejo especializado si existe:
 
 - TEP alterado o afectación importante del estado general;
-- lactante **<2 meses**;
+- lactante **&lt;2 meses**;
 - signos meníngeos, alteración neurológica o cefalea intensa;
 - parálisis facial;
 - vértigo intenso;
@@ -218,7 +218,7 @@ Puede realizarse **observación inicial con analgesia y reevaluación en 48–72
 - edad ≥6 meses;
 - sin otorrea espontánea;
 - sin factores de riesgo de complicación;
-- sin OMA bilateral en <2 años;
+- sin OMA bilateral en &lt;2 años;
 - sin fiebre ≥39 °C ni otalgia intensa;
 - seguimiento fiable.
 
@@ -230,14 +230,14 @@ Puede realizarse **observación inicial con analgesia y reevaluación en 48–72
 
 Indicar si existe cualquiera de los siguientes:
 
-- **<6 meses**;
+- **&lt;6 meses**;
 - TEP alterado o mal estado general;
 - fiebre **≥39 °C**;
 - otalgia intensa;
-- persistencia de otalgia durante **>48 h**;
+- persistencia de otalgia durante **&gt;48 h**;
 - empeoramiento clínico significativo;
 - **otorrea espontánea**;
-- **OMA bilateral en <2 años**;
+- **OMA bilateral en &lt;2 años**;
 - OMA recurrente o persistente;
 - malformación craneofacial;
 - síndrome de Down;
@@ -277,7 +277,7 @@ Preferir formulación con proporción alta de amoxicilina respecto a clavulánic
 
 Utilizar **amoxicilina-clavulánico VO** desde el inicio si:
 
-- edad **<6 meses**;
+- edad **&lt;6 meses**;
 - OMA asociada a **conjuntivitis purulenta**;
 - tratamiento con **amoxicilina en los 30 días previos**;
 - **OMA recurrente**.
@@ -386,7 +386,7 @@ Si existe osteítis, afectación grave o sospecha de complicación intracraneal,
 
 Considerar ingreso si:
 
-- **<2 meses**;
+- **&lt;2 meses**;
 - afectación del estado general;
 - sospecha de mastoiditis;
 - sospecha de complicación intratemporal o intracraneal;
@@ -395,7 +395,7 @@ Considerar ingreso si:
 - inmunodepresión grave;
 - otitis media supurada crónica;
 - implante coclear con:
-  - <2 meses desde implantación;
+  - &lt;2 meses desde implantación;
   - malformación del oído interno;
   - fístula LCR-oído interno;
   - mal estado general;
@@ -440,7 +440,7 @@ Puede darse de alta si:
 - No utilizar antihistamínicos, descongestionantes ni corticoides orales para tratar la OMA.
 - No utilizar amoxicilina-clavulánico de entrada en todos los pacientes.
 - No añadir antibiótico tópico en la otorrea por perforación espontánea de la membrana timpánica.
-- No prolongar sistemáticamente 10 días el tratamiento en >2 años con OMA no grave.
+- No prolongar sistemáticamente 10 días el tratamiento en &gt;2 años con OMA no grave.
 - No considerar un derrame residual asintomático como fracaso terapéutico.
 
 <a id="algoritmo"></a>

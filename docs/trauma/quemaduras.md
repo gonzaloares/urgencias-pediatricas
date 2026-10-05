@@ -69,8 +69,8 @@ O₂ al 100% si sospecha humo/CO. Valorar carboxihemoglobina, gasometría y lact
 
 ### Indicación
 
-- **>10% SCQ:** rehidratación IV.
-- **>20% SCQ:** manejo intensivo / Unidad de Quemados.
+- **&gt;10% SCQ:** rehidratación IV.
+- **&gt;20% SCQ:** manejo intensivo / Unidad de Quemados.
 
 ### Parkland
 
@@ -84,7 +84,7 @@ Preferir Ringer lactato/cristaloide balanceado.
 
 ### Diuresis objetivo
 
-- <30 kg: **1–2 mL/kg/h**.
+- &lt;30 kg: **1–2 mL/kg/h**.
 - ≥30 kg: **0,5–1 mL/kg/h**.
 
 Ajustar a respuesta; la fórmula es una estimación.
@@ -106,7 +106,7 @@ Quemadura circunferencial con compromiso vascular/ventilatorio → cirugía urge
 
 Derivar/consultar si:
 
-- espesor parcial **>10% SCT**;
+- espesor parcial **&gt;10% SCT**;
 - espesor total;
 - cara, manos, pies, genitales, periné o articulaciones;
 - eléctrica;

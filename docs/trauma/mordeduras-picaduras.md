@@ -37,8 +37,8 @@
 Puede considerarse en heridas:
 
 - no infectadas;
-- <12 h de evolución;
-- <24 h en cara;
+- &lt;12 h de evolución;
+- &lt;24 h en cara;
 - fuera de manos/pies;
 - con buen resultado estético esperado.
 
@@ -62,7 +62,7 @@ No sistemática. Indicar especialmente si:
 - aplastamiento;
 - afectación ósea/articular/tendinosa;
 - herida suturada;
-- >8–12 h con daño importante;
+- &gt;8–12 h con daño importante;
 - inmunodepresión/asplenia.
 
 **Elección:** amoxicilina-clavulánico VO.

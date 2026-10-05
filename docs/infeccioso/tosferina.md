@@ -112,7 +112,7 @@ En <1 mes, azitromicina sigue siendo la opción preferida pese a la asociación 
 Orientativamente:
 
 - ≥1 año: si han transcurrido **≤3 semanas** desde inicio de tos;
-- <1 año: hasta **6 semanas** desde inicio de tos;
+- &lt;1 año: hasta **6 semanas** desde inicio de tos;
 - embarazo con contacto neonatal próximo: hasta 6 semanas.
 
 <a id="ingreso"></a>
@@ -126,7 +126,7 @@ Orientativamente:
 
 ### Ingreso
 
-- edad <3–6 meses con enfermedad relevante;
+- edad &lt;3–6 meses con enfermedad relevante;
 - apnea/cianosis;
 - hipoxemia;
 - dificultad respiratoria;

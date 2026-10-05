@@ -74,12 +74,12 @@ Registrar:
 
 ### Criterios que favorecen ingreso
 
-- SpO₂ **<92%** en aire ambiente;
+- SpO₂ **&lt;92%** en aire ambiente;
 - dificultad respiratoria moderada-grave;
 - apnea;
 - aspecto tóxico;
 - deshidratación o incapacidad para mantener ingesta;
-- <12 meses con cuadro relevante, especialmente lactante pequeño;
+- &lt;12 meses con cuadro relevante, especialmente lactante pequeño;
 - comorbilidad cardiopulmonar, neuromuscular o inmunodepresión;
 - afectación multilobar;
 - derrame pleural/empiema;

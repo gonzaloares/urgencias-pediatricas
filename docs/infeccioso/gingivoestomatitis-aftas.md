@@ -174,7 +174,7 @@ Evitar preparados anestésicos tópicos no estandarizados en niños pequeños po
 ### Afta menor típica
 
 - redondeada/oval;
-- <1 cm;
+- &lt;1 cm;
 - fondo blanquecino o amarillento;
 - halo eritematoso;
 - muy dolorosa;
@@ -211,8 +211,8 @@ No utilizar corticoide tópico sobre lesiones sospechosas de herpes activo.
 
 Consultar/estudiar si:
 
-- >1 cm;
-- duran >2–3 semanas;
+- &gt;1 cm;
+- duran &gt;2–3 semanas;
 - cicatrizan;
 - muy numerosas;
 - recurrencia muy frecuente;
@@ -274,7 +274,7 @@ El ingreso es excepcional; buscar enfermedad sistémica si existe:
 
 - No llamar “aftas” a toda gingivoestomatitis febril.
 - No prescribir aciclovir a toda úlcera oral.
-- No iniciar aciclovir rutinariamente en un inmunocompetente con cuadro leve o >72 h y en clara mejoría.
+- No iniciar aciclovir rutinariamente en un inmunocompetente con cuadro leve o &gt;72 h y en clara mejoría.
 - No usar aciclovir tópico para la gingivoestomatitis.
 - No olvidar que el principal problema práctico es el dolor y la deshidratación.
 - No utilizar corticoides tópicos sobre una lesión herpética activa.

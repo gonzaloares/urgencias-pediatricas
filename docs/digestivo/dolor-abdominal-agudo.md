@@ -61,7 +61,7 @@ Aumentan la sospecha de patología relevante o quirúrgica:
 
 - afectación del estado general;
 - inestabilidad hemodinámica;
-- dolor **persistente >6 h** y de intensidad creciente;
+- dolor **persistente &gt;6 h** y de intensidad creciente;
 - dolor localizado y fijo;
 - signos de irritación peritoneal;
 - distensión abdominal;
@@ -328,7 +328,7 @@ Administrar en perfusión lenta, aproximadamente **15 min**.
 
 Dosis máxima inicial orientativa:
 
-- <50 kg: **1–2 mg**;
+- &lt;50 kg: **1–2 mg**;
 - ≥50 kg: **2–5 mg**.
 
 ### Si se sospecha abdomen quirúrgico

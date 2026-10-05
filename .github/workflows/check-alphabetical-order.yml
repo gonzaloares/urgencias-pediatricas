@@ -1,27 +1,28 @@
-name: Check alphabetical order
+name: Check content integrity
 
 on:
   pull_request:
     paths:
       - "mkdocs.yml"
-      - "docs/index.md"
-      - "docs/**/index.md"
+      - "docs/**/*.md"
       - "scripts/check_alphabetical_order.py"
+      - "scripts/check_markdown_rendering.py"
       - ".github/workflows/check-alphabetical-order.yml"
   push:
     branches:
       - main
     paths:
       - "mkdocs.yml"
-      - "docs/index.md"
-      - "docs/**/index.md"
+      - "docs/**/*.md"
       - "scripts/check_alphabetical_order.py"
+      - "scripts/check_markdown_rendering.py"
+      - ".github/workflows/check-alphabetical-order.yml"
 
 permissions:
   contents: read
 
 jobs:
-  check-order:
+  check-content:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -37,3 +38,6 @@ jobs:
 
       - name: Check alphabetical order
         run: python scripts/check_alphabetical_order.py
+
+      - name: Check Markdown rendering safety
+        run: python scripts/check_markdown_rendering.py

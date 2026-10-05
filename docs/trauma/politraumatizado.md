@@ -112,9 +112,9 @@ Valorar si:
 - defensa/dolor abdominal importante;
 - signo del cinturón;
 - mecanismo sugestivo;
-- AST >200 U/L o ALT >125 U/L;
-- >50 hematíes/campo;
-- hematocrito <30%;
+- AST &gt;200 U/L o ALT &gt;125 U/L;
+- &gt;50 hematíes/campo;
+- hematocrito &lt;30%;
 - exploración abdominal poco fiable con mecanismo de riesgo.
 
 ### TC cervical

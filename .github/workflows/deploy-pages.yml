@@ -34,6 +34,9 @@ jobs:
       - name: Check alphabetical order
         run: python scripts/check_alphabetical_order.py
 
+      - name: Check Markdown rendering safety
+        run: python scripts/check_markdown_rendering.py
+
       - name: Generate PWA assets
         run: python scripts/generate_pwa_assets.py "${GITHUB_SHA}"
 

@@ -45,7 +45,7 @@ Si aspecto tóxico/sepsis:
 
 ### Ingreso
 
-- <12 meses;
+- &lt;12 meses;
 - mal estado;
 - inestabilidad;
 - síndrome torácico;

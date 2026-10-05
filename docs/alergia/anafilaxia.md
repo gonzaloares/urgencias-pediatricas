@@ -143,7 +143,7 @@ La indicación de adrenalina debe considerarse especialmente si existe:
 
 - inhalado con cámara: **5–10 puff**;
 - nebulizado:
-  - <20 kg: **2,5 mg**;
+  - &lt;20 kg: **2,5 mg**;
   - ≥20 kg: **5 mg**.
 
 <div class="clinical-card clinical-card-warning">
@@ -274,7 +274,7 @@ El tiempo de observación debe individualizarse según gravedad, respuesta al tr
 
 Si presenta alguno de los siguientes:
 
-- anafilaxia grave que ha requerido **>2 dosis de adrenalina**;
+- anafilaxia grave que ha requerido **&gt;2 dosis de adrenalina**;
 - asma grave;
 - insuficiencia respiratoria grave durante el episodio;
 - posible absorción continuada del alérgeno;
