@@ -10,6 +10,7 @@ on:
       - "scripts/check_alphabetical_order.py"
       - "scripts/check_drug_registry.py"
       - "scripts/check_infusion_registry.py"
+      - "scripts/check_rsi_registry.py"
       - "scripts/check_markdown_rendering.py"
       - ".github/workflows/check-alphabetical-order.yml"
   push:
@@ -23,6 +24,7 @@ on:
       - "scripts/check_alphabetical_order.py"
       - "scripts/check_drug_registry.py"
       - "scripts/check_infusion_registry.py"
+      - "scripts/check_rsi_registry.py"
       - "scripts/check_markdown_rendering.py"
       - ".github/workflows/check-alphabetical-order.yml"
 
@@ -61,3 +63,6 @@ jobs:
 
       - name: Check infusion calculator JavaScript syntax
         run: node --check docs/javascripts/infusion-calculator.js
+
+      - name: Check RSI registry
+        run: python scripts/check_rsi_registry.py
