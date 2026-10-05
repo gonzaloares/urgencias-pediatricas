@@ -87,7 +87,7 @@
       "max_dose": null,
       "min_dose": null,
       "concentration": null,
-      "reference_text": "80 mg/kg/día repartidos en 2–3 dosis",
+      "reference_text": "80 mg/kg/día repartidos en 2–3 dosis · máx. 6 g/día",
       "interval": "El protocolo permite repartir la dosis diaria en 2 o 3 tomas.",
       "age": {
         "min_months": 0,
@@ -100,7 +100,11 @@
       "source_label": "Neumonía adquirida en la comunidad",
       "notes": [
         "La calculadora muestra ambas posibilidades de reparto; la elección del intervalo depende del protocolo y del contexto clínico."
-      ]
+      ],
+      "max_daily": {
+        "value": 6000,
+        "unit": "mg/día"
+      }
     },
     {
       "id": "amoxicilina-clavulanico-preseptal",
