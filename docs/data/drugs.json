@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-05",
+  "entries": [
+    {
+      "id": "adrenalina-rcp",
+      "drug": "Adrenalina",
+      "indication": "Parada cardiorrespiratoria",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "weight",
+        "value": 0.01,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 1,
+        "unit": "mg"
+      },
+      "concentration": {
+        "value": 0.1,
+        "unit": "mg/mL",
+        "label": "0,1 mg/mL"
+      },
+      "interval": "Repetir cada 4 min durante la RCP cuando corresponda.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "off_label": false,
+      "protocol": "procedimientos/reanimacion-cardiopulmonar.md",
+      "source_label": "RCP · protocolo del proyecto actualizado con ERC 2025",
+      "notes": [
+        "Equivale a 10 µg/kg.",
+        "Tras administrar por IV/IO, lavar la vía con SSF.",
+        "No confundir con adrenalina IM 1 mg/mL de anafilaxia."
+      ]
+    },
+    {
+      "id": "ondansetron-gea",
+      "drug": "Ondansetrón",
+      "indication": "Vómitos por gastroenteritis para facilitar rehidratación oral",
+      "route": "VO",
+      "dose": {
+        "kind": "weight",
+        "value": 0.15,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 8,
+        "unit": "mg"
+      },
+      "concentration": null,
+      "interval": "Dosis única; iniciar SRO 15–30 min después.",
+      "age": {
+        "min_months": 6,
+        "text": "≥6 meses"
+      },
+      "off_label": true,
+      "protocol": "digestivo/vomitos.md",
+      "source_label": "Vómitos/GEA · protocolo del proyecto",
+      "notes": [
+        "Uso fuera de ficha técnica en España para gastroenteritis aguda.",
+        "No repetir de rutina en el protocolo de Urgencias."
+      ]
+    },
+    {
+      "id": "glucosa10-hipoglucemia",
+      "drug": "Glucosa 10%",
+      "indication": "Hipoglucemia grave",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "volume_per_kg",
+        "value": 2,
+        "unit": "mL/kg",
+        "output_unit": "mL"
+      },
+      "max_dose": null,
+      "concentration": {
+        "value": 0.1,
+        "unit": "g/mL",
+        "label": "0,1 g/mL (10%)"
+      },
+      "interval": "Repetir glucemia a los 5–10 min.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "off_label": false,
+      "protocol": "endocrino/hipoglucemia.md",
+      "source_label": "Hipoglucemia · protocolo del proyecto actualizado con ERC 2025",
+      "notes": [
+        "2 mL/kg de glucosa 10% equivalen a 0,2 g/kg."
+      ]
+    },
+    {
+      "id": "levetiracetam-estatus",
+      "drug": "Levetiracetam",
+      "indication": "Estatus epiléptico · segunda línea",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "weight",
+        "value": 50,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 4500,
+        "unit": "mg"
+      },
+      "concentration": null,
+      "interval": "Administrar en 5 min.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "off_label": false,
+      "protocol": "neurologia/estatus-epileptico.md",
+      "source_label": "Estatus epiléptico · SEUP 2025 / Código Crisis",
+      "notes": [
+        "El protocolo del proyecto prioriza biterapia precoz cuando la crisis persiste."
+      ]
+    }
+  ]
+}
