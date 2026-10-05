@@ -986,3 +986,134 @@
     gap: 0.15rem;
   }
 }
+
+
+/* --------------------------------------------------------------------------
+   Estado, versión y actualización de la PWA
+   -------------------------------------------------------------------------- */
+.pwa-status-panel {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0.75rem 0 1.1rem;
+  padding: 0.85rem 0.95rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.7rem;
+  background: var(--md-default-bg-color);
+  box-shadow: var(--protocol-shadow);
+  font-size: 0.74rem;
+}
+
+.pwa-status-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem;
+}
+
+.pwa-status-badge {
+  flex: 0 0 auto;
+  padding: 0.2rem 0.48rem;
+  border-radius: 999px;
+  font-size: 0.64rem;
+  font-weight: 750;
+}
+
+.pwa-status-online {
+  background: rgba(22, 163, 74, 0.11);
+  color: #15803d;
+}
+
+.pwa-status-offline {
+  background: rgba(217, 119, 6, 0.12);
+  color: #b45309;
+}
+
+.pwa-status-version,
+.pwa-status-sync {
+  color: var(--md-default-fg-color--light);
+}
+
+.pwa-status-offline-ready {
+  font-weight: 700;
+  color: #15803d;
+}
+
+.pwa-status-offline-pending {
+  font-weight: 650;
+  color: #b45309;
+}
+
+.pwa-status-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem;
+  margin-top: 0.2rem;
+}
+
+.pwa-status-update-notice {
+  font-weight: 750;
+  color: var(--md-primary-fg-color--dark);
+}
+
+.pwa-status-button,
+.pwa-update-banner button {
+  appearance: none;
+  border: 1px solid var(--md-primary-fg-color);
+  border-radius: 0.52rem;
+  padding: 0.48rem 0.7rem;
+  background: transparent;
+  color: var(--md-primary-fg-color);
+  font: inherit;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.pwa-status-button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.pwa-status-button-update,
+.pwa-update-banner button {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+.pwa-update-banner {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  max-width: min(30rem, calc(100vw - 2rem));
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--md-primary-fg-color--light);
+  border-radius: 0.65rem;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 0.35rem 1.1rem rgb(0 0 0 / 18%);
+  font-size: 0.74rem;
+  font-weight: 650;
+}
+
+@media screen and (max-width: 44.984375em) {
+  .pwa-status-actions,
+  .pwa-update-banner {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .pwa-status-button,
+  .pwa-update-banner button {
+    width: 100%;
+  }
+
+  .pwa-update-banner {
+    right: 0.65rem;
+    bottom: 0.65rem;
+    left: 0.65rem;
+    max-width: none;
+  }
+}
