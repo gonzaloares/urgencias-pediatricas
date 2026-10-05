@@ -1,7 +1,7 @@
 # Calculadora de dosis
 
 <div class="protocol-intro">
-  <strong>Calculadora en fase inicial.</strong> Realiza aritmética farmacológica a partir de dosis ya validadas en los protocolos del proyecto. No selecciona tratamientos ni sustituye la valoración clínica.
+  <strong>Calculadora farmacológica integrada.</strong> Realiza aritmética a partir de pautas vinculadas a los protocolos vigentes del proyecto. No selecciona tratamientos ni sustituye la valoración clínica.
 </div>
 
 <div id="dose-calculator" class="dose-calculator" data-registry="../data/drugs.json">
@@ -21,16 +21,29 @@
   </div>
 
   <label class="dose-calculator-search">
-    <span>Buscar fármaco o indicación</span>
-    <input id="dose-search" type="search" placeholder="Adrenalina, hipoglucemia, estatus…">
+    <span>Buscar fármaco, indicación o vía</span>
+    <input id="dose-search" type="search" placeholder="Adrenalina, asma, estatus, IV…">
   </label>
 
   <div id="dose-calculator-status" class="dose-calculator-status" aria-live="polite"></div>
   <div id="dose-calculator-results" class="dose-calculator-results"></div>
 </div>
 
-## Qué incluye esta primera versión
+## Cómo interpretar los resultados
 
-Este primer bloque utiliza un **registro estructurado único** y contiene solo cuatro escenarios ya revisados recientemente: adrenalina en RCP, ondansetrón en GEA, glucosa al 10% en hipoglucemia grave y levetiracetam en estatus epiléptico.
+- La calculadora muestra la **operación completa**, no solo el resultado final.
+- Si la pauta admite un **rango**, muestra ambos extremos y aplica el máximo cuando corresponde.
+- Si la pauta está expresada en **mg/kg/día**, muestra el total diario y, cuando el protocolo permite varios repartos, las dosis por toma.
+- Los límites de **edad o peso** bloquean el cálculo cuando el paciente queda fuera del rango validado.
+- Los medicamentos de **alto riesgo** aparecen identificados de forma específica.
+- El uso **fuera de ficha técnica** se muestra cuando está documentado en el protocolo.
 
-La siguiente fase será ampliar progresivamente el registro y reutilizar el mismo motor dentro de los protocolos, perfusiones y SRI.
+## Alcance actual
+
+Esta fase incorpora **42 escenarios farmacológicos** procedentes de los protocolos ya revisados del proyecto: fármacos habituales, RCP, anafilaxia, endocrino, toxicología, cardiovascular, convulsiones, respiratorio, analgesia/sedación, HTIC/trauma y digestivo.
+
+No se han migrado todavía las **perfusiones continuas**, la **secuencia rápida de intubación** ni el **registro de críticos** de PedCalc. Tampoco se han importado automáticamente fármacos de la aplicación antigua que no tengan aún una pauta vigente y explícita en los protocolos actuales.
+
+<div class="clinical-card clinical-card-warning">
+  <strong>Regla de seguridad:</strong> la calculadora no debe ser una segunda fuente de verdad. Cada entrada está vinculada a un protocolo del repositorio y los cambios de dosis deben actualizarse de forma estructurada y pasar los tests automáticos.
+</div>

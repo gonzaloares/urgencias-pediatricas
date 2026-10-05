@@ -1,9 +1,215 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "reviewed_at": "2026-10-05",
   "entries": [
     {
+      "id": "paracetamol-dolor-fiebre",
+      "category": "Habituales",
+      "drug": "Paracetamol",
+      "indication": "Dolor leve / fiebre",
+      "route": "VO",
+      "dose": {
+        "kind": "weight",
+        "value": 15,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 1000,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "15 mg/kg/dosis · cada 6 h · máx. 1 g/dosis",
+      "interval": "Cada 6 h. Máximo diario: 60 mg/kg/día.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": false,
+      "protocol": "infeccioso/fiebre-sin-foco.md",
+      "source_label": "Fiebre sin foco / analgesia del proyecto",
+      "notes": [
+        "No superar 60 mg/kg/día."
+      ]
+    },
+    {
+      "id": "ibuprofeno-dolor",
+      "category": "Habituales",
+      "drug": "Ibuprofeno",
+      "indication": "Dolor / fiebre",
+      "route": "VO",
+      "dose": {
+        "kind": "weight",
+        "value": 10,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 600,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "10 mg/kg/dosis · cada 6–8 h · máx. 600 mg/dosis",
+      "interval": "Cada 6–8 h. Máximo diario: 40 mg/kg/día.",
+      "age": {
+        "min_months": 3,
+        "text": "≥3 meses"
+      },
+      "min_weight_kg": 5,
+      "off_label": false,
+      "high_risk": false,
+      "protocol": "procedimientos/manejo-dolor.md",
+      "source_label": "Manejo del dolor / cefalea del proyecto",
+      "notes": [
+        "Evitar en deshidratación significativa, insuficiencia renal o contraindicación a AINE."
+      ]
+    },
+    {
+      "id": "amoxicilina-nac",
+      "category": "Habituales",
+      "drug": "Amoxicilina",
+      "indication": "Neumonía adquirida en la comunidad · tratamiento oral",
+      "route": "VO",
+      "dose": {
+        "kind": "daily_divided",
+        "value": 80,
+        "unit": "mg/kg/día",
+        "output_unit": "mg",
+        "divisions": [
+          2,
+          3
+        ]
+      },
+      "max_dose": null,
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "80 mg/kg/día repartidos en 2–3 dosis · máx. 6 g/día",
+      "interval": "El protocolo permite repartir la dosis diaria en 2 o 3 tomas.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": false,
+      "protocol": "respiratorio/neumonia-adquirida-comunidad.md",
+      "source_label": "Neumonía adquirida en la comunidad",
+      "notes": [
+        "La calculadora muestra ambas posibilidades de reparto; la elección del intervalo depende del protocolo y del contexto clínico."
+      ],
+      "max_daily": {
+        "value": 6000,
+        "unit": "mg/día"
+      }
+    },
+    {
+      "id": "amoxicilina-clavulanico-preseptal",
+      "category": "Habituales",
+      "drug": "Amoxicilina-clavulánico",
+      "indication": "Celulitis preseptal · continuación oral",
+      "route": "VO",
+      "dose": {
+        "kind": "weight",
+        "value": 22.5,
+        "unit": "mg/kg/dosis de amoxicilina",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 875,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "22,5 mg/kg/dosis de amoxicilina cada 12 h · máx. 875 mg/dosis",
+      "interval": "Cada 12 h.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": false,
+      "protocol": "orl/celulitis-preseptal-orbitaria.md",
+      "source_label": "Celulitis preseptal y orbitaria",
+      "notes": [
+        "La dosis se expresa sobre el componente amoxicilina."
+      ]
+    },
+    {
+      "id": "dexametasona-laringitis",
+      "category": "Habituales",
+      "drug": "Dexametasona",
+      "indication": "Laringitis aguda",
+      "route": "VO",
+      "dose": {
+        "kind": "weight_range",
+        "min": 0.15,
+        "max": 0.6,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 10,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,15–0,6 mg/kg, dosis única · máx. 10 mg",
+      "interval": "Dosis única.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": false,
+      "protocol": "respiratorio/laringitis-aguda.md",
+      "source_label": "Laringitis aguda",
+      "notes": [
+        "El protocolo admite un rango; la calculadora muestra los extremos y no selecciona una dosis por ti."
+      ]
+    },
+    {
+      "id": "prednisolona-asma",
+      "category": "Habituales",
+      "drug": "Prednisolona",
+      "indication": "Crisis asmática",
+      "route": "VO",
+      "dose": {
+        "kind": "weight_range",
+        "min": 1,
+        "max": 2,
+        "unit": "mg/kg/día",
+        "output_unit": "mg/día"
+      },
+      "max_dose": {
+        "value": 60,
+        "unit": "mg/día"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "1–2 mg/kg/día · máx. 60 mg/día · 3–5 días",
+      "interval": "3–5 días según evolución y protocolo.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": false,
+      "protocol": "respiratorio/crisis-asmatica.md",
+      "source_label": "Crisis asmática",
+      "notes": [
+        "La salida corresponde a dosis total diaria."
+      ]
+    },
+    {
       "id": "adrenalina-rcp",
+      "category": "RCP",
       "drug": "Adrenalina",
       "indication": "Parada cardiorrespiratoria",
       "route": "IV/IO",
@@ -17,27 +223,1168 @@
         "value": 1,
         "unit": "mg"
       },
+      "min_dose": null,
       "concentration": {
         "value": 0.1,
         "unit": "mg/mL",
         "label": "0,1 mg/mL"
       },
+      "reference_text": "0,01 mg/kg = 10 µg/kg · máx. 1 mg",
       "interval": "Repetir cada 4 min durante la RCP cuando corresponda.",
       "age": {
         "min_months": 0,
         "text": "Pediatría"
       },
+      "min_weight_kg": null,
       "off_label": false,
+      "high_risk": true,
       "protocol": "procedimientos/reanimacion-cardiopulmonar.md",
       "source_label": "RCP · protocolo del proyecto actualizado con ERC 2025",
       "notes": [
-        "Equivale a 10 µg/kg.",
         "Tras administrar por IV/IO, lavar la vía con SSF.",
         "No confundir con adrenalina IM 1 mg/mL de anafilaxia."
       ]
     },
     {
+      "id": "amiodarona-rcp-tercera",
+      "category": "RCP",
+      "drug": "Amiodarona",
+      "indication": "FV/TV sin pulso · tras 3.ª descarga",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "weight",
+        "value": 5,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 300,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "5 mg/kg · máx. 300 mg tras 3.ª descarga",
+      "interval": "Administrar tras la 3.ª descarga, al reiniciar la RCP.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "procedimientos/reanimacion-cardiopulmonar.md",
+      "source_label": "RCP · protocolo del proyecto actualizado con ERC 2025",
+      "notes": [
+        "Si persiste FV/TVsp, la dosis tras la 5.ª descarga tiene un máximo distinto: 150 mg."
+      ]
+    },
+    {
+      "id": "amiodarona-rcp-quinta",
+      "category": "RCP",
+      "drug": "Amiodarona",
+      "indication": "FV/TV sin pulso · tras 5.ª descarga",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "weight",
+        "value": 5,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 150,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "5 mg/kg · máx. 150 mg tras 5.ª descarga",
+      "interval": "Segunda y última dosis tras la 5.ª descarga.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "procedimientos/reanimacion-cardiopulmonar.md",
+      "source_label": "RCP · protocolo del proyecto actualizado con ERC 2025",
+      "notes": []
+    },
+    {
+      "id": "lidocaina-rcp",
+      "category": "RCP",
+      "drug": "Lidocaína",
+      "indication": "FV/TV sin pulso · alternativa a amiodarona",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "weight",
+        "value": 1,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 100,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "1 mg/kg · máx. 100 mg",
+      "interval": "Alternativa a amiodarona en el algoritmo de RCP.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "procedimientos/reanimacion-cardiopulmonar.md",
+      "source_label": "RCP · protocolo del proyecto",
+      "notes": []
+    },
+    {
+      "id": "bicarbonato-rcp",
+      "category": "RCP",
+      "drug": "Bicarbonato sódico",
+      "indication": "RCP · indicaciones seleccionadas",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "weight",
+        "value": 1,
+        "unit": "mEq/kg",
+        "output_unit": "mEq"
+      },
+      "max_dose": {
+        "value": 50,
+        "unit": "mEq"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "1 mEq/kg · máx. 50 mEq",
+      "interval": "No es un fármaco rutinario de la RCP.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "procedimientos/reanimacion-cardiopulmonar.md",
+      "source_label": "RCP · protocolo del proyecto actualizado con ERC 2025",
+      "notes": [
+        "Considerar especialmente en intoxicación por bloqueadores de canales de sodio.",
+        "No usar específicamente para la parada pediátrica por hiperpotasemia según ERC 2025."
+      ]
+    },
+    {
+      "id": "gluconato-calcio-rcp",
+      "category": "RCP",
+      "drug": "Gluconato cálcico 10%",
+      "indication": "RCP · hipocalcemia / indicaciones seleccionadas",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "volume_per_kg",
+        "value": 0.4,
+        "unit": "mL/kg",
+        "output_unit": "mL"
+      },
+      "max_dose": {
+        "value": 20,
+        "unit": "mL"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,4 mL/kg de gluconato cálcico 10% · máx. 20 mL",
+      "interval": "No es un fármaco rutinario de la RCP.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "procedimientos/reanimacion-cardiopulmonar.md",
+      "source_label": "RCP · protocolo del proyecto actualizado con ERC 2025",
+      "notes": [
+        "Equivale a 0,2 mEq/kg, máximo 10 mEq.",
+        "No usar específicamente para la parada pediátrica por hiperpotasemia según ERC 2025."
+      ]
+    },
+    {
+      "id": "magnesio-rcp",
+      "category": "RCP",
+      "drug": "Sulfato de magnesio",
+      "indication": "Torsade de pointes / TV polimorfa con QT largo",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "weight",
+        "value": 50,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 2000,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "50 mg/kg · máx. 2 g",
+      "interval": "Según contexto arrítmico y monitorización.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "procedimientos/reanimacion-cardiopulmonar.md",
+      "source_label": "RCP · protocolo del proyecto",
+      "notes": []
+    },
+    {
+      "id": "adrenalina-anafilaxia",
+      "category": "Anafilaxia",
+      "drug": "Adrenalina",
+      "indication": "Anafilaxia",
+      "route": "IM",
+      "dose": {
+        "kind": "weight",
+        "value": 0.01,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "min_dose": {
+        "value": 0.1,
+        "unit": "mg"
+      },
+      "max_dose": {
+        "value": 0.5,
+        "unit": "mg"
+      },
+      "concentration": {
+        "value": 1,
+        "unit": "mg/mL",
+        "label": "1 mg/mL (1:1.000), sin diluir"
+      },
+      "reference_text": "0,01 mg/kg IM · mín. 0,1 mg · máx. 0,5 mg",
+      "interval": "Puede repetirse cada 5–15 min según respuesta.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "alergia/anafilaxia.md",
+      "source_label": "Anafilaxia",
+      "notes": [
+        "Administrar en la cara anterolateral del muslo.",
+        "No administrar por vía subcutánea como vía de elección."
+      ]
+    },
+    {
+      "id": "dexclorfeniramina-anafilaxia",
+      "category": "Anafilaxia",
+      "drug": "Dexclorfeniramina",
+      "indication": "Coadyuvante antihistamínico en anafilaxia",
+      "route": "IV",
+      "dose": {
+        "kind": "weight",
+        "value": 0.15,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 5,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,15 mg/kg/dosis cada 6–8 h · máx. 5 mg/dosis",
+      "interval": "Cada 6–8 h si está indicada como coadyuvante.",
+      "age": {
+        "min_months": 30,
+        "text": "≥30 meses con Dexclorfeniramina Accord 5 mg/mL"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": false,
+      "protocol": "alergia/anafilaxia.md",
+      "source_label": "Anafilaxia",
+      "notes": [
+        "Las restricciones dependen de la presentación.",
+        "Nunca debe retrasar la adrenalina."
+      ]
+    },
+    {
+      "id": "glucagon-anafilaxia",
+      "category": "Anafilaxia",
+      "drug": "Glucagón",
+      "indication": "Anafilaxia refractaria en paciente tratado con betabloqueantes",
+      "route": "IV",
+      "dose": {
+        "kind": "weight_range",
+        "min": 20,
+        "max": 30,
+        "unit": "µg/kg/dosis",
+        "output_unit": "µg"
+      },
+      "max_dose": {
+        "value": 1000,
+        "unit": "µg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "20–30 µg/kg/dosis IV · máx. 1 mg",
+      "interval": "Posteriormente puede requerirse perfusión continua especializada.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "alergia/anafilaxia.md",
+      "source_label": "Anafilaxia refractaria",
+      "notes": [
+        "Uso en contexto de anafilaxia refractaria y manejo avanzado."
+      ]
+    },
+    {
+      "id": "glucosa10-hipoglucemia",
+      "category": "Endocrino",
+      "drug": "Glucosa 10%",
+      "indication": "Hipoglucemia grave",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "volume_per_kg",
+        "value": 2,
+        "unit": "mL/kg",
+        "output_unit": "mL"
+      },
+      "max_dose": null,
+      "min_dose": null,
+      "concentration": {
+        "value": 0.1,
+        "unit": "g/mL",
+        "label": "0,1 g/mL (10%)"
+      },
+      "reference_text": "2 mL/kg IV/IO = 0,2 g/kg",
+      "interval": "Repetir glucemia a los 5–10 min.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "endocrino/hipoglucemia.md",
+      "source_label": "Hipoglucemia · protocolo actualizado con ERC 2025",
+      "notes": [
+        "Si persiste, repetir tratamiento e iniciar perfusión según causa."
+      ]
+    },
+    {
+      "id": "glucagon-hipoglucemia",
+      "category": "Endocrino",
+      "drug": "Glucagón",
+      "indication": "Hipoglucemia grave sin acceso vascular",
+      "route": "IM/SC",
+      "dose": {
+        "kind": "fixed_by_weight",
+        "output_unit": "mg",
+        "tiers": [
+          {
+            "lt": 25,
+            "value": 0.5,
+            "label": "Peso inferior a 25 kg"
+          },
+          {
+            "gte": 25,
+            "value": 1,
+            "label": "Peso ≥25 kg"
+          }
+        ]
+      },
+      "max_dose": {
+        "value": 1,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "Peso inferior a 25 kg: 0,5 mg · peso ≥25 kg: 1 mg",
+      "interval": "Dosis de rescate; reevaluar glucemia y respuesta.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "endocrino/hipoglucemia.md",
+      "source_label": "Hipoglucemia",
+      "notes": [
+        "Puede ser menos eficaz tras ayuno prolongado, hepatopatía o depleción de glucógeno."
+      ]
+    },
+    {
+      "id": "hidrocortisona-crisis-suprarrenal",
+      "category": "Endocrino",
+      "drug": "Hidrocortisona",
+      "indication": "Crisis suprarrenal · dosis inicial",
+      "route": "IV/IM",
+      "dose": {
+        "kind": "weight",
+        "value": 2,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 100,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "2 mg/kg inmediatamente · máx. 100 mg",
+      "interval": "Dosis inicial hospitalaria inmediata.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "endocrino/crisis-suprarrenal.md",
+      "source_label": "Crisis suprarrenal",
+      "notes": [
+        "Existen alternativas prácticas por edad en el protocolo."
+      ]
+    },
+    {
+      "id": "carbon-activado",
+      "category": "Toxicología",
+      "drug": "Carbón activado",
+      "indication": "Descontaminación digestiva en intoxicación seleccionada",
+      "route": "VO/SNG",
+      "dose": {
+        "kind": "weight",
+        "value": 1,
+        "unit": "g/kg",
+        "output_unit": "g"
+      },
+      "max_dose": {
+        "value": 50,
+        "unit": "g"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "1 g/kg · máx. 50 g",
+      "interval": "Mayor beneficio si se administra en la primera hora cuando está indicado.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": false,
+      "protocol": "toxicologia/intoxicaciones.md",
+      "source_label": "Intoxicaciones",
+      "notes": [
+        "No utilizar si la vía aérea no está protegida en un paciente con disminución de consciencia.",
+        "No es útil para hierro, litio, potasio y otras sustancias no adsorbibles."
+      ]
+    },
+    {
+      "id": "naloxona-reversion-parcial",
+      "category": "Toxicología",
+      "drug": "Naloxona",
+      "indication": "Reversión parcial de opioides",
+      "route": "IV",
+      "dose": {
+        "kind": "weight",
+        "value": 0.01,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 0.4,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,01 mg/kg · máx. 0,4 mg/bolo",
+      "interval": "Puede repetirse cada 2–3 min según respuesta.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "procedimientos/sedoanalgesia.md",
+      "source_label": "Sedoanalgesia · antagonistas de rescate",
+      "notes": [
+        "Vigilar resedación; la vida media puede ser más corta que la del opioide."
+      ]
+    },
+    {
+      "id": "naloxona-reversion-completa",
+      "category": "Toxicología",
+      "drug": "Naloxona",
+      "indication": "Depresión respiratoria grave por opioides · reversión completa",
+      "route": "IV",
+      "dose": {
+        "kind": "weight",
+        "value": 0.1,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 2,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,1 mg/kg · máx. 2 mg/bolo",
+      "interval": "Puede repetirse cada 2–3 min; máximo acumulado 10 mg.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "procedimientos/sedoanalgesia.md",
+      "source_label": "Sedoanalgesia · antagonistas de rescate",
+      "notes": [
+        "El soporte de vía aérea y ventilación tiene prioridad."
+      ]
+    },
+    {
+      "id": "flumazenilo",
+      "category": "Toxicología",
+      "drug": "Flumazenilo",
+      "indication": "Reversión seleccionada de benzodiacepinas",
+      "route": "IV",
+      "dose": {
+        "kind": "weight",
+        "value": 0.01,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 0.2,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,01 mg/kg IV en 15 s · máx. 0,2 mg/dosis",
+      "interval": "Puede repetirse cada 1 min; máximo acumulado 0,05 mg/kg o 1 mg, el menor.",
+      "age": {
+        "min_months": 12,
+        "min_exclusive": true,
+        "text": ">1 año según ficha técnica"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "procedimientos/sedoanalgesia.md",
+      "source_label": "Sedoanalgesia · antagonistas de rescate",
+      "notes": [
+        "Evitar si uso crónico de benzodiacepinas, epilepsia tratada con BZD o coingesta proconvulsivante/ADT.",
+        "En menores de 1 año, solo si el beneficio supera el riesgo según ficha técnica."
+      ]
+    },
+    {
+      "id": "adenosina-primera",
+      "category": "Cardiovascular",
+      "drug": "Adenosina",
+      "indication": "TSV estable · primera dosis",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "weight_range",
+        "min": 0.1,
+        "max": 0.2,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 6,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,1–0,2 mg/kg · máx. 6 mg",
+      "interval": "Bolo de 1–2 s por vena proximal + 5–10 mL de SSF, con ECG en registro.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "cardiologia/arritmias.md",
+      "source_label": "Arritmias",
+      "notes": [
+        "El protocolo admite un rango de primera dosis; la calculadora muestra ambos extremos."
+      ]
+    },
+    {
+      "id": "atropina-bradicardia",
+      "category": "Cardiovascular",
+      "drug": "Atropina",
+      "indication": "Bradicardia por aumento del tono vagal o bloqueo AV primario",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "weight",
+        "value": 0.02,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "min_dose": {
+        "value": 0.1,
+        "unit": "mg"
+      },
+      "max_dose": {
+        "value": 0.5,
+        "unit": "mg"
+      },
+      "concentration": null,
+      "reference_text": "0,02 mg/kg · mín. 0,1 mg · máx. 0,5 mg/dosis",
+      "interval": "Repetir a los 3–5 min si precisa; máximo acumulado 1 mg.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "cardiologia/arritmias.md",
+      "source_label": "Arritmias",
+      "notes": [
+        "No es un fármaco rutinario de la parada cardiaca."
+      ]
+    },
+    {
+      "id": "levetiracetam-estatus",
+      "category": "Convulsiones",
+      "drug": "Levetiracetam",
+      "indication": "Estatus epiléptico · segunda línea preferente",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "weight",
+        "value": 50,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 4500,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "50 mg/kg · máx. 4.500 mg · administrar en 5 min",
+      "interval": "Administrar en 5 min.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "neurologia/estatus-epileptico.md",
+      "source_label": "Estatus epiléptico · SEUP 2025 / Código Crisis",
+      "notes": [
+        "El protocolo prioriza biterapia precoz cuando la crisis persiste."
+      ]
+    },
+    {
+      "id": "valproato-estatus",
+      "category": "Convulsiones",
+      "drug": "Ácido valproico",
+      "indication": "Estatus epiléptico · segunda línea alternativa",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "weight",
+        "value": 40,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 3000,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "40 mg/kg · máx. 3.000 mg · administrar en 5 min",
+      "interval": "Administrar en 5 min.",
+      "age": {
+        "min_months": 24,
+        "text": "≥2 años"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "neurologia/estatus-epileptico.md",
+      "source_label": "Estatus epiléptico",
+      "notes": [
+        "Evitar en hepatopatía, pancreatopatía, hiperamoniemia, coagulopatía, enfermedad mitocondrial o metabolopatía."
+      ]
+    },
+    {
+      "id": "fenitoina-estatus",
+      "category": "Convulsiones",
+      "drug": "Fenitoína",
+      "indication": "Estatus epiléptico · segunda línea alternativa",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "weight",
+        "value": 20,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 1500,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "20 mg/kg · máx. 1.500 mg · en 20 min",
+      "interval": "Administrar en 20 min; velocidad máxima 1 mg/kg/min.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "neurologia/estatus-epileptico.md",
+      "source_label": "Estatus epiléptico",
+      "notes": [
+        "Monitorización cardiovascular durante la administración.",
+        "Diluir únicamente en solución salina isotónica; puede precipitar con glucosa."
+      ]
+    },
+    {
+      "id": "lacosamida-estatus",
+      "category": "Convulsiones",
+      "drug": "Lacosamida",
+      "indication": "Estatus epiléptico · segunda línea alternativa",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "weight",
+        "value": 10,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 400,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "10 mg/kg · máx. 400 mg · en 10–15 min",
+      "interval": "Administrar en 10–15 min.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "neurologia/estatus-epileptico.md",
+      "source_label": "Estatus epiléptico",
+      "notes": [
+        "Experiencia más limitada; puede prolongar el PR y producir hipotensión."
+      ]
+    },
+    {
+      "id": "midazolam-estatus-im",
+      "category": "Convulsiones",
+      "drug": "Midazolam",
+      "indication": "Estatus epiléptico sin acceso IV",
+      "route": "IM",
+      "dose": {
+        "kind": "weight",
+        "value": 0.2,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 10,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,2 mg/kg IM · máx. 10 mg",
+      "interval": "Primera línea; contabilizar benzodiacepinas previas. Máximo 2 dosis totales.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "neurologia/estatus-epileptico.md",
+      "source_label": "Estatus epiléptico",
+      "notes": []
+    },
+    {
+      "id": "midazolam-estatus-in",
+      "category": "Convulsiones",
+      "drug": "Midazolam",
+      "indication": "Estatus epiléptico sin acceso IV",
+      "route": "Intranasal",
+      "dose": {
+        "kind": "weight",
+        "value": 0.3,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 10,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,3 mg/kg intranasal · máx. 10 mg",
+      "interval": "Primera línea; contabilizar benzodiacepinas previas. Máximo 2 dosis totales.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": true,
+      "high_risk": true,
+      "protocol": "neurologia/estatus-epileptico.md",
+      "source_label": "Estatus epiléptico",
+      "notes": [
+        "La vía intranasal de presentaciones inyectables es uso fuera de ficha técnica."
+      ]
+    },
+    {
+      "id": "salbutamol-asma-nebulizado",
+      "category": "Respiratorio",
+      "drug": "Salbutamol",
+      "indication": "Crisis asmática",
+      "route": "Nebulizado",
+      "dose": {
+        "kind": "weight",
+        "value": 0.15,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 5,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,15 mg/kg/dosis · máx. 5 mg",
+      "interval": "Puede repetirse durante la primera hora según gravedad y respuesta.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": false,
+      "protocol": "respiratorio/crisis-asmatica.md",
+      "source_label": "Crisis asmática",
+      "notes": []
+    },
+    {
+      "id": "ipratropio-asma-nebulizado",
+      "category": "Respiratorio",
+      "drug": "Ipratropio",
+      "indication": "Crisis asmática moderada-grave",
+      "route": "Nebulizado",
+      "dose": {
+        "kind": "fixed_by_weight",
+        "output_unit": "µg",
+        "tiers": [
+          {
+            "lt": 20,
+            "value": 250,
+            "label": "Peso inferior a 20 kg"
+          },
+          {
+            "gte": 20,
+            "value": 500,
+            "label": "Peso ≥20 kg"
+          }
+        ]
+      },
+      "max_dose": null,
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "Peso inferior a 20 kg: 250 µg · peso ≥20 kg: 500 µg · 2–3 dosis iniciales",
+      "interval": "2–3 dosis iniciales según gravedad.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": false,
+      "protocol": "respiratorio/crisis-asmatica.md",
+      "source_label": "Crisis asmática",
+      "notes": []
+    },
+    {
+      "id": "adrenalina-laringitis-nebulizada",
+      "category": "Respiratorio",
+      "drug": "Adrenalina",
+      "indication": "Laringitis aguda",
+      "route": "Nebulizada",
+      "dose": {
+        "kind": "volume_per_kg",
+        "value": 0.5,
+        "unit": "mL/kg de adrenalina 1 mg/mL",
+        "output_unit": "mL"
+      },
+      "max_dose": {
+        "value": 5,
+        "unit": "mL"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "Adrenalina 1 mg/mL: 0,5 mL/kg · máx. 5 mL",
+      "interval": "Puede repetirse si precisa, hasta 3 dosis con intervalo mínimo de 30 min.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "respiratorio/laringitis-aguda.md",
+      "source_label": "Laringitis aguda",
+      "notes": [
+        "Equivale a 0,5 mg/kg, máximo 5 mg."
+      ]
+    },
+    {
+      "id": "magnesio-asma",
+      "category": "Respiratorio",
+      "drug": "Sulfato de magnesio",
+      "indication": "Crisis asmática grave",
+      "route": "IV",
+      "dose": {
+        "kind": "weight",
+        "value": 40,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 2000,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "40 mg/kg, dosis única · máx. 2 g · pasar en 20 min",
+      "interval": "Dosis única en 20 min.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "respiratorio/crisis-asmatica.md",
+      "source_label": "Crisis asmática",
+      "notes": []
+    },
+    {
+      "id": "fentanilo-in-dolor",
+      "category": "Analgesia / sedación",
+      "drug": "Fentanilo",
+      "indication": "Dolor traumático importante sin vía IV",
+      "route": "Intranasal",
+      "dose": {
+        "kind": "weight_range",
+        "min": 1,
+        "max": 2,
+        "unit": "µg/kg",
+        "output_unit": "µg"
+      },
+      "max_dose": {
+        "value": 100,
+        "unit": "µg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "1–2 µg/kg IN · máx. 100 µg/dosis",
+      "interval": "Puede repetirse 0,3–0,5 µg/kg a los 3–5 min según respuesta.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": true,
+      "high_risk": true,
+      "protocol": "procedimientos/manejo-dolor.md",
+      "source_label": "Manejo del dolor",
+      "notes": [
+        "Vía intranasal fuera de ficha técnica de las presentaciones parenterales utilizadas por esta vía."
+      ]
+    },
+    {
+      "id": "ketamina-sedoanalgesia-iv",
+      "category": "Analgesia / sedación",
+      "drug": "Ketamina",
+      "indication": "Sedoanalgesia procedimental",
+      "route": "IV",
+      "dose": {
+        "kind": "weight_range",
+        "min": 1,
+        "max": 2,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 50,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "1–2 mg/kg IV · máx. 50 mg/dosis",
+      "interval": "Administrar lentamente; no superar 0,5 mg/kg/min.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "procedimientos/sedoanalgesia.md",
+      "source_label": "Sedoanalgesia",
+      "notes": [
+        "Requiere monitorización y capacidad de rescate de vía aérea."
+      ]
+    },
+    {
+      "id": "metamizol-dolor-abdominal-iv",
+      "category": "Analgesia / sedación",
+      "drug": "Metamizol",
+      "indication": "Dolor abdominal agudo",
+      "route": "IV",
+      "dose": {
+        "kind": "weight",
+        "value": 20,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "max_dose": null,
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "20 mg/kg/dosis cada 6–8 h · administrar en ~10 min",
+      "interval": "Cada 6–8 h; administrar en aproximadamente 10 min.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": false,
+      "protocol": "digestivo/dolor-abdominal-agudo.md",
+      "source_label": "Dolor abdominal agudo",
+      "notes": []
+    },
+    {
+      "id": "nacl3-htic",
+      "category": "HTIC / trauma",
+      "drug": "NaCl hipertónico 3%",
+      "indication": "Hipertensión intracraneal / herniación inminente",
+      "route": "IV",
+      "dose": {
+        "kind": "volume_per_kg",
+        "value": 5,
+        "unit": "mL/kg",
+        "output_unit": "mL"
+      },
+      "max_dose": null,
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "5 mL/kg IV en bolo",
+      "interval": "Bolo en el contexto de HTIC/herniación según protocolo.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "neurologia/hipertension-intracraneal.md",
+      "source_label": "Hipertensión intracraneal",
+      "notes": [
+        "Si se prepara desde NaCl 20%, seguir exactamente la preparación validada del protocolo de TCE."
+      ]
+    },
+    {
+      "id": "manitol-htic",
+      "category": "HTIC / trauma",
+      "drug": "Manitol",
+      "indication": "Hipertensión intracraneal / herniación inminente",
+      "route": "IV",
+      "dose": {
+        "kind": "weight_range",
+        "min": 0.5,
+        "max": 1,
+        "unit": "g/kg",
+        "output_unit": "g"
+      },
+      "max_dose": null,
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,5–1 g/kg IV en 20–30 min",
+      "interval": "Administrar en 20–30 min.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "neurologia/hipertension-intracraneal.md",
+      "source_label": "Hipertensión intracraneal",
+      "notes": [
+        "Vigilar diuresis, volemia y función renal."
+      ]
+    },
+    {
+      "id": "tranexamico-tce",
+      "category": "HTIC / trauma",
+      "drug": "Ácido tranexámico",
+      "indication": "TCE con indicación de antifibrinolítico",
+      "route": "IV",
+      "dose": {
+        "kind": "weight_range",
+        "min": 15,
+        "max": 20,
+        "unit": "mg/kg",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 1000,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "Carga 15–20 mg/kg IV · máx. 1 g",
+      "interval": "Dosis de carga según contexto traumático.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "trauma/traumatismo-craneoencefalico.md",
+      "source_label": "Traumatismo craneoencefálico",
+      "notes": []
+    },
+    {
       "id": "ondansetron-gea",
+      "category": "Digestivo",
       "drug": "Ondansetrón",
       "indication": "Vómitos por gastroenteritis para facilitar rehidratación oral",
       "route": "VO",
@@ -51,75 +1398,22 @@
         "value": 8,
         "unit": "mg"
       },
+      "min_dose": null,
       "concentration": null,
+      "reference_text": "0,15 mg/kg/dosis · máx. 8 mg · dosis única",
       "interval": "Dosis única; iniciar SRO 15–30 min después.",
       "age": {
         "min_months": 6,
         "text": "≥6 meses"
       },
+      "min_weight_kg": null,
       "off_label": true,
+      "high_risk": false,
       "protocol": "digestivo/vomitos.md",
-      "source_label": "Vómitos/GEA · protocolo del proyecto",
+      "source_label": "Vómitos/GEA",
       "notes": [
         "Uso fuera de ficha técnica en España para gastroenteritis aguda.",
         "No repetir de rutina en el protocolo de Urgencias."
-      ]
-    },
-    {
-      "id": "glucosa10-hipoglucemia",
-      "drug": "Glucosa 10%",
-      "indication": "Hipoglucemia grave",
-      "route": "IV/IO",
-      "dose": {
-        "kind": "volume_per_kg",
-        "value": 2,
-        "unit": "mL/kg",
-        "output_unit": "mL"
-      },
-      "max_dose": null,
-      "concentration": {
-        "value": 0.1,
-        "unit": "g/mL",
-        "label": "0,1 g/mL (10%)"
-      },
-      "interval": "Repetir glucemia a los 5–10 min.",
-      "age": {
-        "min_months": 0,
-        "text": "Pediatría"
-      },
-      "off_label": false,
-      "protocol": "endocrino/hipoglucemia.md",
-      "source_label": "Hipoglucemia · protocolo del proyecto actualizado con ERC 2025",
-      "notes": [
-        "2 mL/kg de glucosa 10% equivalen a 0,2 g/kg."
-      ]
-    },
-    {
-      "id": "levetiracetam-estatus",
-      "drug": "Levetiracetam",
-      "indication": "Estatus epiléptico · segunda línea",
-      "route": "IV/IO",
-      "dose": {
-        "kind": "weight",
-        "value": 50,
-        "unit": "mg/kg",
-        "output_unit": "mg"
-      },
-      "max_dose": {
-        "value": 4500,
-        "unit": "mg"
-      },
-      "concentration": null,
-      "interval": "Administrar en 5 min.",
-      "age": {
-        "min_months": 0,
-        "text": "Pediatría"
-      },
-      "off_label": false,
-      "protocol": "neurologia/estatus-epileptico.md",
-      "source_label": "Estatus epiléptico · SEUP 2025 / Código Crisis",
-      "notes": [
-        "El protocolo del proyecto prioriza biterapia precoz cuando la crisis persiste."
       ]
     }
   ]
