@@ -5,7 +5,10 @@ on:
     paths:
       - "mkdocs.yml"
       - "docs/**/*.md"
+      - "docs/data/*.json"
+      - "docs/javascripts/*.js"
       - "scripts/check_alphabetical_order.py"
+      - "scripts/check_drug_registry.py"
       - "scripts/check_markdown_rendering.py"
       - ".github/workflows/check-alphabetical-order.yml"
   push:
@@ -14,7 +17,10 @@ on:
     paths:
       - "mkdocs.yml"
       - "docs/**/*.md"
+      - "docs/data/*.json"
+      - "docs/javascripts/*.js"
       - "scripts/check_alphabetical_order.py"
+      - "scripts/check_drug_registry.py"
       - "scripts/check_markdown_rendering.py"
       - ".github/workflows/check-alphabetical-order.yml"
 
@@ -41,3 +47,6 @@ jobs:
 
       - name: Check Markdown rendering safety
         run: python scripts/check_markdown_rendering.py
+
+      - name: Check drug registry
+        run: python scripts/check_drug_registry.py
