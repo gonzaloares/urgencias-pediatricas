@@ -82,3 +82,14 @@ jobs:
         run: |
           python -m py_compile scripts/generate_pwa_assets.py
           python -m py_compile scripts/generate_offline_static_urls.py
+
+      - name: Smoke test generated PWA assets
+        run: |
+          python scripts/generate_pwa_assets.py ci-test-build
+          node --check docs/service-worker.js
+          python -m json.tool docs/build-info.json > /dev/null
+          mkdir -p /tmp/pwa-site/search /tmp/pwa-site/assets/javascripts/workers
+          printf '{}' > /tmp/pwa-site/search/search_index.json
+          printf 'self.onmessage=()=>{};' > /tmp/pwa-site/assets/javascripts/workers/search.test.js
+          python scripts/generate_offline_static_urls.py /tmp/pwa-site
+          python -m json.tool /tmp/pwa-site/offline-static-urls.json > /dev/null
