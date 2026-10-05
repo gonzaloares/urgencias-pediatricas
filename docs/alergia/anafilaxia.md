@@ -198,8 +198,12 @@ Opciones:
 
 | Fármaco | Dosis |
 |---|---:|
-| **Dexclorfeniramina IV** | **0,15 mg/kg/dosis cada 6–8 h**, máx. **5 mg/dosis** |
+| **Dexclorfeniramina IV** | **0,15 mg/kg/dosis cada 6–8 h**, máx. **5 mg/dosis** · comprobar presentación; **no usar <30 meses** con Dexclorfeniramina Accord 5 mg/ml |
 | **Cetirizina VO** | <20 kg: **2,5 mg/24 h** · 20–30 kg: **5 mg/24 h** · >30 kg: **10 mg/24 h** |
+
+<div class="clinical-card clinical-card-note">
+  <strong>Edad y ficha técnica:</strong> las restricciones dependen de la presentación. Dexclorfeniramina Maleato Accord 5 mg/ml solución inyectable está indicada en mayores de <strong>30 meses</strong> y contraindicada por debajo de esa edad. Los antihistamínicos son siempre tratamiento coadyuvante y nunca deben retrasar la adrenalina.
+</div>
 
 ### Corticoides
 
@@ -359,3 +363,6 @@ Dar de alta únicamente si no existe recurrencia de síntomas durante el periodo
 ## 13. Bibliografía
 
 1. Olabarri García M. **Anafilaxia en Urgencias.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. 2024. [SEUP](https://seup.org/wp-content/uploads/2024/04/7_Anafilaxia_4ed.pdf)
+
+
+2. Agencia Española de Medicamentos y Productos Sanitarios. **Dexclorfeniramina Maleato Accord 5 mg/ml solución inyectable, ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/75389/FT_75389.html)
