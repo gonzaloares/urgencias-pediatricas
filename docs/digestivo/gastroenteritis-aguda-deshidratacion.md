@@ -194,16 +194,16 @@ Un **HCO₃⁻ <17 mEq/L** puede asociarse a deshidratación moderada-grave, per
 
 ### Ondansetrón
 
-Puede considerarse si los vómitos repetidos dificultan la rehidratación oral.
+Puede considerarse si los vómitos repetidos dificultan la rehidratación oral en niños de **≥6 meses**. En gastroenteritis aguda su uso es **fuera de ficha técnica en España**.
 
 <div class="dose-card">
-  <strong>Ondansetrón</strong>
+  <strong>Ondansetrón VO · ≥6 meses</strong>
   <span><b>0,15 mg/kg/dosis</b></span>
-  <span>Máximo orientativo: <b>6–8 mg</b></span>
-  <span>Reintentar tolerancia oral aproximadamente <b>20 min</b> después.</span>
+  <span>Máximo: <b>8 mg</b></span>
+  <span>Reintentar tolerancia oral aproximadamente <b>15–30 min</b> después.</span>
 </div>
 
-Evitar si existe riesgo conocido de **prolongación del QT**.
+Evitar/individualizar si existe riesgo conocido de **prolongación del QT** o alteraciones electrolíticas relevantes. No utilizar de rutina en menores de 6 meses para GEA.
 
 ### Reposición de pérdidas mantenidas
 
@@ -490,7 +490,7 @@ Reconsultar si aparece:
   <div class="algorithm-arrow">↓</div>
 
   <div class="algorithm-split">
-    <span><strong>Sí</strong><br>Leve: SRO 30–50 mL/kg · Moderada: 50–90 mL/kg en 2–4 h · pérdidas mantenidas · ondansetrón/SNG si precisa</span>
+    <span><strong>Sí</strong><br>Leve: SRO 30–50 mL/kg · Moderada: 50–90 mL/kg en 2–4 h · pérdidas mantenidas · ondansetrón si ≥6 meses / SNG si precisa</span>
     <span><strong>No / fracaso RHO</strong><br>Analítica + valorar RIR</span>
   </div>
 
@@ -514,3 +514,6 @@ Reconsultar si aparece:
 
 1. García Herrero MÁ, López López R, Guibert Zafra B. **Deshidratación en contexto de gastroenteritis aguda.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. Febrero 2024. [Documento SEUP](https://seup.org/wp-content/uploads/2024/04/17_Deshidratacion_4ed.pdf)
 2. Sociedad Española de Urgencias de Pediatría. **Paciente con deshidratación en el contexto de gastroenteritis aguda (no incluye periodo neonatal).** Algoritmo SEUP, actualización mayo 2024. [Algoritmo](https://seup.org/wp-content/uploads/2024/04/9_Deshidratacion_may2024.pdf)
+3. Royal Children’s Hospital Melbourne. **Clinical Practice Guideline: Gastroenteritis.** Ondansetrón para apoyar la hidratación en niños y lactantes mayores de 6 meses. [Guía](https://www.rch.org.au/clinicalguide/guideline_index/Gastroenteritis/)
+4. Canadian Paediatric Society. **Emergency department use of oral ondansetron for acute gastroenteritis-related vomiting in infants and children.** Recomendación desde los 6 meses. [Documento](https://cps.ca/en/documents/position/oral-ondansetron)
+5. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Ficha técnica de ondansetrón.** Indicaciones pediátricas autorizadas según contexto clínico. [CIMA](https://cima.aemps.es/cima/dochtml/ft/59072/FichaTecnica_59072.html)
