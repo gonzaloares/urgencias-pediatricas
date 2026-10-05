@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+from datetime import datetime, timezone
 import json
 import struct
 import sys
@@ -46,7 +47,7 @@ def write_icon(path: Path, size: int) -> None:
 
     rows = bytearray()
     for y in range(size):
-        rows.append(0)  # filtro PNG: None
+        rows.append(0)
         for x in range(size):
             in_vertical = v_left <= x < v_right and v_top <= y < v_bottom
             in_horizontal = h_left <= x < h_right and h_top <= y < h_bottom
@@ -78,11 +79,19 @@ def main() -> int:
     write_icon(ICONS / "icon-512.png", 512)
     write_icon(ICONS / "apple-touch-icon.png", 180)
 
-    offline_urls = sorted(
-        {document_url(path) for path in DOCS.rglob("*.md")}
-    )
+    offline_urls = sorted({document_url(path) for path in DOCS.rglob("*.md")})
     (DOCS / "offline-urls.json").write_text(
         json.dumps(offline_urls, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    build_info = {
+        "version": version,
+        "short_version": version[:8],
+        "built_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+    (DOCS / "build-info.json").write_text(
+        json.dumps(build_info, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
 
