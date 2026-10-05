@@ -183,6 +183,13 @@ def main() -> int:
                         errors,
                     )
 
+        max_daily = entry.get("max_daily")
+        if max_daily:
+            if not isinstance(max_daily.get("value"), (int, float)) or max_daily["value"] <= 0:
+                fail(f"{entry['id']}: max_daily inválido", errors)
+            if kind != "daily_divided":
+                fail(f"{entry['id']}: max_daily solo se admite en daily_divided", errors)
+
         age = entry.get("age")
         if age and age.get("min_months", 0) < 0:
             fail(f"{entry['id']}: edad mínima inválida", errors)
@@ -237,6 +244,10 @@ def main() -> int:
             fail("amoxicilina-nac 20 kg: pauta cada 12 h incorrecta", errors)
         if not math.isclose(amox["divided"][3], 1600 / 3, abs_tol=1e-9):
             fail("amoxicilina-nac 20 kg: pauta cada 8 h incorrecta", errors)
+
+        amox_max = calculate(by_id["amoxicilina-nac"], 100)
+        if not math.isclose(amox_max["daily"], 6000, abs_tol=1e-9):
+            fail("amoxicilina-nac: no se aplica máximo de 6 g/día", errors)
     else:
         fail("falta caso de prueba amoxicilina-nac", errors)
 
@@ -246,7 +257,7 @@ def main() -> int:
             print(f"- {error}")
         return 1
 
-    total_tests = len(scalar_tests) + len(range_tests) + 3
+    total_tests = len(scalar_tests) + len(range_tests) + 4
     print(
         f"OK: {len(by_id)} escenarios farmacológicos y "
         f"{total_tests} comprobaciones de cálculo."
