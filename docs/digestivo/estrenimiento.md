@@ -251,8 +251,12 @@ Puede utilizarse tratamiento rectal como alternativa.
 
 | Tratamiento rectal | Dosis |
 |---|---:|
-| **Fosfato sódico** | 1–18 años: **2,5 ml/kg/dosis**, máx. **133 ml/dosis** |
+| **Enema de fosfatos (Enema Casen 139 mg/ml + 32 mg/ml)** | **2–15 años: 5 ml/kg, dosis única**, máx. **140 ml** |
 | **Suero fisiológico 0,9%** | Neonato <1 kg: **5 ml** · neonato >1 kg: **10 ml** · >1 año: **6 ml/kg, 1–2 veces/día** |
+
+<div class="clinical-card clinical-card-warning">
+  <strong>Enemas de fosfatos:</strong> contraindicados en <strong>&lt;2 años</strong> y en insuficiencia renal moderada-grave o deshidratación. En mayores de 2 años, utilizarlos con cautela por riesgo de hiperfosfatemia, hipocalcemia y convulsiones; no administrar más de un enema en 24 h.
+</div>
 
 <div class="clinical-card clinical-card-warning">
   <strong>Enema rectal con suero fisiológico:</strong> reservarlo especialmente para el paciente muy sintomático o con intolerancia oral.
@@ -279,7 +283,13 @@ En niños en entrenamiento de control de esfínteres, mantener la medicación ha
 
 ### Si PEG no está disponible
 
-**Lactulosa: 1–2 g/kg, 1–2 veces/día.**
+**Lactulosa 667 mg/ml VO (pauta según ficha técnica):**
+
+- lactantes &lt;1 año: hasta **3 g/día** (hasta **5 ml/día**);
+- 1–6 años: **3–7 g/día** (**5–10 ml/día**);
+- 7–14 años: inicio **10 g/día** (**15 ml/día**), mantenimiento **7–10 g/día** (**10–15 ml/día**).
+
+Puede administrarse en una toma diaria o dividirse en dos; ajustar según respuesta.
 
 Como segunda línea pueden considerarse leche de magnesia, aceite mineral y laxantes estimulantes.
 
@@ -407,3 +417,7 @@ En el estreñimiento funcional sin signos de alarma ni complicaciones:
 
 1. Velasco Rodríguez-Belvís M, Palomino Pérez LM, Cañedo Villarroya E, de la Mano Hernández A, Martínez Pérez J, Muñoz Codoceo RA. **De la guía a la guardia: aplicación en Urgencias de las recomendaciones de ESPGHAN y NASPGHAN basadas en la evidencia para la evaluación y tratamiento del estreñimiento funcional en lactantes y niños.** Emerg Pediatr. 2022;1(3):165-170.
 2. Rome Foundation. **Rome V Criteria. H2a. Functional Constipation.** 2026. [Criterios Roma V](https://theromefoundation.org/rome-v-criteria/)
+
+
+3. Agencia Española de Medicamentos y Productos Sanitarios. **Enema Casen 139 mg/ml + 32 mg/ml, ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/41166/FT_41166.html)
+4. Agencia Española de Medicamentos y Productos Sanitarios. **Duphalac 667 mg/ml (lactulosa), ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/46197/FichaTecnica_46197.html)
