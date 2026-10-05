@@ -21,7 +21,7 @@ La integración actual no copia las cifras de forma ciega. Se comparan con:
 | Midazolam | **0,15 mg/kg** | **0,2–0,3 mg/kg** | **Conflicto abierto: no cálculo automático** |
 | Ketamina | 1,5 mg/kg | 1–2 mg/kg | 1–2 mg/kg; valor inicial 1,5 mg/kg; Cards no recomienda ≤3 meses |
 | Propofol | 1 mg/kg | 1–4 mg/kg; cautela hemodinámica | 1–4 mg/kg; referencia 1 mg/kg; no selección automática si inestable |
-| Etomidato | 0,3 mg/kg; máx. 20 mg; no <6 meses | 0,3 mg/kg; evitar shock séptico | 0,3 mg/kg; máx. 20 mg; ≥6 meses; evitar shock séptico |
+| Etomidato | 0,3 mg/kg; máx. 20 mg; no menores de 6 meses | 0,3 mg/kg; evitar shock séptico | 0,3 mg/kg; máx. 20 mg; ≥6 meses; evitar shock séptico |
 | Rocuronio | 1 mg/kg | 0,6–1,2 mg/kg | 0,6–1,2 mg/kg; referencia 1 mg/kg |
 | Succinilcolina | 1 mg/kg IV/IO; 4 mg/kg IM; máx. 150 mg | 1–2 mg/kg IV | 1–2 mg/kg IV/IO; referencia 1 mg/kg; máx. 150 mg |
 | Sugammadex | 2 mg/kg; 4 mg/kg si bloqueo profundo | No detallado en tabla principal | Mantener 2/4 mg/kg según profundidad; no usar como “reversión inmediata” automática |
