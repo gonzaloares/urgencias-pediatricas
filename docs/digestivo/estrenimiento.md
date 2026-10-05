@@ -289,7 +289,7 @@ En niños en entrenamiento de control de esfínteres, mantener la medicación ha
 - lactantes &lt;1 año: hasta **3 g/día** (hasta **5 ml/día**);
 - 1–6 años: **3–7 g/día** (**5–10 ml/día**);
 - 7–14 años: inicio **10 g/día** (**15 ml/día**), mantenimiento **7–10 g/día** (**10–15 ml/día**);
-- >14 años: inicio **10–30 g/día** (**15–45 ml/día**), mantenimiento **10–20 g/día** (**15–30 ml/día**).
+- &gt;14 años: inicio **10–30 g/día** (**15–45 ml/día**), mantenimiento **10–20 g/día** (**15–30 ml/día**).
 
 Puede administrarse en una toma diaria o dividirse en dos; ajustar según respuesta.
 
