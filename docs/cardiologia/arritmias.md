@@ -92,9 +92,9 @@ No realizar masaje carotídeo ni presión ocular.
 <div class="dose-card">
   <strong>Adenosina IV/IO</strong>
   <span>1.ª dosis: <b>0,1–0,2 mg/kg</b> · máx. <b>6 mg</b>.</span>
-  <span>2.ª dosis: <b>0,2–0,3 mg/kg</b> · máx. <b>12–18 mg</b>.</span>
-  <span>Puede repetirse una dosis de <b>0,2–0,3 mg/kg</b> si persiste.</span>
-  <span>Administrar en <b>bolo muy rápido</b> seguido inmediatamente de SSF.</span>
+  <span>2.ª dosis: <b>0,2–0,3 mg/kg</b> · máx. <b>12–18 mg</b>; esperar al menos <b>1 min</b>.</span>
+  <span>Si persiste, puede administrarse una 3.ª dosis de <b>0,2–0,3 mg/kg</b>; dosis máxima acumulada orientativa <b>30 mg</b>.</span>
+  <span>Administrar en <b>bolo de 1–2 s</b> por una vena proximal, seguido inmediatamente de <b>5–10 mL de SSF</b>, con ECG en registro.</span>
 </div>
 
 ### Inestable
@@ -155,12 +155,16 @@ Si el diagnóstico diferencial con TSV aberrada es incierto, tratar como TV hast
 |---|---:|
 | **Cardioversión sincronizada** | **1–2 J/kg** → duplicar si no responde · máx. aprox. 4 J/kg |
 | **Adenosina 1.ª** | **0,1–0,2 mg/kg** · máx. 6 mg |
-| **Adenosina siguientes** | **0,2–0,3 mg/kg** · máx. 12–18 mg |
+| **Adenosina siguientes** | **0,2–0,3 mg/kg** · máx. 12–18 mg/dosis · máx. acumulado orientativo 30 mg |
 | **Amiodarona** | **5 mg/kg IV** en 10–20 min |
 | **Procainamida** | **7–15 mg/kg IV** en 30–60 min |
-| **Adrenalina bradicardia** | **10 µg/kg IV/IO** (0,01 mg/kg de 1:10.000) |
-| **Atropina** | **0,02 mg/kg IV/IO** |
+| **Adrenalina en bradicardia peri-parada / RCP** | **10 µg/kg IV/IO** = 0,01 mg/kg de solución **0,1 mg/mL** |
+| **Atropina** | **0,02 mg/kg IV/IO** · mín. **0,1 mg** · máx. **0,5 mg/dosis** · repetir a los 3–5 min si precisa · máx. acumulado **1 mg** |
 
+</div>
+
+<div class="clinical-card clinical-card-note">
+  <strong>Bradicardia con pulso persistente:</strong> si persiste pese a tratar la causa y atropina cuando esté indicada, puede requerir perfusión de adrenalina <strong>0,1–2 µg/kg/min</strong> y soporte experto. El bolo de 10 µg/kg corresponde al contexto de peri-parada/RCP.
 </div>
 
 <a id="destino"></a>
