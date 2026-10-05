@@ -123,10 +123,10 @@ Reintroducir precozmente según tolerancia.
 <a id="ondansetron"></a>
 ## 6. Ondansetrón
 
-Útil principalmente en vómitos por gastroenteritis cuando dificulta la rehidratación oral.
+Útil principalmente en vómitos por gastroenteritis cuando dificulta la rehidratación oral. En este contexto, considerar en niños de **≥6 meses**. El uso para gastroenteritis aguda es **fuera de ficha técnica en España**.
 
 <div class="dose-card">
-  <strong>Ondansetrón VO</strong>
+  <strong>Ondansetrón VO · GEA ≥6 meses</strong>
   <span><b>0,15 mg/kg en dosis única</b> · máximo <b>8 mg</b>.</span>
 </div>
 
@@ -139,7 +139,11 @@ Alternativa práctica por peso:
 | **>30 kg** | **8 mg** |
 
 <div class="clinical-card clinical-card-warning">
-  <strong>No utilizar ondansetrón para “tapar” un diagnóstico quirúrgico no evaluado.</strong> Evitar/individualizar si QT largo o alteraciones electrolíticas relevantes.
+  <strong>No utilizar ondansetrón para “tapar” un diagnóstico quirúrgico no evaluado.</strong> En GEA no se recomienda de rutina en menores de 6 meses. Evitar/individualizar si QT largo o alteraciones electrolíticas relevantes.
+</div>
+
+<div class="clinical-card clinical-card-note">
+  <strong>La edad mínima depende de la indicación.</strong> La ficha técnica española contempla ondansetrón desde los <strong>6 meses</strong> para náuseas/vómitos por quimioterapia y ondansetrón inyectable desde <strong>1 mes</strong> para náuseas/vómitos postoperatorios. El uso en GEA no figura entre las indicaciones autorizadas; las guías pediátricas lo respaldan desde los <strong>6 meses</strong>.
 </div>
 
 <a id="destino"></a>
@@ -166,5 +170,7 @@ Alternativa práctica por peso:
 <a id="bibliografia"></a>
 ## 9. Bibliografía
 
-1. Royal Children’s Hospital Melbourne. **Clinical Practice Guideline: Vomiting.** [Guía](https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/)
-2. Sociedad Española de Urgencias de Pediatría. **Deshidratación en contexto de gastroenteritis aguda.** 4.ª ed. 2024.
+1. Royal Children’s Hospital Melbourne. **Clinical Practice Guideline: Gastroenteritis.** Ondansetrón para apoyar la hidratación en niños y lactantes mayores de 6 meses. [Guía](https://www.rch.org.au/clinicalguide/guideline_index/Gastroenteritis/)
+2. Canadian Paediatric Society. **Emergency department use of oral ondansetron for acute gastroenteritis-related vomiting in infants and children.** Recomendación desde los 6 meses. [Documento](https://cps.ca/en/documents/position/oral-ondansetron)
+3. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Ficha técnica de ondansetrón.** Indicaciones pediátricas autorizadas según contexto clínico. [CIMA](https://cima.aemps.es/cima/dochtml/ft/59072/FichaTecnica_59072.html)
+4. Sociedad Española de Urgencias de Pediatría. **Deshidratación en contexto de gastroenteritis aguda.** 4.ª ed. 2024.
