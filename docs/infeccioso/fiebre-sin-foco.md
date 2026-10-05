@@ -373,7 +373,6 @@ En una **FSF verdadera**, considerar tira de orina, especialmente si existe cual
 - vómitos sin explicación;
 - antecedente de ITU o anomalía urológica;
 - fiebre persistente;
-- escalofríos/rigores;
 - mal olor de orina o nueva incontinencia;
 - ausencia mantenida de otro foco.
 
