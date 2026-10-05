@@ -159,7 +159,7 @@ Para desplazar K intracelular:
 <div class="dose-card">
   <strong>Hiperpotasemia grave · insulina + glucosa</strong>
   <span><b>Insulina regular 0,1 UI/kg IV</b> · máximo <b>10 UI</b>.</span>
-  <span>Administrar junto con <b>glucosa 10%: 5 mL/kg IV</b> (= 0,5 g/kg), salvo contraindicación metabólica específica.</span>
+  <span>Administrar junto con <b>glucosa 10%: 5 mL/kg IV</b> (= 0,5 g/kg) · máximo <b>250 mL</b>, salvo contraindicación metabólica específica.</span>
   <span>Para reducir errores, preparar la insulina a <b>1 UI/mL</b> (10 UI hasta 10 mL con SSF) antes de extraer la dosis.</span>
   <span>Controlar glucemia cada <b>30–60 min</b> hasta estabilidad.</span>
 </div>
