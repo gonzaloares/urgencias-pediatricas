@@ -252,6 +252,7 @@ Puede utilizarse tratamiento rectal como alternativa.
 | Tratamiento rectal | Dosis |
 |---|---:|
 | **Enema de fosfatos (Enema Casen 139 mg/ml + 32 mg/ml)** | **2–15 años: 5 ml/kg, dosis única**, máx. **140 ml** |
+| **Enema de fosfatos (misma presentación)** | **≥16 años: 140 ml, dosis única** |
 | **Suero fisiológico 0,9%** | Neonato <1 kg: **5 ml** · neonato >1 kg: **10 ml** · >1 año: **6 ml/kg, 1–2 veces/día** |
 
 <div class="clinical-card clinical-card-warning">
@@ -287,7 +288,8 @@ En niños en entrenamiento de control de esfínteres, mantener la medicación ha
 
 - lactantes &lt;1 año: hasta **3 g/día** (hasta **5 ml/día**);
 - 1–6 años: **3–7 g/día** (**5–10 ml/día**);
-- 7–14 años: inicio **10 g/día** (**15 ml/día**), mantenimiento **7–10 g/día** (**10–15 ml/día**).
+- 7–14 años: inicio **10 g/día** (**15 ml/día**), mantenimiento **7–10 g/día** (**10–15 ml/día**);
+- >14 años: inicio **10–30 g/día** (**15–45 ml/día**), mantenimiento **10–20 g/día** (**15–30 ml/día**).
 
 Puede administrarse en una toma diaria o dividirse en dos; ajustar según respuesta.
 
