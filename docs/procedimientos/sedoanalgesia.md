@@ -93,8 +93,8 @@ Asignar una persona responsable de monitorizar al paciente durante sedación mod
 
 | Fármaco | Dosis IV | Repetición / máximo | Precauciones |
 |---|---|---|---|
-| **Naloxona** | Reversión parcial: **0,01 mg/kg** · reversión completa si depresión grave: **0,1 mg/kg** | cada **2–3 min** · máx. **2 mg/bolo**; acumulado **10 mg** | Vida media más corta que algunos opioides → vigilar resedación |
-| **Flumazenilo** | **0,01 mg/kg** | cada **1 min** · máx. **0,2 mg/dosis**; acumulado **1 mg** | Evitar si uso crónico de benzodiacepinas, epilepsia tratada con BZD o sospecha de coingesta proconvulsivante/ADT |
+| **Naloxona** | Reversión parcial: **0,01 mg/kg** · reversión completa si depresión grave: **0,1 mg/kg** | cada **2–3 min** · máx. parcial **0,4 mg/bolo**; máx. reversión completa **2 mg/bolo**; acumulado **10 mg** | Vida media más corta que algunos opioides → vigilar resedación |
+| **Flumazenilo** | **0,01 mg/kg IV en 15 s** · máx. **0,2 mg/dosis** | repetir cada **1 min** si precisa · máximo acumulado **0,05 mg/kg o 1 mg** (el menor) | Ficha técnica: uso establecido **>1 año**; <1 año solo si beneficio supera riesgo. Evitar si uso crónico de BZD, epilepsia tratada con BZD o sospecha de coingesta proconvulsivante/ADT |
 
 <div class="clinical-card clinical-card-warning">
   <strong>Los antídotos no sustituyen al soporte de vía aérea y ventilación.</strong> Ante depresión respiratoria, priorizar apertura de vía aérea, oxígeno y ventilación con presión positiva si es necesaria.
@@ -184,3 +184,6 @@ Dar instrucciones escritas y evitar actividades de riesgo el resto del día.
 4. Asociación Española de Pediatría. **Fentanilo. Pediamécum.** [Ficha](https://www.aeped.es/comites/cm/pediamecum/principios-activos/fentanilo)
 
 5. Sociedad Española de Urgencias de Pediatría / SEFH. **Hojas de medicación para sedoanalgesia y antídotos.** [SEUP-SEFH](https://seup.org/pdf_public/gt/Analge_hojas_medica_%28SEUP-SEFH%29.pdf)
+
+6. Agencia Española de Medicamentos y Productos Sanitarios. **Flumazenil 0,1 mg/mL, ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/68190/FichaTecnica_68190.html)
+7. Agencia Española de Medicamentos y Productos Sanitarios. **Naloxona 0,4 mg/mL, ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/69533/FichaTecnica_69533.html)
