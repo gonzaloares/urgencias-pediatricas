@@ -17,10 +17,14 @@
   }
 
   function saveContext(weight, years, months) {
-    sessionStorage.setItem(
-      STORAGE_KEY,
-      JSON.stringify({ weight, years, months })
-    );
+    try {
+      sessionStorage.setItem(
+        STORAGE_KEY,
+        JSON.stringify({ weight, years, months })
+      );
+    } catch (_) {
+      // La calculadora funciona aunque el navegador bloquee sessionStorage.
+    }
   }
 
   function ageInMonths(years, months) {
@@ -48,7 +52,7 @@
         finalValue = entry.max_dose.value;
         capped = true;
       }
-      formula = `${fmt(dose.value)} ${dose.unit.replace("/kg", "")}/kg × ${fmt(weight, 1)} kg = ${fmt(raw)} ${dose.output_unit}`;
+      formula = `${fmt(dose.value)} ${dose.unit} × ${fmt(weight, 1)} kg = ${fmt(raw)} ${dose.output_unit}`;
       finalLabel = `${fmt(finalValue)} ${dose.output_unit}`;
 
       if (
