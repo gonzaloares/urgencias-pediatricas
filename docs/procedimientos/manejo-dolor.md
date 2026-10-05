@@ -43,6 +43,7 @@ Registrar intensidad antes y después del tratamiento.
 
 - **5–10 mg/kg/dosis VO** cada 6–8 h.
 - Máx. **40 mg/kg/día**.
+- Utilizar a partir de **3 meses y ≥5 kg**; en menores de 2 años, bajo indicación médica.
 - Evitar en deshidratación significativa, insuficiencia renal o contraindicación a AINE.
 
 <a id="moderado"></a>
@@ -57,6 +58,7 @@ Registrar intensidad antes y después del tratamiento.
   <span><b>1–2 µg/kg</b>.</span>
   <span>Puede repetirse dosis de <b>0,3–0,5 µg/kg</b> a los 3–5 min según respuesta.</span>
   <span>Máximo orientativo: <b>100 µg/dosis</b>.</span>
+  <span><b>Vía intranasal: uso fuera de ficha técnica</b> de las presentaciones parenterales utilizadas por esta vía.</span>
 </div>
 
 <a id="intenso"></a>
@@ -127,3 +129,7 @@ Si persiste dolor intenso → revisar diagnóstico, dosis, vía y necesidad de e
 ## 9. Bibliografía
 
 1. Guerrero Márquez G, Míguez Navarro MC, Sánchez García I, Plana Fernández M, Ramón Llácer M, Grupo de trabajo de Analgesia y Sedación. **Manejo del dolor en Urgencias pediátricas.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. 2024. [Documento](https://seup.org/wp-content/uploads/2024/04/28_Dolor_urgencias_4ed.pdf)
+
+
+2. Agencia Española de Medicamentos y Productos Sanitarios. **Ibuprofeno 20 mg/ml suspensión oral, ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/78862/FT_78862.html)
+3. Asociación Española de Pediatría. **Fentanilo. Pediamécum.** [Ficha](https://www.aeped.es/comites/cm/pediamecum/principios-activos/fentanilo)
