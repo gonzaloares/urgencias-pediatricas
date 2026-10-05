@@ -314,13 +314,13 @@ Puede realizarse observación durante **4–6 h** si:
 |---|---|---|
 | **<10 kg** | **7,5 mg/kg cada 6 h** | **30 mg/kg/día** |
 | **10–33 kg** | **15 mg/kg cada 4–6 h** | **60 mg/kg/día o 2 g/día** |
-| **33–50 kg** | **15 mg/kg cada 4–6 h** | **90 mg/kg/día o 3 g/día** |
+| **33–50 kg** | **15 mg/kg cada 4–6 h** | **60 mg/kg/día o 3 g/día** |
 
 Administrar en perfusión lenta, aproximadamente **15 min**.
 
 #### Metamizol IV
 
-**20 mg/kg/dosis cada 6–8 h**, administrado en aproximadamente **10 min**.
+**8–16 mg/kg/dosis cada 6–8 h**, administrado por vía IV de forma lenta (máximo **4 dosis/día**). Evitar dosis altas repetidas y extremar precaución si existe inestabilidad hemodinámica.
 
 #### Dolor intenso no controlado
 
@@ -454,3 +454,5 @@ Explicar que el diagnóstico puede evolucionar y que debe volver a Urgencias si 
 ## 13. Bibliografía
 
 1. Alonso Cadenas JA, de la Torre Espí M. **Diagnóstico y tratamiento del dolor abdominal agudo (abdomen agudo) en Urgencias.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. Febrero 2024. [Documento](https://seup.org/wp-content/uploads/2024/04/16_Dolor_abdominal_4ed.pdf)
+2. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Paracetamol 10 mg/ml solución para perfusión: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/80117/FT_80117.html)
+3. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Metamizol 500 mg/ml solución inyectable: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/88385/FT_88385.html)
