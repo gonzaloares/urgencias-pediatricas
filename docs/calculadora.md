@@ -42,7 +42,7 @@
 
 Esta fase incorpora **42 escenarios farmacológicos** procedentes de los protocolos ya revisados del proyecto: fármacos habituales, RCP, anafilaxia, endocrino, toxicología, cardiovascular, convulsiones, respiratorio, analgesia/sedación, HTIC/trauma y digestivo.
 
-No se han migrado todavía las **perfusiones continuas**, la **secuencia rápida de intubación** ni el **registro de críticos** de PedCalc. Tampoco se han importado automáticamente fármacos de la aplicación antigua que no tengan aún una pauta vigente y explícita en los protocolos actuales.
+Las **perfusiones continuas** ya disponen de su propia calculadora. La **secuencia rápida de intubación** ya tiene registro farmacológico reconciliado y protocolo clínico, pero todavía no se expone como calculadora automática. El **registro de críticos** sigue pendiente. Tampoco se han importado automáticamente fármacos de la aplicación antigua que no tengan aún una pauta vigente y explícita en los protocolos actuales.
 
 <div class="clinical-card clinical-card-warning">
   <strong>Regla de seguridad:</strong> la calculadora no debe ser una segunda fuente de verdad. Cada entrada está vinculada a un protocolo del repositorio y los cambios de dosis deben actualizarse de forma estructurada y pasar los tests automáticos.
