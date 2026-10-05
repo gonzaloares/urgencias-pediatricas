@@ -112,14 +112,27 @@ Preferir **vía oral** si el paciente coopera.
 | **Midazolam** | VO | **0,5–0,75 mg/kg** · máx. 20 mg |
 | **Midazolam** | IN | **0,3 mg/kg** · máx. 10 mg |
 | **Midazolam** | IM/IV | **0,1–0,2 mg/kg** · máx. 10 mg |
-| **Risperidona** | VO | **0,25–1 mg** |
-| **Olanzapina** | VO | <40 kg: **2,5–5 mg** · >40 kg: **5–10 mg** |
-| **Haloperidol** | IM | **1–3 mg/dosis**; dosis única orientativa 2,5 mg niño / 5 mg adolescente |
+| **Risperidona** | VO | **0,25–1 mg** · máx. orientativo **3 mg/día** según protocolo |
+| **Olanzapina** | VO | <40 kg: **2,5–5 mg** · >40 kg: **5–10 mg** · máx. orientativo **10–20 mg/día** según protocolo |
+| **Haloperidol** | IM | **1–3 mg/dosis cada 4–8 h**; dosis única orientativa 2,5 mg niño / 5 mg adolescente · monitorizar ECG |
 
 </div>
 
 <div class="clinical-card clinical-card-danger">
   <strong>No combinar olanzapina IM y benzodiacepina parenteral de forma simultánea.</strong> Separar su administración por riesgo de depresión respiratoria.
+</div>
+
+<div class="clinical-card clinical-card-note" markdown="1">
+
+**Uso fuera de ficha técnica en la contención farmacológica pediátrica:**
+
+- **olanzapina:** la ficha técnica española no recomienda su uso en menores de 18 años;
+- **haloperidol inyectable:** la ficha técnica no tiene establecida seguridad/eficacia en menores de 18 años; la solución inyectable se recomienda por vía IM;
+- **risperidona:** tiene indicaciones pediátricas concretas desde los 5 años, pero su empleo puntual para agitación aguda no equivale a esas indicaciones autorizadas;
+- **midazolam IN:** la vía intranasal no figura como vía autorizada para las presentaciones inyectables.
+
+Estas pautas se mantienen porque proceden del protocolo SEUP de urgencias psiquiátricas; utilizar la menor dosis eficaz, con monitorización y reevaluación.
+
 </div>
 
 ### Tras sedación
@@ -214,3 +227,6 @@ Solo si:
 ## 8. Bibliografía
 
 1. Armero Pedreira P, Yagüe Torcal F. **Principales urgencias psiquiátricas en Urgencias de Pediatría.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. Actualización 2025. [Documento](https://seup.org/wp-content/uploads/2025/03/31_Psiquiatria_4a-ed-ene25.pdf)
+2. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Olanzapina: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/75103/FT_75103.html)
+3. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Haloperidol 5 mg/ml solución inyectable: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/58345/FT_58345.html)
+4. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Risperidona: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/66804/FichaTecnica_66804.html)
