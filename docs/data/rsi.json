@@ -19,7 +19,7 @@
       },
       "seup_4ed_2024": {
         "dose": "0,02 mg/kg cuando esté indicada",
-        "note": "No se recomienda de forma sistemática. Considerar especialmente <1 año, bradicardia previa o uso de succinilcolina."
+        "note": "No se recomienda de forma sistemática. Considerar especialmente menores de 1 año, bradicardia previa o uso de succinilcolina."
       },
       "app": {
         "status": "reconciled",
@@ -168,7 +168,7 @@
         "dose": "0,3 mg/kg",
         "max": "20 mg",
         "administration": "30 s",
-        "age": "No administrar en <6 meses"
+        "age": "No administrar en menores de 6 meses"
       },
       "seup_4ed_2024": {
         "dose": "0,3 mg/kg",
