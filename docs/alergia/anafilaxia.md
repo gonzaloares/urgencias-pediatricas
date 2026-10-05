@@ -198,8 +198,12 @@ Opciones:
 
 | Fármaco | Dosis |
 |---|---:|
-| **Dexclorfeniramina IV** | **0,15 mg/kg/dosis cada 6–8 h**, máx. **5 mg/dosis** |
-| **Cetirizina VO** | <20 kg: **2,5 mg/24 h** · 20–30 kg: **5 mg/24 h** · >30 kg: **10 mg/24 h** |
+| **Dexclorfeniramina IV (≥2 años)** | **0,15 mg/kg/dosis cada 6–8 h**, máx. **5 mg/dosis** |
+| **Cetirizina VO (≥2 años)** | 2–6 años: **2,5 mg cada 12 h** · 6–12 años: **5 mg cada 12 h** · >12 años: **10 mg cada 24 h** |
+
+<div class="clinical-card clinical-card-note">
+  <strong>Ficha técnica:</strong> Polaramine inyectable está contraindicado en menores de <b>2 años</b> y su ficha técnica solo especifica posología adulta; la pauta pediátrica anterior procede de protocolos de urgencias. Cetirizina solución oral está autorizada a partir de los <b>2 años</b>.
+</div>
 
 ### Corticoides
 
@@ -359,3 +363,5 @@ Dar de alta únicamente si no existe recurrencia de síntomas durante el periodo
 ## 13. Bibliografía
 
 1. Olabarri García M. **Anafilaxia en Urgencias.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. 2024. [SEUP](https://seup.org/wp-content/uploads/2024/04/7_Anafilaxia_4ed.pdf)
+2. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Polaramine 5 mg/ml solución inyectable: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/40135/FT_40135.html)
+3. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Cetirizina 1 mg/ml solución oral: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/60279/FichaTecnica_60279.html)
