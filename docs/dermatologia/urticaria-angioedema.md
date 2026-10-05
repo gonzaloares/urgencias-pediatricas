@@ -123,15 +123,15 @@ Valorar estudio si:
 
 | Edad | Cetirizina |
 |---|---:|
-| **6–11 meses** | **0,25 mg/kg cada 24 h** · máx. 2,5 mg |
-| **1–2 años** | **2,5 mg cada 12 h** |
-| **2–6 años** | **2,5 mg cada 12 h** o 5 mg/día |
-| **6–12 años** | **5 mg cada 12 h** o 10 mg/día |
+| **6–11 meses** | **0,25 mg/kg cada 24 h** · máx. 2,5 mg · **fuera de ficha técnica en España** |
+| **12–23 meses** | **2,5 mg cada 12 h** · **fuera de ficha técnica en España** |
+| **2–6 años** | **2,5 mg cada 12 h** |
+| **6–12 años** | **5 mg cada 12 h** |
 | **>12 años** | **10 mg cada 24 h** |
 
 </div>
 
-En menores de 2 años, revisar ficha técnica/presentación disponible y protocolo local.
+La ficha técnica española de cetirizina solución oral autoriza su uso **a partir de los 2 años**. Las pautas en menores de 2 años, cuando se emplean por recomendación clínica, deben considerarse **fuera de ficha técnica**.
 
 ### Antihistamínicos sedantes
 
@@ -231,3 +231,4 @@ Alta si:
 2. Royal Children's Hospital Melbourne. **Clinical Practice Guideline: Urticaria.** Actualización vigente 2026. [Guía](https://www.rch.org.au/clinicalguide/guideline_index/Urticaria/)
 3. Asociación Española de Pediatría. **Cetirizina.** Pediamécum.
 4. Sociedad Española de Urgencias de Pediatría. **Urticaria. Información para familias.**
+5. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Cetirizina 1 mg/ml solución oral: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/60279/FichaTecnica_60279.html)
