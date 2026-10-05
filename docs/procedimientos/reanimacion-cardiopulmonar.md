@@ -81,7 +81,7 @@ Incluye **asistolia** y **actividad eléctrica sin pulso (AESP)**.
 2. O₂ al 100% y ventilación efectiva.
 3. Obtener acceso IV/IO.
 4. Administrar **adrenalina 10 µg/kg IV/IO lo antes posible**.
-5. Repetir adrenalina cada **3–5 min**.
+5. Repetir adrenalina cada **4 min**.
 6. Mantener RCP durante **2 min**.
 7. Reevaluar ritmo durante ≤10 s.
 8. Buscar y tratar **4H / 4T**.
@@ -112,9 +112,9 @@ En AESP con sospecha de hipovolemia:
 7. Tras reiniciar la RCP después de la 3.ª descarga:
    - **adrenalina 10 µg/kg IV/IO**;
    - **amiodarona 5 mg/kg IV/IO**.
-8. Repetir adrenalina cada **3–5 min**.
+8. Repetir adrenalina cada **4 min**.
 9. Continuar ciclos de RCP de 2 min + reevaluación + descarga si persiste FV/TVsp.
-10. Tras la **5.ª descarga**, administrar una segunda y última dosis de **amiodarona 5 mg/kg**.
+10. Tras la **5.ª descarga**, administrar una segunda dosis de **adrenalina 10 µg/kg IV/IO** y una segunda y última dosis de **amiodarona 5 mg/kg**.
 11. En FV/TVsp refractaria, considerar incremento progresivo de energía hasta **8 J/kg**, sin superar **360 J**.
 12. Buscar y tratar **4H / 4T** durante toda la reanimación.
 
@@ -141,7 +141,7 @@ En AESP con sospecha de hipovolemia:
 
 | Fármaco / tratamiento | Dosis | Máximo / momento | Notas |
 |---|---|---|---|
-| **Adrenalina IV/IO** | **0,01 mg/kg = 10 µg/kg** | Máx. **1 mg** · repetir cada **3–5 min** | Concentración 0,1 mg/ml (1:10.000): **0,1 ml/kg**. No desfibrilable: lo antes posible. FV/TVsp: tras 3.ª descarga. |
+| **Adrenalina IV/IO** | **0,01 mg/kg = 10 µg/kg** | Máx. **1 mg** · repetir cada **4 min** | Concentración 0,1 mg/ml (1:10.000): **0,1 ml/kg**. No desfibrilable: lo antes posible. FV/TVsp: tras 3.ª descarga. |
 | **Amiodarona IV/IO** | **5 mg/kg** | Tras 3.ª descarga: máx. **300 mg** · tras 5.ª: máx. **150 mg** | FV/TVsp refractaria. |
 | **Lidocaína IV/IO** | **1 mg/kg** | Máx. **100 mg** | Alternativa a amiodarona. |
 | **Bicarbonato sódico IV/IO** | **1 mEq/kg** | Máx. **50 mEq** | No rutinario. Considerar en hiperpotasemia o intoxicación por bloqueadores de canales de sodio. |
@@ -344,7 +344,7 @@ Todo paciente con RCE tras una parada cardiaca requiere estabilización completa
   <div class="algorithm-step"><strong>Monitor / desfibrilador + IV/IO</strong></div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-split">
-    <span><strong>ASISTOLIA / AESP</strong><br>Adrenalina 10 µg/kg ASAP → RCP 2 min → adrenalina cada 3–5 min</span>
+    <span><strong>ASISTOLIA / AESP</strong><br>Adrenalina 10 µg/kg ASAP → RCP 2 min → adrenalina cada 4 min</span>
     <span><strong>FV / TV SIN PULSO</strong><br>4 J/kg → RCP 2 min → 4 J/kg → RCP 2 min → 3.ª descarga + adrenalina + amiodarona</span>
   </div>
   <div class="algorithm-arrow">↓</div>
@@ -370,9 +370,9 @@ Todo paciente con RCE tras una parada cardiaca requiere estabilización completa
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>3.ª descarga: 4 J/kg</strong><br>RCP inmediata + adrenalina 10 µg/kg + amiodarona 5 mg/kg</div>
   <div class="algorithm-arrow">↓</div>
-  <div class="algorithm-step">RCP 2 min · reevaluar · adrenalina cada 3–5 min</div>
+  <div class="algorithm-step">RCP 2 min · reevaluar · adrenalina cada 4 min</div>
   <div class="algorithm-arrow">↓</div>
-  <div class="algorithm-step"><strong>5.ª descarga</strong><br>Segunda dosis de amiodarona 5 mg/kg</div>
+  <div class="algorithm-step"><strong>5.ª descarga</strong><br>Segunda dosis de adrenalina 10 µg/kg + segunda dosis de amiodarona 5 mg/kg</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>FV/TVsp refractaria</strong><br>Considerar incremento progresivo hasta 8 J/kg · máx. 360 J</div>
 </div>
@@ -383,3 +383,4 @@ Todo paciente con RCE tras una parada cardiaca requiere estabilización completa
 ## 13. Bibliografía
 
 1. Martínez Mejías A. **Soporte vital básico y avanzado pediátrico.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. 4.ª edición. Sociedad Española de Urgencias de Pediatría; 2024. [PDF](https://seup.org/wp-content/uploads/2024/04/3_Soporte_vital_4ed.pdf)
+2. Djakow J, Turner NM, Skellett S, et al. **European Resuscitation Council Guidelines 2025: Paediatric Life Support.** Resuscitation. 2025;215(Suppl 1):110767. [ERC](https://www.erc.edu/media/03xnpjmj/gl2025-09-pls-e.pdf)
