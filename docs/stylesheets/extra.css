@@ -874,3 +874,115 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+/* --------------------------------------------------------------------------
+   Calculadora de perfusiones
+   -------------------------------------------------------------------------- */
+.infusion-calculator {
+  margin: 1rem 0 1.5rem;
+}
+
+.infusion-results {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.infusion-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+  padding: 0.85rem 0.95rem 0.2rem;
+}
+
+.infusion-field {
+  display: block;
+}
+
+.infusion-field span,
+.infusion-fixed-concentration span {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.infusion-field input {
+  width: 100%;
+  min-height: 2.7rem;
+  padding: 0.55rem 0.65rem;
+  border: 2px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.55rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-weight: 700;
+}
+
+.infusion-field input:focus {
+  border-color: var(--md-primary-fg-color);
+  outline: none;
+}
+
+.infusion-field small {
+  display: block;
+  margin-top: 0.3rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.66rem;
+  line-height: 1.35;
+}
+
+.infusion-fixed-concentration {
+  min-height: 2.7rem;
+  padding: 0.55rem 0.65rem;
+  border: 2px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.55rem;
+  background: var(--md-code-bg-color);
+}
+
+.infusion-fixed-concentration strong {
+  display: block;
+  font-size: 1rem;
+}
+
+.infusion-fixed-concentration small {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.66rem;
+}
+
+.infusion-card > .dose-calculator-warning {
+  margin: 0.65rem 0.95rem 0;
+}
+
+.infusion-calculation-line {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.7rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  background: var(--md-code-bg-color);
+}
+
+.infusion-calculation-line span {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.infusion-calculation-line strong {
+  font-size: 0.92rem;
+}
+
+@media screen and (max-width: 44.984375em) {
+  .infusion-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .infusion-calculation-line {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+}

@@ -29,7 +29,9 @@ nav:
       - Paciente politraumatizado: trauma/politraumatizado.md
       - Traumatismo craneoencefálico: trauma/traumatismo-craneoencefalico.md
       - Traumatismo periférico: trauma/traumatismo-periferico.md
-  - Calculadora: calculadora.md
+  - Calculadora:
+      - Dosis: calculadora.md
+      - Perfusiones: perfusiones.md
   - Cardiovascular:
       - cardiologia/index.md
       - Arritmias: cardiologia/arritmias.md
@@ -151,6 +153,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/dose-calculator.js
+  - javascripts/infusion-calculator.js
   - javascripts/external-links.js
   - javascripts/pwa.js
 
