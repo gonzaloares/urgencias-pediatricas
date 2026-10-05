@@ -47,6 +47,8 @@ jobs:
           test -f docs/assets/icons/icon-512.png
           test -f docs/assets/icons/apple-touch-icon.png
           test -f docs/offline-urls.json
+          test -f docs/build-info.json
+          python -m json.tool docs/build-info.json > /dev/null
           node --check docs/service-worker.js
 
       - name: Configure GitHub Pages
@@ -55,6 +57,15 @@ jobs:
 
       - name: Build site
         run: mkdocs build --strict
+
+      - name: Generate post-build offline assets
+        run: python scripts/generate_offline_static_urls.py site
+
+      - name: Validate offline search assets
+        run: |
+          test -f site/search/search_index.json
+          test -f site/offline-static-urls.json
+          python -m json.tool site/offline-static-urls.json > /dev/null
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
