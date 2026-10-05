@@ -12,6 +12,9 @@ on:
       - "scripts/check_infusion_registry.py"
       - "scripts/check_rsi_registry.py"
       - "scripts/check_markdown_rendering.py"
+      - "scripts/generate_pwa_assets.py"
+      - "scripts/generate_offline_static_urls.py"
+      - "scripts/service-worker.template.js"
       - ".github/workflows/check-alphabetical-order.yml"
   push:
     branches:
@@ -26,6 +29,9 @@ on:
       - "scripts/check_infusion_registry.py"
       - "scripts/check_rsi_registry.py"
       - "scripts/check_markdown_rendering.py"
+      - "scripts/generate_pwa_assets.py"
+      - "scripts/generate_offline_static_urls.py"
+      - "scripts/service-worker.template.js"
       - ".github/workflows/check-alphabetical-order.yml"
 
 permissions:
@@ -66,3 +72,13 @@ jobs:
 
       - name: Check RSI registry
         run: python scripts/check_rsi_registry.py
+
+      - name: Check PWA JavaScript syntax
+        run: |
+          node --check docs/javascripts/pwa.js
+          node --check scripts/service-worker.template.js
+
+      - name: Check PWA Python syntax
+        run: |
+          python -m py_compile scripts/generate_pwa_assets.py
+          python -m py_compile scripts/generate_offline_static_urls.py
