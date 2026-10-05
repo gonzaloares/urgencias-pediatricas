@@ -168,11 +168,15 @@ Valorar si:
 |---|---:|
 | **Ibuprofeno** | **10 mg/kg VO** · máx. 600 mg/dosis |
 | **Paracetamol** | **10–15 mg/kg VO** · máx. 1 g/dosis |
-| **Naproxeno** | **5–7 mg/kg VO** cada 8–12 h |
+| **Naproxeno** | **5–7 mg/kg VO** cada 8–12 h · **uso fuera de ficha técnica para migraña pediátrica**; no usar <2 años y comprobar presentación |
 
 </div>
 
 **Ibuprofeno** suele ser la primera opción si no existen contraindicaciones.
+
+<div class="clinical-card clinical-card-note">
+  <strong>Naproxeno:</strong> en España existen presentaciones pediátricas autorizadas desde los <strong>2 años</strong> para artritis idiopática juvenil; la indicación de migraña pediátrica no figura en esa ficha técnica. Otras presentaciones pueden tener restricciones de edad diferentes.
+</div>
 
 ### Si vómitos importantes
 
@@ -279,3 +283,6 @@ Reconsultar por:
 
 1. Asociación Española de Pediatría / Sociedad Española de Neurología Pediátrica. **Cefalea en el niño y el adolescente.** Protocolos de Neurología Pediátrica. 2022. [Documento](https://www.aeped.es/sites/default/files/documentos/12.pdf)
 2. Sociedad Española de Urgencias de Pediatría. **Cefalea. Información para familias.** [Documento](https://seup.org/pdf_public/pub/hojas_padres/cefalea.pdf)
+
+
+3. Agencia Española de Medicamentos y Productos Sanitarios. **Naproxeno Infectopharm 50 mg/ml suspensión oral, ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/86455/FT_86455.html)
