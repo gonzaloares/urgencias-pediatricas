@@ -75,7 +75,7 @@ SEUP no recomienda atropina sistemática en toda SRI. Puede considerarse especia
 | **Midazolam** | **Pendiente de cálculo automático** | Discrepancia SEUP: Cards 0,15 mg/kg frente a protocolo de estabilización 0,2–0,3 mg/kg |
 | **Ketamina** | **1–2 mg/kg IV/IO** · referencia Cards 1,5 mg/kg · máx. 50 mg | Cards: no recomendada en ≤3 meses; útil si broncoespasmo y aceptable en sospecha de HTIC |
 | **Propofol** | **1–4 mg/kg IV/IO** · referencia Cards 1 mg/kg | Importante repercusión hemodinámica; no seleccionar automáticamente en paciente inestable |
-| **Etomidato** | **0,3 mg/kg IV/IO** · máx. 20 mg | No <6 meses en Cards; evitar en shock séptico |
+| **Etomidato** | **0,3 mg/kg IV/IO** · máx. 20 mg | No menores de 6 meses en Cards; evitar en shock séptico |
 | **Tiopental** | **3–5 mg/kg IV/IO** · referencia Cards 3 mg/kg | Evitar en inestabilidad hemodinámica o broncoespasmo |
 
 </div>
