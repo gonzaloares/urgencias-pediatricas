@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-05",
+  "basis": {
+    "cards_seup_2024": "https://seup.org/wp-content/uploads/2024/10/Cards-SEUP-10-10-2024.pdf",
+    "estabilizacion_seup_4ed_2024": "https://seup.org/wp-content/uploads/2024/04/2_Estabilizacion_4ed.pdf",
+    "sedoanalgesia_seup_4ed_2024": "https://seup.org/wp-content/uploads/2024/04/27_Sedoanalgesia_4ed.pdf"
+  },
+  "entries": [
+    {
+      "id": "atropina-premedicacion-sri",
+      "drug": "Atropina",
+      "role": "Premedicación seleccionada",
+      "route": "IV/IO",
+      "cards_2024": {
+        "dose": "0,02 mg/kg",
+        "max": "0,5 mg/dosis; 1 mg acumulado",
+        "note": "Cards la recoge como dosis de arritmia, no como uso sistemático en SRI."
+      },
+      "seup_4ed_2024": {
+        "dose": "0,02 mg/kg cuando esté indicada",
+        "note": "No se recomienda de forma sistemática. Considerar especialmente <1 año, bradicardia previa o uso de succinilcolina."
+      },
+      "app": {
+        "status": "reconciled",
+        "kind": "weight",
+        "value": 0.02,
+        "unit": "mg/kg",
+        "output_unit": "mg",
+        "min_dose": {
+          "value": 0.1,
+          "unit": "mg"
+        },
+        "max_dose": {
+          "value": 0.5,
+          "unit": "mg"
+        },
+        "automatic": false
+      },
+      "warnings": [
+        "No administrar de rutina en toda SRI.",
+        "La indicación depende del contexto clínico."
+      ]
+    },
+    {
+      "id": "fentanilo-premedicacion-sri",
+      "drug": "Fentanilo",
+      "role": "Analgesia/premedicación",
+      "route": "IV/IO",
+      "cards_2024": {
+        "dose": "1 µg/kg",
+        "max": "50–75 µg según tabla",
+        "administration": "30–60 s en SRI"
+      },
+      "seup_4ed_2024": {
+        "dose": "1–2 µg/kg",
+        "note": "Puede valorarse como premedicación cuando la urgencia lo permite, especialmente en situaciones seleccionadas."
+      },
+      "app": {
+        "status": "reconciled",
+        "kind": "weight_range",
+        "min": 1,
+        "max": 2,
+        "default": 1,
+        "unit": "µg/kg",
+        "output_unit": "µg",
+        "automatic": false
+      },
+      "warnings": [
+        "No es obligatorio en toda SRI.",
+        "Titular con cautela por riesgo de depresión respiratoria y repercusión hemodinámica."
+      ]
+    },
+    {
+      "id": "midazolam-sri",
+      "drug": "Midazolam",
+      "role": "Sedante/hipnótico",
+      "route": "IV/IO",
+      "cards_2024": {
+        "dose": "0,15 mg/kg",
+        "max": "5 mg en menores de 6 años; 10 mg en mayores",
+        "administration": "30–60 s en SRI"
+      },
+      "seup_4ed_2024": {
+        "dose": "0,2–0,3 mg/kg",
+        "note": "De elección en paciente con convulsiones y escasa repercusión hemodinámica."
+      },
+      "app": {
+        "status": "conflict_hold",
+        "kind": null,
+        "automatic": false
+      },
+      "warnings": [
+        "Existe discrepancia interna SEUP 2024: Cards 0,15 mg/kg frente a 0,2–0,3 mg/kg en el protocolo de estabilización.",
+        "No se expondrá como cálculo automático de SRI hasta resolver esta discrepancia de forma explícita."
+      ]
+    },
+    {
+      "id": "ketamina-sri",
+      "drug": "Ketamina",
+      "role": "Sedante disociativo",
+      "route": "IV/IO",
+      "cards_2024": {
+        "dose": "1,5 mg/kg",
+        "max": "50 mg en las tablas pediátricas",
+        "administration": "30–60 s",
+        "age": "No recomendada en ≤3 meses"
+      },
+      "seup_4ed_2024": {
+        "dose": "1–2 mg/kg",
+        "note": "Puede utilizarse de forma segura si existe sospecha de hipertensión intracraneal."
+      },
+      "app": {
+        "status": "reconciled",
+        "kind": "weight_range",
+        "min": 1,
+        "max": 2,
+        "default": 1.5,
+        "unit": "mg/kg",
+        "output_unit": "mg",
+        "max_dose": {
+          "value": 50,
+          "unit": "mg"
+        },
+        "age_warning_months_lte": 3,
+        "automatic": true
+      },
+      "warnings": [
+        "Cards SEUP no la recomienda en ≤3 meses.",
+        "El valor por defecto 1,5 mg/kg reproduce Cards y queda dentro del rango 1–2 mg/kg del protocolo SEUP."
+      ]
+    },
+    {
+      "id": "propofol-sri",
+      "drug": "Propofol",
+      "role": "Sedante/hipnótico",
+      "route": "IV/IO",
+      "cards_2024": {
+        "dose": "1 mg/kg",
+        "administration": "30–60 s",
+        "note": "Sin dosis máxima indicada en Cards."
+      },
+      "seup_4ed_2024": {
+        "dose": "1–4 mg/kg",
+        "note": "Su uso en SRI no está claro por efectos hemodinámicos importantes."
+      },
+      "app": {
+        "status": "reconciled_cautious",
+        "kind": "weight_range",
+        "min": 1,
+        "max": 4,
+        "default": 1,
+        "unit": "mg/kg",
+        "output_unit": "mg",
+        "automatic": false
+      },
+      "warnings": [
+        "No seleccionar automáticamente en inestabilidad hemodinámica.",
+        "La presentación puede contener aceite de soja; comprobar la ficha técnica concreta y alergias relevantes."
+      ]
+    },
+    {
+      "id": "etomidato-sri",
+      "drug": "Etomidato",
+      "role": "Sedante/hipnótico",
+      "route": "IV/IO",
+      "cards_2024": {
+        "dose": "0,3 mg/kg",
+        "max": "20 mg",
+        "administration": "30 s",
+        "age": "No administrar en <6 meses"
+      },
+      "seup_4ed_2024": {
+        "dose": "0,3 mg/kg",
+        "note": "Evitar en shock séptico por supresión adrenal."
+      },
+      "app": {
+        "status": "reconciled",
+        "kind": "weight",
+        "value": 0.3,
+        "unit": "mg/kg",
+        "output_unit": "mg",
+        "max_dose": {
+          "value": 20,
+          "unit": "mg"
+        },
+        "min_age_months": 6,
+        "automatic": true
+      },
+      "warnings": [
+        "Evitar en shock séptico.",
+        "La ficha técnica de Etomidato-Lipuro indica evitar hasta 6 meses salvo indicaciones urgentes hospitalarias."
+      ]
+    },
+    {
+      "id": "rocuronio-sri",
+      "drug": "Rocuronio",
+      "role": "Bloqueante neuromuscular no despolarizante",
+      "route": "IV/IO",
+      "cards_2024": {
+        "dose": "1 mg/kg",
+        "administration": "30 s",
+        "repeat": "0,2 mg/kg cada 20–30 min si precisa",
+        "note": "Dispone de reversión con sugammadex."
+      },
+      "seup_4ed_2024": {
+        "dose": "0,6–1,2 mg/kg",
+        "note": "Es el bloqueante neuromuscular más utilizado en emergencias."
+      },
+      "app": {
+        "status": "reconciled",
+        "kind": "weight_range",
+        "min": 0.6,
+        "max": 1.2,
+        "default": 1,
+        "unit": "mg/kg",
+        "output_unit": "mg",
+        "automatic": true
+      },
+      "warnings": [
+        "El valor por defecto 1 mg/kg reproduce Cards y queda dentro del rango SEUP.",
+        "Algunas fichas técnicas españolas señalan experiencia limitada o no recomiendan la inducción rápida pediátrica según la presentación; comprobar el medicamento concreto."
+      ]
+    },
+    {
+      "id": "succinilcolina-sri",
+      "drug": "Succinilcolina",
+      "role": "Bloqueante neuromuscular despolarizante",
+      "route": "IV/IO",
+      "cards_2024": {
+        "dose": "1 mg/kg IV/IO",
+        "im": "4 mg/kg IM",
+        "max": "150 mg"
+      },
+      "seup_4ed_2024": {
+        "dose": "1–2 mg/kg IV",
+        "note": "Contraindicada en hiperpotasemia, aplastamiento o enfermedad neuromuscular."
+      },
+      "app": {
+        "status": "reconciled",
+        "kind": "weight_range",
+        "min": 1,
+        "max": 2,
+        "default": 1,
+        "unit": "mg/kg",
+        "output_unit": "mg",
+        "max_dose": {
+          "value": 150,
+          "unit": "mg"
+        },
+        "automatic": true
+      },
+      "warnings": [
+        "Contraindicada en hiperpotasemia, aplastamiento y enfermedad neuromuscular.",
+        "Si se utiliza, SEUP recomienda valorar atropina en situaciones seleccionadas."
+      ]
+    },
+    {
+      "id": "sugammadex-rocuronio",
+      "drug": "Sugammadex",
+      "role": "Reversión de bloqueo por rocuronio",
+      "route": "IV",
+      "cards_2024": {
+        "dose": "2 mg/kg",
+        "deep_block": "4 mg/kg",
+        "administration": "10 s"
+      },
+      "seup_4ed_2024": {
+        "dose": "No detallado en la tabla principal de SRI."
+      },
+      "app": {
+        "status": "reconciled",
+        "kind": "reversal_options",
+        "options": [
+          {
+            "id": "t2",
+            "label": "Reversión rutinaria con reaparición de T2",
+            "value": 2,
+            "unit": "mg/kg"
+          },
+          {
+            "id": "deep",
+            "label": "Bloqueo profundo con 1–2 PTC",
+            "value": 4,
+            "unit": "mg/kg"
+          }
+        ],
+        "output_unit": "mg",
+        "automatic": false
+      },
+      "warnings": [
+        "La ficha técnica actual de algunas presentaciones autoriza reversión rutinaria desde el nacimiento hasta los 17 años.",
+        "La reversión inmediata tras dosis de intubación no está investigada en población pediátrica."
+      ]
+    },
+    {
+      "id": "tiopental-sri",
+      "drug": "Tiopental",
+      "role": "Sedante/hipnótico",
+      "route": "IV/IO",
+      "cards_2024": {
+        "dose": "3 mg/kg",
+        "max": "5 mg/kg",
+        "administration": "20–30 s",
+        "contraindications": "Inestabilidad hemodinámica o broncoespasmo."
+      },
+      "seup_4ed_2024": {
+        "dose": "Incluido como sedante/hipnótico para SRI en el protocolo de sedoanalgesia.",
+        "note": "No se fija una dosis en la tabla principal de estabilización."
+      },
+      "app": {
+        "status": "reconciled_from_cards",
+        "kind": "weight_range",
+        "min": 3,
+        "max": 5,
+        "default": 3,
+        "unit": "mg/kg",
+        "output_unit": "mg",
+        "automatic": false
+      },
+      "warnings": [
+        "Evitar en inestabilidad hemodinámica o broncoespasmo.",
+        "La dosis se mantiene vinculada explícitamente a Cards SEUP 2024."
+      ]
+    }
+  ]
+}
