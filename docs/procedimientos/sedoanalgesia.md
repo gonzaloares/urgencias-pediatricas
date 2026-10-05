@@ -74,7 +74,18 @@ Asignar una persona responsable de monitorizar al paciente durante sedación mod
 | **Ketamina** | IV | **1–2 mg/kg** · máx. 50 mg/dosis |
 | **Ketamina** | IM | **3–4 mg/kg** · máx. 100 mg |
 | **Óxido nitroso/O₂** | Inhalado | Mezcla equimolar; iniciar 3–5 min antes |
-| **Propofol** | IV | **0,5–1 mg/kg** inicial, titular según respuesta y experiencia |
+| **Propofol** | IV | **6 meses–2 años: 1–2 mg/kg** · **>2 años: 0,5–1 mg/kg/dosis**; bolo lento y titular |
+
+</div>
+
+<div class="clinical-card clinical-card-note" markdown="1">
+
+**Edad, vía y ficha técnica**
+
+- **Fentanilo:** las presentaciones parenterales no cubren de forma homogénea todas las edades; en menores de 2 años y para **vía intranasal** comprobar ficha técnica y considerar uso fuera de ficha de la presentación utilizada.
+- **Midazolam:** la ficha técnica de solución inyectable no recomienda sedación consciente en **<6 meses** por mayor riesgo de obstrucción de vía aérea e hipoventilación. La **vía intranasal** es uso fuera de ficha técnica de las presentaciones inyectables.
+- **Propofol:** las presentaciones de **10 mg/ml** pueden estar autorizadas para sedación de procedimientos desde **>1 mes**, mientras que algunas de **20 mg/ml** solo desde **>3 años**. Comprobar siempre la presentación. Debe administrarlo personal específicamente entrenado, con monitorización y capacidad inmediata de rescate de vía aérea y cardiovascular.
+- Las pautas de la tabla siguen el protocolo SEUP de sedoanalgesia; en lactantes pequeños individualizar y valorar Anestesia/UCIP.
 
 </div>
 
@@ -155,3 +166,8 @@ Dar instrucciones escritas y evitar actividades de riesgo el resto del día.
 ## 8. Bibliografía
 
 1. Míguez Navarro MC, Fernández Santervás Y, de Ceano Vivas la Calle M, et al. **Sedoanalgesia en Urgencias pediátricas.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. 2024. [Documento](https://seup.org/wp-content/uploads/2024/04/27_Sedoanalgesia_4ed.pdf)
+
+
+2. Agencia Española de Medicamentos y Productos Sanitarios. **Midazolam B. Braun 1 mg/ml, ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/68898/FichaTecnica_68898.html)
+3. Agencia Española de Medicamentos y Productos Sanitarios. **Propofol Fresenius 10 mg/ml, ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/62134/FichaTecnica_62134.html)
+4. Asociación Española de Pediatría. **Fentanilo. Pediamécum.** [Ficha](https://www.aeped.es/comites/cm/pediamecum/principios-activos/fentanilo)

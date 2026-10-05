@@ -305,9 +305,8 @@ Si se inicia tratamiento IV, pasar a vía oral cuando el estado clínico lo perm
 
 | Fármaco | Vía | Dosis | Intervalo / máximo | Comentarios |
 |---|---|---|---|---|
-| **Cefuroxima axetilo** | VO | **3 meses–5 años: 7,5 mg/kg/dosis** | cada **12 h** | Primera opción. |
-| **Cefuroxima axetilo** | VO | **5–12 años: 125 mg/dosis** | cada **12 h** | — |
-| **Cefuroxima axetilo** | VO | **>12 años: 125 mg/dosis** | cada **12 h**; puede aumentarse a **250 mg/dosis** | — |
+| **Cefuroxima axetilo** | VO | **≥3 meses y <40 kg: 15 mg/kg/dosis** | cada **12 h** · máx. **250 mg/dosis** | Primera opción. |
+| **Cefuroxima axetilo** | VO | **≥40 kg: 250 mg/dosis** | cada **12 h** | — |
 | **Cefalexina** | VO | **25–50 mg/kg/día** | repartir cada **6–8 h** · máx. **2 g/día** | Cefalosporina de 1.ª generación. |
 | **Nitrofurantoína** | VO | **≤6 años: 1–2 mg/kg/dosis** | cada **6 h** | No usar en <3 meses. Solo ITU baja. |
 | **Nitrofurantoína** | VO | **>6 años: 5–7 mg/kg/día** | repartir en **4 tomas** | No superar dosis de adulto. Solo ITU baja. |
@@ -327,9 +326,8 @@ Si se inicia tratamiento IV, pasar a vía oral cuando el estado clínico lo perm
 |---|---|---|---|---|
 | **Cefixima** | VO | **8 mg/kg/día** | cada **12–24 h** · máx. **400 mg/día** | Opción práctica de cefalosporina de 3.ª generación en >6 meses. |
 | **Amoxicilina-clavulánico 4:1** | VO | **35–40 / 9–10 mg/kg/día** | repartir en **3 dosis (cada 8 h)** · máx. amoxicilina **1,5 g/día**, clavulánico **375 mg/día** | Alternativa si la sensibilidad local de <i>E. coli</i> es >80–90%. |
-| **Cefuroxima axetilo** | VO | **3 meses–5 años: 7,5 mg/kg/dosis** | cada **12 h** | Alternativa de 2.ª generación si la sensibilidad local de <i>E. coli</i> es >80–90%. |
-| **Cefuroxima axetilo** | VO | **5–12 años: 125 mg/dosis** | cada **12 h** | — |
-| **Cefuroxima axetilo** | VO | **>12 años: 125–250 mg/dosis** | cada **12 h** | — |
+| **Cefuroxima axetilo** | VO | **≥3 meses y <40 kg: 15 mg/kg/dosis** | cada **12 h** · máx. **250 mg/dosis** | Alternativa de 2.ª generación si la sensibilidad local de <i>E. coli</i> es >80–90%. En PNA, completar **10–14 días** según evolución. |
+| **Cefuroxima axetilo** | VO | **≥40 kg: 250 mg/dosis** | cada **12 h** | En PNA, completar **10–14 días** según evolución. |
 
 ### ITU febril con ingreso · tratamiento intravenoso
 
@@ -371,6 +369,10 @@ En niñas >12 años con cistitis puede utilizarse **fosfomicina-trometamol en mo
 - Inicio **IV**.
 - Paso a vía oral tras mejoría clínica.
 - Duración total: **2–3 semanas**.
+
+<div class="clinical-card clinical-card-note">
+  <strong>Revisión farmacológica:</strong> cefuroxima axetilo está autorizada desde los <strong>3 meses</strong>. Para cistitis y pielonefritis en niños &lt;40 kg, la ficha técnica española establece <strong>15 mg/kg/dosis cada 12 h</strong> (máx. 250 mg/dosis).
+</div>
 
 <a id="reevaluacion"></a>
 ## 8. Reevaluación
@@ -590,3 +592,6 @@ En ITU recurrente, la indicación debe individualizarse en función de anomalía
 
 1. Grupo de trabajo de la Guía de Práctica Clínica sobre Infección del Tracto Urinario en la Población Pediátrica. **Guía de Práctica Clínica. Infección del Tracto Urinario en la Población Pediátrica. Actualización 2024.** Asociación Española de Nefrología Pediátrica; Asociación Española de Pediatría. 2024. [Guía clínica](https://www.aenp.es/noticias.html?view=article&id=230&catid=13)
 2. Comité de Medicamentos de la Asociación Española de Pediatría. **Pediamécum.** Fichas de cefuroxima, cefalexina, nitrofurantoína, fosfomicina, cotrimoxazol, amoxicilina-clavulánico, cefixima, gentamicina, cefotaxima, ceftriaxona, tobramicina y ampicilina. Utilizado exclusivamente para la posología. [Pediamécum](https://www.aeped.es/comites/cm/pediamecum/) · [Fosfomicina](https://www.aeped.es/comites/cm/pediamecum/principios-activos/fosfomicina)
+
+
+3. Agencia Española de Medicamentos y Productos Sanitarios. **Zinnat (cefuroxima axetilo), ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/62806/FT_62806.html)

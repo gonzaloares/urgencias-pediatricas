@@ -314,7 +314,7 @@ Puede realizarse observación durante **4–6 h** si:
 |---|---|---|
 | **<10 kg** | **7,5 mg/kg cada 6 h** | **30 mg/kg/día** |
 | **10–33 kg** | **15 mg/kg cada 4–6 h** | **60 mg/kg/día o 2 g/día** |
-| **33–50 kg** | **15 mg/kg cada 4–6 h** | **90 mg/kg/día o 3 g/día** |
+| **33–50 kg** | **15 mg/kg cada 4–6 h** | **60 mg/kg/día o 3 g/día** |
 
 Administrar en perfusión lenta, aproximadamente **15 min**.
 
