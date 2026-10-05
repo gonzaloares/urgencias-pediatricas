@@ -67,20 +67,30 @@ Asignar una persona responsable de monitorizar al paciente durante sedación mod
 
 | Fármaco | Vía | Dosis inicial |
 |---|---|---:|
-| **Fentanilo** | IV | **1–2 µg/kg** lento; <6 meses 0,5–1 µg/kg |
-| **Fentanilo** | IN | **1,5–2 µg/kg** · máx. 100 µg |
-| **Midazolam** | IV | **0,02–0,1 mg/kg** · máx. 6 mg |
-| **Midazolam** | IN | **0,3–0,5 mg/kg** |
+| **Fentanilo** | IV | **1–2 µg/kg** lento; <6 meses 0,5–1 µg/kg · en <2 años, uso pediátrico no establecido en la ficha técnica de algunas presentaciones |
+| **Fentanilo** | IN | **>10 kg: 1,5–2 µg/kg** · máx. **100 µg** · vía IN fuera de ficha técnica para la solución inyectable |
+| **Midazolam** | IV | **6 meses–5 años: 0,05–0,1 mg/kg** · dosis total máx. **6 mg**; **6–12 años: 0,025–0,05 mg/kg** · dosis total máx. **10 mg** |
+| **Midazolam** | IN | **0,3–0,5 mg/kg** · máx. **10 mg** · vía IN fuera de ficha técnica para la solución inyectable |
 | **Ketamina** | IV | **1–2 mg/kg** · máx. 50 mg/dosis |
 | **Ketamina** | IM | **3–4 mg/kg** · máx. 100 mg |
 | **Óxido nitroso/O₂** | Inhalado | Mezcla equimolar; iniciar 3–5 min antes |
-| **Propofol** | IV | **0,5–1 mg/kg** inicial, titular según respuesta y experiencia |
+| **Propofol** | IV | **6 meses–2 años: 1–2 mg/kg** · **>2 años: 0,5–1 mg/kg/dosis**; titular según respuesta y experiencia |
 
 </div>
 
 ### Ketamina
 
 Analgesia potente + sedación disociativa. Evitar en <3 meses y valorar contraindicaciones específicas.
+
+### Midazolam
+
+Para **sedación consciente IV**, la ficha técnica no recomienda su empleo en menores de **6 meses** por mayor vulnerabilidad a obstrucción de vía aérea e hipoventilación. La vía **intranasal** no figura como vía autorizada para las presentaciones inyectables y debe considerarse **fuera de ficha técnica**.
+
+### Propofol
+
+- **10 mg/ml:** autorizado para sedación durante procedimientos diagnósticos/quirúrgicos en niños **>1 mes**.
+- **20 mg/ml:** no indicado para estos procedimientos en menores de **3 años**.
+- La sedación con propofol en **UCI en pacientes ≤16 años está contraindicada** en ficha técnica.
 
 ### Óxido nitroso
 
@@ -155,3 +165,6 @@ Dar instrucciones escritas y evitar actividades de riesgo el resto del día.
 ## 8. Bibliografía
 
 1. Míguez Navarro MC, Fernández Santervás Y, de Ceano Vivas la Calle M, et al. **Sedoanalgesia en Urgencias pediátricas.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. 2024. [Documento](https://seup.org/wp-content/uploads/2024/04/27_Sedoanalgesia_4ed.pdf)
+2. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Midazolam solución inyectable: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/72015/FichaTecnica_72015.html)
+3. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Propofol 10 mg/ml: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/89616/FT_89616.html)
+4. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Fentanilo solución inyectable: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/41764/FT_41764.html)
