@@ -10,6 +10,8 @@ const CORE_URLS = [
   new URL("assets/icons/icon-192.png", APP_ROOT).href,
   new URL("assets/icons/icon-512.png", APP_ROOT).href,
   new URL("assets/icons/apple-touch-icon.png", APP_ROOT).href,
+  new URL("data/drugs.json", APP_ROOT).href,
+  new URL("javascripts/dose-calculator.js", APP_ROOT).href,
 ];
 
 async function cacheUrl(cache, url) {
