@@ -597,3 +597,218 @@
     width: 100%;
   }
 }
+
+
+/* --------------------------------------------------------------------------
+   Calculadora de dosis
+   -------------------------------------------------------------------------- */
+.dose-calculator {
+  margin: 1rem 0 1.5rem;
+}
+
+.dose-calculator-patient {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  display: grid;
+  grid-template-columns: minmax(7rem, 1.2fr) repeat(2, minmax(6rem, 0.8fr));
+  gap: 0.65rem;
+  padding: 0.8rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.7rem;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 0.18rem 0.55rem rgb(0 0 0 / 8%);
+}
+
+.dose-calculator label span,
+.dose-calculator-search span {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.dose-calculator input {
+  width: 100%;
+  min-height: 2.7rem;
+  padding: 0.55rem 0.65rem;
+  border: 2px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.55rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+}
+
+.dose-calculator input:focus {
+  border-color: var(--md-primary-fg-color);
+  outline: none;
+}
+
+.dose-calculator-search {
+  display: block;
+  margin: 0.9rem 0;
+}
+
+.dose-calculator-status {
+  margin: 0.45rem 0 0.75rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.75rem;
+}
+
+.dose-calculator-results {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.dose-calculator-card {
+  overflow: hidden;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.7rem;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 0.12rem 0.35rem rgb(0 0 0 / 5%);
+}
+
+.dose-calculator-card header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 0.85rem 0.95rem 0.7rem;
+}
+
+.dose-calculator-card h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.dose-calculator-card header p {
+  margin: 0.2rem 0 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.76rem;
+}
+
+.dose-calculator-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-end;
+  gap: 0.3rem;
+}
+
+.dose-calculator-tags span {
+  padding: 0.22rem 0.42rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+  font-size: 0.66rem;
+  font-weight: 700;
+}
+
+.dose-calculator-tags .off-label {
+  background: rgba(217, 119, 6, 0.12);
+  color: #b45309;
+}
+
+.dose-calculator-reference {
+  padding: 0.55rem 0.95rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-code-bg-color);
+  font-size: 0.76rem;
+}
+
+.dose-calculator-output {
+  display: grid;
+  gap: 0.6rem;
+  padding: 0.85rem 0.95rem;
+}
+
+.dose-calculator-formula {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.78rem;
+}
+
+.dose-calculator-final,
+.dose-calculator-volume {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 0.55rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 7%, transparent);
+}
+
+.dose-calculator-final span,
+.dose-calculator-volume span {
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.dose-calculator-final strong,
+.dose-calculator-volume strong {
+  color: var(--md-primary-fg-color);
+  font-size: 1.25rem;
+}
+
+.dose-calculator-volume small {
+  color: var(--md-default-fg-color--light);
+}
+
+.dose-calculator-cap,
+.dose-calculator-warning,
+.dose-calculator-danger {
+  padding: 0.55rem 0.65rem;
+  border-radius: 0.45rem;
+  font-size: 0.74rem;
+  font-weight: 650;
+}
+
+.dose-calculator-cap,
+.dose-calculator-warning {
+  background: rgba(217, 119, 6, 0.1);
+}
+
+.dose-calculator-danger {
+  background: rgba(220, 38, 38, 0.1);
+  color: #b91c1c;
+}
+
+.dose-calculator-meta {
+  padding: 0 0.95rem 0.85rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.74rem;
+}
+
+.dose-calculator-meta p {
+  margin: 0.45rem 0;
+}
+
+.dose-calculator-meta ul {
+  margin: 0.35rem 0 0.5rem 1rem;
+}
+
+.dose-calculator-empty {
+  color: var(--md-default-fg-color--light);
+  font-style: italic;
+}
+
+@media screen and (max-width: 44.984375em) {
+  .dose-calculator-patient {
+    grid-template-columns: 1.3fr 1fr 0.8fr;
+    top: 0;
+  }
+
+  .dose-calculator-card header {
+    align-items: flex-start;
+  }
+
+  .dose-calculator-final,
+  .dose-calculator-volume {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .dose-calculator-volume small {
+    display: block;
+  }
+}
