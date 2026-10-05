@@ -594,4 +594,4 @@ En ITU recurrente, la indicación debe individualizarse en función de anomalía
 2. Comité de Medicamentos de la Asociación Española de Pediatría. **Pediamécum.** Fichas de cefuroxima, cefalexina, nitrofurantoína, fosfomicina, cotrimoxazol, amoxicilina-clavulánico, cefixima, gentamicina, cefotaxima, ceftriaxona, tobramicina y ampicilina. Utilizado exclusivamente para la posología. [Pediamécum](https://www.aeped.es/comites/cm/pediamecum/) · [Fosfomicina](https://www.aeped.es/comites/cm/pediamecum/principios-activos/fosfomicina)
 
 
-- Agencia Española de Medicamentos y Productos Sanitarios. **Zinnat (cefuroxima axetilo), ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/62806/FT_62806.html)
+3. Agencia Española de Medicamentos y Productos Sanitarios. **Zinnat (cefuroxima axetilo), ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/62806/FT_62806.html)
