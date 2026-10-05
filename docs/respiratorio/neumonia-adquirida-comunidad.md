@@ -167,8 +167,12 @@ Considerar especialmente en:
 <div class="dose-card">
   <strong>Amoxicilina VO</strong>
   <span><b>80 mg/kg/día</b> repartidos en 2–3 dosis.</span>
-  <span>Máximo: <b>6 g/día</b>.</span>
+  <span>Máximo según consenso pediátrico de NAC: <b>6 g/día</b>.</span>
   <span>Duración habitual: <b>5–7 días</b>.</span>
+</div>
+
+<div class="clinical-card clinical-card-note">
+  <strong>Dosis alta y ficha técnica:</strong> el máximo de 6 g/día procede de consensos pediátricos de NAC. Las fichas técnicas españolas indican que a partir de <b>40 kg</b> debe emplearse la dosis de adulto; por tanto, en adolescentes ≥40 kg individualizar la dosis y evitar extrapolar automáticamente 80 mg/kg/día hasta 6 g/día.
 </div>
 
 Amoxicilina-clavulánico no es necesario de rutina; valorar si existen circunstancias específicas, como vacunación incompleta frente a Hib o sospecha de germen productor de betalactamasa.
@@ -265,3 +269,4 @@ Si no mejora:
 
 1. Manzanares Casteleiro A, Moraleda Redecilla C, Tagarro García A. **Neumonía adquirida en la comunidad.** Protocolos de Infectología Pediátrica AEP/SEIP. 2023;2:151-165. [Documento](https://static.aeped.es/10_neumonia_adquirida_comunidad_2f27bdb3fd.pdf)
 2. Andrés Martín A, Moreno-Pérez D, Alfayate Miguélez S, et al. **Documento de consenso sobre la neumonía adquirida en la comunidad en los niños.** SENP-SEPAR-SEIP. Arch Bronconeumol. 2020.
+3. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Amoxicilina: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/53623/FichaTecnica_53623.html)
