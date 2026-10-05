@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-05",
+  "entries": [
+    {
+      "id": "adrenalina-shock-frio",
+      "category": "Vasoactivos",
+      "drug": "Adrenalina",
+      "indication": "Shock frío / shock séptico con perfil frío",
+      "route": "IV/IO inicialmente; central cuando sea posible",
+      "rate": {
+        "kind": "weight_rate",
+        "min": 0.05,
+        "max": 0.3,
+        "default": 0.05,
+        "unit": "µg/kg/min",
+        "amount_unit": "µg",
+        "time_base": "min"
+      },
+      "concentration": {
+        "mode": "institutional",
+        "unit": "µg/mL"
+      },
+      "reference_text": "Inicio 0,05–0,1 µg/kg/min · rango orientativo inicial 0,05–0,3 µg/kg/min",
+      "protocol": "emergencias/shock.md",
+      "source_label": "Shock / sepsis",
+      "notes": [
+        "Usar bomba y concentración estandarizada institucional.",
+        "Puede iniciarse por vía periférica/IO para no retrasar el tratamiento, con vigilancia estrecha de extravasación.",
+        "Titular según perfusión y presión arterial."
+      ]
+    },
+    {
+      "id": "noradrenalina-shock-caliente",
+      "category": "Vasoactivos",
+      "drug": "Noradrenalina",
+      "indication": "Shock caliente / shock séptico con perfil caliente",
+      "route": "IV/IO inicialmente; central cuando sea posible",
+      "rate": {
+        "kind": "weight_rate",
+        "min": 0.05,
+        "max": 0.1,
+        "default": 0.05,
+        "unit": "µg/kg/min",
+        "amount_unit": "µg",
+        "time_base": "min"
+      },
+      "concentration": {
+        "mode": "institutional",
+        "unit": "µg/mL"
+      },
+      "reference_text": "Inicio 0,05–0,1 µg/kg/min; dosis superiores requieren manejo intensivo individualizado",
+      "protocol": "emergencias/shock.md",
+      "source_label": "Shock / sepsis",
+      "notes": [
+        "La calculadora limita el rango al intervalo de inicio explícitamente documentado en el protocolo.",
+        "Usar bomba y concentración estandarizada institucional.",
+        "Titular según perfusión y presión arterial."
+      ]
+    },
+    {
+      "id": "adrenalina-bradicardia-persistente",
+      "category": "Cardiovascular",
+      "drug": "Adrenalina",
+      "indication": "Bradicardia con pulso persistente pese a tratar la causa",
+      "route": "IV/IO",
+      "rate": {
+        "kind": "weight_rate",
+        "min": 0.1,
+        "max": 2,
+        "default": 0.1,
+        "unit": "µg/kg/min",
+        "amount_unit": "µg",
+        "time_base": "min"
+      },
+      "concentration": {
+        "mode": "institutional",
+        "unit": "µg/mL"
+      },
+      "reference_text": "0,1–2 µg/kg/min",
+      "protocol": "cardiologia/arritmias.md",
+      "source_label": "Arritmias",
+      "notes": [
+        "Requiere soporte experto y monitorización continua.",
+        "No confundir esta perfusión con el bolo de adrenalina de peri-parada/RCP."
+      ]
+    },
+    {
+      "id": "adrenalina-anafilaxia-refractaria",
+      "category": "Anafilaxia",
+      "drug": "Adrenalina",
+      "indication": "Anafilaxia refractaria tras 2 dosis IM",
+      "route": "IV en perfusión continua",
+      "rate": {
+        "kind": "weight_rate",
+        "min": 0.1,
+        "max": 1,
+        "default": 0.1,
+        "unit": "µg/kg/min",
+        "amount_unit": "µg",
+        "time_base": "min"
+      },
+      "concentration": {
+        "mode": "fixed",
+        "value": 10,
+        "unit": "µg/mL",
+        "label": "10 µg/mL",
+        "preparation": "Tomar 1 mg de adrenalina (1 mg/mL) y completar con SSF hasta 100 mL de volumen final."
+      },
+      "reference_text": "0,1–1 µg/kg/min · concentración validada 10 µg/mL",
+      "protocol": "alergia/anafilaxia.md",
+      "source_label": "Anafilaxia refractaria",
+      "notes": [
+        "Requiere bomba, monitorización estrecha, doble comprobación y contacto con UCIP.",
+        "No administrar bolos IV de adrenalina para el manejo habitual de la anafilaxia."
+      ]
+    },
+    {
+      "id": "glucagon-anafilaxia-perfusion",
+      "category": "Anafilaxia",
+      "drug": "Glucagón",
+      "indication": "Anafilaxia refractaria en paciente tratado con betabloqueantes",
+      "route": "IV en perfusión continua",
+      "rate": {
+        "kind": "absolute_rate",
+        "min": 5,
+        "max": 15,
+        "default": 5,
+        "unit": "µg/min",
+        "amount_unit": "µg",
+        "time_base": "min"
+      },
+      "concentration": {
+        "mode": "institutional",
+        "unit": "µg/mL"
+      },
+      "reference_text": "Perfusión 5–15 µg/min tras dosis inicial según contexto",
+      "protocol": "alergia/anafilaxia.md",
+      "source_label": "Anafilaxia refractaria",
+      "notes": [
+        "La perfusión aparece como continuación posible tras la dosis inicial de glucagón.",
+        "Utilizar concentración estandarizada del centro y monitorización avanzada."
+      ]
+    },
+    {
+      "id": "insulina-cad",
+      "category": "Endocrino",
+      "drug": "Insulina regular",
+      "indication": "Cetoacidosis diabética",
+      "route": "IV en perfusión continua",
+      "rate": {
+        "kind": "weight_rate",
+        "min": 0.05,
+        "max": 0.1,
+        "default": 0.05,
+        "unit": "UI/kg/h",
+        "amount_unit": "UI",
+        "time_base": "h"
+      },
+      "concentration": {
+        "mode": "fixed",
+        "value": 1,
+        "unit": "UI/mL",
+        "label": "1 UI/mL",
+        "preparation": "Cargar 50 UI de insulina regular y completar con SSF 0,9% hasta un volumen final de 50 mL."
+      },
+      "reference_text": "0,05–0,1 UI/kg/h · preparación estandarizada 1 UI/mL",
+      "protocol": "endocrino/cetoacidosis-diabetica.md",
+      "source_label": "Cetoacidosis diabética",
+      "notes": [
+        "Iniciar aproximadamente 1 h después de comenzar fluidoterapia.",
+        "Cebar el sistema con la solución de insulina antes de conectarlo.",
+        "No administrar bolo IV de insulina."
+      ]
+    },
+    {
+      "id": "midazolam-estatus-refractario",
+      "category": "Estatus epiléptico refractario",
+      "drug": "Midazolam",
+      "indication": "Estatus epiléptico refractario",
+      "route": "IV/IO en perfusión continua",
+      "rate": {
+        "kind": "weight_rate",
+        "min": 0.05,
+        "max": 0.4,
+        "default": 0.05,
+        "unit": "mg/kg/h",
+        "amount_unit": "mg",
+        "time_base": "h"
+      },
+      "concentration": {
+        "mode": "institutional",
+        "unit": "mg/mL"
+      },
+      "reference_text": "Perfusión 0,05–0,4 mg/kg/h · bolo previo 0,2 mg/kg",
+      "protocol": "neurologia/estatus-epileptico.md",
+      "source_label": "Estatus epiléptico refractario",
+      "notes": [
+        "Manejo en UCIP con vía aérea avanzada y monitorización EEG continua.",
+        "Introducir la concentración estandarizada del centro para obtener mL/h."
+      ]
+    },
+    {
+      "id": "propofol-estatus-refractario",
+      "category": "Estatus epiléptico refractario",
+      "drug": "Propofol",
+      "indication": "Estatus epiléptico refractario",
+      "route": "IV/IO en perfusión continua",
+      "rate": {
+        "kind": "weight_rate",
+        "min": 5,
+        "max": 10,
+        "default": 5,
+        "unit": "mg/kg/h",
+        "amount_unit": "mg",
+        "time_base": "h"
+      },
+      "concentration": {
+        "mode": "institutional",
+        "unit": "mg/mL"
+      },
+      "reference_text": "Perfusión 5–10 mg/kg/h · bolo previo 3–5 mg/kg",
+      "protocol": "neurologia/estatus-epileptico.md",
+      "source_label": "Estatus epiléptico refractario",
+      "notes": [
+        "Manejo en UCIP con monitorización EEG continua y soporte hemodinámico/respiratorio.",
+        "La concentración depende de la presentación y del estándar institucional."
+      ]
+    },
+    {
+      "id": "tiopental-estatus-refractario",
+      "category": "Estatus epiléptico refractario",
+      "drug": "Tiopental",
+      "indication": "Estatus epiléptico refractario",
+      "route": "IV/IO en perfusión continua",
+      "rate": {
+        "kind": "weight_rate",
+        "min": 3,
+        "max": 5,
+        "default": 3,
+        "unit": "mg/kg/h",
+        "amount_unit": "mg",
+        "time_base": "h"
+      },
+      "concentration": {
+        "mode": "institutional",
+        "unit": "mg/mL"
+      },
+      "reference_text": "Perfusión 3–5 mg/kg/h · bolo previo 2–3 mg/kg",
+      "protocol": "neurologia/estatus-epileptico.md",
+      "source_label": "Estatus epiléptico refractario",
+      "notes": [
+        "Manejo en UCIP con monitorización EEG continua y soporte hemodinámico/respiratorio.",
+        "Introducir la concentración estandarizada del centro para obtener mL/h."
+      ]
+    },
+    {
+      "id": "valproato-mantenimiento-estatus",
+      "category": "Estatus epiléptico",
+      "drug": "Ácido valproico",
+      "indication": "Mantenimiento tras control del estatus",
+      "route": "IV en perfusión",
+      "rate": {
+        "kind": "weight_rate",
+        "min": 1,
+        "max": 2,
+        "default": 1,
+        "unit": "mg/kg/h",
+        "amount_unit": "mg",
+        "time_base": "h"
+      },
+      "concentration": {
+        "mode": "institutional",
+        "unit": "mg/mL"
+      },
+      "reference_text": "Mantenimiento 1–2 mg/kg/h",
+      "protocol": "neurologia/estatus-epileptico.md",
+      "source_label": "Estatus epiléptico",
+      "notes": [
+        "Evitar en hepatopatía, pancreatopatía, hiperamoniemia, coagulopatía, enfermedad mitocondrial o metabolopatía.",
+        "Introducir la concentración estandarizada del centro para obtener mL/h."
+      ]
+    }
+  ]
+}
