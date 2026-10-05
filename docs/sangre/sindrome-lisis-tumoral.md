@@ -100,8 +100,8 @@ Valorar **alopurinol**:
 
 <div class="dose-card">
   <strong>Alopurinol</strong>
-  <span><b>10 mg/kg/día VO</b> repartidos cada 8 h.</span>
-  <span>Máximo orientativo: <b>300 mg/m²/día</b>.</span>
+  <span><b>10–20 mg/kg/día VO</b> repartidos cada 8 h · máximo <b>800 mg/día</b>.</span>
+  <span>Alternativa por superficie corporal: <b>50–100 mg/m²/dosis cada 8 h</b> · máximo <b>300–450 mg/m²/día</b>.</span>
   <span>Ajustar en insuficiencia renal.</span>
 </div>
 
@@ -119,8 +119,9 @@ Indicada especialmente en:
 
 <div class="dose-card">
   <strong>Rasburicasa IV</strong>
-  <span><b>0,2 mg/kg IV</b> en aproximadamente 30 min.</span>
-  <span>Con frecuencia puede emplearse dosis única y reevaluar; repetir según ácido úrico, riesgo y protocolo de Oncohematología.</span>
+  <span><b>0,20 mg/kg/día IV cada 24 h</b>, en perfusión de aproximadamente <b>30 min</b>.</span>
+  <span>La ficha técnica permite tratamiento de hasta <b>7 días</b>, ajustando duración al ácido úrico y criterio clínico.</span>
+  <span>Las estrategias de <b>dosis única + reevaluación</b> deben reservarse al protocolo específico de Oncohematología, pues difieren de la pauta estándar de ficha técnica.</span>
 </div>
 
 ### Seguridad
@@ -207,3 +208,5 @@ Consulta urgente con Nefrología/UCIP ante:
 1. Pui CH, et al. **Expert consensus guidelines for the prophylaxis and management of tumor lysis syndrome in the United States.** Cancer Treat Rev. 2023;120:102603.
 2. Coiffier B, Altman A, Pui CH, Younes A, Cairo MS. **Guidelines for the management of pediatric and adult tumor lysis syndrome.** J Clin Oncol. 2008;26:2767-2778.
 3. Cairo MS, et al. **Rasburicase in prevention of tumor lysis syndrome in children with advanced mature B-NHL.** Br J Haematol. 2014.
+4. Comité de Medicamentos de la AEP. **Alopurinol.** Pediamécum. [Ficha](https://www.aeped.es/comites/cm/pediamecum/principios-activos/alopurinol)
+5. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Fasturtec (rasburicasa): ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/00170001/FT_00170001.html)
