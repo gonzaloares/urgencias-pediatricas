@@ -131,7 +131,7 @@ Valorar estudio si:
 
 </div>
 
-En menores de 2 años, revisar ficha técnica/presentación disponible y protocolo local.
+En España, las soluciones orales de cetirizina consultadas están autorizadas a partir de **2 años**. Por tanto, la pauta de **6 meses a <2 años es uso fuera de ficha técnica** y debe individualizarse, comprobando la presentación disponible.
 
 ### Antihistamínicos sedantes
 
@@ -231,3 +231,6 @@ Alta si:
 2. Royal Children's Hospital Melbourne. **Clinical Practice Guideline: Urticaria.** Actualización vigente 2026. [Guía](https://www.rch.org.au/clinicalguide/guideline_index/Urticaria/)
 3. Asociación Española de Pediatría. **Cetirizina.** Pediamécum.
 4. Sociedad Española de Urgencias de Pediatría. **Urticaria. Información para familias.**
+
+
+5. Agencia Española de Medicamentos y Productos Sanitarios. **Zyrtec 1 mg/ml (cetirizina), ficha técnica.** Indicado a partir de 2 años. [CIMA](https://cima.aemps.es/cima/dochtml/ft/60279/FichaTecnica_60279.html)
