@@ -7,6 +7,7 @@
   <a href="#mal-estado">TEP alterado</a>
   <a href="#menor-60">≤60 días</a>
   <a href="#2-24">2–24 meses</a>
+  <a href="#mayor-24">&gt;24 meses</a>
   <a href="#orina">Orina</a>
   <a href="#analitica">Analítica</a>
   <a href="#antibiotico">Antibiótico</a>
@@ -17,7 +18,7 @@
 </nav>
 
 <div class="protocol-intro">
-  <strong>Ámbito:</strong> lactante previamente sano de <strong>0–24 meses</strong> con fiebre sin foco tras anamnesis y exploración física completas.
+  <strong>Ámbito:</strong> niño previamente sano con <strong>fiebre sin foco</strong> tras anamnesis y exploración física completas. La conducta se estratifica por edad, estado general, constantes, signos de alarma y evolución.
 </div>
 
 <a id="definicion"></a>
@@ -329,8 +330,162 @@ Si alguno está alterado:
 
 Si ninguno está alterado y la orina es normal → **alta**.
 
+<a id="mayor-24"></a>
+## 7. Niño >24 meses con TEP normal
+
+A partir de los 2 años, en un niño previamente sano, bien vacunado y con buen estado general, la evaluación debe basarse sobre todo en la **apariencia clínica, constantes, signos de alarma y evolución**, y no en una cifra aislada de temperatura.
+
+<div class="clinical-card clinical-card-success">
+  <strong>Niño >24 meses, TEP normal y sin signos de alarma:</strong> no realizar de rutina hemograma, PCR/PCT, hemocultivo ni radiografía de tórax, y no administrar antibiótico empírico únicamente por presentar fiebre sin foco.
+</div>
+
+### 7.1. Bajo riesgo
+
+Considerar **bajo riesgo** si presenta:
+
+- color y perfusión normales;
+- interacción y nivel de consciencia normales;
+- respiración sin dificultad;
+- hidratación adecuada;
+- constantes compatibles con la edad tras reevaluación;
+- ausencia de petequias/púrpura, meningismo, focalidad neurológica o dolor localizado relevante;
+- posibilidad de seguimiento y reevaluación.
+
+En este grupo:
+
+- tratamiento sintomático según malestar;
+- búsqueda dirigida de foco;
+- no analítica sanguínea sistemática;
+- no hemocultivo sistemático;
+- no radiografía de tórax sin signos respiratorios;
+- no antibiótico empírico.
+
+### 7.2. Orina
+
+La **ITU sigue siendo una de las infecciones bacterianas a considerar** cuando no existe un foco evidente.
+
+#### Entre 24 meses y 5 años
+
+En una **FSF verdadera**, considerar tira de orina, especialmente si existe cualquiera de:
+
+- disuria, polaquiuria o urgencia;
+- dolor abdominal o lumbar;
+- vómitos sin explicación;
+- antecedente de ITU o anomalía urológica;
+- fiebre persistente;
+- escalofríos/rigores;
+- mal olor de orina o nueva incontinencia;
+- ausencia mantenida de otro foco.
+
+#### ≥5 años
+
+No es necesario obtener orina de forma sistemática en todo niño bien con fiebre aislada. Solicitarla si:
+
+- síntomas urinarios;
+- dolor abdominal/lumbar;
+- antecedente urológico/ITU;
+- fiebre persistente sin explicación;
+- clínica compatible con pielonefritis.
+
+Si la tira es sugestiva → obtener **urocultivo** según el protocolo de [Infección del tracto urinario](infeccion-tracto-urinario.md).
+
+### 7.3. Riesgo intermedio
+
+Reevaluar de forma más estrecha si aparece alguno de:
+
+- taquicardia persistente para la edad;
+- relleno capilar ≥3 s;
+- disminución de actividad;
+- mucosas secas o diuresis reducida;
+- rigores;
+- dificultad respiratoria leve-moderada;
+- dolor localizado no aclarado;
+- imposibilidad de asegurar seguimiento.
+
+En estos pacientes:
+
+- observación y nueva exploración;
+- orina si no hay foco;
+- individualizar hemograma, PCR/PCT y hemocultivo;
+- pruebas dirigidas según clínica;
+- valorar ingreso/observación si persiste incertidumbre.
+
+<div class="clinical-card clinical-card-note">
+  <strong>Riesgo intermedio:</strong> considerar analítica y hemocultivo, individualizando su necesidad según la valoración por un pediatra con experiencia, la evolución y la reevaluación clínica.
+</div>
+
+### 7.4. Alto riesgo
+
+Tratar como posible infección bacteriana grave/sepsis si existe:
+
+- TEP alterado;
+- aspecto tóxico;
+- alteración de consciencia;
+- mala perfusión o shock;
+- dificultad respiratoria importante o hipoxemia;
+- petequias/púrpura no blanqueante;
+- meningismo;
+- focalidad neurológica;
+- deshidratación grave;
+- dolor intenso localizado;
+- deterioro progresivo.
+
+Realizar según situación:
+
+- hemograma;
+- PCR y/o PCT;
+- hemocultivo;
+- orina/urocultivo;
+- bioquímica y gasometría si precisa;
+- radiografía si signos respiratorios;
+- punción lumbar si sospecha de meningitis y no existe contraindicación.
+
+→ Seguir protocolo de **sepsis** si corresponde y no retrasar antibioterapia en el paciente inestable.
+
+### 7.5. Fiebre prolongada
+
+<div class="clinical-card clinical-card-warning">
+  <strong>Fiebre ≥5 días:</strong> obliga a una reevaluación diagnóstica completa, aunque el niño mantenga buen aspecto.
+</div>
+
+Considerar específicamente:
+
+- enfermedad de Kawasaki;
+- infección urinaria;
+- neumonía oculta si existen datos respiratorios;
+- infección osteoarticular;
+- absceso/infección profunda;
+- EBV/CMV u otras infecciones según contexto;
+- enfermedad inflamatoria si la evolución no encaja con infección autolimitada.
+
+La duración de la fiebre por sí sola **no permite predecir gravedad**, pero sí debe hacer revisar el diagnóstico y la necesidad de pruebas.
+
+### 7.6. Alta
+
+Puede darse de alta si:
+
+- TEP y exploración normales;
+- constantes adecuadas tras reevaluación;
+- tolera líquidos;
+- no hay signos de alarma;
+- no precisa pruebas o estas son tranquilizadoras;
+- familia comprende los signos de reconsulta;
+- seguimiento fiable.
+
+Reconsultar si aparece:
+
+- deterioro del estado general;
+- dificultad respiratoria;
+- petequias/púrpura;
+- somnolencia anormal o irritabilidad intensa;
+- rigidez de nuca;
+- convulsión;
+- rechazo persistente de líquidos o oliguria;
+- dolor localizado creciente;
+- fiebre que alcanza o supera 5 días sin diagnóstico claro.
+
 <a id="orina"></a>
-## 7. Despistaje de ITU
+## 8. Despistaje de ITU
 
 ### A quién estudiar
 
@@ -350,7 +505,7 @@ Si ninguno está alterado y la orina es normal → **alta**.
 Si se confirma sospecha de ITU, continuar según el protocolo de [Infección del tracto urinario](infeccion-tracto-urinario.md).
 
 <a id="analitica"></a>
-## 8. Interpretación rápida de biomarcadores
+## 9. Interpretación rápida de biomarcadores
 
 | Parámetro | Umbral de mayor riesgo |
 |---|---:|
@@ -365,7 +520,7 @@ Si se confirma sospecha de ITU, continuar según el protocolo de [Infección del
 </div>
 
 <a id="antibiotico"></a>
-## 9. Antibioterapia empírica en ≤60 días con TEP normal
+## 10. Antibioterapia empírica en ≤60 días con TEP normal
 
 ### <1 mes
 
@@ -394,7 +549,7 @@ Si pleocitosis:
 En cualquier edad, añadir **aciclovir 20 mg/kg IV cada 8 h** si existen convulsiones, vesículas mucocutáneas u otros datos sugestivos de encefalitis herpética.
 
 <a id="ingreso"></a>
-## 10. Ingreso, observación y alta
+## 11. Ingreso, observación y alta
 
 ### Ingreso
 
@@ -436,7 +591,7 @@ Requiere:
 - empeoramiento clínico.
 
 <a id="no-hacer"></a>
-## 11. No hacer de rutina
+## 12. No hacer de rutina
 
 - No tratar una cifra de temperatura aislada si el niño está confortable.
 - No alternar paracetamol e ibuprofeno de forma sistemática.
@@ -445,18 +600,19 @@ Requiere:
 - No minimizar una fiebre documentada en domicilio porque el paciente esté afebril en Urgencias.
 - No omitir el despistaje de ITU en los grupos de edad indicados.
 - No realizar analítica sanguínea sistemática en todos los lactantes de 2–24 meses con TEP normal.
+- No solicitar hemograma, biomarcadores, hemocultivo o radiografía de tórax de rutina en un niño >24 meses de bajo riesgo solo por la cifra de fiebre.
 - No retrasar la antibioterapia del paciente inestable para completar analítica, cultivos o punción lumbar.
 - No realizar punción lumbar antes de estabilizar a un paciente inestable.
 - No utilizar únicamente la cifra de temperatura para valorar gravedad.
 - No administrar antibiótico a un paciente de bajo riesgo únicamente por presentar fiebre sin foco.
 
 <a id="algoritmo"></a>
-## 12. Algoritmo práctico
+## 13. Algoritmo práctico
 
 <div class="algorithm">
 
 <div class="algorithm-lane">
-  <div class="algorithm-title">FIEBRE SIN FOCO · 0–24 MESES</div>
+  <div class="algorithm-title">FIEBRE SIN FOCO · NIÑO PREVIAMENTE SANO</div>
   <div class="algorithm-step"><strong>TEP + búsqueda exhaustiva de foco</strong><br>Tª ≥38 °C · edad exacta · duración · vacunación · orina</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-split">
@@ -471,16 +627,23 @@ Requiere:
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>2–24 meses</strong><br>ITU según edad/sexo/Tª · analítica sanguínea solo en grupos seleccionados por Tª y vacunación</div>
   <div class="algorithm-arrow">↓</div>
+  <div class="algorithm-step"><strong>&gt;24 meses</strong><br>Priorizar estado general y signos de riesgo · si bajo riesgo, no analítica/hemocultivo/Rx de rutina · orina según edad, síntomas y contexto</div>
+  <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>Reevaluación antes del alta</strong><br>Buen estado general · seguimiento fiable · control en 24 h cuando corresponda</div>
 </div>
 
 </div>
 
 <a id="bibliografia"></a>
-## 13. Bibliografía
+## 14. Bibliografía
 
 1. Mintegi Raso S, Gómez Cortés B, Velasco Zúñiga R. **Lactante febril.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. 2024. Revisión marzo 2024. [SEUP](https://seup.org/wp-content/uploads/2025/04/11_Lactante_febril-4ed-abr25.pdf)
 2. Sociedad Española de Urgencias de Pediatría. **Fiebre sin focalidad en lactante de 0–24 meses previamente sano.** Algoritmo SEUP. [SEUP](https://seup.org/wp-content/uploads/2025/06/14-Lactante-febril-Junio-25R.pdf)
 3. Sociedad Española de Urgencias de Pediatría. **Fiebre. Información para padres.** 2025. [SEUP](https://seup.org/wp-content/uploads/2025/05/15_Fiebre.pdf)
 4. Sociedad Española de Urgencias de Pediatría. **Dolor: tratamiento analgésico en Pediatría.** Algoritmos SEUP. [SEUP](https://seup.org/pdf_public/algoritmos/21_Dolor.pdf)
 5. Agencia Española de Medicamentos y Productos Sanitarios. **Metalgial 500 mg/ml gotas orales en solución. Ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/72149/FT_72149.html)
+6. Fernández-Cuesta Valcarce MA, Morillo Gutiérrez B. **Fiebre sin foco en el menor de 3 años.** Guía-ABE. Versión 2.0/2025. Actualización enero de 2025. [Guía-ABE](https://www.guia-abe.es/temas-clinicos-fiebre-sin-foco-en-el-menor-de-3-anos)
+7. Fernández-Cuesta Valcarce MA, Morillo Gutiérrez B. **Fiebre sin foco en el niño menor de 36 meses.** Algoritmos AEPap. Publicado abril de 2025. [AEPap](https://algoritmos.aepap.org/algoritmo/115/fiebre-sin-foco-en-el-nino-menor-de-36-meses)
+8. National Institute for Health and Care Excellence. **Fever in under 5s: assessment and initial management. NG143.** [NICE](https://www.nice.org.uk/guidance/ng143)
+9. National Institute for Health and Care Excellence. **Urinary tract infection in under 16s: diagnosis and management. NG224.** 2022. [NICE](https://www.nice.org.uk/guidance/ng224)
+10. Royal Children’s Hospital Melbourne. **Clinical Practice Guideline: Febrile child.** [RCH](https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/)
