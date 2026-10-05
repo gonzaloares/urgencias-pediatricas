@@ -67,14 +67,14 @@ Asignar una persona responsable de monitorizar al paciente durante sedación mod
 
 | Fármaco | Vía | Dosis inicial |
 |---|---|---:|
-| **Fentanilo** | IV | **1–2 µg/kg** lento; <6 meses 0,5–1 µg/kg |
-| **Fentanilo** | IN | **1,5–2 µg/kg** · máx. 100 µg |
-| **Midazolam** | IV | **0,02–0,1 mg/kg** · máx. 6 mg |
-| **Midazolam** | IN | **0,3–0,5 mg/kg** |
-| **Ketamina** | IV | **1–2 mg/kg** · máx. 50 mg/dosis |
-| **Ketamina** | IM | **3–4 mg/kg** · máx. 100 mg |
+| **Fentanilo** | IV | **1–2 µg/kg en 2–3 min**; &lt;6 meses 0,5–1 µg/kg · máx. &lt;12 años **50 µg**, ≥12 años **100 µg** |
+| **Fentanilo** | IN | **1,5–2 µg/kg** · máx. **100 µg** |
+| **Midazolam** | IV | **0,02–0,1 mg/kg** · máx. acumulado &lt;12 años **6 mg**, ≥12 años **10 mg**; esperar ≥5 min antes de redosificar |
+| **Midazolam** | IN | **0,3–0,5 mg/kg** · máx. **10 mg** |
+| **Ketamina** | IV | **1–2 mg/kg** · máx. **50 mg/dosis** · administrar lentamente, no >**0,5 mg/kg/min** |
+| **Ketamina** | IM | **3–4 mg/kg** · máx. **100 mg** |
 | **Óxido nitroso/O₂** | Inhalado | Mezcla equimolar; iniciar 3–5 min antes |
-| **Propofol** | IV | **6 meses–2 años: 1–2 mg/kg** · **>2 años: 0,5–1 mg/kg/dosis**; bolo lento y titular |
+| **Propofol** | IV | **6 meses–2 años: 1–2 mg/kg** · **>2 años: 0,5–1 mg/kg/dosis**; bolo lento en ~**1 min** y titular |
 
 </div>
 
@@ -87,6 +87,17 @@ Asignar una persona responsable de monitorizar al paciente durante sedación mod
 - **Propofol:** las presentaciones de **10 mg/ml** pueden estar autorizadas para sedación de procedimientos desde **>1 mes**, mientras que algunas de **20 mg/ml** solo desde **>3 años**. Comprobar siempre la presentación. Debe administrarlo personal específicamente entrenado, con monitorización y capacidad inmediata de rescate de vía aérea y cardiovascular.
 - Las pautas de la tabla siguen el protocolo SEUP de sedoanalgesia; en lactantes pequeños individualizar y valorar Anestesia/UCIP.
 
+</div>
+
+### Antagonistas de rescate
+
+| Fármaco | Dosis IV | Repetición / máximo | Precauciones |
+|---|---|---|---|
+| **Naloxona** | Reversión parcial: **0,01 mg/kg** · reversión completa si depresión grave: **0,1 mg/kg** | cada **2–3 min** · máx. **2 mg/bolo**; acumulado **10 mg** | Vida media más corta que algunos opioides → vigilar resedación |
+| **Flumazenilo** | **0,01 mg/kg** | cada **1 min** · máx. **0,2 mg/dosis**; acumulado **1 mg** | Evitar si uso crónico de benzodiacepinas, epilepsia tratada con BZD o sospecha de coingesta proconvulsivante/ADT |
+
+<div class="clinical-card clinical-card-warning">
+  <strong>Los antídotos no sustituyen al soporte de vía aérea y ventilación.</strong> Ante depresión respiratoria, priorizar apertura de vía aérea, oxígeno y ventilación con presión positiva si es necesaria.
 </div>
 
 ### Ketamina
@@ -171,3 +182,5 @@ Dar instrucciones escritas y evitar actividades de riesgo el resto del día.
 2. Agencia Española de Medicamentos y Productos Sanitarios. **Midazolam B. Braun 1 mg/ml, ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/68898/FichaTecnica_68898.html)
 3. Agencia Española de Medicamentos y Productos Sanitarios. **Propofol Fresenius 10 mg/ml, ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/62134/FichaTecnica_62134.html)
 4. Asociación Española de Pediatría. **Fentanilo. Pediamécum.** [Ficha](https://www.aeped.es/comites/cm/pediamecum/principios-activos/fentanilo)
+
+5. Sociedad Española de Urgencias de Pediatría / SEFH. **Hojas de medicación para sedoanalgesia y antídotos.** [SEUP-SEFH](https://seup.org/pdf_public/gt/Analge_hojas_medica_%28SEUP-SEFH%29.pdf)
