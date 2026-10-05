@@ -291,13 +291,13 @@ En el resto de los niños ≥6 meses que precisan antibioterapia, **amoxicilina*
 
 ### Reacción no anafiláctica
 
-**Cefuroxima axetilo VO: 30 mg/kg/día**, repartido cada 12 h.
+**Cefuroxima axetilo VO (≥2 años): 15 mg/kg/dosis cada 12 h**, máximo **250 mg/dosis**.
 
 ### Reacción anafiláctica
 
 Opciones:
 
-- **Azitromicina VO:** 10 mg/kg el día 1; después 5 mg/kg/día los días 2–5.
+- **Azitromicina VO (≥6 meses):** 10 mg/kg el día 1 (máx. **500 mg**); después 5 mg/kg/día los días 2–5 (máx. **250 mg/día**).
 - **Claritromicina VO:** 15 mg/kg/día repartidos cada 12 h.
 
 <div class="clinical-card clinical-card-warning">
@@ -319,7 +319,7 @@ Cambiar a:
 
 Considerar:
 
-**Ceftriaxona 50 mg/kg/dosis IV/IM cada 24 h**.
+**Ceftriaxona 50 mg/kg/dosis IM cada 24 h durante 3 días** si existe fracaso terapéutico o enfermedad grave. En ≥50 kg: **1–2 g/día IM** durante 3 días.
 
 ### Si ya ha recibido ceftriaxona y persiste mala evolución
 
@@ -475,3 +475,6 @@ Puede darse de alta si:
 1. Cruz Cañete M, López Martín D. **Otitis media aguda y otitis externa. Mastoiditis.** Protocolos diagnósticos y terapéuticos en Pediatría. Infectología Pediátrica. 2.ª ed. Asociación Española de Pediatría / Sociedad Española de Infectología Pediátrica; 2023;2:97-110. [PDF](https://static.aeped.es/6_otitis_b893c53b12.pdf)
 2. Ruiz Contreras J, García Vera C, Lupiani Castellanos P. **Otitis media aguda.** Guía-ABE. Infecciones en Pediatría. Actualización 03/11/2023. [Guía-ABE](https://www.guia-abe.es/temas-clinicos-otitis-media-aguda)
 3. National Institute for Health and Care Excellence. **Otitis media (acute): antimicrobial prescribing. NG91.** Actualizado 2022. [NICE](https://www.nice.org.uk/guidance/ng91)
+4. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Cefuroxima axetilo: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/72257/FichaTecnica_72257.html)
+5. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Azitromicina suspensión oral: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/71180/FichaTecnica_71180.html)
+6. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Ceftriaxona: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/62636/FT_62636.html)
