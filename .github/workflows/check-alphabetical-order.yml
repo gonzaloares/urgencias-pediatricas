@@ -50,3 +50,6 @@ jobs:
 
       - name: Check drug registry
         run: python scripts/check_drug_registry.py
+
+      - name: Check calculator JavaScript syntax
+        run: node --check docs/javascripts/dose-calculator.js
