@@ -149,15 +149,23 @@ Si alteraciones ECG:
 
 <div class="dose-card">
   <strong>Gluconato cálcico 10%</strong>
-  <span><b>0,5 mL/kg IV</b> lento · máximo habitual <b>20 mL</b>.</span>
-  <span>Repetir según ECG.</span>
+  <span><b>0,5 mL/kg IV/IO</b> · máximo habitual <b>20 mL</b>.</span>
+  <span>Administrar lentamente, aproximadamente en <b>5–15 min</b> según estabilidad, con monitorización ECG continua.</span>
+  <span>Repetir según ECG; no administrar simultáneamente con bicarbonato por la misma vía.</span>
 </div>
 
 Para desplazar K intracelular:
 
-- insulina + glucosa según protocolo local;
-- salbutamol nebulizado como coadyuvante;
-- bicarbonato si acidosis metabólica significativa seleccionada.
+<div class="dose-card">
+  <strong>Hiperpotasemia grave · insulina + glucosa</strong>
+  <span><b>Insulina regular 0,1 UI/kg IV</b> · máximo <b>10 UI</b>.</span>
+  <span>Administrar junto con <b>glucosa 10%: 5 mL/kg IV</b> (= 0,5 g/kg) · máximo <b>250 mL</b>, salvo contraindicación metabólica específica.</span>
+  <span>Para reducir errores, preparar la insulina a <b>1 UI/mL</b> (10 UI hasta 10 mL con SSF) antes de extraer la dosis.</span>
+  <span>Controlar glucemia cada <b>30–60 min</b> hasta estabilidad.</span>
+</div>
+
+- **Salbutamol nebulizado** como coadyuvante: ≤25 kg, 2,5 mg; >25 kg, 5 mg.
+- **Bicarbonato sódico** solo si existe acidosis metabólica significativa seleccionada; no administrarlo simultáneamente con calcio.
 
 Eliminar K:
 
@@ -214,3 +222,5 @@ Contactar precozmente con Nefrología/UCIP ante:
 
 1. Kidney Disease: Improving Global Outcomes (KDIGO). **Acute Kidney Injury Guideline.** [Guía](https://kdigo.org/guidelines/acute-kidney-injury/)
 2. Asociación Española de Pediatría. **Lesión renal aguda.** Protocolos de Nefrología Pediátrica. 2022. [Protocolos](https://www.aeped.es/publicaciones/protocolos/protocolos-diagnosticos-y-terapeuticos-nefrologia-pediatrica)
+
+3. Royal Children's Hospital Melbourne. **Clinical Practice Guideline: Hyperkalaemia.** Actualización 2024. [Guía](https://www.rch.org.au/clinicalguide/guideline_index/Hyperkalaemia/)

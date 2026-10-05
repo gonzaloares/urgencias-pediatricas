@@ -102,33 +102,22 @@ Si shock: repetir bolos de **20 mL/kg** con reevaluación tras cada uno.
 
 <div class="clinical-card clinical-card-note" markdown="1">
 
-**Preparación práctica proporcional al peso**
+**Preparación estandarizada: 1 UI/mL**
 
-1. Tomar el **peso del niño en kg = número de UI de insulina regular**.
-2. Diluir esas UI de insulina regular con SSF 0,9% hasta un **volumen final de 100 mL**.
+- Cargar **50 UI de insulina regular** y completar con SSF 0,9% hasta un **volumen final de 50 mL**.
+- Concentración final: **1 UI/mL**.
+- Programar la bomba en función del peso:
+  - **0,05 UI/kg/h → 0,05 mL/kg/h**;
+  - **0,1 UI/kg/h → 0,1 mL/kg/h**.
 
-Ejemplo: **33 kg → 33 UI de insulina**.  
-Si la insulina es de **100 UI/mL**, 33 UI = **0,33 mL**.  
-Preparación: **0,33 mL de insulina + 99,67 mL de SSF = 100 mL finales**.
+Ejemplo: niño de **20 kg** → 1 mL/h para 0,05 UI/kg/h o 2 mL/h para 0,1 UI/kg/h.
 
-**Con esta preparación, el ritmo de la bomba equivale directamente a la dosis:**
-
-| Ritmo | Dosis de insulina |
-|---:|---:|
-| **10 mL/h** | **0,1 UI/kg/h** |
-| **7 mL/h** | **0,07 UI/kg/h** |
-| **5 mL/h** | **0,05 UI/kg/h** |
-
-Así, para cualquier peso:
-
-- si quieres **0,1 UI/kg/h → 10 mL/h**;
-- si quieres **0,05 UI/kg/h → 5 mL/h**;
-- si quieres **0,07 UI/kg/h → 7 mL/h**.
+Si el hospital dispone de una concentración estandarizada distinta integrada en bomba inteligente, utilizar el estándar institucional y realizar doble comprobación independiente.
 
 </div>
 
 <div class="clinical-card clinical-card-warning">
-  <strong>Seguridad:</strong> utilizar siempre insulina regular, comprobar peso, UI cargadas y volumen final. Cebar el sistema con la solución de insulina antes de conectarlo. No administrar bolo IV.
+  <strong>Seguridad:</strong> utilizar siempre insulina regular, comprobar peso, concentración final, UI cargadas y velocidad de bomba. <strong>Cebar el sistema con la solución de insulina</strong> antes de conectarlo por adsorción de insulina al tubo. No administrar bolo IV.
 </div>
 
 - **No administrar bolo IV de insulina.**
@@ -159,7 +148,7 @@ Añadir habitualmente **40 mmol/L** de potasio a los fluidos tras expansión ini
 - añadir K cuando descienda.
 
 <div class="clinical-card clinical-card-warning">
-  <strong>Velocidad máxima habitual de reposición de K: 0,5 mmol/kg/h.</strong>
+  <strong>Seguridad del potasio:</strong> concentración inicial habitual <b>40 mmol/L</b>. Puede combinarse KCl con fosfato/acetato potásico según analítica y protocolo. <strong>Nunca administrar potasio concentrado en bolo IV</strong>. Velocidad máxima habitual: <b>0,5 mmol/kg/h</b>, con monitorización ECG si se requieren ritmos elevados.
 </div>
 
 <a id="glucosa"></a>
@@ -172,7 +161,7 @@ Añadir glucosa IV cuando:
 
 Objetivo: poder **mantener insulina** mientras corrige la acidosis.
 
-Puede aumentarse progresivamente la concentración de glucosa si es necesario para evitar hipoglucemia.
+Comenzar habitualmente con **glucosa 5%** y aumentar a **10% o incluso 12,5%** si es necesario para evitar hipoglucemia mientras continúa la insulina.
 
 <a id="cerebral"></a>
 ## 8. Lesión cerebral asociada a CAD

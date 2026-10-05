@@ -89,9 +89,9 @@ Se considera grave cuando precisa ayuda de otra persona por alteración neuroló
 ### Con acceso IV/IO
 
 <div class="dose-card">
-  <strong>Glucosa al 10%</strong>
-  <span><b>2 mL/kg IV/IO</b> (0,2 g/kg).</span>
-  <span>Repetir glucemia a los <b>10–15 min</b>.</span>
+  <strong>Glucosa al 10% (0,1 g/mL)</strong>
+  <span><b>2 mL/kg IV/IO</b> = <b>0,2 g/kg</b>.</span>
+  <span>Repetir glucemia a los <b>5–10 min</b>.</span>
 </div>
 
 Si persiste:
@@ -111,9 +111,11 @@ Si persiste:
 
 </div>
 
+Dosis ponderal equivalente de glucagón IM/SC: aproximadamente **0,03 mg/kg**, máximo **1 mg**.
+
 Glucagón nasal, si disponible:
 
-- **3 mg intranasal** en niños mayores según autorización de la presentación.
+- **3 mg intranasal en una fosa nasal** en niños de **≥4 años con diabetes mellitus**, según ficha técnica de Baqsimi®.
 
 <div class="clinical-card clinical-card-note">
   El glucagón puede ser menos eficaz tras ayuno prolongado, enfermedad hepática o depleción de glucógeno; en estos casos la glucosa parenteral es preferible.
@@ -208,3 +210,6 @@ Solo si:
 ## 9. Bibliografía
 
 1. Abraham MB, Karges B, Dovc K, et al. **ISPAD Clinical Practice Consensus Guidelines 2022: Assessment and management of hypoglycemia in children and adolescents with diabetes.** Pediatr Diabetes. 2022;23:1322-1340. [Documento](https://pmc.ncbi.nlm.nih.gov/articles/PMC10107518/)
+
+2. Djakow J, et al. **European Resuscitation Council Guidelines 2025: Paediatric Life Support.** Hipoglucemia: 0,2 g/kg IV y reevaluación a 5–10 min. [ERC](https://www.erc.edu/media/03xnpjmj/gl2025-09-pls-e.pdf)
+3. AEMPS. **Baqsimi 3 mg polvo nasal, ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/1191406001/)

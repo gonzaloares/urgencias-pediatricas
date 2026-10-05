@@ -170,13 +170,14 @@ Si persisten síntomas respiratorios o cardiovasculares pese a **2 dosis de adre
 
 **0,1–1 microg/kg/min**.
 
-Preparación descrita:
+Preparación estandarizada descrita por SEUP:
 
-- adrenalina 1 mg + 100 ml de SSF;
-- concentración final 1:100.000.
+- tomar **1 mg de adrenalina (1 mg/mL)** y completar con SSF hasta **100 mL de volumen final**;
+- concentración final: **0,01 mg/mL = 10 µg/mL** (equivalente tradicional 1:100.000);
+- a esta concentración, **1 mL/kg/h ≈ 0,17 µg/kg/min**.
 
 <div class="clinical-card clinical-card-danger">
-  <strong>La adrenalina IV en perfusión corresponde a anafilaxia refractaria y requiere monitorización estrecha.</strong>
+  <strong>La adrenalina IV en perfusión corresponde a anafilaxia refractaria y requiere bomba de infusión, monitorización estrecha y doble comprobación de concentración/velocidad.</strong> No administrar bolos IV de adrenalina para el manejo habitual de la anafilaxia.
 </div>
 
 ### Glucagón

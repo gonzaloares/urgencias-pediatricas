@@ -81,7 +81,7 @@ Incluye **asistolia** y **actividad eléctrica sin pulso (AESP)**.
 2. O₂ al 100% y ventilación efectiva.
 3. Obtener acceso IV/IO.
 4. Administrar **adrenalina 10 µg/kg IV/IO lo antes posible**.
-5. Repetir adrenalina cada **3–5 min**.
+5. Repetir adrenalina cada **4 min** (cada 2 ciclos de RCP).
 6. Mantener RCP durante **2 min**.
 7. Reevaluar ritmo durante ≤10 s.
 8. Buscar y tratar **4H / 4T**.
@@ -112,7 +112,7 @@ En AESP con sospecha de hipovolemia:
 7. Tras reiniciar la RCP después de la 3.ª descarga:
    - **adrenalina 10 µg/kg IV/IO**;
    - **amiodarona 5 mg/kg IV/IO**.
-8. Repetir adrenalina cada **3–5 min**.
+8. Repetir adrenalina cada **4 min** (cada 2 ciclos de RCP).
 9. Continuar ciclos de RCP de 2 min + reevaluación + descarga si persiste FV/TVsp.
 10. Tras la **5.ª descarga**, administrar una segunda y última dosis de **amiodarona 5 mg/kg**.
 11. En FV/TVsp refractaria, considerar incremento progresivo de energía hasta **8 J/kg**, sin superar **360 J**.
@@ -141,11 +141,11 @@ En AESP con sospecha de hipovolemia:
 
 | Fármaco / tratamiento | Dosis | Máximo / momento | Notas |
 |---|---|---|---|
-| **Adrenalina IV/IO** | **0,01 mg/kg = 10 µg/kg** | Máx. **1 mg** · repetir cada **3–5 min** | Concentración 0,1 mg/ml (1:10.000): **0,1 ml/kg**. No desfibrilable: lo antes posible. FV/TVsp: tras 3.ª descarga. |
+| **Adrenalina IV/IO** | **0,01 mg/kg = 10 µg/kg** | Máx. **1 mg** · repetir cada **4 min** | Concentración **0,1 mg/mL**: **0,1 mL/kg**. No desfibrilable: lo antes posible. FV/TVsp: tras 3.ª descarga. Lavar la vía con SSF tras el bolo. |
 | **Amiodarona IV/IO** | **5 mg/kg** | Tras 3.ª descarga: máx. **300 mg** · tras 5.ª: máx. **150 mg** | FV/TVsp refractaria. |
 | **Lidocaína IV/IO** | **1 mg/kg** | Máx. **100 mg** | Alternativa a amiodarona. |
-| **Bicarbonato sódico IV/IO** | **1 mEq/kg** | Máx. **50 mEq** | No rutinario. Considerar en hiperpotasemia o intoxicación por bloqueadores de canales de sodio. |
-| **Calcio IV/IO** | **0,2 mEq/kg** | Máx. **10 mEq** | Gluconato cálcico 10%: **0,4 ml/kg**. Cloruro cálcico 10%: **0,2 ml/kg**. |
+| **Bicarbonato sódico IV/IO** | **1 mEq/kg** | Máx. **50 mEq** | No rutinario. Considerar especialmente en intoxicación por bloqueadores de canales de sodio. **No usar para la parada pediátrica por hiperpotasemia según ERC 2025.** |
+| **Calcio IV/IO** | **0,2 mEq/kg** | Máx. **10 mEq** | No rutinario. Reservar para hipocalcemia, sobredosis de bloqueadores de canales de calcio o hipermagnesemia. Gluconato cálcico 10%: **0,4 mL/kg**; cloruro cálcico 10%: **0,2 mL/kg**. **No usar en la parada pediátrica por hiperpotasemia según ERC 2025.** |
 | **Sulfato de magnesio IV/IO** | **50 mg/kg** | Máx. **2 g** | Torsade de pointes / TV polimorfa asociada a QT largo. |
 | **Suero fisiológico** | **10 ml/kg** | Reevaluar tras cada bolo | Si AESP con sospecha de hipovolemia. |
 | **Desfibrilación** | **4 J/kg** | En refractaria: considerar hasta **8 J/kg** · máx. **360 J** | Reanudar RCP inmediatamente tras cada descarga. |
@@ -156,10 +156,15 @@ En AESP con sospecha de hipovolemia:
 
 <div class="dose-card">
   <strong>Adrenalina para RCP IV/IO</strong>
-  <span>Concentración: <b>0,1 mg/ml (1:10.000)</b></span>
-  <span>Preparación: <b>1 ml de adrenalina 1 mg/ml + 9 ml de SF</b></span>
-  <span>Dosis: <b>0,1 ml/kg = 0,01 mg/kg = 10 µg/kg</b></span>
+  <span>Concentración final: <b>0,1 mg/mL</b> (equivalente tradicional 1:10.000)</span>
+  <span>Preparación: <b>1 mL de adrenalina 1 mg/mL + 9 mL de SSF</b></span>
+  <span>Dosis: <b>0,1 mL/kg = 0,01 mg/kg = 10 µg/kg</b></span>
   <span>Máximo: <b>1 mg</b></span>
+  <span>Tras administrar por IV/IO: <b>lavar la vía con SSF</b>.</span>
+</div>
+
+<div class="clinical-card clinical-card-warning">
+  <strong>Compatibilidad en RCP:</strong> no mezclar adrenalina con bicarbonato en la misma jeringa o línea sin lavado intermedio. La amiodarona puede administrarse sin diluir en PCR según la presentación/protocolo; si precisa dilución, utilizar <strong>glucosa 5%</strong> y comprobar ficha técnica, ya que puede ser incompatible con SSF.
 </div>
 
 <a id="via-aerea"></a>
@@ -261,6 +266,21 @@ La mascarilla laríngea puede mejorar la ventilación, pero **no aísla completa
 
 Buscar y tratar estas causas reversibles **durante toda la RCP**, sin disminuir la calidad de las compresiones.
 
+### Parada cardiaca por hiperpotasemia grave
+
+<div class="clinical-card clinical-card-danger" markdown="1">
+
+Según ERC 2025, si la parada se atribuye a hiperpotasemia grave:
+
+- **insulina regular 0,1 UI/kg IV**, máximo **10 UI**;
+- simultáneamente **glucosa 10%: 5 mL/kg IV**, máximo **250 mL**;
+- monitorizar potasio y glucemia y continuar aporte de glucosa según necesidad;
+- considerar un agonista beta₂ de acción corta y estrategias de eliminación de potasio;
+- **no utilizar calcio ni bicarbonato** específicamente para la parada pediátrica por hiperpotasemia;
+- continuar RCP de alta calidad y valorar ECPR/depuración extrarrenal según disponibilidad y contexto.
+
+</div>
+
 <a id="ecografia"></a>
 ## 9. Ecografía durante la reanimación
 
@@ -344,7 +364,7 @@ Todo paciente con RCE tras una parada cardiaca requiere estabilización completa
   <div class="algorithm-step"><strong>Monitor / desfibrilador + IV/IO</strong></div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-split">
-    <span><strong>ASISTOLIA / AESP</strong><br>Adrenalina 10 µg/kg ASAP → RCP 2 min → adrenalina cada 3–5 min</span>
+    <span><strong>ASISTOLIA / AESP</strong><br>Adrenalina 10 µg/kg ASAP → RCP 2 min → adrenalina cada 4 min</span>
     <span><strong>FV / TV SIN PULSO</strong><br>4 J/kg → RCP 2 min → 4 J/kg → RCP 2 min → 3.ª descarga + adrenalina + amiodarona</span>
   </div>
   <div class="algorithm-arrow">↓</div>
@@ -370,7 +390,7 @@ Todo paciente con RCE tras una parada cardiaca requiere estabilización completa
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>3.ª descarga: 4 J/kg</strong><br>RCP inmediata + adrenalina 10 µg/kg + amiodarona 5 mg/kg</div>
   <div class="algorithm-arrow">↓</div>
-  <div class="algorithm-step">RCP 2 min · reevaluar · adrenalina cada 3–5 min</div>
+  <div class="algorithm-step">RCP 2 min · reevaluar · adrenalina cada 4 min</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>5.ª descarga</strong><br>Segunda dosis de amiodarona 5 mg/kg</div>
   <div class="algorithm-arrow">↓</div>
@@ -383,3 +403,5 @@ Todo paciente con RCE tras una parada cardiaca requiere estabilización completa
 ## 13. Bibliografía
 
 1. Martínez Mejías A. **Soporte vital básico y avanzado pediátrico.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. 4.ª edición. Sociedad Española de Urgencias de Pediatría; 2024. [PDF](https://seup.org/wp-content/uploads/2024/04/3_Soporte_vital_4ed.pdf)
+
+2. Djakow J, et al. **European Resuscitation Council Guidelines 2025: Paediatric Life Support.** Resuscitation. 2025;215:110767. [ERC](https://www.erc.edu/media/03xnpjmj/gl2025-09-pls-e.pdf)

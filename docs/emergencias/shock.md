@@ -84,10 +84,14 @@
 
 Iniciar precozmente si el shock persiste pese a fluidos o si estos deben limitarse.
 
-- **Shock frío:** adrenalina.
-- **Shock caliente:** noradrenalina.
+- **Shock frío:** adrenalina. Inicio habitual **0,05–0,1 µg/kg/min**; titular según perfusión y TA. Rango orientativo inicial **0,05–0,3 µg/kg/min**.
+- **Shock caliente:** noradrenalina. Inicio habitual **0,05–0,1 µg/kg/min**; titular según perfusión y TA; dosis superiores requieren manejo intensivo individualizado.
 
 Pueden iniciarse por vía periférica/IO con monitorización mientras se obtiene acceso central.
+
+<div class="clinical-card clinical-card-danger">
+  <strong>Seguridad de vasoactivos:</strong> utilizar bomba de infusión y una <strong>concentración estandarizada institucional</strong>; no improvisar diluciones en una urgencia. Comprobar fármaco, concentración, peso y velocidad con doble verificación. Si se infunden por vía periférica, usar una vía bien funcionante, vigilar extravasación con frecuencia y trasladar a vía central cuando sea posible.
+</div>
 
 <a id="especifico"></a>
 ## 6. Tratamiento según causa
@@ -162,3 +166,5 @@ Tras cada bolo o cambio de tratamiento:
 ## 10. Bibliografía
 
 1. Velasco Zúñiga R. **Shock.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. 2024. [Documento](https://seup.org/wp-content/uploads/2024/04/13_Shock_4ed.pdf)
+
+2. Sociedad Española de Urgencias de Pediatría. **Algoritmo de sepsis/shock séptico pediátrico.** [SEUP](https://seup.org/pdf_public/algoritmos/12_Sepsis.pdf)

@@ -77,7 +77,7 @@ Estos factores obligan a una **valoración más estrecha y a individualizar obse
 En una crisis pediátrica de **>5 minutos** o de duración desconocida:
 
 1. administrar una **benzodiacepina por la vía más rápida**;
-2. si la crisis persiste **5 minutos después de la primera benzodiacepina**, administrar la segunda benzodiacepina si procede —sin superar **2 dosis totales**— e **iniciar levetiracetam 50 mg/kg IV/IO en 15 minutos**, sin esperar a un nuevo fracaso secuencial.
+2. si la crisis persiste **5 minutos después de la primera benzodiacepina**, administrar la segunda benzodiacepina si procede —sin superar **2 dosis totales**— e **iniciar levetiracetam 50 mg/kg IV/IO en 5 minutos**, sin esperar a un nuevo fracaso secuencial.
 
 <div class="clinical-card clinical-card-danger">
   <strong>No encadenar escalones con demoras.</strong> La estrategia local prioriza la asociación precoz de benzodiacepina + medicamento anticrisis.
@@ -146,7 +146,7 @@ En el circuito Código Crisis pediátrico se prioriza **levetiracetam** como med
   <strong>Levetiracetam IV/IO</strong>
   <span><b>50 mg/kg</b></span>
   <span>Máximo: <b>4.500 mg</b></span>
-  <span>Administrar en <b>15 minutos</b></span>
+  <span>Administrar en <b>5 minutos</b></span>
 </div>
 
 ### Alternativas
@@ -198,7 +198,7 @@ No utilizar en:
 - cardiopatía;
 - crisis febril focal unilateral en **<12 meses**.
 
-Requiere monitorización cardiovascular durante la administración.
+Requiere monitorización cardiovascular durante la administración. Diluir únicamente en **solución salina isotónica**; la fenitoína puede precipitar con soluciones glucosadas.
 
 No administrar como carga si el paciente ya la recibe previamente a dosis correctas.
 
@@ -210,7 +210,7 @@ No administrar como carga si el paciente ya la recibe previamente a dosis correc
 
 | Fármaco | Dosis |
 |---|---:|
-| **Fenobarbital IV/IO** | **20 mg/kg** en 10–15 min |
+| **Fenobarbital IV/IO** | **20 mg/kg** en 10–15 min · máx. **1.000 mg** |
 
 **Lacosamida:** experiencia más limitada; puede producir prolongación del intervalo PR e hipotensión.
 
@@ -350,7 +350,7 @@ Indicado especialmente en:
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>5 min: midazolam</strong><br>Con vía IV: midazolam IV · sin vía IV: midazolam IM/IN/bucal</div>
   <div class="algorithm-arrow">↓</div>
-  <div class="algorithm-step"><strong>Persiste 5 min tras la primera BZD</strong><br>2.ª BZD si procede, máximo 2 dosis totales <strong>+</strong> iniciar levetiracetam 50 mg/kg IV/IO en 15 min</div>
+  <div class="algorithm-step"><strong>Persiste 5 min tras la primera BZD</strong><br>2.ª BZD si procede, máximo 2 dosis totales <strong>+</strong> iniciar levetiracetam 50 mg/kg IV/IO en 5 min</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>Biterapia precoz</strong><br>No esperar un nuevo fracaso secuencial para iniciar el medicamento anticrisis</div>
   <div class="algorithm-arrow">↓</div>

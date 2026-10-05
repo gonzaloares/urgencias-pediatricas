@@ -133,7 +133,7 @@ Iniciar sin esperar vía central si persiste shock pese a fluidos apropiados o s
 - pulsos débiles;
 - presión de pulso estrecha.
 
-→ **Adrenalina** como primera opción habitual.
+→ **Adrenalina** como primera opción habitual. Inicio **0,05–0,1 µg/kg/min**; titular, rango orientativo inicial **0,05–0,3 µg/kg/min**.
 
 ### Perfil caliente
 
@@ -141,7 +141,11 @@ Iniciar sin esperar vía central si persiste shock pese a fluidos apropiados o s
 - pulsos saltones;
 - presión de pulso amplia.
 
-→ **Noradrenalina** como primera opción habitual.
+→ **Noradrenalina** como primera opción habitual. Inicio **0,05–0,1 µg/kg/min** y titular según perfusión y TA.
+
+<div class="clinical-card clinical-card-danger">
+  <strong>Perfusiones vasoactivas:</strong> iniciar por vía periférica/IO si es necesario para no retrasar el tratamiento, usando bomba y <strong>concentración estandarizada del centro</strong>. Realizar doble comprobación de concentración/velocidad y vigilancia frecuente del punto de infusión; trasladar a acceso central cuando sea posible.
+</div>
 
 Titular según perfusión y TA; valorar ecografía funcional si disponible y no retrasa tratamiento.
 
@@ -199,3 +203,5 @@ Todo paciente con sepsis que no cumpla criterios de UCIP requiere ingreso y vigi
 
 1. Gómez Cortés B. **Sepsis.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. 2024. [Documento](https://seup.org/wp-content/uploads/2024/04/12_Sepsis_4ed.pdf)
 2. Sociedad Española de Urgencias de Pediatría / Sociedad Española de Cuidados Intensivos Pediátricos. **Documento de consenso sobre manejo de sepsis y shock séptico pediátrico.** [Documento](https://seup.org/pdf_public/pub/consenso_sepsis_shock.pdf)
+
+3. Sociedad Española de Urgencias de Pediatría. **Algoritmo de sepsis.** [SEUP](https://seup.org/pdf_public/algoritmos/12_Sepsis.pdf)
