@@ -591,7 +591,7 @@
           {
             "lt": 25,
             "value": 0.5,
-            "label": "Peso <25 kg"
+            "label": "Peso inferior a 25 kg"
           },
           {
             "gte": 25,
@@ -606,7 +606,7 @@
       },
       "min_dose": null,
       "concentration": null,
-      "reference_text": "<25 kg: 0,5 mg · ≥25 kg: 1 mg",
+      "reference_text": "Peso inferior a 25 kg: 0,5 mg · peso ≥25 kg: 1 mg",
       "interval": "Dosis de rescate; reevaluar glucemia y respuesta.",
       "age": {
         "min_months": 0,
@@ -1100,7 +1100,7 @@
           {
             "lt": 20,
             "value": 250,
-            "label": "Peso <20 kg"
+            "label": "Peso inferior a 20 kg"
           },
           {
             "gte": 20,
@@ -1112,7 +1112,7 @@
       "max_dose": null,
       "min_dose": null,
       "concentration": null,
-      "reference_text": "<20 kg: 250 µg · ≥20 kg: 500 µg · 2–3 dosis iniciales",
+      "reference_text": "Peso inferior a 20 kg: 250 µg · peso ≥20 kg: 500 µg · 2–3 dosis iniciales",
       "interval": "2–3 dosis iniciales según gravedad.",
       "age": {
         "min_months": 0,
