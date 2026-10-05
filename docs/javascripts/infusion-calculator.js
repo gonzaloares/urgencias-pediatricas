@@ -273,19 +273,39 @@
       return;
     }
 
-    const render = () => {
+    let visible = [];
+
+    const currentPatient = () => {
       const weight = parseFloat(weightInput.value);
       const years = yearsInput.value === "" ? NaN : parseInt(yearsInput.value, 10);
       const months = monthsInput.value === "" ? NaN : parseInt(monthsInput.value, 10);
-      const query = searchInput.value.trim().toLowerCase();
+      return { weight, years, months };
+    };
 
+    const persistPatient = () => {
+      const { weight, years, months } = currentPatient();
       saveContext(
         Number.isFinite(weight) ? weight : null,
         Number.isFinite(years) ? years : null,
         Number.isFinite(months) ? months : null
       );
+    };
 
-      const visible = registry.entries.filter((entry) =>
+    const refreshCalculations = () => {
+      const { weight } = currentPatient();
+      const cards = [...document.querySelectorAll(".infusion-card")];
+      cards.forEach((card, index) => {
+        const entry = visible[index];
+        if (entry) updateCard(entry, card, weight);
+      });
+    };
+
+    const render = () => {
+      const { weight } = currentPatient();
+      const query = searchInput.value.trim().toLowerCase();
+      persistPatient();
+
+      visible = registry.entries.filter((entry) =>
         [entry.category, entry.drug, entry.indication, entry.route, entry.reference_text]
           .join(" ")
           .toLowerCase()
@@ -299,9 +319,13 @@
         : `${registry.entries.length} perfusiones protocolizadas`;
     };
 
-    [weightInput, yearsInput, monthsInput, searchInput].forEach((input) => {
-      input.addEventListener("input", render);
+    searchInput.addEventListener("input", render);
+    weightInput.addEventListener("input", () => {
+      persistPatient();
+      refreshCalculations();
     });
+    yearsInput.addEventListener("input", persistPatient);
+    monthsInput.addEventListener("input", persistPatient);
 
     render();
   }
