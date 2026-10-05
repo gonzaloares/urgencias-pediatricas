@@ -251,7 +251,7 @@ Puede utilizarse tratamiento rectal como alternativa.
 
 | Tratamiento rectal | Dosis |
 |---|---:|
-| **Fosfato sódico** | 1–18 años: **2,5 ml/kg/dosis**, máx. **133 ml/dosis** |
+| **Fosfato sódico** | **2–15 años: 5 ml/kg/dosis única**, máx. **140 ml** · **contraindicado <2 años** |
 | **Suero fisiológico 0,9%** | Neonato <1 kg: **5 ml** · neonato >1 kg: **10 ml** · >1 año: **6 ml/kg, 1–2 veces/día** |
 
 <div class="clinical-card clinical-card-warning">
@@ -279,7 +279,7 @@ En niños en entrenamiento de control de esfínteres, mantener la medicación ha
 
 ### Si PEG no está disponible
 
-**Lactulosa: 1–2 g/kg, 1–2 veces/día.**
+**Lactulosa: 0,7–2 g/kg/día (1–3 ml/kg/día)**, repartida a lo largo del día · máximo **40 g/día (60 ml/día)**.
 
 Como segunda línea pueden considerarse leche de magnesia, aceite mineral y laxantes estimulantes.
 
@@ -407,3 +407,5 @@ En el estreñimiento funcional sin signos de alarma ni complicaciones:
 
 1. Velasco Rodríguez-Belvís M, Palomino Pérez LM, Cañedo Villarroya E, de la Mano Hernández A, Martínez Pérez J, Muñoz Codoceo RA. **De la guía a la guardia: aplicación en Urgencias de las recomendaciones de ESPGHAN y NASPGHAN basadas en la evidencia para la evaluación y tratamiento del estreñimiento funcional en lactantes y niños.** Emerg Pediatr. 2022;1(3):165-170.
 2. Rome Foundation. **Rome V Criteria. H2a. Functional Constipation.** 2026. [Criterios Roma V](https://theromefoundation.org/rome-v-criteria/)
+3. Comité de Medicamentos de la AEP. **Lactulosa.** Pediamécum. [Ficha](https://www.aeped.es/comites/cm/pediamecum/principios-activos/lactulosa)
+4. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Enema Casen: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/41166/FT_41166.html)
