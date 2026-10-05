@@ -144,8 +144,8 @@ En AESP con sospecha de hipovolemia:
 | **Adrenalina IV/IO** | **0,01 mg/kg = 10 µg/kg** | Máx. **1 mg** · repetir cada **4 min** | Concentración **0,1 mg/mL**: **0,1 mL/kg**. No desfibrilable: lo antes posible. FV/TVsp: tras 3.ª descarga. Lavar la vía con SSF tras el bolo. |
 | **Amiodarona IV/IO** | **5 mg/kg** | Tras 3.ª descarga: máx. **300 mg** · tras 5.ª: máx. **150 mg** | FV/TVsp refractaria. |
 | **Lidocaína IV/IO** | **1 mg/kg** | Máx. **100 mg** | Alternativa a amiodarona. |
-| **Bicarbonato sódico IV/IO** | **1 mEq/kg** | Máx. **50 mEq** | No rutinario. Considerar en hiperpotasemia o intoxicación por bloqueadores de canales de sodio. |
-| **Calcio IV/IO** | **0,2 mEq/kg** | Máx. **10 mEq** | Gluconato cálcico 10%: **0,4 ml/kg**. Cloruro cálcico 10%: **0,2 ml/kg**. |
+| **Bicarbonato sódico IV/IO** | **1 mEq/kg** | Máx. **50 mEq** | No rutinario. Considerar especialmente en intoxicación por bloqueadores de canales de sodio. **No usar para la parada pediátrica por hiperpotasemia según ERC 2025.** |
+| **Calcio IV/IO** | **0,2 mEq/kg** | Máx. **10 mEq** | No rutinario. Reservar para hipocalcemia, sobredosis de bloqueadores de canales de calcio o hipermagnesemia. Gluconato cálcico 10%: **0,4 mL/kg**; cloruro cálcico 10%: **0,2 mL/kg**. **No usar en la parada pediátrica por hiperpotasemia según ERC 2025.** |
 | **Sulfato de magnesio IV/IO** | **50 mg/kg** | Máx. **2 g** | Torsade de pointes / TV polimorfa asociada a QT largo. |
 | **Suero fisiológico** | **10 ml/kg** | Reevaluar tras cada bolo | Si AESP con sospecha de hipovolemia. |
 | **Desfibrilación** | **4 J/kg** | En refractaria: considerar hasta **8 J/kg** · máx. **360 J** | Reanudar RCP inmediatamente tras cada descarga. |
@@ -265,6 +265,21 @@ La mascarilla laríngea puede mejorar la ventilación, pero **no aísla completa
 **4T:** neumotórax a tensión; taponamiento cardiaco; trombosis coronaria o pulmonar; tóxicos.
 
 Buscar y tratar estas causas reversibles **durante toda la RCP**, sin disminuir la calidad de las compresiones.
+
+### Parada cardiaca por hiperpotasemia grave
+
+<div class="clinical-card clinical-card-danger" markdown="1">
+
+Según ERC 2025, si la parada se atribuye a hiperpotasemia grave:
+
+- **insulina regular 0,1 UI/kg IV**, máximo **10 UI**;
+- simultáneamente **glucosa 10%: 5 mL/kg IV**, máximo **250 mL**;
+- monitorizar potasio y glucemia y continuar aporte de glucosa según necesidad;
+- considerar un agonista beta₂ de acción corta y estrategias de eliminación de potasio;
+- **no utilizar calcio ni bicarbonato** específicamente para la parada pediátrica por hiperpotasemia;
+- continuar RCP de alta calidad y valorar ECPR/depuración extrarrenal según disponibilidad y contexto.
+
+</div>
 
 <a id="ecografia"></a>
 ## 9. Ecografía durante la reanimación
