@@ -23,6 +23,7 @@ Segunda fase de la auditoría farmacológica del proyecto. Se revisan específic
 - Se explicita la concentración de RCP **0,1 mg/mL** y la preparación práctica desde adrenalina 1 mg/mL.
 - Se añade lavado de la vía con SSF tras el bolo.
 - Se añade advertencia de compatibilidad: no mezclar adrenalina con bicarbonato sin lavado de línea; si la amiodarona precisa dilución, comprobar la presentación y utilizar glucosa 5% cuando corresponda.
+- En parada pediátrica atribuida a **hiperpotasemia grave**, ERC 2025 prioriza **insulina regular 0,1 UI/kg (máx. 10 UI) + glucosa 10% 5 mL/kg (máx. 250 mL)** y desaconseja calcio y bicarbonato para esta indicación específica.
 
 ### Arritmias
 
@@ -76,7 +77,7 @@ Segunda fase de la auditoría farmacológica del proyecto. Se revisan específic
 - Midazolam: se añaden máximos acumulados y tiempo mínimo antes de redosificar.
 - Ketamina IV: se explicita administración lenta, no superior a **0,5 mg/kg/min**.
 - Propofol: bolo lento, aproximadamente **1 min**.
-- Se añade tabla de rescate con **naloxona** y **flumazenilo**, incluyendo límites y contraindicaciones de seguridad.
+- Se añade tabla de rescate con **naloxona** y **flumazenilo**, incluyendo límites por bolo, máximo acumulado y la restricción regulatoria de flumazenilo: uso establecido desde >1 año; por debajo, solo tras balance beneficio-riesgo.
 - Se recalca que los antagonistas no sustituyen el soporte ventilatorio.
 
 ### Estatus epiléptico
@@ -91,7 +92,7 @@ Segunda fase de la auditoría farmacológica del proyecto. Se revisan específic
 - Dosis de NaCl 3% y manitol en HTIC/TCE: coherentes con los protocolos utilizados.
 - Amiodarona en RCP: **5 mg/kg**, con máximos de 300 mg tras la tercera descarga y 150 mg tras la quinta.
 - Sulfato de magnesio en torsade/TV polimorfa: **50 mg/kg, máx. 2 g**.
-- Bicarbonato y calcio en RCP: se mantienen como tratamientos de indicación selectiva, no rutinaria.
+- Bicarbonato y calcio en RCP: se mantienen como tratamientos de indicación selectiva, no rutinaria; **se retiran como tratamiento específico de la parada pediátrica por hiperpotasemia**, de acuerdo con ERC 2025.
 
 ## Fuentes principales
 
