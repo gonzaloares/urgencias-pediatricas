@@ -350,7 +350,7 @@ Evitar betalactámicos.
 Opciones:
 
 - **Clindamicina VO: 20–30 mg/kg/día**, repartida cada 8 h, **máx. 900 mg/día**, durante **10 días**.
-- **Azitromicina VO: 12 mg/kg/dosis cada 24 h**, **máx. 500 mg/dosis**, durante **5 días**.
+- **Azitromicina VO (≥6 meses): 12 mg/kg/dosis cada 24 h**, **máx. 500 mg/dosis**, durante **5 días**.
 
 <div class="clinical-card clinical-card-warning">
   La resistencia a macrólidos y clindamicina puede variar. Tener en cuenta los datos microbiológicos locales cuando estén disponibles.
@@ -490,3 +490,4 @@ Puede darse de alta si:
 3. Fernández-Cuesta Valcarce MA, Kirschschläger Nieto SB. **Faringitis aguda.** Guía-ABE. Infecciones en Pediatría. Actualización 26/03/2025. [Guía-ABE](https://www.guia-abe.es/temas-clinicos-faringitis-aguda)
 4. Barshak MB, Linder JA, Watson ME Jr, et al. **IDSA Clinical Practice Guideline Update on Group A Streptococcal Pharyngitis.** Infectious Diseases Society of America; 2025. [IDSA](https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis2/)
 5. Suárez-Bustamante Huélamo M, Escribano Ceruelo E. **Absceso periamigdalino.** Guía-ABE. Infecciones en Pediatría. Versión 3.0, actualización 05/04/2024. [Guía-ABE](https://www.guia-abe.es/temas-clinicos-absceso-periamigdalino)
+6. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Azitromicina suspensión oral: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/71180/FichaTecnica_71180.html)
