@@ -53,10 +53,11 @@ Registrar intensidad antes y después del tratamiento.
 - Para dolor traumático importante sin vía IV, **fentanilo intranasal** es una opción rápida.
 
 <div class="dose-card">
-  <strong>Fentanilo intranasal</strong>
+  <strong>Fentanilo intranasal · >10 kg</strong>
   <span><b>1–2 µg/kg</b>.</span>
   <span>Puede repetirse dosis de <b>0,3–0,5 µg/kg</b> a los 3–5 min según respuesta.</span>
   <span>Máximo orientativo: <b>100 µg/dosis</b>.</span>
+  <span>La vía intranasal con la solución inyectable es <b>fuera de ficha técnica</b>.</span>
 </div>
 
 <a id="intenso"></a>
@@ -74,6 +75,7 @@ Registrar intensidad antes y después del tratamiento.
 
 - **1–2 µg/kg** lento.
 - Menores de 6 meses: usar dosis iniciales menores y vigilancia estrecha.
+- Las fichas técnicas de varias presentaciones inyectables no establecen seguridad/eficacia en **menores de 2 años**; individualizar y monitorizar estrechamente en este grupo.
 
 Monitorizar respiración, sedación y hemodinámica con opioides parenterales.
 
@@ -127,3 +129,4 @@ Si persiste dolor intenso → revisar diagnóstico, dosis, vía y necesidad de e
 ## 9. Bibliografía
 
 1. Guerrero Márquez G, Míguez Navarro MC, Sánchez García I, Plana Fernández M, Ramón Llácer M, Grupo de trabajo de Analgesia y Sedación. **Manejo del dolor en Urgencias pediátricas.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. 2024. [Documento](https://seup.org/wp-content/uploads/2024/04/28_Dolor_urgencias_4ed.pdf)
+2. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Fentanilo solución inyectable: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/41764/FT_41764.html)
