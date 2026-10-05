@@ -97,6 +97,10 @@ Solo si:
   <span><b>10 mg/kg cada 24 h durante 5 días</b>.</span>
 </div>
 
+<div class="clinical-card clinical-card-note">
+  <strong>Uso fuera de ficha técnica por edad en España:</strong> las presentaciones pediátricas habituales de azitromicina no tienen establecida seguridad/eficacia en menores de <b>6 meses</b>. En tosferina, sin embargo, esta pauta está recomendada por guías específicas por su relación beneficio-riesgo; en <b>&lt;1 mes</b> vigilar especialmente el riesgo de estenosis hipertrófica de píloro.
+</div>
+
 #### ≥6 meses
 
 <div class="dose-card">
@@ -176,3 +180,4 @@ Revisar y completar vacunación, pero recordar que la vacuna **no sustituye** la
 
 1. Centers for Disease Control and Prevention. **Treatment of Pertussis.** Actualización 2025. [Guía](https://www.cdc.gov/pertussis/hcp/clinical-care/index.html)
 2. Asociación Española de Pediatría / SEIP. **Protocolos de Infectología Pediátrica.** 2023. [Protocolos](https://www.aeped.es/publicaciones/protocolos/protocolos-infectologia-pediatrica)
+3. Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). **Azitromicina suspensión oral: ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/71180/FichaTecnica_71180.html)
