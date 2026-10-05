@@ -18,7 +18,7 @@
 </nav>
 
 <div class="protocol-intro">
-  <strong>Ámbito:</strong> niño previamente sano con <strong>fiebre sin foco</strong> tras anamnesis y exploración física completas. La estratificación de <strong>0–24 meses</strong> se basa prioritariamente en SEUP; el apartado de <strong>&gt;24 meses</strong> se apoya en AEPap/Guía-ABE, NICE y RCH.
+  <strong>Ámbito:</strong> niño previamente sano con <strong>fiebre sin foco</strong> tras anamnesis y exploración física completas. La conducta se estratifica por edad, estado general, constantes, signos de alarma y evolución.
 </div>
 
 <a id="definicion"></a>
@@ -411,7 +411,7 @@ En estos pacientes:
 - valorar ingreso/observación si persiste incertidumbre.
 
 <div class="clinical-card clinical-card-note">
-  <strong>NICE:</strong> en niños ≥3 meses con rasgos de riesgo intermedio, la analítica y el hemocultivo deben considerarse, aunque un pediatra con experiencia puede individualizar y evitar pruebas si la evolución y la reevaluación son tranquilizadoras.
+  <strong>Riesgo intermedio:</strong> considerar analítica y hemocultivo, individualizando su necesidad según la valoración por un pediatra con experiencia, la evolución y la reevaluación clínica.
 </div>
 
 ### 7.4. Alto riesgo
