@@ -67,8 +67,18 @@
     return { amountPerTime, amountLabel, mlPerHour };
   }
 
+  function suggestedConcentration(entry, weight) {
+    if (entry.concentration.mode !== "suggested") return null;
+    if (entry.rate.kind === "weight_rate" && (!Number.isFinite(weight) || weight <= 0)) return null;
+    const bands = entry.concentration.suggestions || [];
+    const band = bands.find((item) => !("max_weight" in item) || weight < item.max_weight);
+    return band ? band.value : null;
+  }
+
   function renderCard(entry, weight, index) {
     const fixed = entry.concentration.mode === "fixed";
+    const suggested = entry.concentration.mode === "suggested";
+    const initialSuggestion = suggestedConcentration(entry, weight);
     const concentrationValue = fixed ? entry.concentration.value : "";
     const concentrationControl = fixed
       ? `
@@ -80,7 +90,7 @@
       `
       : `
         <label class="infusion-field">
-          <span>Concentración institucional (${entry.concentration.unit})</span>
+          <span>${suggested ? "Concentración bibliográfica orientativa" : "Concentración institucional"} (${entry.concentration.unit})</span>
           <input
             class="infusion-concentration"
             data-index="${index}"
@@ -88,14 +98,21 @@
             inputmode="decimal"
             min="0.000001"
             step="any"
-            placeholder="Introducir concentración"
+            value="${initialSuggestion === null ? "" : initialSuggestion}"
+            placeholder="${suggested ? "Introduce el peso para precargar" : "Introducir concentración"}"
           >
+          ${suggested ? '<small>Precargada según peso. Editable; no equivale a una dilución hospitalaria aprobada.</small>' : ""}
         </label>
+        ${suggested ? '<button type="button" class="infusion-restore-reference">Restablecer referencia</button>' : ""}
+        ${suggested ? '<label class="infusion-verify"><input type="checkbox" class="infusion-confirmation"> He contrastado la concentración con la preparación real y con la prescripción.</label>' : ""}
+      
       `;
 
     const prep = fixed && entry.concentration.preparation
-      ? `<div class="dose-calculator-warning"><strong>Preparación validada:</strong> ${entry.concentration.preparation}</div>`
-      : `<div class="dose-calculator-warning"><strong>Concentración local obligatoria:</strong> usa la concentración estandarizada de tu centro; no improvises una dilución.</div>`;
+      ? `<div class="dose-calculator-warning"><strong>Preparación indicada por el protocolo:</strong> ${entry.concentration.preparation}</div>`
+      : suggested
+        ? `<div class="dose-calculator-warning"><strong>Propuesta bibliográfica; no validada por el hospital.</strong> ${entry.concentration.reference_note} Comprobar concentración, diluyente, estabilidad, compatibilidad y vía con Farmacia/UCIP antes de administrar. Sin confirmación no se calcula la velocidad de bomba.</div>`
+        : `<div class="dose-calculator-warning"><strong>Concentración local obligatoria:</strong> usa la concentración estandarizada de tu centro; no improvises una dilución.</div>`;
 
     const notes = (entry.notes || []).map((note) => `<li>${note}</li>`).join("");
     const regulatoryBanner = entry.regulatory_note
@@ -106,8 +123,8 @@
       : "";
     const syringeTool = !fixed ? `
       <details class="infusion-syringe">
-        <summary>Preparar jeringa de 50 mL · cálculo opcional</summary>
-        <p>Solo con una concentración aprobada por tu centro. Comprueba en la ampolla el contenido exacto y el diluyente compatible; el cálculo no valida la mezcla.</p>
+        <summary>Calcular preparación de jeringa · opcional</summary>
+        <p>Solo como ayuda aritmética con la preparación autorizada por tu centro. En niños &lt;5 kg se usa un volumen objetivo de 20 mL y en el resto 50 mL (adaptar al dispositivo y protocolo). Comprobar ampolla, estabilidad y diluyente compatible.</p>
         <label class="infusion-field">
           <span>Concentración real de la ampolla (${entry.concentration.unit})</span>
           <input class="infusion-vial-concentration" type="number" inputmode="decimal"
@@ -156,13 +173,16 @@
         ${syringeTool}
 
         <div class="dose-calculator-output infusion-output" id="infusion-output-${index}">
-          <div class="dose-calculator-empty">Introduce el peso y, si procede, la concentración institucional.</div>
+          <div class="dose-calculator-empty">Introduce el peso y verifica la concentración real antes del cálculo.</div>
         </div>
 
         <div class="dose-calculator-meta">
           ${notes ? `<ul>${notes}</ul>` : ""}
           <p><strong>Fuente interna:</strong> <a href="../${entry.protocol.replace(".md", "/")}">${entry.source_label}</a></p>
           ${sourceLink}
+          ${suggested && entry.concentration.reference_url
+            ? `<p><strong>Fuente de concentración:</strong> <a href="${entry.concentration.reference_url}" target="_blank" rel="noopener noreferrer">Consultar documento</a></p>`
+            : ""}
         </div>
 
         <input type="hidden" class="infusion-fixed-value" value="${concentrationValue}">
@@ -233,7 +253,12 @@
       const concentrationInput = card.querySelector(".infusion-concentration");
       concentration = parseFloat(concentrationInput.value);
       if (!Number.isFinite(concentration) || concentration <= 0) {
-        output.innerHTML = '<div class="dose-calculator-empty">Introduce la concentración institucional para obtener mL/h.</div>';
+        output.innerHTML = '<div class="dose-calculator-empty">Introduce el peso o la concentración de la preparación para obtener mL/h.</div>';
+        return;
+      }
+      if (entry.concentration.mode === "suggested" &&
+          !card.querySelector(".infusion-confirmation")?.checked) {
+        output.innerHTML = '<div class="dose-calculator-warning"><strong>Verificación pendiente.</strong> Comprueba que la concentración de la preparación real coincide con la indicada y confirma la comprobación para habilitar los mL/h.</div>';
         return;
       }
     }
@@ -247,18 +272,19 @@
     if (syringeResult) {
       const ampoule = parseFloat(card.querySelector(".infusion-vial-concentration").value);
       if (Number.isFinite(ampoule) && ampoule > 0) {
-        const totalAmount = concentration * 50;
+        const targetVolume = Number.isFinite(weight) && weight > 0 && weight < 5 ? 20 : 50;
+        const totalAmount = concentration * targetVolume;
         const ampouleVolume = totalAmount / ampoule;
-        if (!Number.isFinite(ampouleVolume) || ampouleVolume > 50) {
-          syringeResult.innerHTML = '<strong>Preparación no viable:</strong> el volumen de ampolla supera los 50 mL finales. No preparar así.';
+        if (!Number.isFinite(ampouleVolume) || ampouleVolume > targetVolume) {
+          syringeResult.innerHTML = '<strong>Preparación no viable:</strong> el volumen de ampolla supera el volumen final objetivo. No preparar así.';
         } else if (ampouleVolume < 0.1) {
           syringeResult.innerHTML = '<strong>Extracción inferior a 0,1 mL:</strong> no mostrar redondeo ni recomendar esta preparación. Consultar dilución intermedia autorizada por Farmacia.';
         } else {
           syringeResult.innerHTML = `
-            <strong>Para 50 mL finales:</strong> ${fmt(totalAmount, 3)} ${entry.rate.amount_unit} de fármaco.
+            <strong>Para ${fmt(targetVolume)} mL finales:</strong> ${fmt(totalAmount, 3)} ${entry.rate.amount_unit} de fármaco.
             Extraer <strong>${fmt(ampouleVolume, ampouleVolume < 1 ? 3 : 2)} mL</strong> de la ampolla
-            y completar con diluyente compatible hasta 50 mL de volumen final.
-            <small>Verificar que la concentración y el diluyente están autorizados en tu centro. No añadir 50 mL extra de diluyente.</small>`;
+            y completar con diluyente compatible hasta ${fmt(targetVolume)} mL de volumen final.
+            <small>Verificar que la concentración y el diluyente están autorizados en tu centro. No añadir ${fmt(targetVolume)} mL extra de diluyente.</small>`;
         }
       }
     }
@@ -281,9 +307,10 @@
         <strong>1 mL/h = ${fmt(equivalence, 4)} ${entry.rate.unit}</strong>
       </div>
       <div class="dose-calculator-final">
-        <span>Programar bomba</span>
+        <span>Velocidad de bomba (preparación verificada)</span>
         <strong>${fmt(result.mlPerHour, result.mlPerHour < 1 ? 3 : 2)} mL/h</strong>
       </div>
+      ${result.mlPerHour < 0.5 ? '<div class="dose-calculator-danger">Caudal inferior a 0,5 mL/h: riesgo de suministro inconsistente, especialmente en neonatos. Revisar bomba, jeringa y concentración con UCIP/Farmacia.</div>' : ""}
     `;
   }
 
@@ -295,9 +322,26 @@
       const inputs = card.querySelectorAll(".infusion-dose, .infusion-concentration, .infusion-vial-concentration");
       inputs.forEach((input) => {
         input.addEventListener("input", () => {
+          if (input.classList.contains("infusion-concentration") && entry.concentration.mode === "suggested") {
+            input.dataset.edited = "true";
+            card.querySelector(".infusion-confirmation").checked = false;
+          }
           const currentWeight = parseFloat(document.getElementById("infusion-weight").value);
           updateCard(entry, card, currentWeight);
         });
+      });
+      const check = card.querySelector(".infusion-confirmation");
+      if (check) check.addEventListener("change", () => {
+        updateCard(entry, card, parseFloat(document.getElementById("infusion-weight").value));
+      });
+      const restore = card.querySelector(".infusion-restore-reference");
+      if (restore) restore.addEventListener("click", () => {
+        const concentration = card.querySelector(".infusion-concentration");
+        const currentWeight = parseFloat(document.getElementById("infusion-weight").value);
+        concentration.dataset.edited = "false";
+        concentration.value = suggestedConcentration(entry, currentWeight) ?? "";
+        check.checked = false;
+        updateCard(entry, card, currentWeight);
       });
       updateCard(entry, card, weight);
     });
@@ -361,12 +405,20 @@
       );
     };
 
-    const refreshCalculations = () => {
+    const refreshCalculations = (weightChanged = false) => {
       const { weight } = currentPatient();
       const cards = [...document.querySelectorAll(".infusion-card")];
       cards.forEach((card, index) => {
         const entry = visible[index];
-        if (entry) updateCard(entry, card, weight);
+        if (!entry) return;
+        if (weightChanged && entry.concentration.mode === "suggested") {
+          const input = card.querySelector(".infusion-concentration");
+          if (input?.dataset.edited !== "true") {
+            input.value = suggestedConcentration(entry, weight) ?? "";
+          }
+          card.querySelector(".infusion-confirmation").checked = false;
+        }
+        updateCard(entry, card, weight);
       });
     };
 
@@ -432,7 +484,7 @@
     });
     weightInput.addEventListener("input", () => {
       persistPatient();
-      refreshCalculations();
+      refreshCalculations(true);
     });
     yearsInput.addEventListener("input", () => {
       persistPatient();
