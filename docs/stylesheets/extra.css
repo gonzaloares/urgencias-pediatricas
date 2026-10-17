@@ -1148,3 +1148,52 @@
   border-radius: 0.5rem;
   background: var(--md-default-bg-color);
 }
+
+/* Acceso contextual a dosis/perfusiones desde protocolos; sin alterar su texto. */
+.md-typeset a.protocol-drug-calculator-link {
+  color: var(--md-primary-fg-color--dark);
+  text-decoration: underline dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  overflow-wrap: anywhere;
+}
+.md-typeset a.protocol-drug-calculator-link::after {
+  content: " ↗";
+  font-weight: 700;
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+.md-typeset a.protocol-drug-calculator-link:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 0.15rem;
+  border-radius: 0.1rem;
+}
+.dose-calculator-link-notice:not(:empty) {
+  margin: 0.8rem 0;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 0.2rem solid var(--md-primary-fg-color);
+  border-radius: 0.4rem;
+  background: var(--md-code-bg-color);
+  line-height: 1.5;
+  font-size: 0.78rem;
+}
+.dose-calculator-link-notice p { margin: 0 0 0.65rem; }
+.dose-calculator-other-indications {
+  display: inline-block;
+  max-width: 100%;
+  min-height: 2.5rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--md-primary-fg-color);
+  border-radius: 0.4rem;
+  color: var(--md-primary-fg-color--dark);
+  background: var(--md-default-bg-color);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+.dose-calculator-other-indications:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
