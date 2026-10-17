@@ -79,13 +79,11 @@ No usar estudios con contraste de rutina si se prevé endoscopia.
 
 #### 2. Conducta según localización
 
-| Localización | Conducta |
-| --- | --- |
-| **Esófago con sialorrea, disfagia importante, imposibilidad de tragar saliva, dolor intenso o compromiso respiratorio** | **Extracción endoscópica emergente** y valoración de vía aérea; no esperar control domiciliario. |
-| **Esófago, asintomático** | Observación corta y **repetir Rx a las 12–24 h** para comprobar descenso; si sigue en esófago, **extracción endoscópica sin superar 24 h** desde la ingesta cuando se conoce la hora. Coordinar con Digestivo/ORL y repetir imagen justo antes de endoscopia para evitar extracción innecesaria si ya descendió. Si han transcurrido más de 24 h o no se conoce la duración de la impactación, valoración urgente, no demorar otras 24 h. |
-| **Estómago, asintomático, moneda pequeña** | **Alta con vigilancia** y seguimiento. No precisa endoscopia ni radiografías en las primeras horas o días. Si la moneda mide **más de 25 mm** (o es grande para la edad) o existe cirugía/anomalía digestiva previa, comentar precozmente con Digestivo Pediátrico por mayor riesgo de retención pilórica. |
-| **Estómago con dolor, vómitos persistentes u otros síntomas** | **Reevaluación urgente** y valoración de extracción endoscópica según clínica. |
-| **Intestino, asintomático** | Observación domiciliaria; habitualmente progresa y se expulsa sola. Si persisten síntomas, no progresa en imágenes sucesivas o hay antecedentes anatómicos, valorar Digestivo/Cirugía. |
+- **Moneda en esófago con síntomas de obstrucción:** sialorrea, imposibilidad de tragar saliva, disfagia marcada, dolor intenso o compromiso respiratorio → **extracción endoscópica emergente** y valoración de vía aérea. No observación domiciliaria.
+- **Moneda en esófago sin síntomas:** observación corta con **Rx en 12–24 h** para comprobar descenso. Si continúa en esófago, **extracción endoscópica antes de las 24 h** desde la ingesta, si se conoce el momento. Coordinar con Digestivo/ORL y repetir imagen justo antes de endoscopia para evitar una intervención innecesaria si ya descendió. Si la impactación supera 24 h o su duración es desconocida, **valoración urgente sin nueva espera**.
+- **Moneda pequeña en estómago, niño asintomático:** **alta y vigilancia domiciliaria**. No precisa endoscopia ni imágenes de control en las primeras horas o días. Si mide **más de 25 mm** o es grande para la edad, o existe cirugía/anomalía digestiva previa, comentar precozmente con Digestivo Pediátrico por mayor riesgo de retención pilórica.
+- **Moneda en estómago con dolor, vómitos persistentes u otros síntomas:** **reevaluación urgente** y valoración de extracción endoscópica según clínica.
+- **Moneda en intestino, niño asintomático:** observación domiciliaria; habitualmente progresa y se expulsa sola. Si presenta síntomas, no progresa en imágenes sucesivas o tiene anomalías anatómicas, valorar Digestivo/Cirugía.
 
 #### 3. ¿Cuándo repetir la radiografía si no aparece en las heces?
 
@@ -96,7 +94,7 @@ No usar estudios con contraste de rutina si se prevé endoscopia.
 
 **Indicaciones de reconsulta inmediata:** dolor abdominal progresivo, distensión, vómitos persistentes, fiebre, sangre digestiva, dificultad para tragar/sialorrea o síntomas respiratorios. No indicar laxantes de forma rutinaria para acelerar el tránsito de una moneda.
 
-<caption>Plazos basados principalmente en SEUP 2024, NASPGHAN 2015 y el documento del grupo de endoscopia ESPGHAN 2026. Las diferencias en el control de moneda gástrica asintomática reflejan recomendaciones de expertos, no ensayos comparativos.</caption>
+*Plazos basados en SEUP 2024, NASPGHAN 2015 y el documento del grupo de endoscopia ESPGHAN 2026. Las diferencias en el control de moneda gástrica asintomática reflejan recomendaciones de expertos, no ensayos comparativos.*
 
 <a id="pila"></a>
 ## 3. Pila de botón
