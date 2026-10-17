@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_at": "2026-10-05",
+  "reviewed_at": "2026-10-17",
   "entries": [
     {
       "id": "adrenalina-shock-frio",
@@ -279,6 +279,152 @@
       "notes": [
         "Evitar en hepatopatía, pancreatopatía, hiperamoniemia, coagulopatía, enfermedad mitocondrial o metabolopatía.",
         "Introducir la concentración estandarizada del centro para obtener mL/h."
+      ]
+    },
+    {
+      "id": "dopamina-soporte-inotropico",
+      "category": "Vasoactivos",
+      "drug": "Dopamina",
+      "indication": "Soporte hemodinámico con dopamina (indicación individualizada)",
+      "route": "IV continua, acceso adecuado bajo monitorización",
+      "rate": {
+        "kind": "weight_rate",
+        "min": 5,
+        "max": 20,
+        "default": 5,
+        "unit": "µg/kg/min",
+        "amount_unit": "µg",
+        "time_base": "min"
+      },
+      "concentration": {
+        "mode": "institutional",
+        "unit": "µg/mL"
+      },
+      "reference_text": "5–20 µg/kg/min · inicio orientativo 5 µg/kg/min; no es el vasoactivo preferente universal en shock séptico",
+      "protocol": "procedimientos/perfusiones-continuas.md",
+      "source_label": "Perfusiones continuas · dopamina",
+      "source_url": "https://cima.aemps.es/cima/dochtml/ft/1241804002/FT_1241804002.html",
+      "notes": [
+        "Pauta pediátrica referida al preparado autorizado Neoatricon; comprobar siempre la ficha de la presentación disponible.",
+        "Consultar con UCIP; titular según TA, ECG, perfusión y diuresis.",
+        "Vigilar extravasación y taquiarritmias; introducir concentración autorizada por el centro."
+      ]
+    },
+    {
+      "id": "dobutamina-disfuncion-miocardica",
+      "category": "Vasoactivos",
+      "drug": "Dobutamina",
+      "indication": "Disfunción miocárdica / bajo gasto con indicación de inotrópico",
+      "route": "IV en perfusión continua",
+      "rate": {
+        "kind": "weight_rate",
+        "min": 2,
+        "max": 20,
+        "default": 5,
+        "unit": "µg/kg/min",
+        "amount_unit": "µg",
+        "time_base": "min"
+      },
+      "concentration": {
+        "mode": "institutional",
+        "unit": "µg/mL"
+      },
+      "reference_text": "2–20 µg/kg/min · inicio orientativo 5 µg/kg/min",
+      "protocol": "procedimientos/perfusiones-continuas.md",
+      "source_label": "Perfusiones continuas · dobutamina",
+      "source_url": "https://cima.aemps.es/cima/dochtml/ft/85914/FT_85914.html",
+      "notes": [
+        "Titulación hemodinámica individual; vigilar taquicardia, arritmias y presión arterial.",
+        "Consultar con UCIP e introducir la concentración institucional verificada."
+      ]
+    },
+    {
+      "id": "alprostadil-ductus",
+      "category": "Vasoactivos",
+      "drug": "Alprostadil (prostaglandina E1)",
+      "indication": "Cardiopatía congénita dependiente de ductus (recién nacido)",
+      "route": "IV continua; vía arterial umbilical solo si protocolo especialista",
+      "rate": {
+        "kind": "weight_rate",
+        "min": 0.01,
+        "max": 0.1,
+        "default": 0.05,
+        "unit": "µg/kg/min",
+        "amount_unit": "µg",
+        "time_base": "min"
+      },
+      "concentration": {
+        "mode": "institutional",
+        "unit": "µg/mL"
+      },
+      "reference_text": "0,01–0,1 µg/kg/min · inicio según ficha técnica 0,05–0,1; reducir a la mínima eficaz",
+      "protocol": "procedimientos/perfusiones-continuas.md",
+      "source_label": "Perfusiones continuas · alprostadil",
+      "source_url": "https://cima.aemps.es/cima/dochtml/ft/56120/FT_56120.html",
+      "neonatal_only": true,
+      "notes": [
+        "Exclusiva de contexto neonatal: introducir edad de 0 años y 0 meses para habilitar el cálculo.",
+        "Riesgo relevante de apnea e hipotensión: disponer de soporte ventilatorio y monitorización continua.",
+        "Consultar urgentemente con cardiología neonatal/UCIP; verificar presentación y concentración."
+      ]
+    },
+    {
+      "id": "fentanilo-sedacion-prolongada",
+      "category": "Sedoanalgesia continua (UCIP)",
+      "drug": "Fentanilo",
+      "indication": "Sedoanalgesia prolongada en paciente ventilado",
+      "route": "IV en perfusión continua",
+      "rate": {
+        "kind": "weight_rate",
+        "min": 1,
+        "max": 5,
+        "default": 1,
+        "unit": "µg/kg/h",
+        "amount_unit": "µg",
+        "time_base": "h"
+      },
+      "concentration": {
+        "mode": "institutional",
+        "unit": "µg/mL"
+      },
+      "reference_text": "1–3 µg/kg/h habitual · máximo de referencia 5 µg/kg/h",
+      "protocol": "procedimientos/perfusiones-continuas.md",
+      "source_label": "Perfusiones continuas · fentanilo",
+      "source_url": "https://www.aeped.es/pediamecum/generatepdf/api?n=83805",
+      "notes": [
+        "Uso bajo supervisión de UCIP en paciente con capacidad de soporte ventilatorio.",
+        "Vigilar nivel de sedación, función respiratoria y hemodinámica; riesgo de rigidez torácica y abstinencia.",
+        "Introducir concentración institucional; no confundir perfusión con bolo analgésico."
+      ]
+    },
+    {
+      "id": "dexmedetomidina-sedacion-uci",
+      "category": "Sedoanalgesia continua (UCIP)",
+      "drug": "Dexmedetomidina",
+      "indication": "Sedación continua en UCIP · indicación especializada",
+      "route": "IV en perfusión continua",
+      "rate": {
+        "kind": "weight_rate",
+        "min": 0.2,
+        "max": 0.7,
+        "default": 0.2,
+        "unit": "µg/kg/h",
+        "amount_unit": "µg",
+        "time_base": "h"
+      },
+      "concentration": {
+        "mode": "institutional",
+        "unit": "µg/mL"
+      },
+      "reference_text": "0,2–0,7 µg/kg/h · intervalo pediátrico AEP, no copiar 1,4 µg/kg/h del PedCalc antiguo",
+      "protocol": "procedimientos/perfusiones-continuas.md",
+      "source_label": "Perfusiones continuas · dexmedetomidina",
+      "source_url": "https://www.aeped.es/pediamecum/generatepdf/api?n=83607",
+      "regulatory_note": "Uso pediátrico fuera de ficha técnica: AEMPS no establece pauta autorizada de 0 a 18 años.",
+      "notes": [
+        "No administrar en bolo. Vigilar bradicardia, hipotensión y sedación.",
+        "Requiere decisión y supervisión del equipo de UCIP.",
+        "Introducir concentración institucional; no utilizar automáticamente el máximo histórico adulto de PedCalc."
       ]
     }
   ]

@@ -47,8 +47,8 @@ def main() -> int:
         fail("schema_version debe ser 1", errors)
 
     entries = data.get("entries", [])
-    if len(entries) < 8:
-        fail("se esperaban al menos 8 perfusiones", errors)
+    if len(entries) < 15:
+        fail("se esperaban al menos 15 perfusiones", errors)
 
     ids: set[str] = set()
     required = {
@@ -117,6 +117,11 @@ def main() -> int:
         ("tiopental-estatus-refractario", 20, 3, 25, 2.4),
         ("valproato-mantenimiento-estatus", 20, 1, 20, 1),
         ("glucagon-anafilaxia-perfusion", None, 10, 100, 6),
+        ("dopamina-soporte-inotropico", 20, 5, 1000, 6),
+        ("dobutamina-disfuncion-miocardica", 20, 5, 1000, 6),
+        ("alprostadil-ductus", 3, 0.05, 5, 1.8),
+        ("fentanilo-sedacion-prolongada", 20, 1, 10, 2),
+        ("dexmedetomidina-sedacion-uci", 20, 0.2, 4, 1),
     ]
 
     for infusion_id, weight, desired, concentration, expected in tests:
@@ -131,11 +136,56 @@ def main() -> int:
                 errors,
             )
 
-    try:
-        pump(by_id["insulina-cad"], 20, 0.2, 1)
-        fail("insulina-cad debería rechazar dosis fuera de rango", errors)
-    except ValueError:
-        pass
+    for infusion_id, weight, dose, concentration in [
+        ("insulina-cad", 20, 0.2, 1),
+        ("dexmedetomidina-sedacion-uci", 20, 1.4, 4),
+        ("dopamina-soporte-inotropico", 20, 2, 1000),
+        ("alprostadil-ductus", 3, 0.2, 5),
+    ]:
+        try:
+            pump(by_id[infusion_id], weight, dose, concentration)
+            fail(f"{infusion_id} debería rechazar dosis fuera de rango", errors)
+        except ValueError:
+            pass
+
+    # Preparación ponderal de 50 mL: concentración objetivo y ampolla deben
+    # expresarse en la misma unidad/volumen, con volumen final real de 50 mL.
+    def draw_volume(solution_concentration: float, vial_concentration: float) -> float:
+        if solution_concentration <= 0 or vial_concentration <= 0:
+            raise ValueError("concentración no válida")
+        ampoule_ml = solution_concentration * 50 / vial_concentration
+        if ampoule_ml < 0.1 or ampoule_ml > 50:
+            raise ValueError("extracción no segura o imposible")
+        return ampoule_ml
+
+    if not math.isclose(draw_volume(10, 1000), 0.5, abs_tol=1e-9):
+        fail("error de cálculo de jeringa 50 mL", errors)
+    if not math.isclose(draw_volume(4, 100), 2, abs_tol=1e-9):
+        fail("error de jeringa dexmedetomidina 4 µg/mL", errors)
+    for goal, vial in [(1000, 500), (0.01, 500), (0, 100)]:
+        try:
+            draw_volume(goal, vial)
+            fail("debería rechazar preparación inviable o imprecisa", errors)
+        except ValueError:
+            pass
+
+    expected = {
+        "alprostadil-ductus": ("µg/kg/min", True),
+        "dexmedetomidina-sedacion-uci": ("µg/kg/h", False),
+        "fentanilo-sedacion-prolongada": ("µg/kg/h", False),
+        "dobutamina-disfuncion-miocardica": ("µg/kg/min", False),
+        "dopamina-soporte-inotropico": ("µg/kg/min", False),
+    }
+    for infusion_id, (unit, neonatal_only) in expected.items():
+        entry = by_id[infusion_id]
+        if entry["rate"]["unit"] != unit:
+            fail(f"{infusion_id}: unidad inesperada", errors)
+        if entry.get("neonatal_only", False) is not neonatal_only:
+            fail(f"{infusion_id}: restricción neonatal inesperada", errors)
+        if entry["concentration"]["mode"] != "institutional":
+            fail(f"{infusion_id}: no debe ofrecer concentración automática", errors)
+        if not entry.get("source_url"):
+            fail(f"{infusion_id}: falta fuente externa explícita", errors)
 
     if errors:
         print("ERROR: registro de perfusiones inválido:\n")
@@ -145,7 +195,7 @@ def main() -> int:
 
     print(
         f"OK: {len(entries)} perfusiones y "
-        f"{len(tests) + 1} comprobaciones de seguridad/cálculo."
+        f"{len(tests) + 4 + 5 + 2 + len(expected) * 4} comprobaciones de seguridad/cálculo."
     )
     return 0
 

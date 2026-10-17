@@ -98,6 +98,23 @@
       : `<div class="dose-calculator-warning"><strong>Concentración local obligatoria:</strong> usa la concentración estandarizada de tu centro; no improvises una dilución.</div>`;
 
     const notes = (entry.notes || []).map((note) => `<li>${note}</li>`).join("");
+    const regulatoryBanner = entry.regulatory_note
+      ? `<div class="dose-calculator-warning"><strong>Situación regulatoria:</strong> ${entry.regulatory_note}</div>`
+      : "";
+    const sourceLink = entry.source_url
+      ? `<p><strong>Fuente farmacológica:</strong> <a href="${entry.source_url}" target="_blank" rel="noopener noreferrer">Consultar ficha original</a></p>`
+      : "";
+    const syringeTool = !fixed ? `
+      <details class="infusion-syringe">
+        <summary>Preparar jeringa de 50 mL · cálculo opcional</summary>
+        <p>Solo con una concentración aprobada por tu centro. Comprueba en la ampolla el contenido exacto y el diluyente compatible; el cálculo no valida la mezcla.</p>
+        <label class="infusion-field">
+          <span>Concentración real de la ampolla (${entry.concentration.unit})</span>
+          <input class="infusion-vial-concentration" type="number" inputmode="decimal"
+                 min="0.000001" step="any" placeholder="Según etiqueta real">
+        </label>
+        <div class="infusion-syringe-result" aria-live="polite">Introduce las dos concentraciones para obtener la preparación.</div>
+      </details>` : "";
 
     return `
       <article class="dose-calculator-card infusion-card" data-index="${index}">
@@ -116,6 +133,7 @@
           <strong>${entry.reference_text}</strong>
         </div>
 
+        ${regulatoryBanner}
         <div class="infusion-controls">
           <label class="infusion-field">
             <span>Dosis objetivo (${entry.rate.unit})</span>
@@ -135,6 +153,7 @@
         </div>
 
         ${prep}
+        ${syringeTool}
 
         <div class="dose-calculator-output infusion-output" id="infusion-output-${index}">
           <div class="dose-calculator-empty">Introduce el peso y, si procede, la concentración institucional.</div>
@@ -143,6 +162,7 @@
         <div class="dose-calculator-meta">
           ${notes ? `<ul>${notes}</ul>` : ""}
           <p><strong>Fuente interna:</strong> <a href="../${entry.protocol.replace(".md", "/")}">${entry.source_label}</a></p>
+          ${sourceLink}
         </div>
 
         <input type="hidden" class="infusion-fixed-value" value="${concentrationValue}">
@@ -173,6 +193,10 @@
     const doseInput = card.querySelector(".infusion-dose");
     const desired = parseFloat(doseInput.value);
     const output = card.querySelector(".infusion-output");
+    const syringeResult = card.querySelector(".infusion-syringe-result");
+    if (syringeResult) {
+      syringeResult.textContent = "Introduce las dos concentraciones para obtener la preparación.";
+    }
 
     if (!Number.isFinite(desired)) {
       output.innerHTML = '<div class="dose-calculator-empty">Introduce una dosis objetivo.</div>';
@@ -193,6 +217,15 @@
       return;
     }
 
+    if (entry.neonatal_only) {
+      const years = document.getElementById("infusion-age-years").value;
+      const months = document.getElementById("infusion-age-months").value;
+      if (years !== "0" || months !== "0") {
+        output.innerHTML = '<div class="dose-calculator-danger">Uso neonatal: indica edad de 0 años y 0 meses (recién nacido). Para otras edades, consultar con el especialista; cálculo bloqueado.</div>';
+        return;
+      }
+    }
+
     let concentration;
     if (entry.concentration.mode === "fixed") {
       concentration = entry.concentration.value;
@@ -211,6 +244,28 @@
       return;
     }
 
+    if (syringeResult) {
+      const ampoule = parseFloat(card.querySelector(".infusion-vial-concentration").value);
+      if (Number.isFinite(ampoule) && ampoule > 0) {
+        const totalAmount = concentration * 50;
+        const ampouleVolume = totalAmount / ampoule;
+        if (!Number.isFinite(ampouleVolume) || ampouleVolume > 50) {
+          syringeResult.innerHTML = '<strong>Preparación no viable:</strong> el volumen de ampolla supera los 50 mL finales. No preparar así.';
+        } else if (ampouleVolume < 0.1) {
+          syringeResult.innerHTML = '<strong>Extracción inferior a 0,1 mL:</strong> no mostrar redondeo ni recomendar esta preparación. Consultar dilución intermedia autorizada por Farmacia.';
+        } else {
+          syringeResult.innerHTML = `
+            <strong>Para 50 mL finales:</strong> ${fmt(totalAmount, 3)} ${entry.rate.amount_unit} de fármaco.
+            Extraer <strong>${fmt(ampouleVolume, ampouleVolume < 1 ? 3 : 2)} mL</strong> de la ampolla
+            y completar con diluyente compatible hasta 50 mL de volumen final.
+            <small>Verificar que la concentración y el diluyente están autorizados en tu centro. No añadir 50 mL extra de diluyente.</small>`;
+        }
+      }
+    }
+
+    const equivalence = entry.rate.kind === "weight_rate"
+      ? (entry.rate.time_base === "min" ? concentration / (weight * 60) : concentration / weight)
+      : (entry.rate.time_base === "min" ? concentration / 60 : concentration);
     const weightFormula = entry.rate.kind === "weight_rate"
       ? `${fmt(desired)} ${entry.rate.unit} × ${fmt(weight, 1)} kg = ${result.amountLabel}`
       : `${fmt(desired)} ${entry.rate.unit}`;
@@ -221,9 +276,13 @@
         <span>Concentración utilizada</span>
         <strong>${fmt(concentration)} ${entry.concentration.unit}</strong>
       </div>
+      <div class="infusion-calculation-line">
+        <span>Equivalencia según concentración introducida</span>
+        <strong>1 mL/h = ${fmt(equivalence, 4)} ${entry.rate.unit}</strong>
+      </div>
       <div class="dose-calculator-final">
         <span>Programar bomba</span>
-        <strong>${fmt(result.mlPerHour)} mL/h</strong>
+        <strong>${fmt(result.mlPerHour, result.mlPerHour < 1 ? 3 : 2)} mL/h</strong>
       </div>
     `;
   }
@@ -233,7 +292,7 @@
     cards.forEach((card, index) => {
       const entry = visible[index];
       if (!entry) return;
-      const inputs = card.querySelectorAll(".infusion-dose, .infusion-concentration");
+      const inputs = card.querySelectorAll(".infusion-dose, .infusion-concentration, .infusion-vial-concentration");
       inputs.forEach((input) => {
         input.addEventListener("input", () => {
           const currentWeight = parseFloat(document.getElementById("infusion-weight").value);
@@ -324,8 +383,14 @@
       persistPatient();
       refreshCalculations();
     });
-    yearsInput.addEventListener("input", persistPatient);
-    monthsInput.addEventListener("input", persistPatient);
+    yearsInput.addEventListener("input", () => {
+      persistPatient();
+      refreshCalculations();
+    });
+    monthsInput.addEventListener("input", () => {
+      persistPatient();
+      refreshCalculations();
+    });
 
     render();
   }
