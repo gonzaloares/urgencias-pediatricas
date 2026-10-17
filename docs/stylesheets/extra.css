@@ -1197,3 +1197,41 @@
   outline: 2px solid var(--md-accent-fg-color);
   outline-offset: 2px;
 }
+
+
+/* Perfusiones: controles de referencia bibliográfica y verificación independiente. */
+.infusion-restore-reference {
+  align-self: end;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--md-primary-fg-color);
+  border-radius: 0.5rem;
+  background: transparent;
+  color: var(--md-primary-fg-color);
+  font-size: 0.73rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.infusion-verify {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.55rem;
+  background: var(--md-code-bg-color);
+  font-size: 0.77rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.infusion-verify input {
+  flex: none;
+  width: 1.1rem;
+  height: 1.1rem;
+  margin: 0.05rem 0 0;
+  accent-color: var(--md-primary-fg-color);
+}
+.infusion-output .dose-calculator-warning,
+.infusion-output .dose-calculator-danger {
+  margin-top: 0.5rem;
+}
