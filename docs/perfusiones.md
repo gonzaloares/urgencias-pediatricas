@@ -48,6 +48,10 @@ Se bloquea la preparación si el volumen extraído es **inferior a 0,1 mL** o **
 
 Los cinco fármacos que faltaban se han incorporado con las pautas y advertencias revisadas en [Perfusiones continuas · referencia clínica](procedimientos/perfusiones-continuas.md), incluidas la **restricción neonatal** de alprostadil y la **indicación pediátrica fuera de ficha técnica** de dexmedetomidina. Las preparaciones existentes fijadas por protocolo (insulina en CAD y adrenalina en anafilaxia refractaria) no se sustituyen por mezclas alternativas.
 
+## Accesos desde los protocolos
+
+Los medicamentos con una pauta de perfusión registrada disponen de un enlace **↗** desde sus menciones en los protocolos. Si una perfusión está respaldada por el protocolo de origen, se abre directamente en esta calculadora. Si solo hay pautas para otros contextos, se bloquea la visualización automática y se solicita comprobar la indicación antes de consultar otras pautas.
+
 ## Lectura del resultado
 
 La tarjeta muestra siempre:

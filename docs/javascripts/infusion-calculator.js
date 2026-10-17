@@ -314,6 +314,16 @@
     const searchInput = document.getElementById("infusion-search");
     const status = document.getElementById("infusion-status");
     const results = document.getElementById("infusion-results");
+    const params = new URLSearchParams(window.location.search);
+    const linkedDrug = (params.get("farmaco") || "").trim();
+    const linkedSource = (params.get("origen") || "").trim();
+    const normalizedDrug = (value) => String(value || "").normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("es").trim();
+    let contextualMode = Boolean(linkedDrug);
+    let allowOtherIndications = false;
+    const notice = document.createElement("div");
+    notice.className = "dose-calculator-link-notice";
+    status.before(notice);
 
     const saved = readContext();
     if (saved.weight) weightInput.value = saved.weight;
@@ -333,6 +343,7 @@
     }
 
     let visible = [];
+    if (linkedDrug) searchInput.value = linkedDrug;
 
     const currentPatient = () => {
       const weight = parseFloat(weightInput.value);
@@ -364,21 +375,61 @@
       const query = searchInput.value.trim().toLowerCase();
       persistPatient();
 
-      visible = registry.entries.filter((entry) =>
-        [entry.category, entry.drug, entry.indication, entry.route, entry.reference_text]
-          .join(" ")
-          .toLowerCase()
-          .includes(query)
-      );
+      notice.replaceChildren();
+      if (contextualMode) {
+        const matches = registry.entries.filter((item) =>
+          normalizedDrug(item.drug) === normalizedDrug(linkedDrug));
+        const sourceMatches = linkedSource
+          ? matches.filter((item) => item.protocol === linkedSource)
+          : matches;
+        if (!matches.length) {
+          notice.textContent = "No existe pauta de perfusión registrada para este medicamento.";
+          visible = [];
+        } else if (linkedSource && !sourceMatches.length && !allowOtherIndications) {
+          const message = document.createElement("p");
+          message.textContent =
+            `No existe pauta de perfusión de ${linkedDrug} validada para este protocolo. ` +
+            "No extrapolar las dosis de otras indicaciones.";
+          notice.append(message);
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "dose-calculator-other-indications";
+          button.textContent = "Consultar otras indicaciones (no equivalentes)";
+          button.addEventListener("click", () => {
+            allowOtherIndications = true;
+            render();
+          });
+          notice.append(button);
+          visible = [];
+        } else {
+          visible = sourceMatches.length ? sourceMatches : matches;
+          notice.textContent = sourceMatches.length && linkedSource
+            ? `Perfusión vinculada al protocolo: ${linkedDrug}. Confirmar concentración y vía.`
+            : `Otras indicaciones de ${linkedDrug}. No extrapolar sin una pauta específica validada.`;
+        }
+      } else {
+        visible = registry.entries.filter((entry) =>
+          [entry.category, entry.drug, entry.indication, entry.route, entry.reference_text]
+            .join(" ")
+            .toLowerCase()
+            .includes(query)
+        );
+      }
 
       results.innerHTML = renderGroups(visible, weight);
       bindCards(registry, visible, weight);
-      status.textContent = query
-        ? `${visible.length} resultado(s)`
-        : `${registry.entries.length} perfusiones protocolizadas`;
+      status.textContent = contextualMode
+        ? `${visible.length} pauta(s) de perfusión para ${linkedDrug}`
+        : query
+          ? `${visible.length} resultado(s)`
+          : `${registry.entries.length} perfusiones protocolizadas`;
     };
 
-    searchInput.addEventListener("input", render);
+    searchInput.addEventListener("input", () => {
+      contextualMode = false;
+      allowOtherIndications = false;
+      render();
+    });
     weightInput.addEventListener("input", () => {
       persistPatient();
       refreshCalculations();

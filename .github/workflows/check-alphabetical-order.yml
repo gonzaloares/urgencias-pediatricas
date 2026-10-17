@@ -70,6 +70,9 @@ jobs:
       - name: Check infusion calculator JavaScript syntax
         run: node --check docs/javascripts/infusion-calculator.js
 
+      - name: Check protocol links JavaScript syntax
+        run: node --check docs/javascripts/protocol-dose-links.js
+
       - name: Check RSI registry
         run: python scripts/check_rsi_registry.py
 

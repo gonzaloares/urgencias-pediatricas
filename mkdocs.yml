@@ -156,6 +156,7 @@ extra_css:
 extra_javascript:
   - javascripts/dose-calculator.js
   - javascripts/infusion-calculator.js
+  - javascripts/protocol-dose-links.js
   - javascripts/external-links.js
   - javascripts/pwa.js
 

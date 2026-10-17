@@ -352,6 +352,16 @@
     const searchInput = document.getElementById("dose-search");
     const status = document.getElementById("dose-calculator-status");
     const results = document.getElementById("dose-calculator-results");
+    const params = new URLSearchParams(window.location.search);
+    const linkedDrug = (params.get("farmaco") || "").trim();
+    const linkedSource = (params.get("origen") || "").trim();
+    const normalizedDrug = (value) => String(value || "").normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("es").trim();
+    let contextualMode = Boolean(linkedDrug);
+    let allowOtherIndications = false;
+    const notice = document.createElement("div");
+    notice.className = "dose-calculator-link-notice";
+    status.before(notice);
 
     const saved = readContext();
     if (saved.weight) weightInput.value = saved.weight;
@@ -370,6 +380,8 @@
       return;
     }
 
+    if (linkedDrug) searchInput.value = linkedDrug;
+
     const render = () => {
       const weight = parseFloat(weightInput.value);
       const years =
@@ -385,27 +397,71 @@
         Number.isFinite(months) ? months : null
       );
 
-      const visible = registry.entries.filter((entry) =>
-        [
-          entry.category,
-          entry.drug,
-          entry.indication,
-          entry.route,
-          entry.reference_text,
-        ]
-          .join(" ")
-          .toLowerCase()
-          .includes(query)
-      );
+      notice.replaceChildren();
+      let visible;
+      if (contextualMode) {
+        const matches = registry.entries.filter((item) =>
+          normalizedDrug(item.drug) === normalizedDrug(linkedDrug));
+        const sourceMatches = linkedSource
+          ? matches.filter((item) => item.protocol === linkedSource)
+          : matches;
+
+        if (!matches.length) {
+          notice.textContent = "Este medicamento no tiene una pauta registrada en la calculadora.";
+          visible = [];
+        } else if (linkedSource && !sourceMatches.length && !allowOtherIndications) {
+          const message = document.createElement("p");
+          message.textContent =
+            `No hay una dosis de ${linkedDrug} validada para este protocolo en la calculadora. ` +
+            "Las pautas existentes corresponden a otras indicaciones y no deben extrapolarse.";
+          notice.append(message);
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "dose-calculator-other-indications";
+          button.textContent = "Consultar otras indicaciones (no equivalentes)";
+          button.addEventListener("click", () => {
+            allowOtherIndications = true;
+            render();
+          });
+          notice.append(button);
+          visible = [];
+        } else {
+          visible = sourceMatches.length ? sourceMatches : matches;
+          const exact = Boolean(sourceMatches.length && linkedSource);
+          notice.textContent = exact
+            ? `Pauta vinculada al protocolo: ${linkedDrug}. Comprueba la indicación, la vía, la edad y la concentración.`
+            : `Otras indicaciones registradas para ${linkedDrug}. No extrapolar a un protocolo sin pauta validada.`;
+        }
+      } else {
+        visible = registry.entries.filter((entry) =>
+          [
+            entry.category,
+            entry.drug,
+            entry.indication,
+            entry.route,
+            entry.reference_text,
+          ]
+            .join(" ")
+            .toLowerCase()
+            .includes(query)
+        );
+      }
 
       results.innerHTML = renderGroups(visible, weight, ageMonths);
-      status.textContent = query
-        ? `${visible.length} resultado(s)`
-        : `${registry.entries.length} escenarios farmacológicos validados`;
+      status.textContent = contextualMode
+        ? `${visible.length} pauta(s) para ${linkedDrug}`
+        : query
+          ? `${visible.length} resultado(s)`
+          : `${registry.entries.length} escenarios farmacológicos validados`;
     };
 
-    [weightInput, yearsInput, monthsInput, searchInput].forEach((input) => {
+    [weightInput, yearsInput, monthsInput].forEach((input) => {
       input.addEventListener("input", render);
+    });
+    searchInput.addEventListener("input", () => {
+      contextualMode = false;
+      allowOtherIndications = false;
+      render();
     });
 
     render();

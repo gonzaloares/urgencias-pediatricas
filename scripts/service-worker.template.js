@@ -18,6 +18,7 @@ const CORE_URLS = [
   new URL("data/rsi.json", APP_ROOT).href,
   new URL("javascripts/dose-calculator.js", APP_ROOT).href,
   new URL("javascripts/infusion-calculator.js", APP_ROOT).href,
+  new URL("javascripts/protocol-dose-links.js", APP_ROOT).href,
   new URL("javascripts/pwa.js", APP_ROOT).href,
 ];
 
