@@ -45,7 +45,7 @@ Realizar en:
 
 - paciente sintomático;
 - CE peligroso;
-- CE metálico no localizado;
+- **ingesta confirmada o sospechada de moneda, aunque el niño esté asintomático** (en nuestro centro no disponemos de detector de metales);
 - sospecha relevante.
 
 Incluir **cuello + tórax + abdomen**, con proyecciones PA y lateral.
@@ -67,12 +67,12 @@ No usar estudios con contraste de rutina si se prevé endoscopia.
 ### Monedas: qué radiografía, qué hacer y cuándo repetirla
 
 <div class="clinical-card">
-  <strong>Respuesta rápida:</strong> ingesta confirmada o sospechada de <strong>moneda → Rx inicial para localizarla</strong>, incluso sin síntomas, si no hay detector de metales capaz de confirmar una localización infradiafragmática. <strong>Esófago → resolver antes de 24 h.</strong> <strong>Estómago + asintomático + moneda pequeña → alta y observación;</strong> si no se confirma la expulsión, programar <strong>Rx abdominal a las 4 semanas</strong> (control a las 2 semanas también aceptable según protocolo local o factores de riesgo).
+  <strong>Respuesta rápida:</strong> ingesta confirmada o sospechada de <strong>moneda → realizar siempre Rx inicial para localizarla</strong>, incluso sin síntomas. <strong>En nuestro centro no disponemos de detector de metales.</strong> <strong>Esófago → resolver antes de 24 h.</strong> <strong>Estómago + asintomático + moneda pequeña → alta y observación;</strong> si no se confirma la expulsión, programar <strong>Rx abdominal a las 4 semanas</strong> (control a las 2 semanas también aceptable según protocolo local o factores de riesgo).
 </div>
 
 #### 1. Radiografía al diagnóstico
 
-- **Sí, incluso si está asintomático:** una moneda puede permanecer en esófago sin síntomas. Si no se dispone de un detector de metales validado que confirme localización por debajo del diafragma, **realizar Rx**.
+- **Realizar siempre radiografía inicial en pacientes estables, aunque estén asintomáticos:** una moneda puede permanecer en esófago sin síntomas. **Nuestro centro no dispone de detector de metales**, por lo que no se contempla esa alternativa diagnóstica. Si hay compromiso de vía aérea, priorizar la estabilización y la extracción urgente.
 - **Proyecciones iniciales:** cuello, tórax y abdomen, anteroposterior/PA y lateral, con campo suficiente para localizar el objeto. Ajustar al estudio radiológico pediátrico y evitar irradiación repetida innecesaria.
 - **Diferenciar siempre moneda de pila de botón:** pila con signo del **doble halo** en frontal y **escalón** en lateral. Si no puede excluirse una pila, **manejar como pila de botón** y activar extracción urgente si esofágica.
 - Si existe disnea, estridor o sospecha de aspiración, valorar vía aérea de inmediato; una moneda esofágica y una aspirada no se manejan igual.
