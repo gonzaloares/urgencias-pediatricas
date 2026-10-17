@@ -29,6 +29,14 @@
   <div id="dose-calculator-results" class="dose-calculator-results"></div>
 </div>
 
+## Acceso directo desde los protocolos
+
+Los nombres de los medicamentos reconocidos por el registro farmacológico muestran un pequeño enlace **↗** en los protocolos. Al pulsarlo se abre la calculadora filtrada por el fármaco y, **cuando existe una entrada vinculada al protocolo de origen**, por la indicación correspondiente. Si hay varias pautas de ese medicamento, se muestran separadas y con su vía e indicación.
+
+Si la calculadora **no dispone de una pauta validada para ese protocolo**, no se muestra directamente una dosis calculada de otra indicación. Se ofrece un aviso y, solo tras elegirlo expresamente, es posible consultar las pautas existentes para otros usos. Los medicamentos sin entrada en el registro no reciben enlaces automáticos.
+
+La navegación mantiene el contexto de peso y edad de la sesión, pero **nunca presupone que una dosis válida para una indicación lo es para otra**.
+
 ## Cómo interpretar los resultados
 
 - La calculadora muestra la **operación completa**, no solo el resultado final.
