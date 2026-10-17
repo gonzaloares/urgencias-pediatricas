@@ -82,7 +82,7 @@
   const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const isWord = (value) => Boolean(value && /[\p{L}\p{N}]/u.test(value));
 
-  function createLink(label, canonical, source, registries) {
+  function createLink(label, canonical, source, registries, context) {
     const key = normalize(canonical);
     const matchingDoses = registries.doses.filter((item) =>
       normalize(item.drug) === key && item.protocol === source
@@ -90,9 +90,11 @@
     const matchingInfusions = registries.infusions.filter((item) =>
       normalize(item.drug) === key && item.protocol === source
     );
-    const onlyInfusion = matchingInfusions.length > 0 && matchingDoses.length === 0;
+    const infusionContext = /perfusi[oó]n|infusi[oó]n|bomba de infusi[oó]n|continua|mcg\/kg\/min|µg\/kg\/min/i.test(context);
+    const preferInfusion = matchingInfusions.length > 0 &&
+      (matchingDoses.length === 0 || infusionContext);
     const existsInDoses = registries.doses.some((item) => normalize(item.drug) === key);
-    const destination = onlyInfusion || !existsInDoses ? "perfusiones/" : "calculadora/";
+    const destination = preferInfusion || !existsInDoses ? "perfusiones/" : "calculadora/";
     const url = new URL(destination, rootUrl);
     url.searchParams.set("farmaco", canonical);
     url.searchParams.set("origen", source);
@@ -146,7 +148,7 @@
         if (isWord(left) || isWord(right)) continue;
 
         if (match.index > start) parts.append(document.createTextNode(value.slice(start, match.index)));
-        parts.append(createLink(match[0], canonical, source, registries));
+        parts.append(createLink(match[0], canonical, source, registries, block.textContent || value));
         start = match.index + match[0].length;
         seen.add(normalize(canonical));
         changed = true;
