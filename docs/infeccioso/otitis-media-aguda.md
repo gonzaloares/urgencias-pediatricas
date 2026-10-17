@@ -260,7 +260,7 @@ Indicar si existe cualquiera de los siguientes:
 
 | Situación | Duración |
 |---|---:|
-| **<6 meses** | **10 días** |
+| **&lt;6 meses** | **10 días** |
 | **6–24 meses** | **7–10 días** |
 | **>2 años, OMA no grave** | **5–7 días** |
 | **OMA grave** | **10 días** |
