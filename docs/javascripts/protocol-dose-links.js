@@ -64,9 +64,16 @@
     for (const entry of [...registries.doses, ...registries.infusions]) {
       names.set(normalize(entry.drug), entry.drug);
     }
-    const variants = new Map(names);
+    // Mantener las grafías con y sin tilde como alternativas separadas:
+    // normalizar la expresión regular impediría detectar «ácido» y «cálcico».
+    const variants = new Map();
+    for (const official of names.values()) {
+      variants.set(official.toLocaleLowerCase("es"), official);
+      variants.set(normalize(official), official);
+    }
     for (const [alias, official] of Object.entries(aliases)) {
-      if (names.has(normalize(official))) variants.set(normalize(alias), names.get(normalize(official)));
+      const chosen = names.get(normalize(official));
+      if (chosen) variants.set(alias.toLocaleLowerCase("es"), chosen);
     }
     return [...variants.entries()]
       .sort((a, b) => b[0].length - a[0].length);
