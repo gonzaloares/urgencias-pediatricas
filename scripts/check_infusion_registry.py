@@ -94,7 +94,7 @@ def main() -> int:
             fail(f"{entry['id']}: faltan unidades de velocidad", errors)
 
         concentration = entry["concentration"]
-        if concentration.get("mode") not in {"fixed", "institutional"}:
+        if concentration.get("mode") not in {"fixed", "institutional", "suggested"}:
             fail(f"{entry['id']}: concentration.mode inválido", errors)
         if not concentration.get("unit"):
             fail(f"{entry['id']}: falta unidad de concentración", errors)
@@ -103,8 +103,55 @@ def main() -> int:
                 fail(f"{entry['id']}: concentración fija inválida", errors)
             if not concentration.get("preparation"):
                 fail(f"{entry['id']}: falta preparación de concentración fija", errors)
+        if concentration.get("mode") == "suggested":
+            if not concentration.get("reference_url") or not concentration.get("reference_note"):
+                fail(f"{entry['id']}: falta fuente y contexto de la concentración propuesta", errors)
+            if concentration.get("review_status") != "bibliographic_not_hospital_approved":
+                fail(f"{entry['id']}: concentración propuesta sin etiqueta de validación", errors)
+            bands = concentration.get("suggestions", [])
+            if not bands or "max_weight" in bands[-1]:
+                fail(f"{entry['id']}: bandas de peso sin cobertura completa", errors)
+            previous = 0
+            for i, band in enumerate(bands):
+                value = band.get("value")
+                if not isinstance(value, (int, float)) or not math.isfinite(value) or value <= 0:
+                    fail(f"{entry['id']}: concentración sugerida inválida", errors)
+                if "max_weight" in band:
+                    if i == len(bands)-1 or not isinstance(band["max_weight"], (int, float)) or band["max_weight"] <= previous:
+                        fail(f"{entry['id']}: límites de peso no crecientes", errors)
+                    else:
+                        previous = band["max_weight"]
 
     by_id = {entry["id"]: entry for entry in entries}
+
+    def suggestion(entry: dict, weight: float) -> float:
+        for band in entry["concentration"]["suggestions"]:
+            if "max_weight" not in band or weight < band["max_weight"]:
+                return band["value"]
+        raise ValueError("no existe banda válida")
+
+    reference_examples = [
+        ("adrenalina-shock-frio", 3, 20),
+        ("adrenalina-shock-frio", 10, 40),
+        ("adrenalina-shock-frio", 25, 80),
+        ("noradrenalina-shock-caliente", 15, 20),
+        ("midazolam-estatus-refractario", 3, 0.5),
+        ("midazolam-estatus-refractario", 15, 1),
+        ("midazolam-estatus-refractario", 25, 2),
+        ("dopamina-soporte-inotropico", 3, 2000),
+        ("dopamina-soporte-inotropico", 25, 12000),
+        ("dobutamina-disfuncion-miocardica", 15, 5000),
+        ("alprostadil-ductus", 3, 5),
+        ("fentanilo-sedacion-prolongada", 15, 20),
+        ("dexmedetomidina-sedacion-uci", 15, 4),
+        ("glucagon-anafilaxia-perfusion", 15, 100),
+        ("propofol-estatus-refractario", 15, 10),
+        ("tiopental-estatus-refractario", 15, 4),
+        ("valproato-mantenimiento-estatus", 15, 3.2),
+    ]
+    for infusion_id, weight, expected in reference_examples:
+        if not math.isclose(suggestion(by_id[infusion_id], weight), expected, abs_tol=1e-9):
+            fail(f"{infusion_id}: banda de peso {weight} kg incorrecta", errors)
 
     tests = [
         ("adrenalina-anafilaxia-refractaria", 20, 0.1, 10, 12),
@@ -182,8 +229,8 @@ def main() -> int:
             fail(f"{infusion_id}: unidad inesperada", errors)
         if entry.get("neonatal_only", False) is not neonatal_only:
             fail(f"{infusion_id}: restricción neonatal inesperada", errors)
-        if entry["concentration"]["mode"] != "institutional":
-            fail(f"{infusion_id}: no debe ofrecer concentración automática", errors)
+        if entry["concentration"]["mode"] != "suggested":
+            fail(f"{infusion_id}: falta propuesta bibliográfica explícitamente no homologada", errors)
         if not entry.get("source_url"):
             fail(f"{infusion_id}: falta fuente externa explícita", errors)
 
@@ -195,7 +242,7 @@ def main() -> int:
 
     print(
         f"OK: {len(entries)} perfusiones y "
-        f"{len(tests) + 4 + 5 + 2 + len(expected) * 4} comprobaciones de seguridad/cálculo."
+        f"{len(tests) + 4 + 5 + 2 + len(expected) * 4 + len(reference_examples)} comprobaciones de seguridad/cálculo."
     )
     return 0
 
