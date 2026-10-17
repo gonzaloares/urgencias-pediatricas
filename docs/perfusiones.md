@@ -33,13 +33,20 @@
   <div id="infusion-results" class="infusion-results"></div>
 </div>
 
-## Qué se ha migrado de PedCalc
+## Qué se ha recuperado de PedCalc
 
-La aplicación antigua ya disponía de un módulo de perfusiones con vasoactivos y sedantes, pero utilizaba diluciones ponderales propias para jeringas de 50 mL. En esta integración se conserva la **interacción dosis → bomba**, pero las concentraciones solo se ofrecen cuando están expresamente fijadas en los protocolos actuales.
+Ahora se incluyen **15 escenarios de perfusión**, con los ocho principios activos del módulo antiguo: adrenalina, noradrenalina, dopamina, dobutamina, prostaglandina E1 (alprostadil), midazolam, fentanilo y dexmedetomidina; y, además, glucagón, insulina, propofol, tiopental y valproato en sus indicaciones protocolizadas.
 
-Se incluyen por ahora: adrenalina y noradrenalina en shock, adrenalina para bradicardia persistente, adrenalina y glucagón en anafilaxia refractaria, insulina en CAD, y las perfusiones de midazolam, propofol, tiopental y valproato del protocolo de estatus epiléptico.
+Se ha recuperado el flujo práctico del PedCalc original: **peso → dosis deseada → equivalencia con 1 mL/h → programación de bomba**. En las tarjetas con concentración institucional aparece también «**Preparar jeringa de 50 mL**», un cálculo opcional que muestra el volumen de ampolla a extraer después de introducir dos datos de la preparación real:
 
-No se migran todavía dopamina, dobutamina, prostaglandina E1, fentanilo continuo ni dexmedetomidina del PedCalc antiguo, porque el repositorio actual no contiene una pauta de perfusión suficientemente explícita para utilizarlas como fuente clínica.
+1. **Concentración final aprobada** de la perfusión (en la tarjeta).
+2. **Concentración de la ampolla** que se tiene físicamente disponible (dentro del desplegable).
+
+Ambas se expresan en **la misma unidad por mL**. El resultado indica la cantidad de medicamento y el volumen de ampolla; debe completarse con un diluyente compatible **hasta 50 mL de volumen final**, nunca añadir 50 mL más.
+
+Se bloquea la preparación si el volumen extraído es **inferior a 0,1 mL** o **superior a 50 mL**; el sistema no redondea arbitrariamente una extracción pequeña como podía ocurrir en la aplicación antigua. No se arrastran las antiguas diluciones ponderales como concentraciones por defecto: han de validarse conforme a las normas actuales del hospital.
+
+Los cinco fármacos que faltaban se han incorporado con las pautas y advertencias revisadas en [Perfusiones continuas · referencia clínica](procedimientos/perfusiones-continuas.md), incluidas la **restricción neonatal** de alprostadil y la **indicación pediátrica fuera de ficha técnica** de dexmedetomidina. Las preparaciones existentes fijadas por protocolo (insulina en CAD y adrenalina en anafilaxia refractaria) no se sustituyen por mezclas alternativas.
 
 ## Lectura del resultado
 
