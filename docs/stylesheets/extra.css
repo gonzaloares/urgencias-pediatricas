@@ -1117,3 +1117,34 @@
     max-width: none;
   }
 }
+
+/* PedCalc: preparación manual de jeringa de 50 mL, accesible en móvil. */
+.infusion-syringe {
+  margin: 0.7rem 0.95rem;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.6rem;
+  background: var(--md-code-bg-color);
+}
+.infusion-syringe summary {
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.infusion-syringe p,
+.infusion-syringe-result,
+.infusion-syringe-result small {
+  display: block;
+  font-size: 0.76rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.infusion-syringe .infusion-field {
+  margin: 0.7rem 0;
+}
+.infusion-syringe-result {
+  padding: 0.6rem 0.7rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  background: var(--md-default-bg-color);
+}
