@@ -9,6 +9,7 @@
 - [Infección respiratoria de vías altas](../respiratorio/infeccion-respiratoria-vias-altas.md)
 - [Laringitis aguda](../respiratorio/laringitis-aguda.md)
 - [Mastoiditis aguda](mastoiditis.md)
+- [Otitis externa aguda](otitis-externa-aguda.md)
 - [Otitis media aguda](../infeccioso/otitis-media-aguda.md)
 - [Sinusitis aguda](sinusitis-aguda.md)
 - [Urgencias odontológicas pediátricas](urgencias-odontologicas.md)
