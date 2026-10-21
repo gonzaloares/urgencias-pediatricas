@@ -53,7 +53,7 @@
 - **Intensa u obstructiva:** dolor importante, conducto muy edematoso u ocluido; buscar extensión fuera del CAE.
 
 <div class="clinical-card clinical-card-warning">
-  <strong>Menores de 2 años:</strong> la OEA difusa es infrecuente. Ante otorrea o tímpano no visible, descartar especialmente una <a href="../infeccioso/otitis-media-aguda/">otitis media aguda</a> perforada. En menores de 6 meses, evaluación individualizada antes de indicar gotas.
+  <strong>Menores de 2 años:</strong> la OEA difusa es infrecuente. Ante otorrea o tímpano no visible, descartar especialmente una <a href="../../infeccioso/otitis-media-aguda/">otitis media aguda</a> perforada. En menores de 6 meses, evaluación individualizada antes de indicar gotas.
 </div>
 
 <a id="alarma"></a>
