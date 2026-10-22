@@ -86,50 +86,91 @@
 **La medida antiinflamatoria principal del brote es el corticoide tópico de potencia adecuada.** Aplicar capa fina en placas activas, normalmente durante **5–7 días** en un ciclo de Urgencias; revisar si persiste y continuar aproximadamente 48 horas después de la mejoría clínica según el plan individual.
 
 <a id="corticoides"></a>
-## 5. Corticoides tópicos: selección y dosis
+## 5. Corticoides tópicos: elección concreta en Urgencias
+
+<div class="clinical-card clinical-card-note" markdown="1">
+  **Precisión sobre la potencia:** la **metilprednisolona aceponato 0,1% (Adventan)**, la **mometasona furoato 0,1% (Elocom)** y la **betametasona dipropionato 0,05% (Diproderm)** se clasifican como **corticoides tópicos potentes (grupo III)** en sus fichas técnicas españolas. **Clobetasol propionato 0,05% (Clovate)** es **muy potente (grupo IV)**. No elegir únicamente por el porcentaje: importan la molécula, el vehículo y la zona tratada.
+</div>
+
+### Selección rápida según localización, gravedad y edad
 
 <div class="dose-table-wrap" markdown="1">
 
-| Localización o gravedad | Opción práctica |
+| Escenario | Opción práctica |
 |---|---|
-| **Cara, cuello y pliegues; brote leve** | **Hidrocortisona base 1%** (potencia baja), ciclo corto |
-| **Tronco/extremidades; brote moderado** | Corticoide de potencia apropiada; p. ej., **metilprednisolona aceponato 0,1%** en zona extrafacial |
-| **Brote grave, grueso o liquenificado** | Valorar corticoide de mayor potencia en área limitada, con control y seguimiento; no escalar indefinidamente |
-| **Menores de 4 meses, enfermedad extensa o dudas diagnósticas** | Individualizar y valorar especialista antes de iniciar corticoides potentes |
+| **Cara, cuello y pliegues; brote leve** | **Hidrocortisona base 1%**, ciclo corto |
+| **Tronco y extremidades; brote moderado** | **Clobetasona butirato 0,05% (Emovate)**, potencia moderada; valorar edad y extensión |
+| **Brote intenso localizado; área extrafacial** | **Metilprednisolona aceponato 0,1% (Adventan)**, potente; ficha técnica desde los 4 meses, **con supervisión especializada si menor de 12 meses** |
+| **Brote intenso/resistente en tronco o extremidades; desde los 2 años** | **Mometasona furoato 0,1% (Elocom)**, potente |
+| **Brote intenso localizado en mayores de 12 años** | **Betametasona dipropionato 0,05% (Diproderm)**, potente |
+| **Placas muy resistentes a corticoide potente** | **Clobetasol propionato 0,05% (Clovate)**, **muy potente: solo con indicación de Dermatología** |
 
 </div>
 
-### Pauta suave: cara/pliegues o eccema leve
+**Regla de seguridad:** no iniciar corticoides **potentes** en menores de **12 meses**, ni corticoides **muy potentes** en ningún niño, sin asesoramiento dermatológico. En cara y cuello utilizar potencia baja; un corticoide de potencia moderada podría usarse solo durante 3–5 días en brote facial intenso y con indicación individualizada. Evitar potentes o muy potentes en párpados, flexuras, genitales y zona del pañal. Si el brote es extenso, no aplicar potentes sobre grandes superficies sin valorar absorción sistémica y necesidad de seguimiento especializado.
+
+### Pauta A · Corticoide suave para cara, pliegues o eccema leve
 
 <div class="dose-card">
   <strong>Hidrocortisona base 1% tópica</strong>
-  <span><b>Capa fina 1–2 veces al día, 5–7 días</b> como pauta clínica general para ciclos cortos. Elegir una presentación adecuada y respetar <b>su ficha técnica específica</b>.</span>
-  <span><b>Ejemplo disponible en España: Lactisona 10 mg/ml emulsión</b> (hidrocortisona 1%); su ficha técnica indica <b>2–3 aplicaciones al día</b>. Si se prescribe esa presentación, seguir su pauta y vigilar irritación por excipientes/perfumes.</span>
-  <span>Evitar contacto ocular, mucosas, grandes superficies y oclusión (pañal).</span>
+  <span><b>Capa fina 1–2 veces al día, durante 5–7 días</b> como pauta general de ciclo corto; comprobar siempre la ficha técnica del preparado.</span>
+  <span><b>Lactisona 10 mg/ml emulsión</b> (hidrocortisona base 1%) indica específicamente <b>2–3 aplicaciones al día</b> en su ficha técnica; si se elige esta presentación, respetar la pauta de la formulación.</span>
+  <span>Evitar contacto con ojos y aplicación extensa o bajo oclusión.</span>
   <span><a href="https://cima.aemps.es/cima/dochtml/ft/59709/FichaTecnica_59709.html">Ficha técnica AEMPS · Lactisona</a>.</span>
 </div>
 
-### Pauta moderada: tronco y extremidades
+### Pauta B · Potencia moderada en tronco y extremidades
 
 <div class="dose-card">
-  <strong>Metilprednisolona aceponato 0,1% (1 mg/g) cutánea</strong>
-  <span><b>Capa fina 1 vez al día, habitualmente 5–7 días</b>; reevaluar si necesita prolongación.</span>
-  <span>Ejemplo: <b>Adventan crema/pomada</b>. Preferir crema en lesiones húmedas y pomada en piel seca.</span>
-  <span><b>No usar en menores de 4 meses</b>. De <b>4 meses a 3 años</b> exige valoración beneficio-riesgo. Evitar cara, pliegues y zona del pañal de forma rutinaria.</span>
-  <span><a href="https://cima.aemps.es/cima/dochtml/ft/60137/FichaTecnica_60137.html">Ficha técnica AEMPS · Adventan</a>.</span>
+  <strong>Clobetasona butirato 0,05% (0,5 mg/g) · Emovate crema</strong>
+  <span><b>Capa fina 1–2 veces al día durante 5–7 días</b> como ciclo inicial habitual en Urgencias. La ficha técnica permite hasta 4 aplicaciones/día, pero las guías de eccema infantil recomiendan generalmente <b>una o dos</b>.</span>
+  <span><b>Potencia moderada (grupo II).</b> En lactantes y niños pequeños individualizar superficie y duración; evitar uso continuado prolongado u oclusivo.</span>
+  <span><a href="https://cima.aemps.es/cima/dochtml/ft/56273/FichaTecnica_56273.html">Ficha técnica AEMPS · Emovate</a>.</span>
 </div>
+
+### Pauta C · Corticoides potentes para brote grave localizado (zona extrafacial)
+
+<div class="dose-card">
+  <strong>Metilprednisolona aceponato 0,1% (1 mg/g) · Adventan crema/pomada</strong>
+  <span><b>Capa fina 1 vez al día durante 5–7 días</b>; reevaluar si persiste.</span>
+  <span>Potente <b>grupo III</b>. <b>Crema</b> en lesiones húmedas; <b>pomada o ungüento</b> en placas secas, gruesas o liquenificadas.</span>
+  <span>Ficha técnica: <b>no usar en menores de 4 meses</b>; de 4 meses a 3 años exige valoración especial de beneficio/riesgo. En <b>menores de 12 meses</b>, no iniciar un potente sin supervisión dermatológica. No superar el periodo pediátrico máximo de ficha técnica (generalmente 4 semanas); en Urgencias preferir ciclo inicial corto.</span>
+  <span><a href="https://cima.aemps.es/cima/dochtml/ft/60137/FichaTecnica_60137.html">Ficha técnica AEMPS · Adventan crema</a>.</span>
+</div>
+
+<div class="dose-card">
+  <strong>Mometasona furoato 0,1% (1 mg/g) · Elocom crema/pomada</strong>
+  <span><b>Capa fina 1 vez al día durante 5–7 días</b> como pauta inicial de urgencias.</span>
+  <span>Potente <b>grupo III</b>; opción en placas inflamatorias resistentes de <b>tronco o extremidades</b>. Pomada para placas muy secas y engrosadas.</span>
+  <span><b>Desde los 2 años.</b> No utilizar en menores de 2 años. Evitar uso prolongado, zonas extensas, pliegues, pañal, cara y especialmente párpados.</span>
+  <span><a href="https://cima.aemps.es/cima/dochtml/ft/59706/FT_59706.html">Ficha técnica AEMPS · Elocom crema</a> · <a href="https://cima.aemps.es/cima/dochtml/ft/59708/FT_59708.html">Elocom pomada</a>.</span>
+</div>
+
+<div class="dose-card">
+  <strong>Betametasona dipropionato 0,05% (0,5 mg/g de betametasona) · Diproderm crema/pomada</strong>
+  <span><b>Capa fina 1–2 veces al día durante 5–7 días</b> como pauta inicial; <b>no exceder 2 semanas</b> (límite de ficha técnica).</span>
+  <span>Potente <b>grupo III</b>. Reservar para placas graves o resistentes en áreas <b>limitadas</b> de tronco/extremidades.</span>
+  <span><b>Indicado en mayores de 12 años.</b> No está indicado en menores de 12 años; contraindicado en menores de 1 año. Evitar cara, pliegues y oclusión.</span>
+  <span><a href="https://cima.aemps.es/cima/dochtml/ft/53193/FT_53193.html">Ficha técnica AEMPS · Diproderm crema</a>.</span>
+</div>
+
+### Pauta D · Muy potente: solo con Dermatología
 
 <div class="clinical-card clinical-card-warning" markdown="1">
-  <strong>Las «hidrocortisonas» no son intercambiables.</strong> La **hidrocortisona base 1%** es de potencia baja, mientras que **hidrocortisona aceponato 0,127%** y **hidrocortisona buteprato 0,1%** son moléculas/formulaciones distintas y pueden tener mayor potencia y restricciones por edad. Confirmar nombre completo, concentración y ficha técnica. Evitar corticoides potentes en menores de 12 meses sin supervisión especializada.
+  **Clobetasol propionato 0,05% (0,5 mg/g) · Clovate crema, grupo IV (muy potente).** Está indicado para eccemas recalcitrantes, pero **no es una opción de inicio habitual en Urgencias pediátricas**. En niños requiere supervisión dermatológica y controles frecuentes; su ficha técnica lo contraindica en menores de 1 año. Se reserva para placas muy localizadas y resistentes tras revisar diagnóstico y tratamientos previos. Evitar cara, flexuras, genitales, pañal, superficies extensas y oclusión. [Ficha técnica AEMPS · Clovate](https://cima.aemps.es/cima/dochtml/ft/55746/FT_5574).
 </div>
 
-### Cantidad (FTU)
+### Cantidad a indicar: FTU (unidad de la yema del dedo)
 
-**1 unidad de la yema del dedo (FTU) ≈ 0,5 g**, exprimida de un tubo estándar a lo largo de la última falange del índice de un adulto; cubre aproximadamente **dos palmas adultas**. Ajustar a superficie afectada y edad. **Los corticoides tópicos no se dosifican en mg/kg.**
+**1 FTU ≈ 0,5 g**, exprimida desde un tubo estándar a lo largo de la última falange del índice de un adulto; orientativamente cubre una superficie equivalente a **dos palmas adultas**. Ajustar a la superficie afectada y al tamaño del niño. **No se dosifica por kg.**
 
-### Si no responde
+### Si no mejora o requiere repetir corticoide potente
 
-Revisar adherencia y cantidad aplicada, dermatitis de contacto, escabiosis, tiña y sobreinfección bacteriana/herpética. Si persiste tras **7–14 días** de tratamiento adecuado, derivar a Dermatología. Tacrolimus/pimecrolimus tópicos, vendajes húmedos y tratamientos sistémicos específicos requieren indicación y seguimiento seleccionados.
+- Comprobar **diagnóstico, adherencia, cantidad aplicada**, uso de emoliente y exposición a irritantes.
+- Descartar **eccema herpético**, infección bacteriana significativa, escabiosis, tiña y dermatitis de contacto.
+- Si el eccema grave **no responde tras una semana de tratamiento óptimo**, derivación preferente/urgente a Dermatología según repercusión; no aumentar por cuenta propia a un corticoide de grupo IV.
+- Evitar **corticoides orales o intramusculares** como tratamiento de brote habitual por riesgo de rebote y efectos adversos.
+- Tacrolimus/pimecrolimus tópicos, vendajes húmedos y terapias sistémicas avanzadas se contemplan en seguimiento especializado.
 
 <a id="prurito"></a>
 ## 6. Prurito, sueño y dolor
@@ -290,7 +331,7 @@ Fiebre y mal estado; **dolor cutáneo inesperado**, vesículas agrupadas o erosi
 2. NICE. **Secondary bacterial infection of eczema: antimicrobial prescribing** (NG190). [Guía](https://www.nice.org.uk/guidance/ng190/chapter/Recommendations).
 3. American Academy of Pediatrics. **Treatment of Atopic Dermatitis**. [Guía](https://www.aap.org/en/patient-care/atopic-dermatitis/treatment-of-atopic-dermatitis/).
 4. Guía-ABE. **Infecciones por virus del herpes simple 1 y 2** (incluye eccema herpético). [Consulta](https://www.guia-abe.es/temas-clinicos-infecciones-por-virus-del-herpes-simple-1-y-2).
-5. AEMPS/CIMA: **[Adventan 1 mg/g crema](https://cima.aemps.es/cima/dochtml/ft/60137/FichaTecnica_60137.html)** y **[Lactisona 10 mg/ml emulsión](https://cima.aemps.es/cima/dochtml/ft/59709/FichaTecnica_59709.html)**.
+5. AEMPS/CIMA: fichas técnicas de **[Adventan 0,1%](https://cima.aemps.es/cima/dochtml/ft/60137/FichaTecnica_60137.html)**, **[Emovate 0,05%](https://cima.aemps.es/cima/dochtml/ft/56273/FichaTecnica_56273.html)**, **[Elocom 0,1%](https://cima.aemps.es/cima/dochtml/ft/59706/FT_59706.html)**, **[Diproderm 0,05%](https://cima.aemps.es/cima/dochtml/ft/53193/FT_53193.html)**, **[Clovate 0,05%](https://cima.aemps.es/cima/dochtml/ft/55746/FT_5574)** y **[Lactisona 1%](https://cima.aemps.es/cima/dochtml/ft/59709/FichaTecnica_59709.html)**.
 6. Médecins Sans Frontières. **[Hidrocortisona 1% tópica](https://medicalguidelines.msf.org/es/viewport/EssDr/spanish/hidrocortisona-crema-o-pomada-22287000.html)**.
 7. AEP/SEIP. **Infecciones de piel y partes blandas**. Protocolos de Infectología Pediátrica, 2023, y [protocolo de impétigo/celulitis](impetigo-celulitis.md).
 
