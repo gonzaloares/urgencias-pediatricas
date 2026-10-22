@@ -211,7 +211,7 @@ Ver [Impétigo y celulitis](impetigo-celulitis.md). Si hay sospecha de SARM, cel
   <span><b>No confundir</b> con la pauta de gingivoestomatitis herpética. Individualizar según edad y función renal.</span>
 </div>
 
-**Ingreso si** afectación sistémica, progresión rápida, lesiones extensas, immunodepresión, deshidratación, afectación ocular o seguimiento no fiable. [Fuente: Guía-ABE, infección por VHS](https://www.guia-abe.es/temas-clinicos-infecciones-por-virus-del-herpes-simple-1-y-2).
+**Ingreso si** afectación sistémica, progresión rápida, lesiones extensas, inmunodepresión, deshidratación, afectación ocular o seguimiento no fiable. [Fuente: Guía-ABE, infección por VHS](https://www.guia-abe.es/temas-clinicos-infecciones-por-virus-del-herpes-simple-1-y-2).
 
 <a id="ingreso"></a>
 ## 9. Ingreso y derivación
