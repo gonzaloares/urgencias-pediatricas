@@ -42,6 +42,7 @@ nav:
   - Dermatología:
       - dermatologia/index.md
       - Anafilaxia: alergia/anafilaxia.md
+      - Dermatitis atópica: dermatologia/dermatitis-atopica.md
       - Escabiosis y otras infestaciones frecuentes: dermatologia/escabiosis-infestaciones.md
       - Exantemas pediátricos: dermatologia/exantemas.md
       - Impétigo y celulitis: dermatologia/impetigo-celulitis.md
