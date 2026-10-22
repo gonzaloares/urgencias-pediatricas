@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "reviewed_at": "2026-10-05",
+  "reviewed_at": "2026-10-22",
   "entries": [
     {
       "id": "paracetamol-dolor-fiebre",
@@ -1414,6 +1414,76 @@
       "notes": [
         "Uso fuera de ficha técnica en España para gastroenteritis aguda.",
         "No repetir de rutina en el protocolo de Urgencias."
+      ]
+    },
+    {
+      "id": "aciclovir-eccema-herpetico-vo",
+      "category": "Infecciosos",
+      "drug": "Aciclovir",
+      "indication": "Eccema herpético leve · solo tras valoración hospitalaria",
+      "route": "VO",
+      "dose": {
+        "kind": "weight",
+        "value": 20,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 800,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "20 mg/kg/dosis · 5 veces/día · máximo 800 mg/dosis · 7–14 días",
+      "interval": "Cinco veces al día durante 7–14 días; solo en paciente leve seleccionado con seguimiento estrecho.",
+      "age": {
+        "min_months": 3,
+        "text": "≥3 meses; individualizar por edad y función renal"
+      },
+      "min_weight_kg": null,
+      "off_label": true,
+      "high_risk": false,
+      "protocol": "dermatologia/dermatitis-atopica.md",
+      "source_label": "Guía-ABE · VHS y eccema herpético",
+      "notes": [
+        "No es la pauta de gingivoestomatitis.",
+        "Si enfermedad extensa, mal estado, intolerancia oral o inmunodepresión, elegir vía intravenosa e ingreso.",
+        "Ajustar en insuficiencia renal y comprobar ficha técnica."
+      ]
+    },
+    {
+      "id": "aciclovir-eccema-herpetico-iv",
+      "category": "Infecciosos",
+      "drug": "Aciclovir",
+      "indication": "Eccema herpético grave/extenso · hospitalización",
+      "route": "IV",
+      "dose": {
+        "kind": "weight",
+        "value": 10,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 800,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "10 mg/kg/dosis IV cada 8 h · 7–14 días · ajuste renal",
+      "interval": "Cada 8 h; 7–14 días según evolución y valoración hospitalaria.",
+      "age": {
+        "min_months": 3,
+        "text": "≥3 meses; recién nacidos requieren protocolo específico"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "dermatologia/dermatitis-atopica.md",
+      "source_label": "Guía-ABE · VHS y eccema herpético",
+      "notes": [
+        "Neonatos: NO usar este cálculo, seguir protocolo neonatal para VHS.",
+        "Asegurar hidratación, control renal y protocolo de dilución/administración IV.",
+        "Valorar complicaciones oculares y sistémicas."
       ]
     }
   ]
