@@ -143,6 +143,10 @@
         const key = normalize(match[0]);
         const canonical = byName.get(key);
         if (!canonical || seen.has(normalize(canonical))) continue;
+        // El tratamiento de hidrocortisona en dermatitis atópica es tópico;
+        // no enlazarlo a la dosis IV de crisis suprarrenal.
+        if (source === "dermatologia/dermatitis-atopica.md" &&
+            normalize(canonical) === "hidrocortisona") continue;
         const left = value[match.index - 1] || "";
         const right = value[match.index + match[0].length] || "";
         if (isWord(left) || isWord(right)) continue;
