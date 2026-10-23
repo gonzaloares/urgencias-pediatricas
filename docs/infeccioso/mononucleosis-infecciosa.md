@@ -147,9 +147,9 @@ En cuadros mononucleósicos con VEB negativo, solicitar **CMV IgM/IgG** u otras 
 
 <div class="dose-card">
   <strong>Alternativa si vía oral imposible: metilprednisolona IV</strong>
-  <span><b>0,8–1 mg/kg/día IV, cada 24 h (máximo orientativo 48–60 mg/día).</b></span>
+  <span><b>0,8 mg/kg/día IV, cada 24 h (máximo 48 mg/día).</b></span>
   <span><b>Duración inicial orientativa: 3–5 días</b>; pasar a VO en cuanto se pueda.</span>
-  <span><b>Equivalencia aproximada</b> con prednisona 1–1,25 mg/kg/día. Esta equivalencia y duración son una adaptación práctica hospitalaria; no una pauta específica de VEB validada por ensayos.</span>
+  <span><b>Equivalencia aproximada</b> con prednisona 1 mg/kg/día. Esta equivalencia y duración son una adaptación práctica hospitalaria; no una pauta específica de VEB validada por ensayos.</span>
 </div>
 
 **El tratamiento se administra en un entorno con vigilancia adecuada de la vía aérea.** Si existe obstrucción grave, la intervención crítica es la valoración y posible protección de vía aérea, no esperar respuesta al esteroide. Una amígdala grande sin estridor, apneas, dificultad respiratoria progresiva ni compromiso de ingesta **no constituye una indicación automática**.
