@@ -7,8 +7,8 @@
 - [Fiebre sin foco](fiebre-sin-foco.md)
 - [Gingivoestomatitis y aftas orales](gingivoestomatitis-aftas.md)
 - [Gripe](gripe.md)
-- [Mononucleosis infecciosa](mononucleosis-infecciosa.md)
 - [Meningitis y encefalitis](../neurologia/meningitis-encefalitis.md)
+- [Mononucleosis infecciosa](mononucleosis-infecciosa.md)
 - [Sepsis](sepsis.md)
 - [Tosferina](tosferina.md)
 
