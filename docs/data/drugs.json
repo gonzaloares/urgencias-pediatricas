@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "reviewed_at": "2026-10-22",
+  "reviewed_at": "2026-10-23",
   "entries": [
     {
       "id": "paracetamol-dolor-fiebre",
@@ -1484,6 +1484,110 @@
         "Neonatos: NO usar este cálculo, seguir protocolo neonatal para VHS.",
         "Asegurar hidratación, control renal y protocolo de dilución/administración IV.",
         "Valorar complicaciones oculares y sistémicas."
+      ]
+    },
+    {
+      "id": "prednisona-mononucleosis-obstruccion",
+      "category": "Especiales",
+      "drug": "Prednisona",
+      "indication": "Mononucleosis con obstrucción progresiva de vía aérea",
+      "route": "VO",
+      "dose": {
+        "kind": "weight",
+        "value": 1,
+        "unit": "mg/kg/día",
+        "output_unit": "mg/día"
+      },
+      "max_dose": {
+        "value": 60,
+        "unit": "mg/día"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "1 mg/kg/día · máximo 60 mg/día · 3–5 días",
+      "interval": "Cada 24 h durante 3–5 días; reevaluar 24–48 h.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría; solo complicación grave"
+      },
+      "min_weight_kg": null,
+      "off_label": true,
+      "high_risk": true,
+      "protocol": "infeccioso/mononucleosis-infecciosa.md",
+      "source_label": "Mononucleosis infecciosa · obstrucción vía aérea",
+      "notes": [
+        "No indicado en mononucleosis no complicada ni en hipertrofia amigdalar aislada.",
+        "Obstrucción progresiva: ingreso y valoración precoz de vía aérea.",
+        "Curso 3–5 días generalmente sin retirada progresiva; individualizar si se prolonga."
+      ]
+    },
+    {
+      "id": "prednisolona-mononucleosis-obstruccion",
+      "category": "Especiales",
+      "drug": "Prednisolona",
+      "indication": "Mononucleosis con obstrucción progresiva de vía aérea",
+      "route": "VO",
+      "dose": {
+        "kind": "weight",
+        "value": 1,
+        "unit": "mg/kg/día",
+        "output_unit": "mg/día"
+      },
+      "max_dose": {
+        "value": 60,
+        "unit": "mg/día"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "1 mg/kg/día · máximo 60 mg/día · 3–5 días",
+      "interval": "Cada 24 h durante 3–5 días; reevaluar 24–48 h.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría; solo complicación grave"
+      },
+      "min_weight_kg": null,
+      "off_label": true,
+      "high_risk": true,
+      "protocol": "infeccioso/mononucleosis-infecciosa.md",
+      "source_label": "Mononucleosis infecciosa · obstrucción vía aérea",
+      "notes": [
+        "No indicado en mononucleosis no complicada.",
+        "Pauta de uso restringido y vigilancia de vía aérea; no sustituye protección de la vía aérea si está inestable."
+      ]
+    },
+    {
+      "id": "metilprednisolona-mononucleosis-obstruccion",
+      "category": "Especiales",
+      "drug": "Metilprednisolona",
+      "indication": "Mononucleosis grave con compromiso obstructivo y sin vía oral",
+      "route": "IV",
+      "dose": {
+        "kind": "weight",
+        "value": 0.8,
+        "unit": "mg/kg/día",
+        "output_unit": "mg/día"
+      },
+      "max_dose": {
+        "value": 48,
+        "unit": "mg/día"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,8 mg/kg/día IV · máximo 48 mg/día · 3–5 días",
+      "interval": "Cada 24 h, 3–5 días; reevaluar a 24–48 h y pasar a VO si mejora.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría hospitalaria; valoración especializada"
+      },
+      "min_weight_kg": null,
+      "off_label": true,
+      "high_risk": true,
+      "protocol": "infeccioso/mononucleosis-infecciosa.md",
+      "source_label": "Mononucleosis infecciosa · obstrucción vía aérea",
+      "notes": [
+        "Dosis aproximada equipotente a prednisona 1 mg/kg/día: adaptación farmacológica, NO pauta validada específica de VEB.",
+        "No retrasar la valoración de Anestesia, ORL y UCIP ante compromiso respiratorio.",
+        "Uso hospitalario con monitorización y reevaluación."
       ]
     }
   ]
