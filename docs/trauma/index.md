@@ -5,6 +5,7 @@
 - [Cuerpo extraño ocular](cuerpo-extrano-ocular.md)
 - [Hipotermia y golpe de calor](hipotermia-golpe-calor.md)
 - [Ingesta y aspiración de cuerpo extraño](../procedimientos/ingesta-aspiracion-cuerpo-extrano.md)
+- [Intoxicación etílica aguda](../toxicologia/intoxicacion-etilica-aguda.md)
 - [Intoxicaciones](../toxicologia/intoxicaciones.md)
 - [Lesiones por electricidad](lesiones-electricidad.md)
 - [Lesiones por inmersión](lesiones-inmersion.md)
