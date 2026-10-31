@@ -1589,6 +1589,41 @@
         "No retrasar la valoración de Anestesia, ORL y UCIP ante compromiso respiratorio.",
         "Uso hospitalario con monitorización y reevaluación."
       ]
+    },
+    {
+      "id": "haloperidol-agitacion-etilica",
+      "category": "Especiales",
+      "drug": "Haloperidol",
+      "indication": "Agitación grave en adolescente con intoxicación etílica, tras fracasar desescalada",
+      "route": "IM",
+      "dose": {
+        "kind": "weight",
+        "value": 0.05,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 5,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,05 mg/kg IM (máx. 5 mg/dosis) · exclusivamente en agitación grave y monitorizada",
+      "interval": "Dosis única inicial; reevaluar antes de repetir. Solo bajo supervisión clínica experimentada.",
+      "age": {
+        "min_months": 144,
+        "text": "Adolescentes ≥12 años; individualizar"
+      },
+      "min_weight_kg": null,
+      "off_label": true,
+      "high_risk": true,
+      "protocol": "toxicologia/intoxicacion-etilica-aguda.md",
+      "source_label": "Agitación grave en intoxicación etílica · JACEP Open 2024 y consenso pediátrico BETA",
+      "notes": [
+        "No es un tratamiento rutinario de la intoxicación etílica. Preferir medidas no farmacológicas.",
+        "Vigilar QTc, hipotensión, sedación y síntomas extrapiramidales; considerar ECG según situación.",
+        "Evaluar coingesta y depresión respiratoria. Individualizar indicación y comprobar presentación IM."
+      ]
     }
   ]
 }
