@@ -10,6 +10,12 @@
   <strong>La mayoría de intoxicaciones pediátricas requieren tratamiento de soporte, no descontaminación.</strong> La primera prioridad es ABCDE y reconocer toxíndromes/complicaciones tiempo-dependientes.
 </div>
 
+<div class="clinical-card clinical-card-note" markdown="1">
+
+**Ficha específica:** [Intoxicación etílica aguda](intoxicacion-etilica-aguda.md) — glucemia inmediata, evaluación de TCE y coingesta, tratamiento de soporte y criterios de alta.
+
+</div>
+
 <a id="valoracion"></a>
 ## 1. Valoración inicial
 
