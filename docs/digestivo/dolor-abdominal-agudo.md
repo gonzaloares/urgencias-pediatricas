@@ -7,6 +7,7 @@
   <a href="#exploracion">Exploración</a>
   <a href="#pruebas">Pruebas</a>
   <a href="#apendicitis">Apendicitis</a>
+  <a href="#profilaxis-apendicitis">Profilaxis apendicitis</a>
   <a href="#invaginacion">Invaginación</a>
   <a href="#tratamiento">Tratamiento</a>
   <a href="#destino">Destino</a>
@@ -260,6 +261,35 @@ La presentación puede ser menos característica en **<5 años** y evolucionar m
 - ecografía abdominal;
 - valoración por Cirugía Pediátrica.
 
+<a id="profilaxis-apendicitis"></a>
+### Profilaxis antibiótica de la apendicitis aguda
+
+<div class="clinical-card clinical-card-note" markdown="1">
+
+**Apendicitis no complicada con apendicectomía indicada:**
+
+- **Primera elección: cefoxitina 40 mg/kg/dosis IV (máximo 2 g), dosis única.**
+- **Momento:** administrar durante los **60 minutos previos a la incisión** (preferentemente unos 30 minutos antes), coordinando su administración con Cirugía Pediátrica y Anestesia.
+- **Redosificación intraoperatoria:** si han transcurrido **2 horas desde la dosis de cefoxitina** y la intervención continúa, administrar una nueva dosis; valorar también ante pérdidas sanguíneas importantes, siguiendo el protocolo quirúrgico.
+- **Después de la apendicectomía no complicada:** **no continuar antibióticos de rutina**.
+
+**Si no hay cefoxitina disponible (alternativa, consensuar con Cirugía/PROA):**
+
+- **Cefuroxima 50 mg/kg IV (máximo 1,5 g) + metronidazol 15 mg/kg IV (máximo 500 mg)**, ambos en dosis única preoperatoria.
+
+**Alergia inmediata grave a betalactámicos (alternativa, individualizar):**
+
+- **Clindamicina 10 mg/kg IV (máximo 900 mg) + gentamicina 5 mg/kg IV, dosis única preoperatoria.**
+- Comprobar antecedentes de alergia y función renal, y ajustar según protocolo local.
+
+</div>
+
+<div class="clinical-card clinical-card-warning" markdown="1">
+
+**No confundir profilaxis con tratamiento:** ante sospecha de **apendicitis complicada** (gangrena, perforación, absceso, peritonitis o sepsis), o si la cirugía va a demorarse, valorar con Cirugía Pediátrica el inicio de **antibioterapia terapéutica** con cobertura de bacilos gramnegativos entéricos y anaerobios (p. ej., **ceftriaxona + metronidazol**) según protocolo local. La monodosis profiláctica no sustituye al tratamiento de la infección complicada. Si ya se han administrado antibióticos, comprobar fármaco, cobertura y hora de la última dosis antes de repetirlos.
+
+</div>
+
 <a id="invaginacion"></a>
 ## 7. Sospecha de invaginación intestinal
 
@@ -454,3 +484,7 @@ Explicar que el diagnóstico puede evolucionar y que debe volver a Urgencias si 
 ## 13. Bibliografía
 
 1. Alonso Cadenas JA, de la Torre Espí M. **Diagnóstico y tratamiento del dolor abdominal agudo (abdomen agudo) en Urgencias.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. Sociedad Española de Urgencias de Pediatría. 4.ª ed. Febrero 2024. [Documento](https://seup.org/wp-content/uploads/2024/04/16_Dolor_abdominal_4ed.pdf)
+2. Martín Pedraz L, Obando Pacheco P, Santos Sebastián MM. **Infecciones intraabdominales.** Protocolos SEIP/AEP. 2023;2:245-257. [Documento](https://www.aeped.es/sites/default/files/documentos/15_infecciones_intraabdominales.pdf).
+3. UCSF Benioff Children's Hospitals. **Pediatric Appendicitis Clinical Algorithm.** Actualizado en noviembre de 2024. [Pauta antibiótica](https://idmp.ucsf.edu/content/pediatric-appendicitis-clinical-algorithm-0).
+4. Hospital Universitario Virgen de las Nieves. **Guía de antibioterapia: infección intraabdominal en pacientes pediátricos.** [Documento](https://www.huvn.es/profesionales/de_interes_sanitario/proa_programa_de_optimizacion_de_la_antibioterapia/guia_de_antibioterapia/infeccion_intraabdominal_complicada_en_pacientes_adultos/infeccion_intraabdominal_en_pacientes_pediatricos).
+5. Sociedad Española de Cuidados Intensivos Pediátricos (SECIP). **Profilaxis antibiótica perioperatoria.** Protocolos AEP. 2021. [Documento](https://www.aeped.es/sites/default/files/documentos/36_profilaxis_antibiotica_perioperatoria.pdf).
