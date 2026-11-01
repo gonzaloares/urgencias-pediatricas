@@ -148,6 +148,9 @@ plugins:
   - search:
       lang: es
 
+hooks:
+  - hooks/search_accents.py
+
 markdown_extensions:
   - md_in_html
   - tables
