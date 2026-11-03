@@ -46,6 +46,15 @@ La navegación mantiene el contexto de peso y edad de la sesión, pero **nunca p
 - Los medicamentos de **alto riesgo** aparecen identificados de forma específica.
 - El uso **fuera de ficha técnica** se muestra cuando está documentado en el protocolo.
 
+## Presentación, concentración y dilución: lectura obligatoria
+
+- Cuando se calcula un volumen en **mL**, inmediatamente debajo aparece la sección **«Presentación y preparación para administrar»**. Contiene la **concentración de partida, la dilución exacta cuando corresponde y la solución final** a la que se refiere ese volumen.
+- Las cifras en mL de **gluconato cálcico al 10 %** expresan el volumen del vial antes de su posible dilución; las de **NaCl hipertónico al 3 %** expresan el volumen final de la solución al 3 %. Esta distinción se señala en cada ficha.
+- Si la pauta solo está validada en mg, µg o g y no dispone de una preparación verificada, **no se calcula volumen ni se propone una dilución**. Debe cotejarse la presentación real y el protocolo aplicable.
+- **Ejemplo crítico (20 kg):** adrenalina en RCP 0,2 mg IV/IO = **2 mL de adrenalina 0,1 mg/mL**. Preparar con **1 mL de adrenalina 1 mg/mL + 9 mL de SSF 0,9 %** (10 mL finales) o utilizar una jeringa precargada de 0,1 mg/mL. **No son 2 mL de la ampolla 1 mg/mL.** La adrenalina IM de anafilaxia se administra a 1 mg/mL sin diluir.
+
+La preparación está vinculada a la **indicación y vía específicas**. Una misma molécula puede disponer de distintas concentraciones, como adrenalina de RCP, anafilaxia IM y nebulización. Antes de administrar: comprobar paciente, fármaco, dosis, concentración, vía, compatibilidades y diluyente; aplicar doble comprobación en medicación de alto riesgo.
+
 ## Alcance actual
 
 Esta fase incorpora **42 escenarios farmacológicos** procedentes de los protocolos ya revisados del proyecto: fármacos habituales, RCP, anafilaxia, endocrino, toxicología, cardiovascular, convulsiones, respiratorio, analgesia/sedación, HTIC/trauma y digestivo.
