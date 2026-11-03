@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "reviewed_at": "2026-10-23",
+  "reviewed_at": "2026-11-03",
   "entries": [
     {
       "id": "paracetamol-dolor-fiebre",
@@ -243,7 +243,17 @@
       "notes": [
         "Tras administrar por IV/IO, lavar la vía con SSF.",
         "No confundir con adrenalina IM 1 mg/mL de anafilaxia."
-      ]
+      ],
+      "preparation": {
+        "volume_label": "Volumen IV/IO de solución para RCP",
+        "solution": "Adrenalina 0,1 mg/mL (1:10.000 = 1 mg en 10 mL).",
+        "steps": [
+          "Si dispones de jeringa precargada de 0,1 mg/mL, utilizar directamente: NO volver a diluir.",
+          "Si partes de ampolla de 1 mg/mL (1:1.000): extraer 1 mL de adrenalina (1 mg) y AÑADIR 9 mL de suero fisiológico 0,9 %. Volumen FINAL 10 mL a 0,1 mg/mL.",
+          "Extraer de esta solución el volumen calculado: 0,1 mL/kg (máximo 10 mL = 1 mg). Tras el bolo IV/IO, lavar la vía con SSF."
+        ],
+        "warning": "NO administrar los mL calculados con la ampolla concentrada de 1 mg/mL: provocaría una dosis 10 veces mayor. Verificar etiqueta, concentración y vía antes de administrar."
+      }
     },
     {
       "id": "amiodarona-rcp-tercera",
@@ -406,7 +416,17 @@
       "notes": [
         "Equivale a 0,2 mEq/kg, máximo 10 mEq.",
         "No usar específicamente para la parada pediátrica por hiperpotasemia según ERC 2025."
-      ]
+      ],
+      "preparation": {
+        "volume_label": "Volumen del vial de gluconato 10 % (ANTES de diluir)",
+        "solution": "Gluconato cálcico al 10 % (100 mg/mL de sal; aproximadamente 0,22 mmol de calcio/mL).",
+        "steps": [
+          "El volumen calculado se refiere al concentrado de gluconato cálcico AL 10 %, no al volumen final tras una dilución.",
+          "Para administración periférica, una pauta de dilución descrita es 1 volumen de gluconato al 10 % + 4 volúmenes de SSF 0,9 % o glucosa 5 %: volumen final 5 veces mayor. Aplicar únicamente si el protocolo local/indicación la admite.",
+          "Administrar IV lentamente, con monitorización ECG y vigilancia del acceso. En urgencia por vía central, puede requerirse administración sin diluir según ficha técnica/protocolo."
+        ],
+        "warning": "Alto riesgo de extravasación y arritmias. La pauta de dilución/velocidad depende de indicación y acceso; validar antes de usar. No confundir con cloruro cálcico al 10 %, que no es equivalente mL a mL."
+      }
     },
     {
       "id": "magnesio-rcp",
@@ -478,7 +498,16 @@
       "notes": [
         "Administrar en la cara anterolateral del muslo.",
         "No administrar por vía subcutánea como vía de elección."
-      ]
+      ],
+      "preparation": {
+        "volume_label": "Volumen IM de adrenalina 1 mg/mL",
+        "solution": "Adrenalina 1 mg/mL (1:1.000) para inyección intramuscular.",
+        "steps": [
+          "Usar la presentación de 1 mg/mL SIN DILUIR; cargar directamente el volumen calculado.",
+          "Administrar IM en la cara anterolateral del muslo, según la pauta de anafilaxia."
+        ],
+        "warning": "Diferente de la adrenalina para RCP IV/IO (0,1 mg/mL). No intercambiar vía ni concentración."
+      }
     },
     {
       "id": "dexclorfeniramina-anafilaxia",
@@ -580,7 +609,16 @@
       "source_label": "Hipoglucemia · protocolo actualizado con ERC 2025",
       "notes": [
         "Si persiste, repetir tratamiento e iniciar perfusión según causa."
-      ]
+      ],
+      "preparation": {
+        "volume_label": "Volumen IV/IO de glucosa al 10 %",
+        "solution": "Glucosa al 10 % = 10 g/100 mL = 0,1 g/mL.",
+        "steps": [
+          "Usar solución comercial de glucosa al 10 % lista para administración IV/IO, sin diluir, tras comprobar la etiqueta.",
+          "El volumen calculado corresponde a glucosa al 10 % y NO a soluciones de glucosa al 20 % o 50 %."
+        ],
+        "warning": "Si solo se dispone de otra concentración, preparar conforme a procedimiento validado por Farmacia/centro y recalcular. No sustituir directamente por igual volumen."
+      }
     },
     {
       "id": "glucagon-hipoglucemia",
@@ -1160,7 +1198,16 @@
       "source_label": "Laringitis aguda",
       "notes": [
         "Equivale a 0,5 mg/kg, máximo 5 mg."
-      ]
+      ],
+      "preparation": {
+        "volume_label": "Volumen de ampolla 1 mg/mL para nebulizar",
+        "solution": "Adrenalina 1 mg/mL (1:1.000) por vía NEBULIZADA.",
+        "steps": [
+          "Extraer directamente el volumen calculado de la ampolla a 1 mg/mL, sin diluir previamente la adrenalina.",
+          "Si el nebulizador necesita un volumen mínimo mayor que la dosis, COMPLETAR con SSF 0,9 % hasta el volumen de carga requerido por el dispositivo; la cantidad de adrenalina sigue siendo la calculada."
+        ],
+        "warning": "NO utilizar como volumen de adrenalina IV/IO en RCP ni como dosis IM de anafilaxia: indicaciones y vías distintas."
+      }
     },
     {
       "id": "magnesio-asma",
@@ -1317,7 +1364,16 @@
       "source_label": "Hipertensión intracraneal",
       "notes": [
         "Si se prepara desde NaCl 20%, seguir exactamente la preparación validada del protocolo de TCE."
-      ]
+      ],
+      "preparation": {
+        "volume_label": "Volumen FINAL de suero salino al 3 %",
+        "solution": "Cloruro sódico hipertónico al 3 % (aproximadamente 513 mmol/L de Na+).",
+        "steps": [
+          "Preferir presentación comercial de NaCl al 3 %, sin dilución adicional. Administrar el volumen FINAL calculado.",
+          "Si se precisa preparar desde NaCl al 20 % y existe procedimiento local validado: de 100 mL de SSF 0,9 %, RETIRAR 11 mL y añadir 11 mL de NaCl al 20 %. Resultado: 100 mL finales de NaCl aproximadamente al 3 %."
+        ],
+        "warning": "La sustitución 11 mL por cada 100 mL SOLO sirve partiendo de NaCl al 20 % y SSF 0,9 %; no utilizar con otra concentración. Doble comprobación independiente por alto riesgo."
+      }
     },
     {
       "id": "manitol-htic",
