@@ -158,7 +158,7 @@ Si el diagnóstico diferencial con TSV aberrada es incierto, tratar como TV hast
 | **Adenosina siguientes** | **0,2–0,3 mg/kg** · máx. 12–18 mg/dosis · máx. acumulado orientativo 30 mg |
 | **Amiodarona** | **5 mg/kg IV** en 10–20 min |
 | **Procainamida** | **7–15 mg/kg IV** en 30–60 min |
-| **Adrenalina en bradicardia peri-parada / RCP** | **10 µg/kg IV/IO** = 0,01 mg/kg = **0,1 mL/kg de solución 0,1 mg/mL** (no usar los mL de ampolla 1 mg/mL) |
+| **Adrenalina en bradicardia peri-parada / RCP** | **0,01 mg/kg IV/IO** = **0,1 mL/kg de solución 0,1 mg/mL** (preparar 1 mL de adrenalina 1 mg/mL + 9 mL de SSF; no administrar los mL calculados de la ampolla 1 mg/mL) |
 | **Atropina** | **0,02 mg/kg IV/IO** · mín. **0,1 mg** · máx. **0,5 mg/dosis** · repetir a los 3–5 min si precisa · máx. acumulado **1 mg** |
 
 </div>
