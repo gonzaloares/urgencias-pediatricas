@@ -190,6 +190,34 @@ def main() -> int:
             if kind != "daily_divided":
                 fail(f"{entry['id']}: max_daily solo se admite en daily_divided", errors)
 
+        # Toda cifra en mL debe incluir la presentación y la preparación
+        # que permiten obtener la concentración utilizada por la calculadora.
+        concentration = entry.get("concentration")
+        volume_concentration = (
+            bool(concentration)
+            and kind in {"weight", "weight_range"}
+            and concentration.get("unit") == f"{dose.get('output_unit')}/mL"
+        )
+        displays_ml = kind == "volume_per_kg" or volume_concentration
+        preparation = entry.get("preparation")
+        if displays_ml:
+            if not isinstance(preparation, dict):
+                fail(f"{entry['id']}: muestra mL pero no incluye preparación/dilución", errors)
+            else:
+                for field in ("volume_label", "solution", "warning"):
+                    if not isinstance(preparation.get(field), str) or not preparation[field].strip():
+                        fail(f"{entry['id']}: preparación incompleta ({field})", errors)
+                steps = preparation.get("steps")
+                if not isinstance(steps, list) or not steps or not all(
+                    isinstance(step, str) and step.strip() for step in steps
+                ):
+                    fail(f"{entry['id']}: preparación sin pasos válidos", errors)
+        if concentration:
+            if not isinstance(concentration.get("value"), (int, float)) or concentration["value"] <= 0:
+                fail(f"{entry['id']}: concentración numérica inválida", errors)
+            if not isinstance(concentration.get("label"), str) or not concentration["label"].strip():
+                fail(f"{entry['id']}: concentración sin etiqueta", errors)
+
         age = entry.get("age")
         if age and age.get("min_months", 0) < 0:
             fail(f"{entry['id']}: edad mínima inválida", errors)
@@ -236,6 +264,26 @@ def main() -> int:
                 errors,
             )
 
+    # Regresiones de volumen: evitar errores de factor 10 por concentración.
+    rcp = by_id["adrenalina-rcp"]
+    if not math.isclose(calculate(rcp, 20) / rcp["concentration"]["value"], 2.0, abs_tol=1e-9):
+        fail("adrenalina RCP 20 kg: deben ser 2 mL de 0,1 mg/mL", errors)
+    prep_rcp = " ".join(rcp["preparation"]["steps"])
+    if not all(text in prep_rcp for text in ("1 mL", "1 mg/mL", "9 mL", "10 mL", "0,1 mg/mL")):
+        fail("adrenalina RCP: falta la dilución exacta 1 mL + 9 mL", errors)
+    ana = by_id["adrenalina-anafilaxia"]
+    if not math.isclose(calculate(ana, 20) / ana["concentration"]["value"], 0.2, abs_tol=1e-9):
+        fail("adrenalina IM 20 kg: deben ser 0,2 mL de 1 mg/mL", errors)
+    volume_cases = [
+        ("glucosa10-hipoglucemia", 20, 40),
+        ("gluconato-calcio-rcp", 20, 8),
+        ("adrenalina-laringitis-nebulizada", 20, 5),
+        ("nacl3-htic", 20, 100),
+    ]
+    for drug_id, weight, volume in volume_cases:
+        if not math.isclose(calculate(by_id[drug_id], weight), volume, abs_tol=1e-9):
+            fail(f"{drug_id}: volumen calculado erróneo", errors)
+
     if "amoxicilina-nac" in by_id:
         amox = calculate(by_id["amoxicilina-nac"], 20)
         if not math.isclose(amox["daily"], 1600, abs_tol=1e-9):
@@ -257,7 +305,7 @@ def main() -> int:
             print(f"- {error}")
         return 1
 
-    total_tests = len(scalar_tests) + len(range_tests) + 4
+    total_tests = len(scalar_tests) + len(range_tests) + 10
     print(
         f"OK: {len(by_id)} escenarios farmacológicos y "
         f"{total_tests} comprobaciones de cálculo."
