@@ -104,7 +104,7 @@
       const volume = volumeFor(limited.value, entry);
       if (volume !== null) {
         result.volumes.push({
-          label: "Volumen",
+          label: entry.preparation?.volume_label || "Volumen",
           value: `${fmt(volume)} mL`,
           note: entry.concentration.label,
         });
@@ -142,7 +142,7 @@
         const highVolume = volumeFor(high.value, entry);
         if (lowVolume !== null && highVolume !== null) {
           result.volumes.push({
-            label: "Volumen",
+            label: entry.preparation?.volume_label || "Volumen",
             value:
               lowVolume === highVolume
                 ? `${fmt(lowVolume)} mL`
@@ -237,7 +237,7 @@
     return `
       <div class="dose-calculator-formula">${result.formula}</div>
       <div class="dose-calculator-final">
-        <span>Dosis calculada</span>
+        <span>${entry.dose.kind === "volume_per_kg" ? "Volumen calculado" : "Dosis calculada"}</span>
         <strong>${result.finalLabel}</strong>
       </div>
       ${details}
@@ -246,6 +246,36 @@
     `;
   }
 
+  function escapeHtml(value) {
+    return String(value ?? "").replace(/[&<>"']/g, (character) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;",
+      '"': "&quot;", "'": "&#39;",
+    })[character]);
+  }
+
+  function renderPreparation(entry) {
+    const preparation = entry.preparation;
+    if (preparation) {
+      const steps = (preparation.steps || [])
+        .map((step) => `<li>${escapeHtml(step)}</li>`).join("");
+      const warning = preparation.warning
+        ? `<div class="dose-calculator-danger">${escapeHtml(preparation.warning)}</div>`
+        : "";
+      return `
+        <section class="dose-calculator-preparation" aria-label="Presentación y dilución">
+          <strong class="dose-calculator-preparation-title">Presentación y preparación para administrar</strong>
+          <p><strong>Solución:</strong> ${escapeHtml(preparation.solution)}</p>
+          ${steps ? `<ol>${steps}</ol>` : ""}
+          ${warning}
+        </section>
+      `;
+    }
+
+    return `<div class="dose-calculator-no-volume">
+      <strong>Volumen / dilución no calculados.</strong>
+      <span>Esta pauta expresa una cantidad de fármaco, NO una instrucción para extraer mL. Verifica la presentación real, la concentración, la dilución y la velocidad/vía de administración con el protocolo y Farmacia antes de preparar.</span>
+    </div>`;
+  }
   function renderCard(entry, weight, patientAgeMonths) {
     const age = ageState(entry, patientAgeMonths);
     const weightTooLow =
@@ -310,6 +340,7 @@
         ${warnings}
         <div class="dose-calculator-output">
           ${blocked ? '<div class="dose-calculator-empty">Cálculo bloqueado por límite de seguridad.</div>' : renderResult(result, entry)}
+          ${renderPreparation(entry)}
         </div>
         <div class="dose-calculator-meta">
           <p><strong>Administración:</strong> ${entry.interval}</p>
