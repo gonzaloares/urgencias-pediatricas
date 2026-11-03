@@ -158,10 +158,12 @@ Si el diagnóstico diferencial con TSV aberrada es incierto, tratar como TV hast
 | **Adenosina siguientes** | **0,2–0,3 mg/kg** · máx. 12–18 mg/dosis · máx. acumulado orientativo 30 mg |
 | **Amiodarona** | **5 mg/kg IV** en 10–20 min |
 | **Procainamida** | **7–15 mg/kg IV** en 30–60 min |
-| **Adrenalina en bradicardia peri-parada / RCP** | **10 µg/kg IV/IO** = 0,01 mg/kg de solución **0,1 mg/mL** |
+| **Adrenalina en bradicardia peri-parada / RCP** | **10 µg/kg IV/IO** = 0,01 mg/kg = **0,1 mL/kg de solución 0,1 mg/mL** (no usar los mL de ampolla 1 mg/mL) |
 | **Atropina** | **0,02 mg/kg IV/IO** · mín. **0,1 mg** · máx. **0,5 mg/dosis** · repetir a los 3–5 min si precisa · máx. acumulado **1 mg** |
 
 </div>
+
+**Preparación de adrenalina IV/IO para peri-parada/RCP:** si se dispone de jeringa precargada a **0,1 mg/mL**, usarla sin diluir; si solo hay ampolla **1 mg/mL**, añadir **9 mL de SSF 0,9 % a 1 mL de adrenalina**, para obtener **10 mL finales a 0,1 mg/mL**. [Ver preparación y advertencias del protocolo de RCP](../procedimientos/reanimacion-cardiopulmonar.md#dosis).
 
 <div class="clinical-card clinical-card-note">
   <strong>Bradicardia con pulso persistente:</strong> si persiste pese a tratar la causa y atropina cuando esté indicada, puede requerir perfusión de adrenalina <strong>0,1–2 µg/kg/min</strong> y soporte experto. El bolo de 10 µg/kg corresponde al contexto de peri-parada/RCP.
