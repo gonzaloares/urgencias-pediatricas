@@ -17,15 +17,38 @@
 </div>
 
 <a id="definicion"></a>
-## 1. Umbrales prácticos
+## 1. Definición y umbrales prácticos
 
-En niños con diabetes:
+La **hipoglucemia clínica** es una glucemia suficientemente baja como para producir síntomas de respuesta neurogénica o alteración de la función cerebral (**neuroglucopenia**). **No existe un valor único aplicable a todas las edades**: deben distinguirse el umbral de sospecha, el de tratamiento y el de estudio etiológico.
 
-- **<70 mg/dL (3,9 mmol/L):** hipoglucemia que requiere actuación;
-- **<54 mg/dL (3,0 mmol/L):** hipoglucemia clínicamente significativa.
+### Niño sin diabetes (fuera de la transición neonatal)
 
-En un niño sin diabetes, confirmar una glucemia baja si la situación lo permite y valorar contexto clínico, pero **tratar inmediatamente si está sintomático**.
+<div class="clinical-card clinical-card-note">
+  <strong>Referencia práctica: menos de 60 mg/dL (3,3 mmol/L) obliga a confirmar y valorar el episodio, especialmente en lactantes y niños que no pueden comunicar síntomas. No equivale al umbral de 70 mg/dL empleado en diabetes.</strong>
+</div>
 
+- **60–69 mg/dL (3,3–3,8 mmol/L):** cifra limítrofe, **no diagnóstica por sí sola**. Repetir y valorar síntomas, ingesta, ayuno, enfermedad intercurrente y factores de riesgo.
+- **Menos de 60 mg/dL (3,3 mmol/L):** sospecha de hipoglucemia. Confirmar cuanto antes con **glucosa plasmática o en gasometría** y comprobar cetonemia (β-hidroxibutirato) si está disponible. En lactantes y niños que no pueden explicar sus síntomas, una glucemia **plasmática** inferior a 60 mg/dL justifica evaluación.
+- **Menos de 54 mg/dL (3,0 mmol/L):** **tratar de inmediato si hay síntomas** o si el niño no puede comunicar de manera fiable su estado; en un niño mayor asintomático, confirmar urgentemente y administrar carbohidratos si el descenso se mantiene, sin prolongar la espera.
+- **Menos de 47 mg/dL (2,6 mmol/L):** **tratar aunque no existan síntomas**, tras obtener muestra de confirmación si es posible sin retrasar la corrección.
+- **50 mg/dL o menos (2,8 mmol/L):** valor especialmente útil para obtener **muestra crítica etiológica** durante el episodio, si está indicada y no retrasa el tratamiento.
+
+En niños mayores que pueden describir sus síntomas, la **tríada de Whipple** orienta la confirmación diagnóstica: síntomas compatibles, glucemia plasmática baja y resolución de los síntomas tras corregirla. Si hay convulsiones, pérdida de conciencia u otros signos graves, **no esperar a completar la tríada ni a la confirmación del laboratorio para tratar**.
+
+### Recién nacidos: no aplicar sin más los umbrales del niño mayor
+
+- **Primeras 48 horas:** periodo de transición metabólica; una glucemia **inferior a 47 mg/dL (2,6 mmol/L)** se considera hipoglucemia neonatal en la guía RCH. Aplicar el protocolo neonatal específico según horas de vida, síntomas y factores de riesgo.
+- **A partir de las 48 horas:** en recién nacidos de riesgo sin trastorno persistente conocido, el objetivo de glucemia plasmática es **superior a 60 mg/dL**; investigar la persistencia de cifras bajas, especialmente tras 48–72 horas.
+- **Trastorno hipoglucémico persistente conocido o sospechado:** objetivo habitual de glucemia plasmática **superior a 70 mg/dL (3,9 mmol/L)**, con valoración por Neonatología/Endocrinología.
+
+### Niño con diabetes (criterios diferentes)
+
+- **Menos de 70 mg/dL (3,9 mmol/L):** nivel de alerta que requiere actuación.
+- **Menos de 54 mg/dL (3,0 mmol/L):** hipoglucemia clínicamente significativa.
+
+<div class="clinical-card clinical-card-warning">
+  <strong>El glucómetro capilar es un instrumento de cribado, menos exacto en glucemias bajas.</strong> Confirmar una lectura baja con glucosa plasmática o analizador de gasometría si es posible; una hipoglucemia sintomática o grave se trata de inmediato, sin esperar el resultado.
+</div>
 ### Síntomas
 
 - temblor;
@@ -124,7 +147,7 @@ Glucagón nasal, si disponible:
 <a id="critica"></a>
 ## 5. Muestra crítica
 
-En hipoglucemia **inexplicada, recurrente o grave**, intentar obtener una muestra durante la hipoglucemia antes de administrar glucosa **solo si no retrasa el tratamiento**.
+En un niño **sin diabetes** con hipoglucemia **inexplicada, recurrente, grave o sospechosa de enfermedad endocrina/metabólica**, intentar obtener una muestra durante la hipoglucemia, idealmente con glucemia plasmática **≤50 mg/dL (2,8 mmol/L)**, antes de administrar glucosa **solo si no retrasa el tratamiento**. Una glucemia plasmática <60 mg/dL en un lactante o niño que no puede comunicar síntomas exige valoración, pero no siempre un panel metabólico completo: individualizar según clínica, cetonemia y antecedentes.
 
 Considerar:
 
@@ -213,3 +236,6 @@ Solo si:
 
 2. Djakow J, et al. **European Resuscitation Council Guidelines 2025: Paediatric Life Support.** Hipoglucemia: 0,2 g/kg IV y reevaluación a 5–10 min. [ERC](https://www.erc.edu/media/03xnpjmj/gl2025-09-pls-e.pdf)
 3. AEMPS. **Baqsimi 3 mg polvo nasal, ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/1191406001/)
+4. Royal Children’s Hospital Melbourne. **Clinical Practice Guideline: Hypoglycaemia.** Actualizada en agosto de 2025. [Guía](https://www.rch.org.au/clinicalguide/guideline_index/hypoglycaemia_guideline/)
+5. Thornton PS, Stanley CA, De Leon DD, et al. **Recommendations from the Pediatric Endocrine Society for Evaluation and Management of Persistent Hypoglycemia in Neonates, Infants, and Children.** J Pediatr. 2015;167:238–245. [Guía](https://pedsendo.org/clinical-resource/evaluation-and-management-of-persistent-hypoglycemia-in-neonates-infants-and-children-j-peds-2015/)
+6. Thornton PS, Hawkes CP. **Investigation of Pediatric Hypoglycemia in the Emergency Department: A Practical Algorithm.** J Clin Endocrinol Metab. 2024;109:e1513–e1521. [Artículo](https://doi.org/10.1210/clinem/dgae072)
