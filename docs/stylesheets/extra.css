@@ -772,6 +772,54 @@
   color: #b91c1c;
 }
 
+
+/* Preparación visible junto al volumen: reduce errores de concentración. */
+.dose-calculator-preparation {
+  display: grid;
+  gap: 0.42rem;
+  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 28%, transparent);
+  border-left: 0.24rem solid var(--md-primary-fg-color);
+  border-radius: 0.55rem;
+  padding: 0.85rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 4%, var(--md-default-bg-color));
+  font-size: 0.8rem;
+  overflow-wrap: anywhere;
+}
+
+.dose-calculator-preparation-title {
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+.dose-calculator-preparation p,
+.dose-calculator-preparation ol {
+  margin: 0;
+}
+
+.dose-calculator-preparation ol {
+  padding-left: 1.15rem;
+}
+
+.dose-calculator-preparation li {
+  padding-left: 0.1rem;
+  margin: 0.35rem 0;
+  line-height: 1.5;
+}
+
+.dose-calculator-preparation .dose-calculator-danger {
+  line-height: 1.45;
+}
+
+.dose-calculator-no-volume {
+  display: grid;
+  gap: 0.28rem;
+  border-radius: 0.45rem;
+  background: rgba(217, 119, 6, 0.085);
+  padding: 0.7rem 0.8rem;
+  font-size: 0.75rem;
+  line-height: 1.45;
+}
+
 .dose-calculator-meta {
   padding: 0 0.95rem 0.85rem;
   color: var(--md-default-fg-color--light);
