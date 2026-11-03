@@ -231,6 +231,8 @@ Indicada en:
   <strong>Adrenalina L 1:1.000 nebulizada</strong>
   <span><b>0,5 mg/kg = 0,5 ml/kg</b></span>
   <span>Máximo: <b>5 mg = 5 ml</b></span>
+  <span><b>Preparación:</b> extraer el volumen calculado de adrenalina <b>1 mg/mL (1:1.000), sin diluir inicialmente</b>. Si el nebulizador requiere un volumen de carga mayor, completar con SSF 0,9 % hasta el mínimo indicado por el dispositivo.</span>
+  <span><b>Atención:</b> los mL calculados corresponden a adrenalina 1 mg/mL, no a la solución IV/IO 0,1 mg/mL para RCP.</span>
   <span>Puede repetirse hasta <b>3 dosis</b> con intervalos mínimos de <b>30 minutos</b></span>
 </div>
 
