@@ -229,7 +229,7 @@
         "unit": "mg/mL",
         "label": "0,1 mg/mL"
       },
-      "reference_text": "0,01 mg/kg = 10 µg/kg · máx. 1 mg",
+      "reference_text": "0,01 mg/kg IV/IO = 0,1 mL/kg de adrenalina 0,1 mg/mL · máx. 1 mg",
       "interval": "Repetir cada 4 min durante la RCP cuando corresponda.",
       "age": {
         "min_months": 0,
