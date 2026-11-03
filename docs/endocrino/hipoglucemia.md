@@ -28,7 +28,7 @@ La **hipoglucemia clínica** es una glucemia suficientemente baja como para prod
 </div>
 
 - **60–69 mg/dL (3,3–3,8 mmol/L):** cifra limítrofe, **no diagnóstica por sí sola**. Repetir y valorar síntomas, ingesta, ayuno, enfermedad intercurrente y factores de riesgo.
-- **Menos de 60 mg/dL (3,3 mmol/L):** sospecha de hipoglucemia. Confirmar cuanto antes con **glucosa plasmática o en gasometría** y comprobar cetonemia (β-hidroxibutirato) si está disponible. En lactantes y niños que no pueden explicar sus síntomas, una glucemia **plasmática** inferior a 60 mg/dL justifica evaluación.
+- **Menos de 60 mg/dL (3,3 mmol/L):** sospecha de hipoglucemia. Confirmar cuanto antes con **glucosa plasmática o en gasometría** y comprobar cetonemia (β-hidroxibutirato) si está disponible. **Si hay síntomas compatibles, corregir la glucemia sin esperar la confirmación.** En lactantes y niños que no pueden explicar sus síntomas, una glucemia **plasmática** inferior a 60 mg/dL justifica evaluación.
 - **Menos de 54 mg/dL (3,0 mmol/L):** **tratar de inmediato si hay síntomas** o si el niño no puede comunicar de manera fiable su estado; en un niño mayor asintomático, confirmar urgentemente y administrar carbohidratos si el descenso se mantiene, sin prolongar la espera.
 - **Menos de 47 mg/dL (2,6 mmol/L):** **tratar aunque no existan síntomas**, tras obtener muestra de confirmación si es posible sin retrasar la corrección.
 - **50 mg/dL o menos (2,8 mmol/L):** valor especialmente útil para obtener **muestra crítica etiológica** durante el episodio, si está indicada y no retrasa el tratamiento.
