@@ -141,7 +141,7 @@ En AESP con sospecha de hipovolemia:
 
 | Fármaco / tratamiento | Dosis | Máximo / momento | Notas |
 |---|---|---|---|
-| **Adrenalina IV/IO** | **0,01 mg/kg = 10 µg/kg** | Máx. **1 mg** · repetir cada **4 min** | Concentración **0,1 mg/mL**: **0,1 mL/kg**. No desfibrilable: lo antes posible. FV/TVsp: tras 3.ª descarga. Lavar la vía con SSF tras el bolo. |
+| **Adrenalina IV/IO** | **0,01 mg/kg = 10 µg/kg** | Máx. **1 mg** · repetir cada **4 min** | Volumen **0,1 mL/kg solo de adrenalina 0,1 mg/mL** (1 mg/10 mL). Si la ampolla es 1 mg/mL, diluir **1 mL + 9 mL de SSF 0,9 %**. No desfibrilable: lo antes posible. FV/TVsp: tras 3.ª descarga. Lavar la vía con SSF tras el bolo. |
 | **Amiodarona IV/IO** | **5 mg/kg** | Tras 3.ª descarga: máx. **300 mg** · tras 5.ª: máx. **150 mg** | FV/TVsp refractaria. |
 | **Lidocaína IV/IO** | **1 mg/kg** | Máx. **100 mg** | Alternativa a amiodarona. |
 | **Bicarbonato sódico IV/IO** | **1 mEq/kg** | Máx. **50 mEq** | No rutinario. Considerar especialmente en intoxicación por bloqueadores de canales de sodio. **No usar para la parada pediátrica por hiperpotasemia según ERC 2025.** |
@@ -157,9 +157,11 @@ En AESP con sospecha de hipovolemia:
 <div class="dose-card">
   <strong>Adrenalina para RCP IV/IO</strong>
   <span>Concentración final: <b>0,1 mg/mL</b> (equivalente tradicional 1:10.000)</span>
-  <span>Preparación: <b>1 mL de adrenalina 1 mg/mL + 9 mL de SSF</b></span>
+  <span>Si ya se dispone de jeringa precargada a <b>0,1 mg/mL</b>, utilizarla <b>sin diluir</b>.</span>
+  <span>Si se parte de ampolla a 1 mg/mL: <b>1 mL de adrenalina + 9 mL de SSF 0,9 %</b> (10 mL finales a 0,1 mg/mL).</span>
   <span>Dosis: <b>0,1 mL/kg = 0,01 mg/kg = 10 µg/kg</b></span>
   <span>Máximo: <b>1 mg</b></span>
+  <span><b>Nunca administrar el volumen calculado usando directamente la ampolla 1 mg/mL: riesgo de dosis 10 veces mayor.</b></span>
   <span>Tras administrar por IV/IO: <b>lavar la vía con SSF</b>.</span>
 </div>
 
