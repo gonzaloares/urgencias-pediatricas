@@ -80,7 +80,7 @@ Incluye **asistolia** y **actividad eléctrica sin pulso (AESP)**.
 1. Continuar RCP de alta calidad.
 2. O₂ al 100% y ventilación efectiva.
 3. Obtener acceso IV/IO.
-4. Administrar **adrenalina 10 µg/kg IV/IO lo antes posible**.
+4. Administrar **adrenalina 0,01 mg/kg IV/IO (máx. 1 mg) lo antes posible**, utilizando **0,1 mL/kg de solución a 0,1 mg/mL** (preparación en el apartado 5).
 5. Repetir adrenalina cada **4 min** (cada 2 ciclos de RCP).
 6. Mantener RCP durante **2 min**.
 7. Reevaluar ritmo durante ≤10 s.
@@ -110,7 +110,7 @@ En AESP con sospecha de hipovolemia:
 5. Reanudar inmediatamente RCP durante **2 min**.
 6. Si persiste → **3.ª descarga: 4 J/kg**.
 7. Tras reiniciar la RCP después de la 3.ª descarga:
-   - **adrenalina 10 µg/kg IV/IO**;
+   - **adrenalina 0,01 mg/kg IV/IO (máx. 1 mg)**, equivalente a **0,1 mL/kg de solución a 0,1 mg/mL**;
    - **amiodarona 5 mg/kg IV/IO**.
 8. Repetir adrenalina cada **4 min** (cada 2 ciclos de RCP).
 9. Continuar ciclos de RCP de 2 min + reevaluación + descarga si persiste FV/TVsp.
@@ -141,7 +141,7 @@ En AESP con sospecha de hipovolemia:
 
 | Fármaco / tratamiento | Dosis | Máximo / momento | Notas |
 |---|---|---|---|
-| **Adrenalina IV/IO** | **0,01 mg/kg = 10 µg/kg** | Máx. **1 mg** · repetir cada **4 min** | Volumen **0,1 mL/kg solo de adrenalina 0,1 mg/mL** (1 mg/10 mL). Si la ampolla es 1 mg/mL, diluir **1 mL + 9 mL de SSF 0,9 %**. No desfibrilable: lo antes posible. FV/TVsp: tras 3.ª descarga. Lavar la vía con SSF tras el bolo. |
+| **Adrenalina IV/IO** | **0,01 mg/kg** | Máx. **1 mg** · repetir cada **4 min** | Volumen **0,1 mL/kg solo de adrenalina 0,1 mg/mL** (1 mg/10 mL). Si la ampolla es 1 mg/mL, diluir **1 mL + 9 mL de SSF 0,9 %**. No desfibrilable: lo antes posible. FV/TVsp: tras 3.ª descarga. Lavar la vía con SSF tras el bolo. |
 | **Amiodarona IV/IO** | **5 mg/kg** | Tras 3.ª descarga: máx. **300 mg** · tras 5.ª: máx. **150 mg** | FV/TVsp refractaria. |
 | **Lidocaína IV/IO** | **1 mg/kg** | Máx. **100 mg** | Alternativa a amiodarona. |
 | **Bicarbonato sódico IV/IO** | **1 mEq/kg** | Máx. **50 mEq** | No rutinario. Considerar especialmente en intoxicación por bloqueadores de canales de sodio. **No usar para la parada pediátrica por hiperpotasemia según ERC 2025.** |
@@ -159,7 +159,7 @@ En AESP con sospecha de hipovolemia:
   <span>Concentración final: <b>0,1 mg/mL</b> (equivalente tradicional 1:10.000)</span>
   <span>Si ya se dispone de jeringa precargada a <b>0,1 mg/mL</b>, utilizarla <b>sin diluir</b>.</span>
   <span>Si se parte de ampolla a 1 mg/mL: <b>1 mL de adrenalina + 9 mL de SSF 0,9 %</b> (10 mL finales a 0,1 mg/mL).</span>
-  <span>Dosis: <b>0,1 mL/kg = 0,01 mg/kg = 10 µg/kg</b></span>
+  <span>Dosis: <b>0,01 mg/kg IV/IO = 0,1 mL/kg de la solución a 0,1 mg/mL</b></span>
   <span>Máximo: <b>1 mg</b></span>
   <span><b>Nunca administrar el volumen calculado usando directamente la ampolla 1 mg/mL: riesgo de dosis 10 veces mayor.</b></span>
   <span>Tras administrar por IV/IO: <b>lavar la vía con SSF</b>.</span>
@@ -365,9 +365,11 @@ Todo paciente con RCE tras una parada cardiaca requiere estabilización completa
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>Monitor / desfibrilador + IV/IO</strong></div>
   <div class="algorithm-arrow">↓</div>
+  <div class="algorithm-step"><strong>Preparación de adrenalina IV/IO para RCP (cuando corresponda)</strong><br>Dosis: <strong>0,01 mg/kg</strong> (máx. 1 mg). Diluir <strong>1 mL de adrenalina 1 mg/mL + 9 mL de SSF 0,9 %</strong> → 10 mL finales a <strong>0,1 mg/mL</strong>. Administrar <strong>0,1 mL/kg de esta solución</strong> (máx. 10 mL). Si la jeringa ya es de 0,1 mg/mL, utilizar sin diluir.</div>
+  <div class="algorithm-arrow">↓</div>
   <div class="algorithm-split">
-    <span><strong>ASISTOLIA / AESP</strong><br>Adrenalina 10 µg/kg ASAP → RCP 2 min → adrenalina cada 4 min</span>
-    <span><strong>FV / TV SIN PULSO</strong><br>4 J/kg → RCP 2 min → 4 J/kg → RCP 2 min → 3.ª descarga + adrenalina + amiodarona</span>
+    <span><strong>ASISTOLIA / AESP</strong><br>Adrenalina <b>0,01 mg/kg IV/IO</b> lo antes posible → RCP 2 min → repetir cada 4 min</span>
+    <span><strong>FV / TV SIN PULSO</strong><br>4 J/kg → RCP 2 min → 4 J/kg → RCP 2 min → 3.ª descarga + adrenalina 0,01 mg/kg IV/IO + amiodarona</span>
   </div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>Reevaluar cada 2 min</strong><br>Ritmo + signos de vida · minimizar pausas · tratar 4H/4T</div>
@@ -390,7 +392,7 @@ Todo paciente con RCE tras una parada cardiaca requiere estabilización completa
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step"><strong>2.ª descarga: 4 J/kg</strong> → RCP 2 min</div>
   <div class="algorithm-arrow">↓</div>
-  <div class="algorithm-step"><strong>3.ª descarga: 4 J/kg</strong><br>RCP inmediata + adrenalina 10 µg/kg + amiodarona 5 mg/kg</div>
+  <div class="algorithm-step"><strong>3.ª descarga: 4 J/kg</strong><br>RCP inmediata + adrenalina 0,01 mg/kg IV/IO + amiodarona 5 mg/kg</div>
   <div class="algorithm-arrow">↓</div>
   <div class="algorithm-step">RCP 2 min · reevaluar · adrenalina cada 4 min</div>
   <div class="algorithm-arrow">↓</div>
