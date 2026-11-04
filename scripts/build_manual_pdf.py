@@ -52,6 +52,45 @@ pre, code { font-family: 'DejaVu Sans Mono', monospace; overflow-wrap: anywhere;
 pre { white-space: pre-wrap; font-size: 7.5pt; background: #f1f5f5; padding: 7pt; }
 .chapter { break-before: page; }
 .chapter .section-name { color: #6b8380; font-weight: bold; font-size: 9pt; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 8pt; }
+/* The PDF outline mirrors the area -> protocol -> subsection hierarchy. */
+.chapter .area-bookmark { bookmark-level: 1; bookmark-label: content(text); }
+.chapter .md-content__inner h1 { bookmark-level: 2; }
+.chapter .md-content__inner h2 { bookmark-level: 3; }
+.chapter .md-content__inner h3,
+.chapter .md-content__inner h4,
+.chapter .md-content__inner h5 { bookmark-level: none; }
+.cover h1, .contents h1, .contents h2 { bookmark-level: none; }
+/* Compact, clickable local contents, only in the PDF. */
+.protocol-mini-toc {
+  background: #f4f8f8;
+  border: 0.7pt solid #cddfdd;
+  border-radius: 4pt;
+  padding: 8pt 10pt;
+  margin: 8pt 0 13pt;
+  break-inside: avoid;
+}
+.protocol-mini-toc .mini-toc-title {
+  margin: 0;
+  font-size: 8.5pt;
+  font-weight: bold;
+  color: #125f5d;
+}
+.protocol-mini-toc ul {
+  columns: 2;
+  column-gap: 15pt;
+  margin: 5pt 0 0;
+  padding-left: 14pt;
+}
+.protocol-mini-toc li {
+  font-size: 8pt;
+  line-height: 1.37;
+  margin: 2pt 0 3pt;
+  break-inside: avoid;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+.protocol-mini-toc a { color: #1b6471; }
+
 .chapter .md-content__inner > h1:first-child { margin-top: 0; }
 .cover { break-after: page; padding-top: 60mm; }
 .cover-kicker { color: #268e8a; font-size: 12pt; letter-spacing: .15em; }
@@ -154,6 +193,50 @@ def reflow_numeric_score_tables(article, soup):
         table.replace_with(new_table)
 
 
+def add_protocol_mini_index(article, soup, chapter_id: str) -> int:
+    """Build a clickable local contents list from actual level-2 headings.
+
+    Do not rely on the short labels of the website's navigation bar: the
+    headings are the single source of truth, including sections without
+    website shortcuts. The heading IDs have already been chapter-prefixed.
+    """
+    title = article.find('h1')
+    if title is None:
+        return 0
+
+    entries = []
+    for heading in article.find_all('h2'):
+        label = heading.get_text(' ', strip=True)
+        if not label:
+            continue
+        target_id = heading.get('id')
+        if not target_id:
+            target_id = f'{chapter_id}--section-{len(entries) + 1}'
+            heading['id'] = target_id
+        entries.append((label, target_id))
+    if not entries:
+        return 0
+
+    mini = soup.new_tag('nav', attrs={
+        'class': 'protocol-mini-toc',
+        'aria-label': 'Contenido de este protocolo',
+    })
+    heading = soup.new_tag('p', attrs={'class': 'mini-toc-title'})
+    heading.string = 'Contenido del protocolo'
+    mini.append(heading)
+
+    items = soup.new_tag('ul')
+    for label, target_id in entries:
+        item = soup.new_tag('li')
+        link = soup.new_tag('a', href=f'#{target_id}')
+        link.string = label
+        item.append(link)
+        items.append(item)
+    mini.append(items)
+    title.insert_after(mini)
+    return len(entries)
+
+
 def printable_content(source: Path, chapter_id: str, chapter_urls: dict[str, str], current_url: str):
     soup = BeautifulSoup(source.read_text(encoding='utf-8'), 'html.parser')
     article = soup.select_one('.md-content__inner')
@@ -195,6 +278,8 @@ def printable_content(source: Path, chapter_id: str, chapter_urls: dict[str, str
         src = img['src']
         if not src.startswith(('https://', 'http://', 'data:', 'file:')):
             img['src'] = (source.parent / src).resolve().as_uri()
+
+    add_protocol_mini_index(article, soup, chapter_id)
     return str(article)
 
 def build(site: Path, config: Path, output: Path, public_url: str):
@@ -216,12 +301,14 @@ def build(site: Path, config: Path, output: Path, public_url: str):
             raise FileNotFoundError(f'Chapter missing from generated site: {source}')
         chapter_id = f'chapter-{i}'
         page_url = urljoin(public_url, path[:-3] + '/')
-        if section != current_section:
+        first_in_section = section != current_section
+        if first_in_section:
             sections.append([section, []])
             current_section = section
         sections[-1][1].append((label, chapter_id))
         content = printable_content(source, chapter_id, chapter_urls, page_url)
-        rendered.append(f'<section class="chapter" id="{chapter_id}"><div class="section-name">{escape(section)}</div>{content}</section>')
+        area_class = 'section-name area-bookmark' if first_in_section else 'section-name'
+        rendered.append(f'<section class="chapter" id="{chapter_id}"><div class="{area_class}">{escape(section)}</div>{content}</section>')
 
     toc = []
     for group, items in sections:
