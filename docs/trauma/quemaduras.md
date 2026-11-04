@@ -115,11 +115,13 @@ Valorar dolor (FLACC, caras o escala 0–10); **analgesia antes de limpieza, ret
 | **Leve-moderado** | **Ibuprofeno VO 5–10 mg/kg/dosis cada 6–8 h**, máximo **40 mg/kg/día** | En esta aplicación, desde **3 meses y ≥5 kg**; evitar si deshidratación, lesión renal o contraindicación |
 | **Moderado-intenso, sin vía IV** | **Fentanilo intranasal 1,5–2 µg/kg**, máximo **100 µg/dosis** | Titular y monitorizar; vía IN de formulación parenteral **fuera de ficha técnica**; si lactante pequeño, individualizar |
 | **Intenso / gran superficie** | **Morfina IV 0,05–0,1 mg/kg/dosis** en aprox. 5 min, titular | En <6 meses, dosis inicial menor **0,025–0,05 mg/kg** y vigilancia reforzada; monitorizar FR, SpO₂, sedación y TA |
+| **Moderado-intenso, hemodinámicamente estable y sin acceso IV** | **Morfina SC 0,1 mg/kg/dosis**; repetir **cada 4–6 h** solo si es necesario, tras reevaluación (dosis SC recogidas en guías: 0,1–0,15 mg/kg) | **Alternativa, no primera elección**. Máximo orientativo **10 mg/dosis**, cotejar máximo acumulado de la presentación/protocolo local. Absorción más lenta e impredecible que IV. Evitar en shock, hipoperfusión, gran quemado y lactantes pequeños sin supervisión especializada. Monitorizar dolor, FR, SpO₂, sedación y TA |
 | **Alternativa IV** | **Fentanilo IV 1–2 µg/kg lento** | Titular y monitorizar; en <6 meses comenzar con dosis menor |
 
 </div>
 
 - **Reevaluar a los 5–15 min** tras vía IN/IV y a los **30–60 min** tras VO; documentar respuesta.
+- **Morfina SC:** valorar efecto durante los siguientes **30–60 min** y vigilar un tiempo adicional por inicio y pico más tardíos; **no repetir precozmente** por aparente falta de efecto. Administrar solo en **piel/subcutis íntegros**, lejos de la zona quemada, con vía aérea y naloxona disponibles. Comprobar **concentración real del vial y volumen en mL antes de administrar**; no asumir concentración fija. La vía SC no es adecuada para analgesia de titulación rápida en una cura especialmente dolorosa: preferir IV/IN y sedoanalgesia monitorizada cuando corresponda.
 - **Desbridamiento extenso, limpieza muy dolorosa o cura de gran extensión:** valorar sedoanalgesia de procedimiento con equipo de monitorización y rescate, siguiendo [Sedoanalgesia en Urgencias](../procedimientos/sedoanalgesia.md). Una alternativa especializada es **ketamina IV 1–2 mg/kg titulada** en contexto de sedación de procedimiento, **no como analgesia domiciliaria**.
 - Consultar [Manejo del dolor](../procedimientos/manejo-dolor.md) y [Calculadora de dosis](../calculadora.md) para comprobar presentación, indicación y máximos. No administrar opioides o sedación sin personal y equipamiento apropiados.
 
@@ -244,5 +246,8 @@ Instrucciones: mantener el apósito limpio y según pauta, movilización suave s
 7. **Consensus on the management of pediatric deep partial-thickness burn wounds** (2023). [Texto completo](https://pmc.ncbi.nlm.nih.gov/articles/PMC10627016/).
 8. Joint Trauma System. **Burn Care CPG**, 2025 (resucitación pediátrica orientativa). [Guía](https://jts.health.mil/assets/docs/cpgs/Burn_Care_CPG_10_June_2025_ID12.pdf).
 9. SEUP. **Manejo del dolor y sedoanalgesia** (4.ª ed., 2024). [Manejo del dolor](https://seup.org/wp-content/uploads/2024/04/28_Dolor_urgencias_4ed.pdf).
+10. NHS Highland. **Analgesia (Paediatric Guidelines)**. Morfina SC 0,1–0,15 mg/kg como alternativa cuando IV no disponible. [Guía NHS](https://www.rightdecisions.scot.nhs.uk/tam-treatments-and-medicines-nhs-highland/paediatric-therapeutic-guidelines/acute-paediatric-guidelines/acute-pain-paediatric-guidelines/analgesia-paediatric-guidelines/).
+11. Pediatría Integral. **Abordaje de las quemaduras en Atención Primaria** (2019). Morfina SC para quemadura dérmica profunda: 0,1–0,15 mg/kg, máximo 10 mg/dosis. [Artículo](https://www.pediatriaintegral.es/publicacion-2019-03/abordaje-de-las-quemaduras-en-atencion-primaria/).
+12. VicBurns. **Analgesia en quemaduras graves**. Riesgo de absorción impredecible por vía SC durante reanimación. [Guía](https://www.vicburns.org.au/severe-burns/early-management-of-severe-burns/analgesia/).
 
 **Última revisión del protocolo: noviembre de 2026.** Material de apoyo clínico; las decisiones críticas y los procedimientos requieren valoración profesional y coordinación con centro de quemados y protocolos locales.
