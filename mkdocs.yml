@@ -17,7 +17,6 @@ theme:
 
 nav:
   - Inicio: index.md
-  - Descargar manual (PDF): https://gonzaloares.github.io/urgencias-pediatricas/manual-urgencias-pediatricas.pdf
   - Accidentes:
       - trauma/index.md
       - Cuerpo extraño ocular: trauma/cuerpo-extrano-ocular.md
@@ -51,6 +50,7 @@ nav:
       - Quemaduras: trauma/quemaduras.md
       - Urticaria y angioedema: dermatologia/urticaria-angioedema.md
       - Vasculitis IgA: dermatologia/vasculitis-iga.md
+  - Descargar manual (PDF): https://gonzaloares.github.io/urgencias-pediatricas/manual-urgencias-pediatricas.pdf
   - Digestivo:
       - digestivo/index.md
       - Dolor abdominal agudo: digestivo/dolor-abdominal-agudo.md
