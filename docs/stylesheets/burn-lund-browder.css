@@ -1,0 +1,190 @@
+/* Calculadora Lund-Browder para quemaduras, de lectura y pulsación cómoda en móvil. */
+.md-typeset .burn-lund-browder {
+  margin: 1rem 0 1.4rem;
+  padding: 1rem;
+  border: 1px solid var(--protocol-border, #c8d2d4);
+  border-radius: .85rem;
+  background: var(--md-default-bg-color);
+}
+.md-typeset .burn-controls {
+  display: flex;
+  gap: .6rem;
+  align-items: end;
+  flex-wrap: wrap;
+  margin-bottom: .9rem;
+}
+.md-typeset .burn-controls > label {
+  font-weight: 700;
+  font-size: .8rem;
+  flex: 0 0 100%;
+}
+.md-typeset .burn-controls select {
+  flex: 1 1 12rem;
+  min-height: 2.55rem;
+  min-width: 0;
+  padding: .5rem .65rem;
+  border: 1px solid var(--protocol-border, #ccc);
+  border-radius: .55rem;
+  font: inherit;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+}
+.md-typeset .burn-clear {
+  background: var(--md-code-bg-color);
+  color: var(--md-default-fg-color);
+  border: 1px solid var(--protocol-border, #ccc);
+  border-radius: .55rem;
+  padding: .55rem .75rem;
+  min-height: 2.55rem;
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+.md-typeset .burn-result {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 7%, var(--md-default-bg-color));
+  padding: 1rem;
+  border-radius: .7rem;
+  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 22%, transparent);
+}
+.md-typeset .burn-result-heading {
+  font-weight: 700;
+  font-size: .85rem;
+}
+.md-typeset .burn-result-value {
+  display: block;
+  font-size: clamp(1.3rem, 5vw, 2rem);
+  line-height: 1.2;
+  margin: .3rem 0;
+  color: var(--md-primary-fg-color--dark);
+  font-variant-numeric: tabular-nums;
+}
+.md-typeset .burn-result-note,
+.md-typeset .burn-help,
+.md-typeset .burn-caution {
+  margin: .5rem 0;
+  font-size: .79rem;
+}
+.md-typeset .burn-result-line {
+  display: flex;
+  gap: .8rem;
+  justify-content: space-between;
+  align-items: baseline;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  padding: .35rem 0;
+  font-size: .78rem;
+}
+.md-typeset .burn-result-line strong {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.md-typeset .burn-result-alert {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  font-weight: 700;
+  padding-top: .55rem;
+  font-size: .78rem;
+}
+.md-typeset .burn-area-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: .7rem;
+  margin-top: .8rem;
+}
+.md-typeset .burn-group {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .65rem;
+  padding: .55rem;
+  min-width: 0;
+}
+.md-typeset .burn-group legend {
+  font-weight: 750;
+  font-size: .8rem;
+  padding: 0 .25rem;
+  color: var(--md-default-fg-color);
+}
+.md-typeset .burn-zones {
+  display: grid;
+  gap: .3rem;
+}
+.md-typeset .burn-zone {
+  border-radius: .45rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-default-bg-color);
+}
+.md-typeset .burn-zone-selected {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 9%, var(--md-default-bg-color));
+  border-color: color-mix(in srgb, var(--md-primary-fg-color) 40%, transparent);
+}
+.md-typeset .burn-zone-invalid {
+  border-color: #b34b4b;
+}
+.md-typeset .burn-zone-choice {
+  display: flex;
+  gap: .45rem;
+  align-items: center;
+  padding: .52rem .45rem;
+  min-height: 2.7rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: .78rem;
+}
+.md-typeset .burn-zone-choice input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+  flex: 0 0 auto;
+  accent-color: var(--md-primary-fg-color);
+}
+.md-typeset .burn-zone-name {
+  flex: 1;
+  min-width: 0;
+}
+.md-typeset .burn-zone-weight {
+  font-weight: 680;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  font-size: .72rem;
+}
+.md-typeset .burn-zone-details {
+  padding: .35rem .5rem .55rem 1.7rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+  flex-wrap: wrap;
+  font-size: .72rem;
+}
+.md-typeset .burn-zone-details[hidden] {
+  display: none;
+}
+.md-typeset .burn-zone-details label {
+  flex: 1 1 8rem;
+}
+.md-typeset .burn-zone-details input {
+  width: 4.4rem;
+  max-width: 100%;
+  min-height: 2rem;
+  border: 1px solid var(--md-default-fg-color--light);
+  border-radius: .4rem;
+  padding: .3rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-variant-numeric: tabular-nums;
+}
+.md-typeset .burn-zone-details input[aria-invalid="true"] {
+  outline: 2px solid #b34b4b;
+}
+.md-typeset .burn-zone-part {
+  flex: 0 0 100%;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .burn-caution {
+  margin-top: .85rem;
+  padding-top: .6rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+@media (max-width: 35rem) {
+  .md-typeset .burn-lund-browder { padding: .7rem; }
+  .md-typeset .burn-controls { gap: .45rem; }
+  .md-typeset .burn-clear { flex: 1 0 100%; }
+  .md-typeset .burn-group { padding: .4rem; }
+}
