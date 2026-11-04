@@ -1,5 +1,15 @@
 # Protocolos de Urgencias Pediátricas
 
+<div class="protocol-intro" markdown="1">
+
+**Manual completo de Urgencias Pediátricas**
+
+[**📖 Descargar el manual completo en PDF**](https://gonzaloares.github.io/urgencias-pediatricas/manual-urgencias-pediatricas.pdf)
+
+El PDF se genera automáticamente a partir de los protocolos cada vez que se actualiza la página.
+
+</div>
+
 <div class="area-grid" markdown="1">
 
 - [Accidentes](trauma/index.md)

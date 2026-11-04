@@ -70,6 +70,15 @@ jobs:
           test -f site/offline-static-urls.json
           python -m json.tool site/offline-static-urls.json > /dev/null
 
+      - name: Install PDF generator
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz0b libfribidi0 libfontconfig1
+          python -m pip install 'beautifulsoup4>=4.12,<5' 'weasyprint>=66,<69'
+
+      - name: Generate manual PDF
+        run: python scripts/build_manual_pdf.py
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
