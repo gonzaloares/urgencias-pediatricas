@@ -159,6 +159,7 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/burn-lund-browder.css
 
 extra_javascript:
   - javascripts/dose-calculator.js
@@ -166,5 +167,6 @@ extra_javascript:
   - javascripts/protocol-dose-links.js
   - javascripts/external-links.js
   - javascripts/pwa.js
+  - javascripts/burn-lund-browder.js
 
 strict: true
