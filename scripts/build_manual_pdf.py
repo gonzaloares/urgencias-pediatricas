@@ -38,9 +38,13 @@ li { margin: 2pt 0; }
 ul, ol { padding-left: 17pt; margin: 5pt 0 8pt; }
 a { color: #116b77; text-decoration: none; overflow-wrap: anywhere; }
 strong, b { font-weight: 700; }
-table { border-collapse: collapse; width: 100%; font-size: 7.8pt; table-layout: auto; margin: 9pt 0 12pt; }
-th, td { border: 0.5pt solid #b9cecb; padding: 4pt 5pt; vertical-align: top; overflow-wrap: anywhere; }
+table { border-collapse: collapse; width: 100%; max-width: 100%; font-size: 7.6pt; table-layout: auto; margin: 9pt 0 12pt; }
+th, td { border: 0.5pt solid #b9cecb; padding: 3pt 4pt; vertical-align: top; overflow-wrap: normal; word-break: normal; hyphens: manual; }
+th a, td a { overflow-wrap: normal; word-break: normal; }
 th { background: #e7f2f0; color: #155f5d; }
+table.print-score-table th:first-child, table.print-score-table td:first-child { width: 31%; }
+table.print-score-table th:nth-child(2), table.print-score-table td:nth-child(2) { width: 13%; white-space: nowrap; }
+table.print-score-table th:last-child, table.print-score-table td:last-child { width: 56%; }
 tr { break-inside: avoid; }
 thead { display: table-header-group; }
 img, svg { max-width: 100%; height: auto; }
@@ -100,6 +104,56 @@ def chapters_from_navigation(nav: list, doc_root: Path):
 def site_html_path(site: Path, doc_path: str) -> Path:
     return site / Path(doc_path[:-3]) / 'index.html'
 
+def reflow_numeric_score_tables(article, soup):
+    """Print wide numerical score matrices as 3-column tables, without losing scores.
+
+    In A4, seven-column scales such as Westley have tiny cells that may
+    split even short words. The public website keeps the original matrix.
+    """
+    for table in article.select('table'):
+        rows = table.find_all('tr')
+        if len(rows) < 2:
+            continue
+        headers = [cell.get_text(' ', strip=True) for cell in rows[0].find_all(['th', 'td'], recursive=False)]
+        if (len(headers) < 5 or headers[0].casefold() not in ('parámetro', 'parametro')
+                or not all(label.isdecimal() for label in headers[1:])):
+            continue
+
+        entries = []
+        for row in rows[1:]:
+            cells = row.find_all(['th', 'td'], recursive=False)
+            if len(cells) != len(headers):
+                entries = []
+                break
+            parameter = cells[0].get_text(' ', strip=True)
+            for score, cell in zip(headers[1:], cells[1:]):
+                finding = cell.get_text(' ', strip=True)
+                if finding and finding not in ('—', '–', '-'):
+                    entries.append((parameter, score, finding))
+        if not entries:
+            continue
+
+        new_table = soup.new_tag('table', attrs={'class': 'print-score-table'})
+        new_head = soup.new_tag('thead')
+        header_row = soup.new_tag('tr')
+        for title in ('Parámetro', 'Puntos', 'Hallazgo'):
+            th = soup.new_tag('th')
+            th.string = title
+            header_row.append(th)
+        new_head.append(header_row)
+        new_table.append(new_head)
+        body = soup.new_tag('tbody')
+        for parameter, score, finding in entries:
+            tr = soup.new_tag('tr')
+            for value in (parameter, score, finding):
+                td = soup.new_tag('td')
+                td.string = value
+                tr.append(td)
+            body.append(tr)
+        new_table.append(body)
+        table.replace_with(new_table)
+
+
 def printable_content(source: Path, chapter_id: str, chapter_urls: dict[str, str], current_url: str):
     soup = BeautifulSoup(source.read_text(encoding='utf-8'), 'html.parser')
     article = soup.select_one('.md-content__inner')
@@ -109,6 +163,8 @@ def printable_content(source: Path, chapter_id: str, chapter_urls: dict[str, str
         node.decompose()
     for widget in article.select('input, button, select, textarea, .dose-calculator, .infusion-calculator'):
         widget.decompose()
+
+    reflow_numeric_score_tables(article, soup)
 
     if 'calculadora' in source.as_posix() or 'perfusiones/index.html' in source.as_posix():
         note = soup.new_tag('p', attrs={'class': 'calculator-note'})
