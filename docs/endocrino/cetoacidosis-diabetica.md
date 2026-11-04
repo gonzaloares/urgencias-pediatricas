@@ -117,7 +117,7 @@ Sospechar **HHS/CAD-HHS** si glucosa >600 mg/dL, osmolaridad efectiva >320 mOsm/
 
 ### 4.3. Ritmo posterior a la expansión inicial
 
-**Ritmo IV (mL/h) = mantenimiento diario / 24 + (déficit estimado − bolos no administrados por shock) / 48.**
+**Ritmo IV (mL/h) = mantenimiento diario / 24 + [déficit estimado − volumen de bolos administrados por deshidratación SIN shock] / 48.**
 
 - En este esquema, **descontar los bolos de 10 mL/kg administrados por deshidratación sin shock**.
 - **No descontar** los bolos dados para reanimar un **shock verdadero**; contabilizarlos siempre en el balance. Esta regla pertenece al esquema NICE/BSPED: otros algoritmos de hidratación pueden tratar los bolos de forma distinta, por lo que **no se deben combinar entre sí**.
