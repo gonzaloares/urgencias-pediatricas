@@ -186,16 +186,19 @@ Valorar dolor (FLACC, caras o escala 0–10); **analgesia antes de limpieza, ret
 <a id="tetanos"></a>
 ## 11. Profilaxis antitetánica
 
-Las quemaduras con tejido lesionado/desvitalizado se consideran **heridas potencialmente tetanígenas**. Valorar siempre **número de dosis previas**, **fecha de la última** y **estado inmunitario**. Aplicar calendario vacunal español vigente y protocolo de Salud Pública/local.
+Las quemaduras con **tejido desvitalizado relevante** se consideran **heridas potencialmente tetanígenas**. Valorar siempre **número de dosis previas**, **fecha de la última** y **estado inmunitario**. A continuación, esquema adaptado al **calendario de la Comunidad de Madrid 2026**; en otros territorios, comprobar la pauta autonómica.
 
 | Historia vacunal | Conducta ante quemadura tetanígena |
 |---|---|
-| **Pauta primaria completa (≥3 dosis)** y última dosis **<5 años** | Generalmente **ni vacuna ni inmunoglobulina** |
-| **≥3 dosis**, última **≥5 años** | **Dosis de recuerdo** con vacuna apropiada para edad/situación |
-| **<3 dosis o desconocida** | **Vacuna antitetánica adecuada a edad + inmunoglobulina antitetánica (IGT) 250 UI IM**, en lugar anatómico distinto |
-| **VIH o inmunodeficiencia grave** con herida tetanígena | Valorar **IGT 250 UI IM** con independencia de la pauta previa y actualizar vacunación |
+| **<3 dosis o desconocida** | **Vacunar/completar primovacunación + inmunoglobulina antitetánica (IGT)** IM en lugar anatómico distinto |
+| **3–4 dosis**, última hace **≤5 años** | Generalmente **no** recuerdo; IGT solo si alto riesgo muy elevado/inmunodepresión |
+| **3–4 dosis**, última hace **>5 años** | **Dosis de recuerdo**; valorar IGT solo si herida de alto riesgo muy elevado/inmunodepresión |
+| **≥5 dosis** | Generalmente **sin dosis de recuerdo**; si hace **>10 años**, valorar una dosis adicional según el tipo de herida. IGT solo si alto riesgo muy elevado/inmunodepresión |
+| **Inmunodepresión**, cualquiera que sea la pauta previa | **IGT si herida tetanígena**, y actualización vacunal según antecedentes |
 
-Si es **herida limpia y menor** (no una quemadura con tejido desvitalizado), el umbral para recuerdo tras primovacunación completa es **10 años** y **no se indica IGT**. En menores de edad, usar DTPa/Tdpa/Td según calendario e indicación; registrar lote, dosis y lugar de administración. **Los antibióticos no sustituyen** la profilaxis antitetánica.
+**Dosis IGT si está indicada:** **250 UI IM** de forma habitual; según la recomendación de **Madrid 2026, 500 UI IM si se trata de quemadura tetanígena**, han transcurrido >24 horas, existe contaminación de alto riesgo, fractura o infección (no acumular ambas dosis: elegir **250 o 500 UI** según riesgo). Se administra en punto diferente al de la vacuna. Para heridas muy contaminadas o con áreas extensas de tejido desvitalizado puede estar indicada IGT aun con pauta completa.
+
+Si es **herida limpia y menor** (sin tejido desvitalizado), se rige por otros umbrales y **no se indica IGT**. En menores, usar vacuna DTPa/dTpa/Td según calendario, edad e indicación; registrar lote, dosis y lugar de administración. **Los antibióticos no sustituyen** la profilaxis antitetánica.
 
 <a id="electricas"></a>
 ## 12. Quemaduras eléctricas (incluidos rayos)
@@ -236,9 +239,10 @@ Instrucciones: mantener el apósito limpio y según pauta, movilización suave s
 2. American Burn Association. **Guidelines for Burn Patient Referral** (2022, consulta web vigente). [Criterios ABA](https://www.ameriburn.org/burn-care-team/resources/guidelines-for-burn-patient-referral).
 3. Royal Children's Hospital Melbourne. **Clinical Practice Guidelines: Burns – acute management.** [Guía RCH](https://www.rch.org.au/clinicalguide/guideline_index/Burns/).
 4. Society of Critical Care Medicine. **Fundamental Critical Care Support: Pediatrics**, tabla Lund-Browder. [Material docente](https://sccm.org/SCCM/media/SCCM/PDFs/FCCS-Pediatrics-Pediatric-Burn-Injury.pdf).
-5. CDC. **Clinical Guidance for Wound Management to Prevent Tetanus**, 2026. [CDC](https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html).
-6. **Consensus on the management of pediatric deep partial-thickness burn wounds** (2023). [Texto completo](https://pmc.ncbi.nlm.nih.gov/articles/PMC10627016/).
-7. Joint Trauma System. **Burn Care CPG**, 2025 (resucitación pediátrica orientativa). [Guía](https://jts.health.mil/assets/docs/cpgs/Burn_Care_CPG_10_June_2025_ID12.pdf).
-8. SEUP. **Manejo del dolor y sedoanalgesia** (4.ª ed., 2024). [Manejo del dolor](https://seup.org/wp-content/uploads/2024/04/28_Dolor_urgencias_4ed.pdf).
+5. Comunidad de Madrid. **Calendario de vacunación e inmunización para toda la vida 2026**, pp. 15–16. [Documento técnico](https://www.ampap.es/wp-content/uploads/2026/01/calendario_madrid_2026.pdf).
+6. CDC. **Clinical Guidance for Wound Management to Prevent Tetanus**, 2026. [CDC](https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html).
+7. **Consensus on the management of pediatric deep partial-thickness burn wounds** (2023). [Texto completo](https://pmc.ncbi.nlm.nih.gov/articles/PMC10627016/).
+8. Joint Trauma System. **Burn Care CPG**, 2025 (resucitación pediátrica orientativa). [Guía](https://jts.health.mil/assets/docs/cpgs/Burn_Care_CPG_10_June_2025_ID12.pdf).
+9. SEUP. **Manejo del dolor y sedoanalgesia** (4.ª ed., 2024). [Manejo del dolor](https://seup.org/wp-content/uploads/2024/04/28_Dolor_urgencias_4ed.pdf).
 
 **Última revisión del protocolo: noviembre de 2026.** Material de apoyo clínico; las decisiones críticas y los procedimientos requieren valoración profesional y coordinación con centro de quemados y protocolos locales.
