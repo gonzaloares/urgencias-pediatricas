@@ -48,7 +48,7 @@
 ### Glucosa ≥250 mg/dL o ascenso mantenido/no explicado
 
 - **Comprobar capilar + BOHB de inmediato** (y siempre con vómitos, aunque la glucosa sea menor). Investigar alarmas, burbujas, acodamiento, desconexión o exceso de tiempo desde el cambio.
-- **BOHB <0,6 mmol/L, paciente estable sin sospecha de fallo:** verificar vía y actividad de insulina; corregir según bolus wizard/FSI, objetivo y **insulina activa**, de acuerdo con plan. Revisar a **1–2 h**.
+- **BOHB &lt;0,6 mmol/L, paciente estable sin sospecha de fallo:** verificar vía y actividad de insulina; corregir según bolus wizard/FSI, objetivo y **insulina activa**, de acuerdo con plan. Revisar a **1–2 h**.
 - **Si la glucosa no baja tras corrección, o hay cualquier sospecha de fallo, o BOHB ≥0,6:** **usar pluma/jeringa de rápida** para la primera dosis de rescate **según plan individual y cetonas**; retirar/cambiar cánula o pod, sistema de infusión, insulina del reservorio/cartucho y localización. No esperar a que el sistema lance alarma.
 - Beber líquidos apropiados, mantener cobertura de insulina, medir glucosa **cada 1–2 h** y BOHB **cada ~2 h** hasta mejoría. Si vómitos persistentes, BOHB >1,5 no desciende, dolor abdominal significativo o sospecha de CAD, **evaluación hospitalaria**.
 
@@ -61,7 +61,7 @@
 
 | BOHB | Actitud |
 |---|---|
-| **<0,6 mmol/L** | Si estable: hidratación, revisar bomba y corrección usual según FSI/insulina activa si hay hiperglucemia. |
+| **&lt;0,6 mmol/L** | Si estable: hidratación, revisar bomba y corrección usual según FSI/insulina activa si hay hiperglucemia. |
 | **0,6–1,4 mmol/L** | **Cetosis:** primera corrección de rápida con **pluma/jeringa** si se sospecha fallo, cambiar set/reservorio, valorar manejo en **modo manual** y pauta de días de enfermedad. Control a ~2 h. |
 | **1,5–2,9 mmol/L** | **Riesgo elevado:** contacto inmediato con equipo de diabetes y valoración presencial si vómitos, intolerancia, empeoramiento o BOHB no decrece. Corregir por pluma/jeringa y renovar set; descartar acidosis si clínica. |
 | **≥3 mmol/L** | **Urgencias inmediatamente** para gasometría venosa/electrolitos y descarte o tratamiento de CAD. |
@@ -74,22 +74,22 @@
 
 ### ¿Qué líquidos?
 
-- Si glucosa **<250 mg/dL**, líquidos con hidratos para poder seguir administrando insulina; si **≥250 mg/dL**, sin azúcar y con sales según situación.
+- Si glucosa **&lt;250 mg/dL**, líquidos con hidratos para poder seguir administrando insulina; si **≥250 mg/dL**, sin azúcar y con sales según situación.
 - Fraccionar cada **5–10 min**, objetivo inicial orientativo **4–6 mL/kg/h** si tolera, ajustando a pérdidas y estado clínico.
 - Si no puede beber o requiere fluidoterapia con glucosa e insulina IV, observación/ingreso y monitorización.
 
 <a id="hipo"></a>
 ## 5. Hipoglucemia con bomba o AID
 
-**Si glucosa <70 mg/dL, consciente y puede tragar:** administrar glucosa rápida **0,3 g/kg** (15 g si ≥50 kg) y comprobar capilar a los **15 min**; repetir si sigue baja.
+**Si glucosa &lt;70 mg/dL, consciente y puede tragar:** administrar glucosa rápida **0,3 g/kg** (15 g si ≥50 kg) y comprobar capilar a los **15 min**; repetir si sigue baja.
 
 **AID con suspensión/reducción previa de insulina:** para hipoglucemia **leve**, el plan del dispositivo puede indicar **5–10 g de glucosa**, en especial si queda poca insulina activa, para evitar hiperglucemia rebote. No reducir rescate ante síntomas graves o caída sostenida; revalorar capilar.
 
-**Bomba convencional:** si glucosa <54 mg/dL, considerar **suspensión transitoria** de basal hasta recuperación >70 mg/dL según ISPAD, con vigilancia estrecha; **evitar suspensiones prolongadas** por riesgo de cetosis.
+**Bomba convencional:** si glucosa &lt;54 mg/dL, considerar **suspensión transitoria** de basal hasta recuperación >70 mg/dL según ISPAD, con vigilancia estrecha; **evitar suspensiones prolongadas** por riesgo de cetosis.
 
 <div class="dose-card">
 <strong>Hipoglucemia grave / no puede tragar</strong>
-<span><strong>Glucosa al 10%: 2 mL/kg IV/IO (0,2 g/kg)</strong>, recontrol a 5–10 min, o <strong>glucagón IM/SC 0,5 mg (<25 kg) / 1 mg (≥25 kg)</strong> si sin vía; <strong>nasal 3 mg si ≥4 años</strong> y disponible.</span>
+<span><strong>Glucosa al 10%: 2 mL/kg IV/IO (0,2 g/kg)</strong>, recontrol a 5–10 min, o <strong>glucagón IM/SC 0,5 mg (&lt;25 kg) / 1 mg (≥25 kg)</strong> si sin vía; <strong>nasal 3 mg desde ≥1 año (autorización UE actualizada en 2025)</strong> y disponible.</span>
 <span>Suspender temporalmente la infusión durante el rescate, activar ayuda y <strong>restablecer cobertura basal de forma segura</strong> tras estabilizarse.</span>
 </div>
 
@@ -107,7 +107,7 @@ Para minidosis de glucagón si gastroenteritis e imposibilidad de tomar HC, ver 
 2. Si hay vómitos, cetonemia o sospecha de mala infusión, **no confiar en autocorrecciones**; suministrar rápida por **pluma/jeringa** y cambiar sistema de infusión.
 3. **Registrar hora y UI de insulina inyectada fuera de la bomba.** El valor «insulina activa» del dispositivo puede ser incorrecto (no computar la inyección) y provocar **apilamiento**. Coordinar cualquier corrección posterior y modo automático/manual con el protocolo del sistema y Endocrinología.
 4. **Modo manual** si está indicado por la guía del dispositivo/equipo para gestionar cetosis, tras asegurarse de que la basal manual programada sea correcta. **No desconectar la bomba ni interrumpir basal por tiempo prolongado** al abandonar modo automático.
-5. Tras resolver el episodio y BOHB <0,6, reintroducir el modo automático según el procedimiento del sistema y el tiempo de acción de la insulina inyectada externamente.
+5. Tras resolver el episodio y BOHB &lt;0,6, reintroducir el modo automático según el procedimiento del sistema y el tiempo de acción de la insulina inyectada externamente.
 
 **Si no se sabe operar el modo manual, falla el controlador o no puede verificarse la basal:** no experimentar con menús; activar **plan de insulina basal-bolo inyectada** con ayuda de Endocrinología/centro experto.
 
@@ -170,7 +170,7 @@ Para minidosis de glucagón si gastroenteritis e imposibilidad de tomar HC, ver 
 1. ISPAD. **Sick day management in children and adolescents with diabetes.** *Pediatr Diabetes*. 2022;23:912–925. Especialmente apartados 8–9. [Guía completa](https://www.ispad.org/static/6551d05a-156c-4772-a32a6d663fcfc2d4/2022CGCh13PediatricDiabetes-2.pdf).
 2. ISPAD. **Assessment and management of hypoglycemia in children and adolescents with diabetes.** *Pediatr Diabetes*. 2022;23:1322–1340. [Guía](https://pmc.ncbi.nlm.nih.gov/articles/PMC10107518/).
 3. American Diabetes Association. **Standards of Care in Diabetes—2026, secciones 6 y 14.** [Días de enfermedad](https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic) · [Tecnología en pediatría](https://doi.org/10.2337/dc26-s014).
-4. AEMPS. **Baqsimi® 3 mg, ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/1191406001/FT_1191406001.html).
+4. EMA. **Baqsimi® 3 mg: ficha técnica UE vigente, autorizada desde 1 año (ampliación de 2025).** [EMA](https://www.ema.europa.eu/es/documents/product-information/baqsimi-epar-product-information_es.pdf) · [Ministerio de Sanidad](https://www.sanidad.gob.es/eu/profesionales/medicamentos.do?cn=727646&metodo=verDetalle).
 5. Protocolos relacionados: [Diabetes conocida: intercurrencias](diabetes-conocida-situaciones-intercurrentes.md) · [Cetoacidosis diabética](cetoacidosis-diabetica.md) · [Hipoglucemia](hipoglucemia.md).
 
 *Las funciones del AID (autocorrecciones, duración insulina activa, cambio manual/automático y reinicio) son específicas de cada dispositivo. Aplicar instrucciones del fabricante, protocolo hospitalario y pauta personalizada de Endocrinología.*
