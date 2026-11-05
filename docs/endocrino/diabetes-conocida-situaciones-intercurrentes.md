@@ -44,13 +44,13 @@
 
 **Si sospecha CAD:** glucemia, BOHB, gasometría venosa, Na/K/Cl/HCO₃, urea/creatinina y monitorización según gravedad; activar [protocolo de cetoacidosis diabética](cetoacidosis-diabetica.md).
 
-**Criterios bioquímicos habituales de CAD:** glucosa >200 mg/dL (puede ser menor en CAD euglucémica), **pH venoso <7,30 o bicarbonato <18 mmol/L**, y BOHB ≥3 mmol/L o cetonuria moderada/intensa. **Cetosis aislada no equivale a CAD**: se necesita valorar el equilibrio ácido-base.
+**Criterios bioquímicos habituales de CAD:** glucosa >200 mg/dL (puede ser menor en CAD euglucémica), **pH venoso &lt;7,30 o bicarbonato &lt;18 mmol/L**, y BOHB ≥3 mmol/L o cetonuria moderada/intensa. **Cetosis aislada no equivale a CAD**: se necesita valorar el equilibrio ácido-base.
 
 <a id="vomitos"></a>
 ## 3. Vómitos, gastroenteritis o rechazo de la ingesta
 
 1. Medir **glucosa + BOHB desde el inicio**, incluso con glucemia normal/baja. El vómito puede deberse a gastroenteritis, hipoglucemia, cetosis por ayuno o CAD.
-2. Si consciente y tolera: líquidos en tomas pequeñas cada **5–10 minutos**, como objetivo orientativo **4–6 mL/kg/h**, ajustado a tolerancia, pérdidas y estado de hidratación. **Si glucosa <250 mg/dL, ofrecer líquidos con hidratos de carbono** para permitir mantener insulina; si ≥250 mg/dL, líquidos sin azúcar (preferiblemente con electrolitos) mientras se corrige hiperglucemia/cetosis. No forzar si vomita repetidamente o hay alteración neurológica.
+2. Si consciente y tolera: líquidos en tomas pequeñas cada **5–10 minutos**, como objetivo orientativo **4–6 mL/kg/h**, ajustado a tolerancia, pérdidas y estado de hidratación. **Si glucosa &lt;250 mg/dL, ofrecer líquidos con hidratos de carbono** para permitir mantener insulina; si ≥250 mg/dL, líquidos sin azúcar (preferiblemente con electrolitos) mientras se corrige hiperglucemia/cetosis. No forzar si vomita repetidamente o hay alteración neurológica.
 3. **Continuar insulina basal** (basal inyectada o aporte basal por bomba). Con menor ingesta los **bolos de comida se adaptan a HC realmente ingeridos**; valorar administración después de comprobar la ingesta en situaciones seleccionadas, según plan individual. Si hay cetonas elevadas, puede hacer falta **más insulina rápida**, no menos.
 4. Controlar glucosa cada **1–2 h** y BOHB aproximadamente **cada 2 h** mientras persiste enfermedad o hay cetonas. Valorar tratamiento de causa intercurrente y antiemético si apropiado, **sin enmascarar sospecha de CAD**.
 5. Si hipoglucemia o tendencia baja con cetonas: aportar **glucosa oral o IV + mantener insulina** para frenar cetogénesis; la mera supresión de insulina puede agravar la cetosis. Si no hay vía oral segura o persisten vómitos, observación y fluidoterapia IV.
@@ -67,7 +67,7 @@ Opción **solo con plan de Endocrinología y entrenamiento**, en niños conscien
 
 | Edad | Glucagón SC reconstituido, concentración **1 mg/mL** |
 |---|---|
-| **<2 años** | **20 microgramos = 0,02 mL** |
+| **&lt;2 años** | **20 microgramos = 0,02 mL** |
 | **2–15 años** | **10 microgramos/año = 0,01 mL/año**, máximo 150 microgramos |
 | **>15 años** | **150 microgramos = 0,15 mL** |
 
@@ -79,8 +79,8 @@ Si se utiliza **jeringa U-100 solo para medir volumen**: 0,01 mL equivale a una 
 ## 4. Hipoglucemia en diabetes conocida
 
 **Umbrales ISPAD:**
-- **<70 mg/dL (3,9 mmol/L):** valor de alerta y tratamiento.
-- **<54 mg/dL (3,0 mmol/L):** hipoglucemia clínicamente significativa.
+- **&lt;70 mg/dL (3,9 mmol/L):** valor de alerta y tratamiento.
+- **&lt;54 mg/dL (3,0 mmol/L):** hipoglucemia clínicamente significativa.
 - **Grave:** alteración cognitiva/neurológica que requiere ayuda de terceros, independientemente de la cifra (convulsión, coma o imposibilidad de ingerir).
 
 ### Consciente y traga con seguridad
@@ -88,7 +88,7 @@ Si se utiliza **jeringa U-100 solo para medir volumen**: 0,01 mL equivale a una 
 <div class="dose-card">
 <strong>Glucosa oral de acción rápida: 0,3 g/kg</strong>
 <span>Ejemplos: <strong>10 kg → 3 g; 20 kg → 6 g; 30 kg → 9 g; ≥50 kg → 15 g</strong> de glucosa.</span>
-<span><strong>Repetir glucemia capilar a los 15 min</strong>; si continúa <70 mg/dL, volver a tratar y comprobar otros 15 min después.</span>
+<span><strong>Repetir glucemia capilar a los 15 min</strong>; si continúa &lt;70 mg/dL, volver a tratar y comprobar otros 15 min después.</span>
 </div>
 
 Preferir pastillas/gel de glucosa medido o bebida azucarada equivalente; no alimentos grasos como primera opción. Si no coincide con comida próxima y hay riesgo de recidiva, añadir hidratos de absorción lenta según pauta personal y necesidad. Si usa **sistema automatizado AID**, algunas hipoglucemias leves requieren **5–10 g** (según talla, insulina activa y plan del sistema) para evitar rebote; si es grave, usar tratamiento completo sin demoras. Evitar redosificar por un valor bajo *aislado del sensor* a los 15 min si capilar ya ha mejorado.
@@ -100,8 +100,8 @@ Preferir pastillas/gel de glucosa medido o bebida azucarada equivalente; no alim
 | Tratamiento | Dosis / vía |
 |---|---|
 | **Glucosa al 10% (0,1 g/mL)**, si vía IV/IO | **2 mL/kg IV/IO** = 0,2 g/kg; reevaluar a **5–10 min**, repetir si precisa y considerar perfusión |
-| **Glucagón IM/SC**, si no hay vía IV | **0,5 mg** si <25 kg; **1 mg** si ≥25 kg |
-| **Glucagón nasal**, si disponible | **3 mg en una fosa nasal** para ≥4 años, conforme a ficha CIMA española consultada |
+| **Glucagón IM/SC**, si no hay vía IV | **0,5 mg** si &lt;25 kg; **1 mg** si ≥25 kg |
+| **Glucagón nasal**, si disponible | **3 mg en una fosa nasal** desde **1 año de edad**, según autorización UE vigente (EMA, 2025) |
 
 </div>
 
@@ -113,7 +113,7 @@ Preferir pastillas/gel de glucosa medido o bebida azucarada equivalente; no alim
 La glucosa elevada **por sí sola** no implica CAD ni justifica insulina IV. Buscar causa: fiebre, estrés, omisión de basal/bolo, fármaco, error de dosis o fallo de bomba.
 
 - **Hiperglucemia persistente >200–250 mg/dL durante enfermedad**, o **≥250 mg/dL en usuario de bomba**: glucemia capilar, **BOHB** y revisión de insulina administrada.
-- **BOHB <0,6 mmol/L**, paciente bien: hidratación, corrección de rápida según **FSI individual y glucemia objetivo**, teniendo en cuenta insulina activa; observar respuesta en **1–2 h**. No poner bolos de forma repetida sin considerar duración de insulina rápida (**habitualmente 3–4 h, dependiente del preparado y sistema**).
+- **BOHB &lt;0,6 mmol/L**, paciente bien: hidratación, corrección de rápida según **FSI individual y glucemia objetivo**, teniendo en cuenta insulina activa; observar respuesta en **1–2 h**. No poner bolos de forma repetida sin considerar duración de insulina rápida (**habitualmente 3–4 h, dependiente del preparado y sistema**).
 - **BOHB ≥0,6 mmol/L:** tratar como **cetosis** además de hiperglucemia; comprobar administración real de insulina y aplicar apartado siguiente. Con bomba, utilizar la **pluma/jeringa** para primera corrección cuando se sospecha fallo de infusión.
 - Si empeora, no descienden glucosa/cetonas o hay síntomas de CAD, gasometría, electrolitos y valoración hospitalaria.
 
@@ -124,7 +124,7 @@ La glucosa elevada **por sí sola** no implica CAD ni justifica insulina IV. Bus
 
 | BOHB capilar | Interpretación y actuación |
 |---|---|
-| **<0,6 mmol/L** | Normal o cetosis no significativa. Hidratación, plan habitual de corrección si hiperglucemia, revaluar según evolución. |
+| **&lt;0,6 mmol/L** | Normal o cetosis no significativa. Hidratación, plan habitual de corrección si hiperglucemia, revaluar según evolución. |
 | **0,6–1,4 mmol/L** | **Cetosis leve.** Revisar dosis/sistema, aportar líquidos e insulina rápida con el **plan de días de enfermedad**, medir glucosa y BOHB cada ~2 h. Contactar con equipo si no mejora. |
 | **1,5–2,9 mmol/L** | **Cetosis moderada-alta.** Avisar al equipo de diabetes de forma inmediata y valorar gasometría/electrolitos en Urgencias según clínica. Si vómitos, no tolera líquidos, empeora o no reduce cetonas tras corrección → evaluación urgente presencial. |
 | **≥3,0 mmol/L** | **Riesgo elevado de CAD: derivación inmediata a Urgencias** para gasometría, electrolitos y tratamiento dirigido. Puede existir cetosis por ayuno: distinguir con pH/HCO₃, nunca asumirla sin estudio. |
@@ -140,7 +140,7 @@ La glucosa elevada **por sí sola** no implica CAD ni justifica insulina IV. Bus
 <strong>Primera opción: pauta individual de «días de enfermedad» del equipo diabetológico.</strong> No hay una dosis correctora universal segura: depende de la DTD, del FSI, del nivel de cetonas, de la insulina rápida activa y de la ingesta. Evitar sumar indiscriminadamente varios métodos de cálculo o repetir bolos antes de comprobar respuesta.
 </div>
 
-### Sin cetonas (BOHB <0,6)
+### Sin cetonas (BOHB &lt;0,6)
 
 **Dosis correctora habitual (UI) = [glucosa actual − glucosa objetivo] / FSI**, con ajustes por insulina rápida activa y por las características del tratamiento. **FSI expresado en mg/dL por UI.** No aplicar si resultado negativo. No improvisar la regla «1800» si se dispone de un FSI conocido.
 
@@ -157,11 +157,11 @@ Si glucosa normal/baja **con BOHB elevado**, dar **carbohidratos o glucosa IV se
 <a id="destino"></a>
 ## 8. Observación, ingreso y alta
 
-**Observación/consulta urgente:** vómitos recurrentes o >2 h, incapacidad para beber, hipoglucemia grave o repetida, BOHB ≥1,5 persistente, aumento de cetonas/glucosa pese a correcciones, paciente muy pequeño (especial cautela <5 años), incertidumbre diagnóstica o familiar sin material/competencias para controlar la enfermedad.
+**Observación/consulta urgente:** vómitos recurrentes o >2 h, incapacidad para beber, hipoglucemia grave o repetida, BOHB ≥1,5 persistente, aumento de cetonas/glucosa pese a correcciones, paciente muy pequeño (especial cautela &lt;5 años), incertidumbre diagnóstica o familiar sin material/competencias para controlar la enfermedad.
 
 **Ingreso / activar protocolo CAD:** acidosis, BOHB ≥3 con síntomas o gasometría alterada, afectación neurológica, deshidratación importante, intolerancia oral mantenida, necesidad de fluidos glucosados IV con insulina y controles frecuentes, o fallo de bomba sin alternativa segura.
 
-**Alta solo si:** buena situación general y exploración, tolera líquidos/HC, glucemia estable o en mejora, BOHB en descenso (preferiblemente <0,6–1 mmol/L, según valoración), cobertura de insulina garantizada, familia con tiras/medidor de cetonas, insulina, glucagón, **plan escrito y contacto diabetológico 24 h**. No dar el alta con cetosis creciente.
+**Alta solo si:** buena situación general y exploración, tolera líquidos/HC, glucemia estable o en mejora, BOHB en descenso (preferiblemente &lt;0,6–1 mmol/L, según valoración), cobertura de insulina garantizada, familia con tiras/medidor de cetonas, insulina, glucagón, **plan escrito y contacto diabetológico 24 h**. No dar el alta con cetosis creciente.
 
 ### Información al alta
 
@@ -182,9 +182,9 @@ Si glucosa normal/baja **con BOHB elevado**, dar **carbohidratos o glucosa IV se
 <span><strong>No</strong><br>Clasificar glucosa y cetonas, ¿tolera VO?</span>
 </div>
 <div class="algorithm-arrow">↓</div>
-<div class="algorithm-step"><strong>Glucosa <70 mg/dL</strong><br>Glucosa oral 0,3 g/kg si traga; grave → D10% IV 2 mL/kg o glucagón IM/SC/nasal; revalorar</div>
+<div class="algorithm-step"><strong>Glucosa &lt;70 mg/dL</strong><br>Glucosa oral 0,3 g/kg si traga; grave → D10% IV 2 mL/kg o glucagón IM/SC/nasal; revalorar</div>
 <div class="algorithm-arrow">↓</div>
-<div class="algorithm-step"><strong>Vómitos / mala ingesta</strong><br>Líquidos fraccionados con HC si glucosa <250; **mantener basal** y adaptar bolos; vigilar BOHB</div>
+<div class="algorithm-step"><strong>Vómitos / mala ingesta</strong><br>Líquidos fraccionados con HC si glucosa &lt;250; **mantener basal** y adaptar bolos; vigilar BOHB</div>
 <div class="algorithm-arrow">↓</div>
 <div class="algorithm-step"><strong>Glucosa elevada + cetonas</strong><br>Insulina rápida con plan individual, valorar corrección especializada y causa de déficit; si bomba, pluma/jeringa + cambio del set</div>
 <div class="algorithm-arrow">↓</div>
@@ -198,7 +198,7 @@ Si glucosa normal/baja **con BOHB elevado**, dar **carbohidratos o glucosa IV se
 2. ISPAD. **Assessment and management of hypoglycemia in children and adolescents with diabetes.** *Pediatr Diabetes*. 2022;23:1322–1340. [Texto completo](https://pmc.ncbi.nlm.nih.gov/articles/PMC10107518/).
 3. ISPAD. **Diabetic ketoacidosis and hyperglycemic hyperosmolar state.** *Pediatr Diabetes*. 2022;23:835–856. [Guía](https://www.ispad.org/static/6dd62eae-c8cb-4b4a-84e1efc768505746/Ch11PediatricDiabetes.pdf).
 4. American Diabetes Association. **Standards of Care in Diabetes—2026**, secciones 6 y 14. [Enfermedad intercurrente](https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic) · [Infancia](https://doi.org/10.2337/dc26-s014).
-5. AEMPS. **Baqsimi® 3 mg, ficha técnica española.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/1191406001/FT_1191406001.html).
+5. EMA. **Baqsimi® 3 mg intranasal: ficha técnica europea vigente (indicación desde 1 año, ampliada en 2025).** [EMA](https://www.ema.europa.eu/es/documents/product-information/baqsimi-epar-product-information_es.pdf) · [Situación en España, Ministerio de Sanidad](https://www.sanidad.gob.es/eu/profesionales/medicamentos.do?cn=727646&metodo=verDetalle). La página HTML de CIMA puede mostrar todavía el límite antiguo de 4 años.
 6. Protocolos relacionados: [Hipoglucemia](hipoglucemia.md) · [Cetoacidosis diabética](cetoacidosis-diabetica.md) · [Diabetes con bomba](diabetes-bomba-insulina.md).
 
 *Ámbito: atención de Urgencias; los ajustes de insulina requieren prescripción individual y verificación con el equipo tratante y las características del dispositivo.*
