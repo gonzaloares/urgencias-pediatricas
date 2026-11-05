@@ -16,6 +16,10 @@
 </div>
 
 <a id="diagnostico"></a>
+<div class="clinical-card clinical-card-note">
+  <strong>Diabetes ya diagnosticada:</strong> seguir <a href="diabetes-conocida-situaciones-intercurrentes.md">situaciones intercurrentes</a> (hiperglucemia, cetosis, vómitos) o el protocolo de <a href="diabetes-bomba-insulina.md">bomba de insulina/AID</a>.
+</div>
+
 ## 1. Cuándo sospechar diabetes
 
 - poliuria;
