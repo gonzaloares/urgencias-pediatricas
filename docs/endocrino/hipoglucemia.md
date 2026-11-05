@@ -133,7 +133,7 @@ Si persiste:
 
 | Glucagón IM/SC | Dosis |
 |---|---:|
-| **<25 kg** | **0,5 mg** |
+| **&lt;25 kg** | **0,5 mg** |
 | **≥25 kg** | **1 mg** |
 
 </div>
@@ -142,7 +142,7 @@ Dosis ponderal equivalente de glucagón IM/SC: aproximadamente **0,03 mg/kg**, m
 
 Glucagón nasal, si disponible:
 
-- **3 mg intranasal en una fosa nasal** en niños de **≥4 años con diabetes mellitus**, según ficha técnica de Baqsimi®.
+- **3 mg intranasal en una fosa nasal** en niños con diabetes mellitus de **≥1 año**, según la **ficha técnica europea vigente (2025)**. La página HTML antigua de CIMA todavía puede mostrar ≥4 años.
 
 <div class="clinical-card clinical-card-note">
   El glucagón puede ser menos eficaz tras ayuno prolongado, enfermedad hepática o depleción de glucógeno; en estos casos la glucosa parenteral es preferible.
@@ -151,7 +151,7 @@ Glucagón nasal, si disponible:
 <a id="critica"></a>
 ## 5. Muestra crítica
 
-En un niño **sin diabetes** con hipoglucemia **inexplicada, recurrente, grave o sospechosa de enfermedad endocrina/metabólica**, intentar obtener una muestra durante la hipoglucemia, idealmente con glucemia plasmática **≤50 mg/dL (2,8 mmol/L)**, antes de administrar glucosa **solo si no retrasa el tratamiento**. Una glucemia plasmática <60 mg/dL en un lactante o niño que no puede comunicar síntomas exige valoración, pero no siempre un panel metabólico completo: individualizar según clínica, cetonemia y antecedentes.
+En un niño **sin diabetes** con hipoglucemia **inexplicada, recurrente, grave o sospechosa de enfermedad endocrina/metabólica**, intentar obtener una muestra durante la hipoglucemia, idealmente con glucemia plasmática **≤50 mg/dL (2,8 mmol/L)**, antes de administrar glucosa **solo si no retrasa el tratamiento**. Una glucemia plasmática &lt;60 mg/dL en un lactante o niño que no puede comunicar síntomas exige valoración, pero no siempre un panel metabólico completo: individualizar según clínica, cetonemia y antecedentes.
 
 Considerar:
 
@@ -239,7 +239,7 @@ Solo si:
 1. Abraham MB, Karges B, Dovc K, et al. **ISPAD Clinical Practice Consensus Guidelines 2022: Assessment and management of hypoglycemia in children and adolescents with diabetes.** Pediatr Diabetes. 2022;23:1322-1340. [Documento](https://pmc.ncbi.nlm.nih.gov/articles/PMC10107518/)
 
 2. Djakow J, et al. **European Resuscitation Council Guidelines 2025: Paediatric Life Support.** Hipoglucemia: 0,2 g/kg IV y reevaluación a 5–10 min. [ERC](https://www.erc.edu/media/03xnpjmj/gl2025-09-pls-e.pdf)
-3. AEMPS. **Baqsimi 3 mg polvo nasal, ficha técnica.** [CIMA](https://cima.aemps.es/cima/dochtml/ft/1191406001/)
+3. EMA. **Baqsimi 3 mg, ficha técnica UE actualizada en 2025 (desde 1 año).** [EMA](https://www.ema.europa.eu/es/documents/product-information/baqsimi-epar-product-information_es.pdf) · [Ministerio de Sanidad](https://www.sanidad.gob.es/eu/profesionales/medicamentos.do?cn=727646&metodo=verDetalle)
 4. Royal Children’s Hospital Melbourne. **Clinical Practice Guideline: Hypoglycaemia.** Actualizada en agosto de 2025. [Guía](https://www.rch.org.au/clinicalguide/guideline_index/hypoglycaemia_guideline/)
 5. Thornton PS, Stanley CA, De Leon DD, et al. **Recommendations from the Pediatric Endocrine Society for Evaluation and Management of Persistent Hypoglycemia in Neonates, Infants, and Children.** J Pediatr. 2015;167:238–245. [Guía](https://pedsendo.org/clinical-resource/evaluation-and-management-of-persistent-hypoglycemia-in-neonates-infants-and-children-j-peds-2015/)
 6. Thornton PS, Hawkes CP. **Investigation of Pediatric Hypoglycemia in the Emergency Department: A Practical Algorithm.** J Clin Endocrinol Metab. 2024;109:e1513–e1521. [Artículo](https://doi.org/10.1210/clinem/dgae072)
