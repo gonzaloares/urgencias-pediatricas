@@ -1283,3 +1283,95 @@
 .infusion-output .dose-calculator-danger {
   margin-top: 0.5rem;
 }
+
+
+/* --------------------------------------------------------------------------
+   Sepsis: algoritmo ramificado, legible en móvil y sin desplazamiento horizontal.
+   -------------------------------------------------------------------------- */
+.md-typeset .sepsis-flow {
+  display: grid;
+  gap: 0.2rem;
+  min-width: 0;
+  margin: 0.9rem 0 1.1rem;
+  font-size: 0.79rem;
+  line-height: 1.48;
+}
+.md-typeset .sepsis-flow-node,
+.md-typeset .sepsis-flow-decision {
+  min-width: 0;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.6rem;
+  background: var(--md-code-bg-color);
+  overflow-wrap: anywhere;
+}
+.md-typeset .sepsis-flow-node > :first-child,
+.md-typeset .sepsis-flow-decision > :first-child {
+  margin-top: 0;
+}
+.md-typeset .sepsis-flow-node > :last-child,
+.md-typeset .sepsis-flow-decision > :last-child {
+  margin-bottom: 0;
+}
+.md-typeset .sepsis-flow-node ol,
+.md-typeset .sepsis-flow-node ul {
+  margin: 0.45rem 0 0.25rem;
+  padding-left: 1.15rem;
+}
+.md-typeset .sepsis-flow-node li {
+  margin-bottom: 0.35rem;
+}
+.md-typeset .sepsis-flow-start,
+.md-typeset .sepsis-flow-end {
+  border-left: 0.28rem solid var(--md-primary-fg-color);
+}
+.md-typeset .sepsis-flow-decision {
+  border: 2px solid var(--md-primary-fg-color);
+  text-align: center;
+  background: var(--md-default-bg-color);
+}
+.md-typeset .sepsis-flow-arrow {
+  color: var(--md-primary-fg-color);
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.1;
+}
+.md-typeset .sepsis-flow-branches {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+  align-items: stretch;
+  min-width: 0;
+}
+.md-typeset .sepsis-flow-shock {
+  border-left: 0.28rem solid #c2413b;
+}
+.md-typeset .sepsis-flow-no-shock {
+  border-left: 0.28rem solid #14807b;
+}
+.md-typeset .sepsis-flow-branches .sepsis-flow-node {
+  font-size: 0.95em;
+}
+@media screen and (max-width: 44.984375em) {
+  .md-typeset .sepsis-flow {
+    font-size: 0.76rem;
+  }
+  .md-typeset .sepsis-flow-branches {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.6rem;
+  }
+  .md-typeset .sepsis-flow-node,
+  .md-typeset .sepsis-flow-decision {
+    padding: 0.68rem 0.72rem;
+  }
+}
+@media print {
+  .sepsis-flow-branches {
+    display: block !important;
+  }
+  .sepsis-flow-branches > .sepsis-flow-node {
+    margin: 0 0 0.6rem;
+    break-inside: avoid;
+  }
+}
