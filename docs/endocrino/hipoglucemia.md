@@ -17,6 +17,10 @@
 </div>
 
 <a id="definicion"></a>
+<div class="clinical-card clinical-card-note">
+  <strong>En diabetes conocida:</strong> ver el protocolo específico de <a href="diabetes-conocida-situaciones-intercurrentes.md#hipo">hipoglucemia y días de enfermedad</a> y, si usa ISCI/AID, el de <a href="diabetes-bomba-insulina.md#hipo">hipoglucemia con bomba</a>.
+</div>
+
 ## 1. Definición y umbrales prácticos
 
 La **hipoglucemia clínica** es una glucemia suficientemente baja como para producir síntomas de respuesta neurogénica o alteración de la función cerebral (**neuroglucopenia**). **No existe un valor único aplicable a todas las edades**: deben distinguirse el umbral de sospecha, el de tratamiento y el de estudio etiológico.
