@@ -21,69 +21,65 @@
 <a id="algoritmo"></a>
 ## 1. Algoritmo de actuación en Urgencias (primera hora)
 
-<div class="sepsis-flow" role="group" aria-label="Algoritmo de sospecha y manejo de sepsis pediátrica">
+<div class="sepsis-flow" role="group" aria-label="Algoritmo de atención inicial de sepsis pediátrica">
+  <div class="sepsis-flow-node sepsis-flow-start">
+    <strong class="sepsis-flow-title">SOSPECHA DE SEPSIS</strong>
+    <p>Infección posible + alteración de perfusión o disfunción orgánica.</p>
+    <p class="sepsis-flow-priority"><strong>Activar código sepsis y pedir ayuda.</strong> No esperar a la hipotensión.</p>
+  </div>
 
-<div class="sepsis-flow-node sepsis-flow-start" markdown="1">
+  <div class="sepsis-flow-arrow" aria-hidden="true">↓</div>
 
-**SOSPECHA DE SEPSIS**
+  <div class="sepsis-flow-node">
+    <strong class="sepsis-flow-title">PRIMEROS 5 MIN · Actuar en paralelo</strong>
+    <ul>
+      <li><strong>ABCDE</strong>, oxígeno según necesidad y monitorización.</li>
+      <li><strong>Acceso IV</strong>; si shock y acceso difícil, <strong>IO precoz</strong>.</li>
+      <li><strong>Glucemia, gasometría y lactato</strong>; hemocultivo si no retrasa antibiótico.</li>
+      <li><strong>Avisar a equipo senior/UCIP</strong> si inestabilidad.</li>
+    </ul>
+  </div>
 
-Infección posible + alteración de apariencia/circulación en el TEP, hipoperfusión o datos de disfunción orgánica. **Activar código sepsis** y pedir ayuda. No esperar hipotensión ni completar Phoenix Sepsis Score para tratar.
+  <div class="sepsis-flow-arrow" aria-hidden="true">↓</div>
 
-</div>
-<div class="sepsis-flow-arrow" aria-hidden="true">↓</div>
-<div class="sepsis-flow-node" markdown="1">
+  <div class="sepsis-flow-decision">
+    <strong class="sepsis-flow-title">¿HAY SHOCK O HIPOPERFUSIÓN?</strong>
+    <p>Perfusión anormal, pulsos alterados, oliguria o afectación de consciencia, <strong>con o sin hipotensión</strong>.</p>
+  </div>
 
-**0–5 min · Medidas simultáneas**
+  <div class="sepsis-flow-branches" role="group" aria-label="Tratamiento según presencia de shock">
+    <div class="sepsis-flow-node sepsis-flow-shock">
+      <strong class="sepsis-flow-title">SÍ · SHOCK SÉPTICO</strong>
+      <ul>
+        <li><strong>Antibiótico IV inmediato</strong>, idealmente <strong>≤1 h</strong>.</li>
+        <li><strong>Cristaloide isotónico 10–20 mL/kg</strong> por bolo; reevaluar tras cada uno.</li>
+        <li>Repetir solo si persiste shock y no hay sobrecarga. Hasta <strong>40–60 mL/kg en la primera hora</strong> si existe soporte intensivo; <strong>no es una meta obligatoria</strong>.</li>
+        <li><strong>Suspender bolos</strong> si hay mejoría, crepitantes, hepatomegalia progresiva o empeoramiento respiratorio.</li>
+        <li><strong>Adrenalina o noradrenalina precoz</strong> si shock persistente o intolerancia a fluidos; no esperar a vía central ni a completar 40 mL/kg.</li>
+        <li><strong>UCIP</strong> y control del foco.</li>
+      </ul>
+      <p class="sepsis-flow-detail"><a href="#fluidos">Fluidos</a> · <a href="#vasoactivos">Vasoactivos</a></p>
+    </div>
 
-- **TEP y ABCDE**; oxígeno y soporte ventilatorio según necesidad; monitorización ECG, SpO₂, TA, FR y nivel de consciencia.
-- **Dos accesos IV**; si shock y no se obtiene acceso con rapidez (aprox. 5 min), **vía intraósea**.
-- Glucemia inmediata, **lactato** y gasometría; hemocultivo y analítica dirigidos **sin retrasar antibióticos**.
-- Solicitar apoyo de equipo senior/UCIP si hay shock, deterioro rápido o soporte avanzado.
+    <div class="sepsis-flow-node sepsis-flow-no-shock">
+      <strong class="sepsis-flow-title">NO · SEPSIS SIN SHOCK</strong>
+      <ul>
+        <li><strong>Evaluación rápida</strong> del foco y la disfunción orgánica.</li>
+        <li>Si se mantiene la sospecha de sepsis bacteriana, <strong>antibiótico IV lo antes posible, idealmente ≤3 h</strong>.</li>
+        <li><strong>Sin bolos de reanimación rutinarios</strong> si no existe hipoperfusión.</li>
+        <li><strong>Ingreso y vigilancia estrecha</strong>.</li>
+        <li>Si aparece shock o empeora la perfusión, <strong>pasar a la rama de shock</strong>.</li>
+      </ul>
+      <p class="sepsis-flow-detail"><a href="#antibiotico">Antibioterapia</a> · <a href="#destino">Destino</a></p>
+    </div>
+  </div>
 
-</div>
-<div class="sepsis-flow-arrow" aria-hidden="true">↓</div>
-<div class="sepsis-flow-decision" markdown="1">
+  <div class="sepsis-flow-arrow" aria-hidden="true">↓</div>
 
-**¿Existe shock o hipoperfusión?**
-
-Perfusión anómala, relleno capilar alterado, pulsos débiles/saltones, frialdad o calor periférico extremo, alteración de consciencia u oliguria, **con o sin hipotensión**.
-
-</div>
-<div class="sepsis-flow-branches">
-
-<div class="sepsis-flow-node sepsis-flow-shock" markdown="1">
-
-**SÍ · SOSPECHA DE SHOCK SÉPTICO**
-
-1. **Antibiótico IV de amplio espectro lo antes posible, idealmente ≤1 hora** desde el reconocimiento. Cultivos antes solo si no retrasan la administración.
-2. **5–15 min:** cristaloide isotónico, preferentemente balanceado, **10–20 mL/kg por bolo**. Reevaluar inmediatamente después de cada bolo.
-3. Repetir **solo si persiste hipoperfusión y no hay sobrecarga**, hasta un máximo orientativo de **40–60 mL/kg en la primera hora** donde se dispone de cuidados intensivos. **No es una meta obligatoria de volumen.**
-4. **Detener o limitar bolos** si aparecen crepitantes, hepatomegalia creciente, galope o empeoramiento respiratorio, o si el shock se revierte.
-5. **Vasoactivo precoz** si persiste el shock o no se pueden administrar más fluidos: adrenalina o noradrenalina, **inicio habitual 0,05 µg/kg/min**, titulando. Puede iniciarse por vía periférica/IO con bomba y vigilancia mientras se obtiene vía central; **no esperar a administrar 40 mL/kg** si hay hipoperfusión grave o intolerancia a fluidos.
-6. **Avisar/trasladar a UCIP**; optimizar vía aérea y buscar/controlar el foco sin demoras.
-
-</div>
-
-<div class="sepsis-flow-node sepsis-flow-no-shock" markdown="1">
-
-**NO · SEPSIS PROBABLE SIN SHOCK**
-
-1. **Evaluación rápida** de disfunción orgánica, foco, lactato y microbiología; reevaluaciones frecuentes.
-2. Si la valoración sustenta sepsis bacteriana, iniciar **antibiótico IV lo antes posible, idealmente ≤3 horas** desde la sospecha inicial; antes si la sospecha es alta o las pruebas van a demorarse.
-3. **No administrar bolos de reanimación de rutina** en ausencia de hipoperfusión/shock; ajustar hidratación y mantenimiento a necesidades y estado clínico.
-4. **Ingreso y vigilancia estrecha** si hay sepsis, aunque no exista shock.
-5. **¿Aparece shock o empeora la perfusión? → Pasar inmediatamente a la rama de shock.**
-
-</div>
-</div>
-<div class="sepsis-flow-arrow" aria-hidden="true">↓</div>
-<div class="sepsis-flow-node sepsis-flow-end" markdown="1">
-
-**REVALUACIÓN CONTINUA (ambas ramas)**
-
-FC, TA, relleno capilar, pulsos, temperatura distal, estado mental, diuresis, respiración, signos de sobrecarga y **tendencia del lactato** si estaba elevado. Corregir hipoglucemia y otras alteraciones relevantes; buscar y controlar el foco. Ante shock persistente, reconsiderar causa, función miocárdica (POCUS si disponible), respuesta a vasoactivos y soporte avanzado en UCIP.
-
-</div>
+  <div class="sepsis-flow-node sepsis-flow-end">
+    <strong class="sepsis-flow-title">REEVALUACIÓN CONTINUA</strong>
+    <p><strong>FC, TA, relleno capilar, pulsos, consciencia, diuresis, respiración y sobrecarga.</strong> Seguir tendencia del lactato si estaba elevado. Reconsiderar el diagnóstico y escalar soporte si no mejora.</p>
+  </div>
 </div>
 
 **Precauciones:** los volúmenes indicados presuponen disponibilidad de soporte intensivo y deben individualizarse (especialmente cardiopatía, disfunción miocárdica o riesgo de sobrecarga). La elección entre adrenalina y noradrenalina depende del perfil hemodinámico y la experiencia local; **la guía SSC 2026 no establece superioridad de una sobre otra**. La punción lumbar debe diferirse si existe inestabilidad hemodinámica.
