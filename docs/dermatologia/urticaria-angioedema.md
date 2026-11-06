@@ -133,6 +133,22 @@ Valorar estudio si:
 
 En España, las soluciones orales de cetirizina consultadas están autorizadas a partir de **2 años**. Por tanto, la pauta de **6 meses a <2 años es uso fuera de ficha técnica** y debe individualizarse, comprobando la presentación disponible.
 
+### Desloratadina VO (alternativa a cetirizina)
+
+Antihistamínico H1 de segunda generación, **una vez al día**. Pauta por edad conforme a ficha técnica española, para **solución oral 0,5 mg/ml**:
+
+<div class="dose-table-wrap" markdown="1">
+
+| Edad | Dosis de desloratadina | Volumen (0,5 mg/ml) |
+|---|---:|---:|
+| **1–5 años** | **1,25 mg cada 24 h** | **2,5 ml** |
+| **6–11 años** | **2,5 mg cada 24 h** | **5 ml** |
+| **≥12 años** | **5 mg cada 24 h** | **10 ml** o comprimido de 5 mg |
+
+</div>
+
+**Precauciones:** comprobar siempre la concentración de la presentación disponible antes de indicar mililitros. **Menores de 1 año:** seguridad y eficacia no establecidas en ficha técnica española; no se recomienda su uso rutinario. Los antihistamínicos alivian los síntomas cutáneos, pero **no tratan la anafilaxia ni sustituyen la adrenalina IM**.
+
 ### Antihistamínicos sedantes
 
 No son de primera elección por:
@@ -234,3 +250,4 @@ Alta si:
 
 
 5. Agencia Española de Medicamentos y Productos Sanitarios. **Zyrtec 1 mg/ml (cetirizina), ficha técnica.** Indicado a partir de 2 años. [CIMA](https://cima.aemps.es/cima/dochtml/ft/60279/FichaTecnica_60279.html)
+6. Agencia Española de Medicamentos y Productos Sanitarios. **Aerius 0,5 mg/ml (desloratadina), ficha técnica.** Indicada para urticaria a partir de 1 año. [CIMA](https://cima.aemps.es/cima/dochtml/ft/00160065/FT_00160065.html)
