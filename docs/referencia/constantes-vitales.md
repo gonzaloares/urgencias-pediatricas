@@ -43,7 +43,7 @@ Valores orientativos basados en las tablas de observación clínica del **Royal 
 | Parámetro | Orientación práctica |
 |---|---|
 | **SpO₂** en aire ambiente | Habitualmente **95–100 %** a baja altitud, fuera de la transición neonatal. Interpretar según altitud, enfermedad respiratoria y cardiopatía congénita. |
-| **Temperatura** | Depende de lugar y técnica de medición. No asignar un único «normal» sin especificar método; registrar si es axilar, timpánica o rectal. |
+| **Temperatura** | Habitualmente **36,5–37,5 °C** como referencia general; el intervalo cambia según método y lugar de medición. Registrar si es axilar, timpánica o rectal. |
 | **Relleno capilar** | **≥3 segundos** es un signo de alarma en el contexto de fiebre/enfermedad aguda. Valorar temperatura ambiente, lugar de compresión y perfusión global. |
 | **Presión arterial diastólica** | No hay un único intervalo diagnóstico universal por edad: interpretar según sexo, talla, técnica y percentiles. La tabla de arriba se refiere solo a **PAS**. |
 
@@ -78,5 +78,6 @@ Ejemplo: a los 4 años, una PAS **<78 mmHg** cumple el criterio de cribado anter
 2. American Heart Association. [Pediatric Advanced Life Support: criterios de hipotensión por edad](https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.110.971101). Circulation, 2010; umbrales históricos de cribado empleados en PALS.
 3. National Institute for Health and Care Excellence (NICE). [Fever in under 5s: assessment and initial management, NG143](https://www.nice.org.uk/guidance/ng143/chapter/Recommendations).
 4. World Health Organization. [Pocket Book of Hospital Care for Children: Supportive care](https://www.ncbi.nlm.nih.gov/books/NBK154449/). Referencia de saturación a nivel del mar.
+5. Safer Care Victoria. [Abnormal temperature](https://www.safercare.vic.gov.au/best-practice-improvement/clinical-guidance/maternal-and-child-health-ehandbook/abnormal-temperature). Rangos orientativos de normotermia pediátrica.
 
 **Revisión de la ficha:** noviembre de 2026. Para niños con cardiopatía congénita, prematuridad u otras enfermedades crónicas, individualizar rangos y objetivos.
