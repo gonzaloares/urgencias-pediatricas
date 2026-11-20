@@ -9,6 +9,7 @@
   <a href="#via-aerea">Vía aérea</a>
   <a href="#acceso">Acceso vascular</a>
   <a href="#causas">4H / 4T</a>
+  <a href="#hipopotasemia">Hipopotasemia</a>
   <a href="#ecografia">Ecografía</a>
   <a href="#rce">Post-RCE</a>
   <a href="#no-hacer">No hacer</a>
@@ -147,6 +148,7 @@ En AESP con sospecha de hipovolemia:
 | **Bicarbonato sódico IV/IO** | **1 mEq/kg** | Máx. **50 mEq** | No rutinario. Considerar especialmente en intoxicación por bloqueadores de canales de sodio. **No usar para la parada pediátrica por hiperpotasemia según ERC 2025.** |
 | **Calcio IV/IO** | **0,2 mEq/kg** | Máx. **10 mEq** | No rutinario. Reservar para hipocalcemia, sobredosis de bloqueadores de canales de calcio o hipermagnesemia. Gluconato cálcico 10%: **0,4 mL/kg**; cloruro cálcico 10%: **0,2 mL/kg**. **No usar en la parada pediátrica por hiperpotasemia según ERC 2025.** |
 | **Sulfato de magnesio IV/IO** | **50 mg/kg** | Máx. **2 g** | Torsade de pointes / TV polimorfa asociada a QT largo. |
+| **Cloruro potásico (KCl) IV/IO** | **1 mmol/kg** (máx. **30 mmol**) | Solo PCR atribuida a hipopotasemia grave o síntomas de riesgo vital | **Perfusión rápida excepcional ERC 2025**, no bolo IV directo. Ver [pauta y seguridad](#hipopotasemia). |
 | **Suero fisiológico** | **10 ml/kg** | Reevaluar tras cada bolo | Si AESP con sospecha de hipovolemia. |
 | **Desfibrilación** | **4 J/kg** | En refractaria: considerar hasta **8 J/kg** · máx. **360 J** | Reanudar RCP inmediatamente tras cada descarga. |
 
@@ -253,7 +255,7 @@ La mascarilla laríngea puede mejorar la ventilación, pero **no aísla completa
 
 - No utilizar un hueso fracturado ni previamente puncionado.
 - Una vez comprobada la correcta posición, puede administrarse por vía IO la medicación y los fluidos indicados durante la RCP.
-- Tras cada medicación IV/IO, administrar **5–10 ml de suero fisiológico** para favorecer su llegada a circulación central.
+- Tras los **fármacos IV/IO administrados en bolo** (p. ej., adrenalina), administrar **5–10 mL de suero fisiológico** para facilitar su llegada a la circulación central. **Excepción: no administrar un bolo de lavado al finalizar una perfusión de KCl**, por riesgo de aporte súbito de potasio.
 
 <div class="clinical-card clinical-card-note">
   <strong>La vía endotraqueal no es la vía recomendada para la administración de fármacos durante la RCP.</strong>
@@ -281,6 +283,57 @@ Según ERC 2025, si la parada se atribuye a hiperpotasemia grave:
 - **no utilizar calcio ni bicarbonato** específicamente para la parada pediátrica por hiperpotasemia;
 - continuar RCP de alta calidad y valorar ECPR/depuración extrarrenal según disponibilidad y contexto.
 
+</div>
+
+
+<a id="hipopotasemia"></a>
+### Hipopotasemia grave: tratamiento de emergencia
+
+<div class="clinical-card clinical-card-warning" markdown="1">
+
+**Definición y reconocimiento**
+
+- **Hipopotasemia:** potasio sérico inferior a **3,5 mmol/L**.
+- **Grave:** potasio **inferior a 2,5 mmol/L**; **crítica:** inferior a **2,0 mmol/L**.
+- Considerar **emergencia vital a cualquier concentración** si hay arritmia ventricular, inestabilidad hemodinámica, parálisis o debilidad respiratoria atribuibles a hipopotasemia.
+- ECG orientativo: ondas T aplanadas o invertidas, depresión del ST, ondas U prominentes, prolongación del intervalo QU aparente y extrasístoles/arritmias ventriculares.
+
+</div>
+
+#### A. Parada cardiorrespiratoria o síntomas inmediatamente amenazantes (ERC 2025)
+
+<div class="clinical-card clinical-card-danger" markdown="1">
+
+**Tratamiento extraordinario reservado al entorno de reanimación, con monitorización ECG continua y equipo experto.**
+
+1. Mantener la **RCP avanzada habitual** y obtener gasometría con potasio urgente, sin retrasar intervenciones salvadoras ante sospecha clínica y analítica sólida.
+2. Administrar **cloruro potásico (KCl) IV/IO: 1 mmol/kg por dosis (máximo 30 mmol)**, mediante **perfusión rápida cuidadosamente controlada**.
+3. **Ritmo ERC 2025:** hasta **2 mmol/min durante los primeros 10 min**; si queda parte de la dosis prescrita, administrar el resto durante **5–10 min**. **Los 2 mmol/min son un techo de velocidad, no una velocidad fija aplicable a todos los pesos.** En dosis de hasta 20 mmol, distribuir la dosis a lo largo de 10 min; si supera 20 mmol, administrar 20 mmol en 10 min y el resto en 5–10 min.
+4. **Reevaluar ECG y potasio**. Repetir la reposición únicamente si persiste la indicación y el potasio sigue por debajo de **2,5 mmol/L**, con control analítico estrecho para evitar hiperpotasemia de rebote.
+5. Tras la corrección inicial, el ERC propone, si sigue indicada, una **perfusión de 0,5–1 mmol/kg/h (máximo 20 mmol/h) durante 1–2 h**, ajustada al potasio y con supervisión de cuidados intensivos.
+6. Medir **magnesio** y corregir hipomagnesemia concomitante; el ERC contempla **sulfato de magnesio 30–50 mg/kg IV** en ese contexto.
+
+**Esta pauta rápida NO debe extrapolarse a una hipopotasemia grave sin compromiso vital.** **Nunca administrar KCl concentrado como inyección IV directa o bolo manual.**
+
+</div>
+
+#### B. Hipopotasemia grave sin parada ni arritmia amenazante
+
+- Si el potasio es **inferior a 2,5 mmol/L** o hay cambios ECG, considerar reposición **IV monitorizada** y valoración por UCIP, según gravedad.
+- Como pauta de referencia fuera de la parada (Royal Children's Hospital Melbourne): **área de críticos: 0,4 mmol/kg/h durante 1–2 h (máximo 20 mmol/h)**; en paciente estable de hospitalización general: **0,2 mmol/kg/h durante 3 h (máximo 10 mmol/h)**.
+- Si está estable, tolera vía enteral y no tiene alteraciones ECG, la reposición **oral/enteral** es preferente; no utilizar la pauta de rescate de la parada.
+
+#### Seguridad de la reposición IV/IO de potasio
+
+- **Monitor ECG continuo**, control de constantes, glucemia, función renal y diuresis. En la reposición vital rápida, determinar potasio **cada 30–60 min o antes según evolución y disponibilidad**, además de comprobarlo tras cada fase antes de nuevas dosis.
+- **Bomba de infusión**, doble verificación independiente de peso, mmol prescritos, **concentración real de la presentación**, volumen, velocidad y vía. Todas las fuentes de potasio cuentan para el total.
+- **Vía periférica (situación no extrema):** concentración habitual máxima **40 mmol/L**; las concentraciones elevadas requieren generalmente **vía central** y protocolo de críticos. Para RCP, puede utilizarse acceso **IV/IO** con la preparación institucional específica.
+- **No existe un volumen universal en mL de KCl:** depende de los **mmol/mL indicados en la ampolla o solución preparada**. No convertir mmol a mL sin verificar esa concentración.
+- **No lavar ni purgar hacia el paciente una línea con KCl residual**; evitar también errores de conexión o extravasación. Confirmar diuresis y función renal antes de la reposición no urgente; la oliguria/anuria exige valoración experta.
+- Corregir causas y factores que perpetúan el déficit (pérdidas digestivas o renales, insulina, beta₂-agonistas, alcalosis e hipomagnesemia). Evitar soluciones glucosadas para la reposición de KCl cuando no sean necesarias, por el posible descenso adicional de potasio.
+
+<div class="clinical-card clinical-card-note">
+  <strong>Regla de seguridad:</strong> KCl es un medicamento de alto riesgo. Las velocidades extraordinarias de ERC 2025 para PCR/amenaza vital requieren un procedimiento institucional de preparación y administración, supervisión experta y reevaluación bioquímica estrecha; no constituyen una pauta de perfusión rutinaria de Urgencias.
 </div>
 
 <a id="ecografia"></a>
@@ -351,6 +404,7 @@ Todo paciente con RCE tras una parada cardiaca requiere estabilización completa
 - No hiperventilar.
 - No prolongar un intento de intubación si compromete la RCP.
 - No utilizar bicarbonato de forma rutinaria.
+- No administrar **KCl en bolo IV directo** ni lavar una vía con potasio residual; reservar la perfusión rápida para parada o compromiso vital por hipopotasemia, con el protocolo específico.
 - No utilizar atropina como fármaco rutinario de la parada; reservarla para bradicardia/bloqueo de origen vagal.
 - No utilizar ecografía si aumenta las pausas de las compresiones.
 
@@ -409,3 +463,7 @@ Todo paciente con RCE tras una parada cardiaca requiere estabilización completa
 1. Martínez Mejías A. **Soporte vital básico y avanzado pediátrico.** Protocolos diagnósticos y terapéuticos en Urgencias de Pediatría. 4.ª edición. Sociedad Española de Urgencias de Pediatría; 2024. [PDF](https://seup.org/wp-content/uploads/2024/04/3_Soporte_vital_4ed.pdf)
 
 2. Djakow J, et al. **European Resuscitation Council Guidelines 2025: Paediatric Life Support.** Resuscitation. 2025;215:110767. [ERC](https://www.erc.edu/media/03xnpjmj/gl2025-09-pls-e.pdf)
+
+3. Royal Children’s Hospital Melbourne. **Clinical Practice Guidelines: Hypokalaemia.** Actualización de octubre de 2024. [Guía clínica](https://www.rch.org.au/clinicalguide/guideline_index/hypokalaemia/)
+
+4. Australian and New Zealand Committee on Resuscitation (ANZCOR). **Guideline 12.4: Paediatric resuscitation in special circumstances.** [Guía clínica](https://www.anzcor.org/home/paediatric-advanced-life-support/guideline-12-4-paediatric-resuscitation-in-special-circumstances)
