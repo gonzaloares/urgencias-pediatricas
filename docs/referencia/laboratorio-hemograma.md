@@ -127,24 +127,24 @@ Para no confundir la fórmula relativa con la absoluta, se indican **recuentos a
 <a id="creatinina"></a>
 ## 5. Función renal: creatinina por edad
 
-Intervalos propuestos para **métodos enzimáticos**; dependen de masa muscular, método analítico y sexo en pubertad. Se muestran en **µmol/L**; conversión orientativa a mg/dL: dividir por 88,4.
+Intervalos propuestos para **métodos enzimáticos**; dependen de masa muscular, método analítico y sexo en pubertad. Se muestran en **mg/dL**, redondeados a dos decimales (1 mg/dL ≈ 88,4 µmol/L).
 
-| Edad | Creatinina (µmol/L) |
+| Edad | Creatinina (mg/dL) |
 |---|---|
-| 0–13 días | 27–81 |
-| 14 días–<1 año | 14–34 |
-| 1–<3 años | 15–31 |
-| 3–<5 años | 23–37 |
-| 5–<7 años | 25–42 |
-| 7–<9 años | 30–48 |
-| 9–<11 años | 28–57 |
-| 11 años | 36–64 |
-| 12 años | 36–67 |
-| 13 años, varones / mujeres | 38–76 / 38–74 |
-| 14 años, varones / mujeres | 40–83 / 43–75 |
-| 15 años, varones / mujeres | 47–98 / 44–79 |
-| 16 años, varones / mujeres | 54–99 / 48–81 |
-| >16 años, varones / mujeres | 59–104 / 45–84 |
+| 0–13 días | 0,31–0,92 |
+| 14 días–<1 año | 0,16–0,38 |
+| 1–<3 años | 0,17–0,35 |
+| 3–<5 años | 0,26–0,42 |
+| 5–<7 años | 0,28–0,48 |
+| 7–<9 años | 0,34–0,54 |
+| 9–<11 años | 0,32–0,64 |
+| 11 años | 0,41–0,72 |
+| 12 años | 0,41–0,76 |
+| 13 años, varones / mujeres | 0,43–0,86 / 0,43–0,84 |
+| 14 años, varones / mujeres | 0,45–0,94 / 0,49–0,85 |
+| 15 años, varones / mujeres | 0,53–1,11 / 0,50–0,89 |
+| 16 años, varones / mujeres | 0,61–1,12 / 0,54–0,92 |
+| >16 años, varones / mujeres | 0,67–1,18 / 0,51–0,95 |
 
 *Fuente: UK Kidney Association / Paediatric Laboratory Medicine Network (PaLMnet). La creatinina neonatal en los primeros días refleja parcialmente la función renal materna.*
 
