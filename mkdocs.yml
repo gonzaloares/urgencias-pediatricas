@@ -33,6 +33,10 @@ nav:
   - Calculadora:
       - Dosis: calculadora.md
       - Perfusiones: perfusiones.md
+  - Valores de referencia:
+      - referencia/index.md
+      - Constantes vitales por edad: referencia/constantes-vitales.md
+      - Laboratorio y hemograma por edad: referencia/laboratorio-hemograma.md
   - Cardiovascular:
       - cardiologia/index.md
       - Arritmias: cardiologia/arritmias.md
