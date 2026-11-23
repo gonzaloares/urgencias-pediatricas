@@ -15,6 +15,8 @@
   <strong>Prioridad en Urgencias:</strong> garantizar seguridad, descartar causas médicas y tóxicas, estabilizar al paciente y decidir si puede mantenerse de forma segura fuera del hospital.
 </div>
 
+**Crisis de ansiedad o ataque de pánico sin agitación violenta:** consultar el [protocolo específico](crisis-ansiedad.md), con enfoque prioritario no farmacológico y evaluación del riesgo.
+
 <a id="seguridad"></a>
 ## 1. Seguridad inicial
 
