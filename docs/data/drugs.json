@@ -1680,6 +1680,43 @@
         "Vigilar QTc, hipotensión, sedación y síntomas extrapiramidales; considerar ECG según situación.",
         "Evaluar coingesta y depresión respiratoria. Individualizar indicación y comprobar presentación IM."
       ]
+    },
+    {
+      "id": "lorazepam-crisis-ansiedad",
+      "category": "Especiales",
+      "drug": "Lorazepam",
+      "indication": "Crisis de ansiedad aguda intensa e incapacitante tras medidas no farmacológicas y valoración médica",
+      "route": "VO",
+      "dose": {
+        "kind": "weight",
+        "value": 0.05,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 2,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,02–0,05 mg/kg VO (máx. 2 mg/dosis), única y excepcional; no redosificar automáticamente",
+      "interval": "Dosis única inicial; reevaluar. Evitar recetas domiciliarias sistemáticas.",
+      "age": {
+        "min_months": 72,
+        "text": "≥6 años solo en situaciones seleccionadas; preferentemente adolescentes; verificar ficha técnica de la presentación"
+      },
+      "min_weight_kg": null,
+      "off_label": true,
+      "high_risk": true,
+      "protocol": "salud-mental/crisis-ansiedad.md",
+      "source_label": "TREKK (2024) y CIMA/AEMPS (restricciones según presentación)",
+      "notes": [
+        "La mayoría de las crisis no requiere fármacos. Preferir contención verbal, ambiente tranquilo y técnicas respiratorias suaves.",
+        "En adolescentes puede considerarse una dosis inicial prudente de 0,5–1 mg VO, según peso y situación; no superar 2 mg.",
+        "Uso fuera de ficha técnica para ansiedad pediátrica en muchas presentaciones. Algunas contraindican el uso en menores de 6 años.",
+        "Riesgo de somnolencia, desinhibición paradójica y depresión respiratoria; evitar si alcohol, opioides u otros depresores del SNC.",
+        "Vigilar clínica respiratoria, SpO₂ y consciencia; no usar como tratamiento ordinario del trastorno de ansiedad."
+      ]
     }
   ]
 }
