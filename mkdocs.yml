@@ -33,10 +33,6 @@ nav:
   - Calculadora:
       - Dosis: calculadora.md
       - Perfusiones: perfusiones.md
-  - Valores de referencia:
-      - referencia/index.md
-      - Constantes vitales por edad: referencia/constantes-vitales.md
-      - Laboratorio y hemograma por edad: referencia/laboratorio-hemograma.md
   - Cardiovascular:
       - cardiologia/index.md
       - Arritmias: cardiologia/arritmias.md
@@ -110,8 +106,8 @@ nav:
   - Miscelánea:
       - inespecifica/index.md
       - Agresión sexual en la infancia y adolescencia: proteccion-infancia/agresion-sexual.md
-      - Maltrato físico en la infancia: proteccion-infancia/maltrato-fisico.md
       - Crisis de ansiedad y ataque de pánico: salud-mental/crisis-ansiedad.md
+      - Maltrato físico en la infancia: proteccion-infancia/maltrato-fisico.md
       - Principales urgencias psiquiátricas: salud-mental/urgencias-psiquiatricas.md
   - Neurológico:
       - neurologia/index.md
@@ -153,6 +149,10 @@ nav:
       - Neumonía adquirida en la comunidad: respiratorio/neumonia-adquirida-comunidad.md
       - Neumotórax: respiratorio/neumotorax.md
 
+  - Valores de referencia:
+      - referencia/index.md
+      - Constantes vitales por edad: referencia/constantes-vitales.md
+      - Laboratorio y hemograma por edad: referencia/laboratorio-hemograma.md
 plugins:
   - search:
       lang: es
