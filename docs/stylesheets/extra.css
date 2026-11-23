@@ -1432,3 +1432,75 @@
     margin-bottom: 0.22rem;
   }
 }
+
+
+/* Arritmias: tres algoritmos de lectura vertical y bifurcación adaptable a móvil. */
+.rhythm-flow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.4rem;
+  min-width: 0;
+  max-width: 100%;
+  margin: 0.85rem 0 1.3rem;
+  font-size: 0.78rem;
+  line-height: 1.44;
+}
+.md-typeset .rhythm-node {
+  min-width: 0;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 0.28rem solid var(--md-primary-fg-color);
+  border-radius: 0.55rem;
+  background: var(--md-code-bg-color);
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+.md-typeset .rhythm-title {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.95em;
+  line-height: 1.3;
+  font-weight: 800;
+}
+.md-typeset .rhythm-node strong:not(.rhythm-title) {
+  font-weight: 750;
+}
+.md-typeset .rhythm-question {
+  border: 2px solid var(--md-primary-fg-color);
+  background: var(--md-default-bg-color);
+  text-align: center;
+}
+.md-typeset .rhythm-safe { border-left-color: #188178; }
+.md-typeset .rhythm-action { border-left-color: #8d762b; }
+.md-typeset .rhythm-urgent { border-left-color: #c0443c; }
+.md-typeset .rhythm-end { border-left-color: var(--md-primary-fg-color); }
+.md-typeset .rhythm-arrow {
+  color: var(--md-primary-fg-color);
+  text-align: center;
+  font-weight: 750;
+  font-size: 0.84rem;
+  line-height: 1.24;
+  padding: 0.12rem 0;
+}
+.md-typeset .rhythm-branches {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+  align-items: stretch;
+  min-width: 0;
+}
+.md-typeset .rhythm-branches .rhythm-node {
+  height: 100%;
+}
+@media screen and (max-width: 44.984375em) {
+  .rhythm-flow { font-size: 0.77rem; gap: 0.35rem; }
+  .md-typeset .rhythm-branches {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.55rem;
+  }
+  .md-typeset .rhythm-node { padding: 0.72rem 0.75rem; }
+}
+@media print {
+  .rhythm-flow, .rhythm-node, .rhythm-branches { break-inside: avoid; }
+  .md-typeset .rhythm-branches { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
