@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "reviewed_at": "2026-11-03",
+  "reviewed_at": "2026-11-23",
   "entries": [
     {
       "id": "paracetamol-dolor-fiebre",
@@ -835,13 +835,12 @@
       "id": "adenosina-primera",
       "category": "Cardiovascular",
       "drug": "Adenosina",
-      "indication": "TSV estable · primera dosis",
+      "indication": "TSV regular de QRS estrecho (o QRS ancho regular monomórfico bajo consulta experta) · primera dosis",
       "route": "IV/IO",
       "dose": {
-        "kind": "weight_range",
-        "min": 0.1,
-        "max": 0.2,
-        "unit": "mg/kg",
+        "kind": "weight",
+        "value": 0.1,
+        "unit": "mg/kg/dosis",
         "output_unit": "mg"
       },
       "max_dose": {
@@ -850,8 +849,8 @@
       },
       "min_dose": null,
       "concentration": null,
-      "reference_text": "0,1–0,2 mg/kg · máx. 6 mg",
-      "interval": "Bolo de 1–2 s por vena proximal + 5–10 mL de SSF, con ECG en registro.",
+      "reference_text": "0,1 mg/kg IV/IO rápido · máximo 6 mg; lavado inmediato",
+      "interval": "Bolo rápido IV/IO, preferentemente por vena proximal, seguido de lavado inmediato con SSF. Monitorizar ECG.",
       "age": {
         "min_months": 0,
         "text": "Pediatría"
@@ -860,9 +859,46 @@
       "off_label": false,
       "high_risk": true,
       "protocol": "cardiologia/arritmias.md",
-      "source_label": "Arritmias",
+      "source_label": "AHA/AAP PALS 2025",
       "notes": [
-        "El protocolo admite un rango de primera dosis; la calculadora muestra ambos extremos."
+        "No dar adenosina en taquicardia QRS ancho irregular o polimórfica ni FA preexcitada.",
+        "En TSV inestable, no demorar cardioversión para administrar adenosina.",
+        "No administrar como infusión lenta."
+      ]
+    },
+    {
+      "id": "adenosina-segunda",
+      "category": "Cardiovascular",
+      "drug": "Adenosina",
+      "indication": "TSV regular persistente · segunda dosis si fracasa la primera",
+      "route": "IV/IO",
+      "dose": {
+        "kind": "weight",
+        "value": 0.2,
+        "unit": "mg/kg/dosis",
+        "output_unit": "mg"
+      },
+      "max_dose": {
+        "value": 12,
+        "unit": "mg"
+      },
+      "min_dose": null,
+      "concentration": null,
+      "reference_text": "0,2 mg/kg IV/IO rápido · máximo 12 mg; lavado inmediato",
+      "interval": "Solo si persiste tras primera dosis. Reevaluar trazado y consultar expertos si fracasa.",
+      "age": {
+        "min_months": 0,
+        "text": "Pediatría"
+      },
+      "min_weight_kg": null,
+      "off_label": false,
+      "high_risk": true,
+      "protocol": "cardiologia/arritmias.md",
+      "source_label": "AHA/AAP PALS 2025",
+      "notes": [
+        "No dar adenosina en taquicardia QRS ancho irregular o polimórfica ni FA preexcitada.",
+        "En TSV inestable, no demorar cardioversión para administrar adenosina.",
+        "No administrar como infusión lenta."
       ]
     },
     {
